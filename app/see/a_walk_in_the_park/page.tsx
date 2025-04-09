@@ -65,7 +65,7 @@ export default function Home() {
 					width={250}
 					src={betrayal_tree.src}
 				/>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph full center`}>
 					If you haven&apos;t already, go{' '}
 					<Link
 						className={`no-deco spaced`}
