@@ -15,7 +15,7 @@ export default function Home() {
 				outcomes of the various decisions one might make.
 			</p>
 			<p className={`paragraph`}>
-				In crow betrayal, a tree where the decision topple a treaty was made.
+				In crow betrayal, a tree where the decision to topple a treaty was made.
 			</p>
 		</main>
 	);
