@@ -251,7 +251,7 @@ export default function Home() {
 				</p>
 				<p className={`paragraph full left-align`}>
 					I&apos;m going to listen the spring moon whisper songs to herself
-					while I shift a few handfuls of nature&apos;s weights.
+					while I shift a few handfuls of nature&apos;s weights around.
 				</p>
 				<p className={`paragraph full left-align`}>
 					If you haven&apos;t already, go{' '}
