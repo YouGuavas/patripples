@@ -3,8 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Blog',
-	description: 'Patripples: ripples, mathematics, and more! Coming soon!',
+	title: 'Patripples | Decision Tree',
+	description: 'Learn about Decision Trees and crow betrayals with Patripples.',
 };
 export default function Home() {
 	return (
