@@ -129,7 +129,7 @@ export default function Home() {
 				<p className={`paragraph full left-align`}>
 					What an odd thing to ask. I look around me. I remember that I followed
 					crows off the trail in a county park, local to a former industrial
-					hotspot.
+					hotspot. One plus one.
 				</p>
 				<p className={`paragraph full left-align`}>
 					For a time, we prospered behind the bulwark of industry. I am not

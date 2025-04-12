@@ -12,8 +12,8 @@ export default function Home() {
 			<h1 className={`style-1 thin lowercase`}>Note About Grackle Mimicry</h1>
 			<p className={`paragraph left-align`}>Note needed.</p>
 			<p className={`paragraph left-align`}>
-				Google it. Or have chatgpt explain what Google is telling you (which you
-				already knew).
+				Google it. Or have chatgpt explain what Google is telling you (which
+				your ancestors already knew - it just needed &quot;refinement&quot;).
 			</p>
 			<p className={`paragraph left-align`}>
 				Crows, too, if you need to do that. They&apos;re like sonic geniuses
