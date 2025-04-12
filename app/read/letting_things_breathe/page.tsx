@@ -5,6 +5,8 @@ import ByLine from '@/app/components/ByLine';
 import { GreenProviderWrapper } from '../../ThemeProviderWrapper';
 import artifact from '../../../public/bog_finds/nameplate_artifact.png';
 import moss from '../../../public/bog_finds/moss_reclamation.png';
+import dke from '../../../public/bog_finds/dke.png';
+import kip from '../../../public/memes/kip.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Letting Things Breathe',
@@ -75,7 +77,7 @@ export default function Home() {
 				<p className={`paragraph full left-align`}>
 					This time, as I was leaving, something called me back.
 				</p>
-				<p className={`paragraph full left-align`}>"Bloop."</p>
+				<p className={`paragraph full left-align`}>&quot;Bloop.&quot;</p>
 				<p className={`paragraph full left-align`}>
 					I spun around, hoping to catch a glimpse, having made note of some
 					previous{' '}
@@ -85,11 +87,12 @@ export default function Home() {
 					while following my crow employers. Nothing. So I resumed my previously
 					planned exit.
 				</p>
-				<p className={`paragraph full left-align`}>"Bloop."</p>
+				<p className={`paragraph full left-align`}>&quot;Bloop.&quot;</p>
 				<p className={`paragraph full left-align`}>I spun around again.</p>
 				<p className={`paragraph full left-align`}>
-					"Bloop." This time, the culprit allowed me to catch a glimpse before
-					retreating to its hiding space in a tangle of fallen trees: a grackle.
+					&quot;Bloop.&quot; This time, the culprit allowed me to catch a
+					glimpse before retreating to its hiding space in a tangle of fallen
+					trees: a grackle.
 				</p>
 				<p className={`paragraph full left-align`}>
 					To my knowledge, this is not a typical sound for grackles to make,
@@ -107,9 +110,9 @@ export default function Home() {
 					step through the muck and the mud, as I had not planned to trek
 					through a bog on this day.
 				</p>
-				<p className={`paragraph full left-align`}>"Bloop."</p>
+				<p className={`paragraph full left-align`}>&quot;Bloop.&quot;</p>
 				<p className={`paragraph full left-align`}>Another step.</p>
-				<p className={`paragraph full left-align`}>"Bloop."</p>
+				<p className={`paragraph full left-align`}>&quot;Bloop.&quot;</p>
 				<p className={`paragraph full left-align`}>
 					Not from the grackle, but from the mud underfoot. Gas was being forced
 					up and through with each step that I took. Think of this as the Earth
@@ -180,24 +183,81 @@ export default function Home() {
 					How to weave a tale.
 				</h2>
 				<p className={`paragraph full left-align`}>
-					Proximal erosion leading to an extra steep drop, threatening nearby
-					tree roots, resultant of left-behind, abandoned drainage systems, now
-					ironically blocking nature&apos;s much more efficient,{' '}
-					<em>expertly</em> made drainage systems. How many Dale Earnhardt-fast
+					It may seem like I&apos;m tugging at loose ends pinned on the back of
+					a donkey&apos;s ass, but if you&apos;ll stick with me, I promise you
+					can show me how to connect the dots.
+				</p>
+				<p className={`paragraph full left-align`}>
+					What were you about to remind me of? Oh, yeah, I was looking around
+					me.
+				</p>
+				<p className={`paragraph full left-align`}>
+					I observed proximal erosion leading to an extra steep drop,
+					threatening nearby tree roots, resultant of left-behind, abandoned
+					drainage systems, now blocking nature&apos;s <em>expertly</em> made
+					artisanal green tech drainage systems. How many Dale Earnhardt-fast
 					laps of{' '}
 					<Link className={`no-deco spaced`} href="">
 						10,000 Hours
 					</Link>{' '}
 					does <em>Mother</em> Earth have to do on humanity before this species
-					figures out this cosmic mystery: "Where on the DKE slope are{' '}
-					<em>we</em>?"
+					figures out this cosmic mystery: &quot;Where on the DKE slope are{' '}
+					<em>we</em>?&quot;
 				</p>
-				<p className={`paragraph full left-align`}></p>
+				<Image
+					id="dke"
+					alt={`Dunning-Kruger effect graph. Photo credit: Wikipedia.`}
+					height={333}
+					width={250}
+					src={dke.src}
+				/>
+				<h2 className={`lowercase thin spaced left full left-align`}>
+					How to do something about it.
+				</h2>
+				<p className={`paragraph full left-align`}>
+					I was going to sit here and keep writing, but tonight is the night of
+					a reclamation moon. I&apos;m choosing to observe it by gently guiding
+					logs into a swamp, instead. This is called &quot;exercising
+					agency&quot;. You know what that means.
+				</p>
+				<p className={`paragraph full left-align`}>
+					I will make a map tool one of these days. Until then, if you want to
+					help, walk around near you. You&apos;d be surprised at how many anoxic
+					sludge pits you find, especially if you do something totally{' '}
+					<em>wild</em>, like follow the crows. Oh, and pick up
+					non-biodegradable trash you see, too. There&apos;s a whole post that
+					needs to be made about mosquito blooms and the cyclicality of the
+					water cycle. On the microclimate level, every piece matters. Yeah,
+					someone should have picked up after themselves. Yeah, someone should
+					be picking it up. We have a parks system. A lot of stuff is sludged up
+					here, stretched thin there. You don&apos;t need me to over-explain.
+					Make notes of spaces which are becoming degraded. Try to help nature
+					sort itself out. I might be crazy, but it seems like nature is sending
+					us signals. If you decide to attempt this yourself, use your legal
+					wits: don&apos;t interfere with anybody&apos;s legally-protected
+					domains or anything, but maybe see about long-forgotten spaces.
+					Consider your own safety, and build with sustainable structural
+					integrity in mind. Ladies love natural stability and consistency.
+				</p>
+				<Image
+					id="kip"
+					alt={`Kip. Photo credit: the anon meme-maker. A legend.`}
+					height={333}
+					width={250}
+					src={kip.src}
+				/>
+				<p className={`paragraph full left-align`}>
+					What happens when we don&apos;t let things breathe?
+				</p>
+				<p className={`paragraph full left-align`}>
+					I&apos;m going to go let the spring moon whisper songs to herself
+					while I lift a few handfuls of nature&apos;s weights.
+				</p>
 				<p className={`paragraph full left-align`}>
 					If you haven&apos;t already, go{' '}
 					<Link
 						className={`no-deco spaced`}
-						href="../../see/a_walk_in_the_park"
+						href="../../see/letting_things_breathe"
 					>
 						see
 					</Link>{' '}
