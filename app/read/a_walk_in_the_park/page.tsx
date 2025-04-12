@@ -65,9 +65,9 @@ export default function Home() {
 					blasts, and grabbing a fist full of trash. And just as I&apos;d stood,
 					I began walking too fast, and my head full of air, I detected no
 					stare. Yet silently there, who barred my way with two hidden eyes in
-					full glare? One bird in the brush - half as wide as in the wing and
-					twice as startled by me as I was by he. He leapt into flight, which
-					gave me a fright - until a limb&apos;s reprieve he received. Upon it,
+					full glare? One bird in the brush - half as wide in the wing and twice
+					as startled by me as I was by he. He leapt into flight, which gave me
+					a fright - until a limb&apos;s reprieve he received. Upon it,
 					relieved, a Barred Owl - perched and perceived.
 				</p>
 				<p className={`paragraph full left-align`}>What did they see?</p>

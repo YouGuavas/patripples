@@ -30,7 +30,13 @@ export default function Home() {
 				<br />
 				<p className={`paragraph full center`}>
 					Perched upon a dead tree (
-					<Link href="../../read/glossary/decision_tree">Decision Tree?</Link>).
+					<Link
+						className="no-deco spaced"
+						href="../../read/glossary/decision_tree"
+					>
+						Decision Tree?
+					</Link>
+					).
 				</p>
 
 				<Image
