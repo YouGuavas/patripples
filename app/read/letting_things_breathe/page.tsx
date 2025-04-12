@@ -218,7 +218,7 @@ export default function Home() {
 					I was going to sit here and keep writing, but tonight is the night of
 					a reclamation moon. I&apos;m choosing to observe it by gently guiding
 					logs into a swamp, instead. This is called &quot;exercising
-					agency&quot;. You know what that means.
+					agency.&quot; You know what that means.
 				</p>
 				<p className={`paragraph full left-align`}>
 					I will make a map tool one of these days. Until then, if you want to
@@ -250,8 +250,8 @@ export default function Home() {
 					What happens when we don&apos;t let things breathe?
 				</p>
 				<p className={`paragraph full left-align`}>
-					I&apos;m going to go let the spring moon whisper songs to herself
-					while I lift a few handfuls of nature&apos;s weights.
+					I&apos;m going to listen the spring moon whisper songs to herself
+					while I shift a few handfuls of nature&apos;s weights.
 				</p>
 				<p className={`paragraph full left-align`}>
 					If you haven&apos;t already, go{' '}
