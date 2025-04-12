@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
 import { GreenProviderWrapper } from '../../ThemeProviderWrapper';
 import reclamation from '../../../public/trees/reclamation_tree.png';
+import trash from '../../../public/bog_finds/trash_stack.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Letting Things Breathe',
@@ -34,6 +35,18 @@ export default function Home() {
 				/>
 				<p className={`paragraph full center`}>
 					An abundance of life springing up from <em>old</em> weights.
+				</p>
+
+				<Image
+					id="trash"
+					alt={`A breathable pile of trash. Stack responsibly.`}
+					height={333}
+					width={250}
+					src={trash.src}
+				/>
+				<p className={`paragraph full center`}>
+					A breathable and modestly-constructed stack of well-seasoned,
+					artisanal relics.
 				</p>
 
 				<p className={`paragraph full center`}>
