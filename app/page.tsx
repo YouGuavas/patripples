@@ -1,6 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import ripples from '../public/logos/ripples.png';
 import EmailForm from './components/EmailForm';
+import fish from '../public/memes/fish_fear.png';
 
 import type { Metadata } from 'next';
 import { SpaceProviderWrapper } from './ThemeProviderWrapper';
@@ -14,38 +16,75 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<SpaceProviderWrapper>
-			<main className={`main center`}>
+			<main className={`main left`}>
 				<Image src={ripples.src} height={25} width={25} alt="Ripple logo" />
-				<h1 className={`lowercase spaced style-1 thin`}>
-					Want to learn about Patripples?
-				</h1>
-				<p>
-					Patripples is a space dedicated to exploration, synthesis, and impact.
-					It’s a hub for those who see the interconnectedness of ideas and want
-					to push the boundaries of understanding. Whether you’re here for deep
-					insights, practical applications, or a new way of looking at the
-					world, you’re in the right place.
+				<h1 className={`lowercase spaced style-1 thin`}>How to patripple.</h1>
+				<p className={`paragraph full left`}>
+					(This is a living document. I am working on it as I go along. You are
+					welcome to come back to check for updates whenever it pleases you.)
 				</p>
-				<h2 className={`lowercase spaced style-1 thin`}>What is Patripples?</h2>
-				<p>
-					Patripples is built on the idea that every action, every thought, and
-					every discovery sends ripples through the world. These ripples can be
-					small or grand, but they all matter. Here, we explore the sciences,
-					philosophy, technology, and human potential with a keen eye for how
-					they intersect. Our goal is to generate new insights, share knowledge,
-					and inspire forward momentum.
+				<p className={`paragraph full left`}>
+					Have you ever tossed a handful of pebbles into a pond or a creek, and
+					watched the water ripple?
+				</p>{' '}
+				<p className={`paragraph full left`}>
+					If you have, you have changed the course of history - etched your
+					fingerprint onto the world in a lasting way. How did you do that?
 				</p>
-				<h2 className={`lowercase spaced style-1 thin`}>The Core Focus</h2>
-				<p>
-					Patterns and Systems Thinking – Understanding how things fit together,
-					from mathematics to human behavior. Philosophy and Thought Experiments
-					– Examining deep questions to refine our understanding of the
-					universe. Technology and Innovation – Exploring the bleeding edge of
-					science, AI, and digital transformation. Education and Synthesis –
-					Translating complex ideas into accessible knowledge that fuels growth.
-					Psychedelics and Perception – Investigating how altered states of
-					consciousness enhance creativity and insight.
+				<p className={`paragraph full left`}>
+					You did that through curiosity, or through resilience, or through
+					intuition. You did that because something within you compelled you to.
+					If you did something like this recently, then probably, you were
+					pondering how imbalanced things are. In a previous decade, maybe you
+					did so because you wanted to see what would happen, or because you
+					realized that you&apos;d never reach Mars, so you invented a clever,
+					impish way to move it a stone&apos;s throw and a skip away.
 				</p>
+				<p className={`paragraph full left`}>
+					Scientifically speaking, you did that through the long, slow process
+					of erosion.
+				</p>
+				<p className={`paragraph full left`}>
+					Those pebbles you tossed - however small - altered the flow of the
+					water and the air around them. They did this in their removal; in
+					their displacement.
+				</p>
+				<h2 className={`lowercase spaced style-1 thin`}>
+					How to throw stones.
+				</h2>
+				<p className={`paragraph full left`}>
+					Every action we take creates a vibration around us. You know this if
+					you have ever jumped into the air, and listened to the sound that your
+					feet made as they returned to the Earth.
+				</p>
+				<p className={`paragraph full left`}>
+					Actions above some threshold of density and impact velocity create
+					sounds. Most know this, in their way. This is nothing new to you.
+				</p>
+				<p className={`paragraph full left`}>
+					I recently sat and considered the rippling of my own impact. I saw it
+					in the way that a family of deer ran from me when I coughed in the
+					forest. Do you know who flinches when you sneeze? Your victim.
+				</p>
+				<p className={`paragraph full left`}>I do not want fish to fear me.</p>
+				<p className={`paragraph full left`}>What do you want for you?</p>
+				<h2 className={`lowercase spaced style-1 thin`}>What is the wave.</h2>
+				<ul className={`no-deco flex column gap-small`}>
+					<li>
+						Patterns and Systems Thinking - Understanding how things fit
+						together, from mathematics to human behavior.
+					</li>{' '}
+					<li>
+						Accelerating Empathy - Deep empathy - for each other, of course;
+						also for all living beings, and for the planet on which we all
+						reside - improves outcomes for everyone. The mathematics of this
+						checks out. It will prove itself. Or you can look up mid-term and
+						long-term financial outcomes in societies who historically have
+						prized health and ecological harmony vs those who have prioritized
+						industry.
+					</li>
+					<li>Lichenization - (No explanation.)</li>
+				</ul>
 				<h2 className={`lowercase spaced style-1 thin`}>Why This Matters</h2>
 				<p>
 					We live in a time where information is abundant but wisdom is scarce.
