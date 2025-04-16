@@ -26,8 +26,8 @@ function NavLink({ href, children }: NavLinkProps) {
 			href={href}
 			id={pathName.toLowerCase()}
 			className={clsx(
-				`style-1 lowercase spaced thin no-deco ${theme}`,
-				isActive ? 'dip color-2' : 'color-2'
+				`style-1 lowercase spaced thin no-deco darken ${theme}`,
+				isActive ? 'darken color-2' : 'color-2'
 			)}
 		>
 			{children}
@@ -44,7 +44,7 @@ export default function Nav() {
 			>
 				<ul className={`flex no-deco`}>
 					<li>
-						<Link href="/">
+						<Link className="darken" href="/">
 							<Image
 								src={ripples.src}
 								height={50}

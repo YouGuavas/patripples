@@ -48,7 +48,7 @@ export default function Home() {
 								scroll={false}
 								href={`see/${path}`}
 								id={name.toLowerCase()}
-								className={`no-deco lowercase style-1 thin spaced color-2 rounded lighten px-2 py-2 bordered`}
+								className={`no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2 bordered`}
 							>
 								{`See ${name}.`}
 							</Link>

@@ -301,7 +301,9 @@ button {
 /*shaping*/
 
 /*shading*/
-.lighten {
+.darken:hover {
+	opacity: 40%;
+	transition: 0.4s;
 }
 
 .bordered {
