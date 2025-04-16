@@ -10,17 +10,17 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main center`}>
-			<h1 className={`style-1 thin lowercase`}>Want to read my mind?</h1>
-			<ul className={`flex column gap-small no-deco pad-none`}>
+			<h1 className={`style-1 thin lowercase`}>read my mind.</h1>
+			<ul className={`flex gap-medium no-deco pad-none`}>
 				{routes.map(({ name, path }) => (
 					<li key={path}>
 						<Link
 							scroll={false}
 							href={`read/${path}`}
 							id={name.toLowerCase()}
-							className={`no-deco style-1 thin lowercase color-2`}
+							className={`no-deco lowercase style-1 thin spaced color-2 rounded lighten px-2 py-2 bordered`}
 						>
-							{`Want to read about ${name}?`}
+							{`Read ${name}.`}
 						</Link>
 					</li>
 				))}

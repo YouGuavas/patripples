@@ -39,18 +39,18 @@ export default function Home() {
 	return (
 		<SpaceProviderWrapper>
 			<main className={`main center`}>
-				<h1 className={`style-1 lowercase thin`}>Want to see my thoughts?</h1>
+				<h1 className={`style-1 lowercase thin`}>See my thoughts.</h1>
 
-				<ul className={`flex column gap-small no-deco pad-none`}>
+				<ul className={`flex gap-medium no-deco pad-none`}>
 					{routes.map(({ name, path }) => (
 						<li key={path}>
 							<Link
 								scroll={false}
 								href={`see/${path}`}
 								id={name.toLowerCase()}
-								className={`no-deco style-1 thin lowercase color-2`}
+								className={`no-deco lowercase style-1 thin spaced color-2 rounded lighten px-2 py-2 bordered`}
 							>
-								{`Want to see ${name}?`}
+								{`See ${name}.`}
 							</Link>
 						</li>
 					))}

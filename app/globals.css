@@ -294,17 +294,19 @@ button {
 }
 /* /layout */
 
-/* gaps */
-.gap-small {
-	gap: 0.5rem;
+/*shaping*/
+.rounded {
+	border-radius: 1rem;
 }
-.gap-medium {
-	gap: 1rem;
+/*shaping*/
+
+/*shading*/
+.lighten {
 }
-.gap-large {
-	gap: 2rem;
+
+.bordered {
+	border: 1px solid var(--color-2);
 }
-/* /gaps */
 
 /* flex */
 .flex {
