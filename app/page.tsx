@@ -66,13 +66,27 @@ export default function Home() {
 					in the way that a family of deer ran from me when I coughed in the
 					forest. Do you know who flinches when you sneeze? Your victim.
 				</p>
-				<p className={`paragraph full left`}>I do not want fish to fear me.</p>
+				<p className={`paragraph full left`}>
+					I do not want fish to fear me. That is not the kind of blessing I want
+					for me.
+				</p>
+				<div className={`flex gap-medium`}>
+					<Image
+						id="fish_fear"
+						alt={`Hat which reads "Women want me, fish fear me."`}
+						height={333}
+						width={250}
+						src={fish.src}
+					/>
+				</div>
 				<p className={`paragraph full left`}>What do you want for you?</p>
 				<h2 className={`lowercase spaced style-1 thin`}>What is the wave.</h2>
 				<ul className={`no-deco flex column gap-small`}>
 					<li>
-						Patterns and Systems Thinking - Understanding how things fit
-						together, from mathematics to human behavior.
+						Amplifying Nature - Healing old wounds. Let what would otherwise
+						fester breathe instead. I believe that this sort of action - healing
+						ones, done in harmony with what is - always leaves behind a positive
+						ripple.
 					</li>{' '}
 					<li>
 						Accelerating Empathy - Deep empathy - for each other, of course;
@@ -85,14 +99,11 @@ export default function Home() {
 					</li>
 					<li>Lichenization - (No explanation.)</li>
 				</ul>
-				<h2 className={`lowercase spaced style-1 thin`}>Why This Matters</h2>
+				<h2 className={`lowercase spaced style-1 thin`}>how to wave.</h2>
 				<p>
-					We live in a time where information is abundant but wisdom is scarce.
-					Patripples aims to bridge that gap. By weaving together seemingly
-					disparate fields, we can uncover fundamental truths and apply them in
-					ways that push humanity forward. This isn’t just about ideas—it’s
-					about action. Every ripple we create contributes to a larger wave of
-					change.
+					You can just do it. You know how. If you don&apos;t, click around the
+					site a little bit. See what clicks with you. That seems to work for
+					the dolphins.
 				</p>
 				<h2 className={`lowercase spaced style-1 thin`}>
 					What You’ll Find Here
