@@ -283,6 +283,12 @@ button {
 .half {
 	width: 50%;
 }
+.h-full {
+	height: 90vh;
+}
+.w-full {
+	width: 100%;
+}
 .full {
 	width: 100%;
 	display: block;
@@ -291,6 +297,7 @@ button {
 .center {
 	align-items: center;
 	text-align: center;
+	justify-content: center;
 }
 /* /layout */
 

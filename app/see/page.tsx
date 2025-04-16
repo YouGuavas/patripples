@@ -41,7 +41,7 @@ export default function Home() {
 			<main className={`main center`}>
 				<h1 className={`style-1 lowercase thin`}>See my thoughts.</h1>
 
-				<ul className={`flex gap-medium no-deco pad-none`}>
+				<ul className={`flex gap-medium no-deco pad-none h-full w-full center`}>
 					{routes.map(({ name, path }) => (
 						<li key={path}>
 							<Link
