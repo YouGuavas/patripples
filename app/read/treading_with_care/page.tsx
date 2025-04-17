@@ -52,7 +52,7 @@ export default function Home() {
 					how to observe our surroundings.
 				</h2>
 				<p className={`paragraph full left-align`}>
-					What would you do if - upon having taken you out from the coldest and
+					What would you do if - upon having taken you in from the coldest and
 					harshest of emptinesses and provided you with shelter, food, and
 					water, free of charge - your host fell ill?
 				</p>
