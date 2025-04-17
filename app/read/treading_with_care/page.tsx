@@ -262,12 +262,13 @@ export default function Home() {
 					If you want to do something about it, you have the ability. Begin by
 					reminding yourself that you are conscious and sovereign, and that as
 					you embody a healing example and do what you can to help the world
-					around you to get better, then your sovereign ripple will echo
-					outward. Earth is trying to sort out her sickness. There are actions
-					being taken every day which accelerate her sickness and ours. Each
-					small act of non-destructive healing - done onto the Earth herself, or
-					onto any animals or ethically-acting people around you - helps to
-					shift nature&apos;s weights in counterbalance to this. Earth
+					around you to get better, and allow yourself to be seen doing it, your
+					sovereign echo ripples ever outward into the very substrate of
+					consciousness. Earth is trying to sort out her sickness. There are
+					actions being taken every day which accelerate her sickness and ours.
+					Each small act of non-destructive healing - done onto the Earth
+					herself, or onto any animals or ethically-acting people around you -
+					helps to shift nature&apos;s weights in counterbalance to this. Earth
 					doesn&apos;t need a savior, but it does need a bunch of people
 					hyper-focused on untangling knots. The more consistent and patient the
 					effort, the clearer the path which presents itself. I like this place.
