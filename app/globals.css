@@ -289,6 +289,9 @@ button {
 .w-full {
 	width: 100%;
 }
+.pointer {
+	cursor: pointer;
+}
 .full {
 	width: 100%;
 	display: block;

@@ -106,7 +106,7 @@ export default function Home() {
 					the dolphins.
 				</p>
 				<h2 className={`lowercase spaced style-1 thin`}>
-					What You’ll Find Here
+					What You&apos;ll Find Here
 				</h2>{' '}
 				<ul className={`no-deco`}>
 					<li>
@@ -130,11 +130,11 @@ export default function Home() {
 				</h2>{' '}
 				<p>
 					Patripples is an evolving entity, shaped by curiosity and discovery.
-					If you’re someone who thrives on pushing boundaries and seeking deeper
-					understanding, this is your space. Subscribe, engage, and contribute
-					your own ripples to the conversation. Stay Connected Follow along on
-					social platforms, subscribe for updates, and feel free to reach out
-					with ideas or collaborations. The journey is just beginning.
+					If you&apos;re someone who thrives on pushing boundaries and seeking
+					deeper understanding, this is your space. Subscribe, engage, and
+					contribute your own ripples to the conversation. Stay Connected Follow
+					along on social platforms, subscribe for updates, and feel free to
+					reach out with ideas or collaborations. The journey is just beginning.
 				</p>
 				<p>
 					Oh, and if you haven&apos;t already, please consider adding yourself
