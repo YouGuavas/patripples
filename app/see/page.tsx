@@ -38,7 +38,7 @@ export default function Home() {
 
 				<InteractiveList categories={categories} routes={routes} />
 				<Image
-					alt="a healthy wetland"
+					alt="A healthy pond or wetland"
 					height={500}
 					width={500}
 					src={wetland.src}
