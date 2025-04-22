@@ -4,6 +4,7 @@ import Link from 'next/link';
 import routes from './routes';
 import categories from '../categories';
 import InteractiveList from '../components/InteractiveList';
+import wetland from '../../public/universal/healthy_wetland.svg';
 //import RippleGraph from '../components/RippleGraph';
 
 import type { Metadata } from 'next';
@@ -36,6 +37,12 @@ export default function Home() {
 				<h1 className={`style-1 lowercase thin`}>See my thoughts.</h1>
 
 				<InteractiveList categories={categories} routes={routes} />
+				<Image
+					alt="a healthy wetland"
+					height={500}
+					width={500}
+					src={wetland.src}
+				/>
 
 				{/*<RippleGraph nodes={nodes} links={links} />*/}
 				{/*<D3Graph
