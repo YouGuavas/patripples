@@ -97,7 +97,7 @@ export default function Home() {
 						prized health and ecological harmony vs those who have prioritized
 						industry.
 					</li>
-					<li>Lichenization - (No explanation.)</li>
+					<li>Lichenization - No explanation.</li>
 				</ul>
 				<h2 className={`lowercase spaced style-1 thin`}>how to wave.</h2>
 				<p>
