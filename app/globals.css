@@ -280,13 +280,16 @@ button {
 	display: flex;
 	gap: 1rem;
 }
-.half {
+.height-half {
+	height: 50%;
+}
+.width-half {
 	width: 50%;
 }
-.h-full {
+.height-full {
 	height: 90vh;
 }
-.w-full {
+.width-full {
 	width: 100%;
 }
 .pointer {
@@ -318,6 +321,9 @@ button {
 
 .bordered {
 	border: 1px solid var(--color-2);
+}
+.active {
+	color: black;
 }
 
 /* flex */

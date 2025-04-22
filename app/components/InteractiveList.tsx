@@ -6,18 +6,18 @@ import { supabase } from '../api/lib/supabase';
 import Link from 'next/link';
 
 interface propsType {
-	categories: String[];
+	categories: string[];
 	routes: routeType[];
 }
 interface routeType {
-	name: String;
-	path: String;
-	tags: String[];
+	name: string;
+	path: string;
+	tags: string[];
 }
 
 export default function InteractiveList(props: propsType) {
 	const [filters, setFilters] = useState(['']);
-	async function handleFilter(e: React.FormEvent, category: String) {
+	async function handleFilter(e: React.FormEvent, category: string) {
 		if (category.toLowerCase() === 'clear') {
 			setFilters(['']);
 		} else {
@@ -29,18 +29,22 @@ export default function InteractiveList(props: propsType) {
 
 	return (
 		<>
-			<ul className={`flex gap-medium no-deco pad-none w-full center`}>
+			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{props.categories.map((category) => (
 					<li
 						key={`${category}`}
-						className={`no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2 bordered pointer`}
+						className={`${
+							filters.indexOf(category) !== -1 ? 'active' : ''
+						} no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2 bordered pointer`}
 						onClick={(e) => handleFilter(e, category)}
 					>
 						{category}
 					</li>
 				))}
 			</ul>
-			<ul className={`flex gap-medium no-deco pad-none h-full w-full center`}>
+			<ul
+				className={`flex gap-medium no-deco pad-none height-half width-full center`}
+			>
 				{props.routes.map(({ name, path, tags }) => (
 					<li key={`${name}`}>
 						<Link

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 export default function Home() {
 	return (
-		<main className={`main center`}>
+		<main className={`main center height-full`}>
 			<h1 className={`style-1 thin lowercase`}>read my mind.</h1>
 			<InteractiveList categories={categories} routes={routes} />
 		</main>

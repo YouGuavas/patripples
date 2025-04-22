@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<SpaceProviderWrapper>
-			<main className={`main center`}>
+			<main className={`main center height-full`}>
 				<h1 className={`style-1 lowercase thin`}>See my thoughts.</h1>
 
 				<ul className={`flex gap-medium no-deco pad-none h-full w-full center`}>
