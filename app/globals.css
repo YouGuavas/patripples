@@ -323,7 +323,8 @@ button {
 	border: 1px solid var(--color-2);
 }
 .active {
-	color: black;
+	opacity: 20%;
+	transition: 0.4s;
 }
 
 /* flex */

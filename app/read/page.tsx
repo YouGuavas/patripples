@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import routes from './routes';
-import categories from './categories';
+import categories from '../categories';
 import InteractiveList from '../components/InteractiveList';
 
 export const metadata: Metadata = {
