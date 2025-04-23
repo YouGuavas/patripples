@@ -33,16 +33,20 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<SpaceProviderWrapper>
-			<main className={`main center height-full`}>
+			<main className={`main center height-full flex column`}>
 				<h1 className={`style-1 lowercase thin`}>See my thoughts.</h1>
 
 				<InteractiveList categories={categories} routes={routes} />
 				<Image
 					alt="A healthy pond or wetland"
-					height={500}
-					width={500}
+					height={400}
+					width={400}
 					src={wetland.src}
 				/>
+				<p className={`paragraph width-full block`}>
+					This is something like how a healthy swamp, pond, or wetland might
+					look.
+				</p>
 
 				{/*<RippleGraph nodes={nodes} links={links} />*/}
 				{/*<D3Graph

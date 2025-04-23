@@ -43,12 +43,15 @@ export default function InteractiveList(props: propsType) {
 			>
 				{links.map(({ name, path, tags }) =>
 					tags.indexOf(filter) !== -1 ? (
-						<li key={`${name}`}>
+						<li
+							key={`${name}`}
+							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2`}
+						>
 							<Link
+								className={`no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2 bordered`}
 								scroll={false}
 								href={`read${path}`}
 								id={name.toLowerCase()}
-								className={`no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2 bordered`}
 							>
 								{`${name}.`}
 							</Link>

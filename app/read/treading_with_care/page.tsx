@@ -14,24 +14,31 @@ export default function Home() {
 	return (
 		<GreenProviderWrapper>
 			<main className={`main center`}>
-				<h1 className={`lowercase style-1 thin spaced left full left-align`}>
+				<h1
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
 					Treading With Care.
 				</h1>
 				<ByLine date={'Tue, Apr 15, 2025'} />
-				<blockquote className={`style-2 thin full left-align`}>
+				<blockquote className={`style-2 thin width-full block left-align`}>
 					&quot;Nature is the source of all true knowledge.&quot;
 				</blockquote>
-				<p className={`paragraph full left-align`}> -Leonardo da Vinci</p>
+				<p className={`paragraph width-full block left-align`}>
+					{' '}
+					-Leonardo da Vinci
+				</p>
 				<br />
-				<h2 className={`lowercase thin spaced left full left-align`}>
+				<h2
+					className={`lowercase thin spaced left width-full block left-align`}
+				>
 					how to begin with reverence.
 				</h2>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					You are here because you have a curious nature, an eye for the new and
 					the different, or because The Algorithm thought that you needed to be
 					here.
 				</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					Whenever I enter a new space, I aim to gain a sense for its gravity.
 					This is particularly true when I see signs of a high-agency resident -
 					such as an eagle or an owl, or a silent entity which breathes through
@@ -41,22 +48,24 @@ export default function Home() {
 					to announce my presence. Just in case there is some eagle or owl - or
 					something else - standing sentry over that space.
 				</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					I engage in these reverence maneuvers because I hope to invite
 					curiosity, where fear has long festered. This ritual seems to work
 					best when performed with sincerity, so I bow and then whistle in your
 					direction.
 				</p>
 
-				<h2 className={`lowercase thin spaced left full left-align`}>
+				<h2
+					className={`lowercase thin spaced left width-full block left-align`}
+				>
 					how to observe our surroundings.
 				</h2>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					What would you do if - upon having taken you in from the coldest and
 					harshest of emptinesses and provided you with shelter, food, and
 					water, free of charge - your host fell ill?
 				</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					Yesterday, I searched the woods around me for non-biodegradable trash
 					and possible stagnant swamps left behind by improper waste disposal -
 					which I suspected was there because there have been cyclically
@@ -94,23 +103,25 @@ export default function Home() {
 					follow crows out there and then connect the dots later. Totally knew
 					what I was doing.
 				</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					The next time you&apos;re in a natural space, take a look around. You
 					don&apos;t have to untangle an entire microsystem - picking up one
 					piece of litter without destroying the nature around it creates a
 					ripple which strengthens everyone on Earth&apos;s compounded interests
 					over time. You don&apos;t have to lift a finger, just some litter.
 				</p>
-				<h2 className={`lowercase thin spaced left full left-align`}>
+				<h2
+					className={`lowercase thin spaced left width-full block left-align`}
+				>
 					how to make a dent.
 				</h2>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					As I approached the swamp, I felt oppressed by the weight of its
 					atmosphere. I wondered why the crows had pulled me there. I could not
 					drain this space. I could not lift these weights.
 				</p>
 
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					However I came to be there, I did arrive. I found my swamp. I observed
 					severe damage all around - it reminded me of a wound, left to fester;
 					hidden instead of healed. I took actions to encourage natural water
@@ -148,7 +159,7 @@ export default function Home() {
 					that a series of small actions, repeated over time, can ripple outward
 					and compound upward in fascinating ways.
 				</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					We are all ostensibly intelligent primates bound to a filthy magma
 					marble somewhere in the middle of a cosmic fidget spinner. I am
 					frequent to lose focus and drift off into apparently disjointed mental
@@ -161,11 +172,13 @@ export default function Home() {
 					how it is.
 				</p>
 
-				<h2 className={`lowercase thin spaced left full left-align`}>
+				<h2
+					className={`lowercase thin spaced left width-full block left-align`}
+				>
 					how to respect what is.
 				</h2>
 
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					None of us are Elon Musk rich, but most of us have the power to help
 					the muskrats. And a lot of stuff happens downstream of muskrats. Like,
 					way more stuff than happens downstream of Elon Musk. Or any other
@@ -182,7 +195,7 @@ export default function Home() {
 					width={250}
 					src={chipmunk.src}
 				/>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					The crows seem to be using me as an unpaid cleaning service - not for
 					themselves, but for our past selves. In exchange for my cooperation,
 					they are repaying me with natural foresight - learned wisdom obtained
@@ -192,7 +205,7 @@ export default function Home() {
 					nature all the time. We have all seen remora and pilot fish clinging
 					to sharks on &apos;Shark Week.&apos;
 				</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					Today, one of my crows helped me to see over a bridge, dancing in a
 					small, rolling vortex of wind, which gently tumbled to my southwest.
 					This could be interpreted as a sign that warm air had been displaced
@@ -202,16 +215,20 @@ export default function Home() {
 					alignment with the time at which I could begin crossing the road safe
 					from traffic.
 				</p>
-				<h2 className={`lowercase thin spaced left full left-align`}>
+				<h2
+					className={`lowercase thin spaced left width-full block left-align`}
+				>
 					how to divine the past.
 				</h2>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					Carl Sagan, in his day, worried about nuclear weapons - the emerging
 					threat of his time - and he was right to, considering how we have
 					behaved since and long before then. The emerging threats of our time
 					seem, to me, to be something like these:
 				</p>
-				<ul className={` full left-align no-deco flex column gap-medium`}>
+				<ul
+					className={`width-full block left-align no-deco flex column gap-medium`}
+				>
 					<li>
 						Shortcutting - the all-too understandable desire to take the most
 						direct route to some solution.
@@ -230,7 +247,7 @@ export default function Home() {
 						in a row.
 					</li>
 				</ul>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					Here, I will outline how these ideas show up in nature as a result of
 					past ripples. I intend to dig into this with more depth later. For
 					now, consider a leaf. The leaf floats along the surface of a creek. As
@@ -245,20 +262,20 @@ export default function Home() {
 					allowing mosquitoes and bacteria to breed in cyclically increasing
 					blooms.
 				</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					Can you begin to see the interconnectedness of these three ideas? Can
 					you see how overlooking shortcutting leads to compounding ailments?
 					The end is not nigh. Still, if we don&apos;t find some way to protect
 					our neighbors against it, it might just sneak up on the whole network.
 				</p>
 
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>
 					Whales are spitting people out of the ocean. Wind events are ramping
 					up. Does it seem to you as though our world is becoming increasingly
 					chaotic, increasingly entropic, increasingly-
 				</p>
-				<p className={`paragraph full left-align`}>-ominous?</p>
-				<p className={`paragraph full left-align`}>
+				<p className={`paragraph width-full block left-align`}>-ominous?</p>
+				<p className={`paragraph width-full block left-align`}>
 					If you want to do something about it, you have the ability. Begin by
 					reminding yourself that you are conscious and sovereign, and that as
 					you embody a healing example and do what you can to help the world

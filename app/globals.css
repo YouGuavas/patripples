@@ -287,7 +287,7 @@ button {
 	width: 50%;
 }
 .height-full {
-	height: 90vh;
+	min-height: 90vh;
 }
 .width-full {
 	width: 100%;
@@ -295,8 +295,7 @@ button {
 .pointer {
 	cursor: pointer;
 }
-.full {
-	width: 100%;
+.block {
 	display: block;
 }
 
