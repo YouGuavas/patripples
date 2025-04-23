@@ -39,8 +39,8 @@ export default function Home() {
 				<InteractiveList categories={categories} routes={routes} />
 				<Image
 					alt="A healthy pond or wetland"
-					height={400}
-					width={400}
+					height={300}
+					width={300}
 					src={wetland.src}
 				/>
 				<p className={`paragraph width-full block`}>
