@@ -59,7 +59,7 @@ export default function Home() {
 				<h3
 					className={`lowercase thin spaced left width-full block left-align`}
 				>
-					How to split swamps.
+					How to split a swamp.
 				</h3>
 				<p className={`paragraph width-full block left-align`}>
 					Envision some guy, or some she or some they, in deeper than all three

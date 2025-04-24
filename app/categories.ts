@@ -1,3 +1,3 @@
-const categories = ['Swamp Arts', 'Crow Alchemy', 'X'];
+const categories = ['Crow Alchemy', 'Swamp Science', 'Tree Totals', 'X'];
 
 export default categories;

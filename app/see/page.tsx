@@ -43,7 +43,7 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					For now, the image below represents how a healthy swamp, pond, or
 					wetland might look. Note the relatively clean water, the flowing
-					stream, and the generally smooth edges.
+					stream, and the edges, which should generally be smooth.
 				</p>
 				<Image
 					alt="A healthy pond or wetland"
