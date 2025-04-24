@@ -20,8 +20,9 @@ export default function Home() {
 				<Image src={ripples.src} height={25} width={25} alt="Ripple logo" />
 				<h1 className={`lowercase spaced style-1 thin`}>How to patripple.</h1>
 				<p className={`paragraph full left`}>
-					(This is a living document. I am working on it as I go along. You are
-					welcome to come back to check for updates whenever it pleases you.)
+					As with the concept, this is a living document. I am working on it as
+					I go along. You are welcome to come back to check for updates whenever
+					it pleases you.
 				</p>
 				<p className={`paragraph full left`}>
 					Have you ever tossed a handful of pebbles into a pond or a creek, and

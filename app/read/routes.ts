@@ -3,22 +3,22 @@ const routes = [
 	{
 		name: 'a walk in the park',
 		path: '/read/a_walk_in_the_park',
-		tags: ['swamp science', 'crow science', 'x'],
+		tags: ['swamp arts', 'crow alchemy', 'x'],
 	},
 	{
 		name: 'letting things breathe',
 		path: '/read/letting_things_breathe',
-		tags: ['swamp science', 'crow science', 'x'],
+		tags: ['swamp arts', 'crow alchemy', 'x'],
 	},
 	{
 		name: 'treading with care',
 		path: '/read/treading_with_care',
-		tags: ['swamp science', 'crow science', 'x'],
+		tags: ['swamp arts', 'crow alchemy', 'x'],
 	},
 	{
 		name: 'a tired swamp',
 		path: '/read/a_tired_swamp',
-		tags: ['swamp science', 'x'],
+		tags: ['swamp arts', 'x'],
 	},
 ];
 
