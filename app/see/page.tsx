@@ -37,6 +37,14 @@ export default function Home() {
 				<h1 className={`style-1 lowercase thin`}>See my thoughts.</h1>
 
 				<InteractiveList categories={categories} routes={routes} />
+				<p className={`paragraph width-full block left-align`}>
+					I intend to make this interactive and clickable.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					For now, the image below represents how a healthy swamp, pond, or
+					wetland might look. Note the relatively clean water, the flowing
+					stream, and the generally smooth edges.
+				</p>
 				<Image
 					alt="A healthy pond or wetland"
 					height={300}
