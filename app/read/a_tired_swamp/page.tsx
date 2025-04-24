@@ -26,7 +26,7 @@ export default function Home() {
 					cite="Donkey, Shrek, (2002)"
 				>
 					&quot;Blue flower, red thorns. Blue flower, red thorns. Blue flower,
-					red thorns. Man, this would be so much easier if I wasn't
+					red thorns. Man, this would be so much easier if I wasn&apos;t
 					COLOR-BLIND!&quot;
 				</blockquote>
 				<p className={`paragraph width-full block left-align`}>

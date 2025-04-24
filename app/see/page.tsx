@@ -51,10 +51,7 @@ export default function Home() {
 					width={300}
 					src={wetland.src}
 				/>
-				<p className={`paragraph width-full block`}>
-					This is something like how a healthy swamp, pond, or wetland might
-					look.
-				</p>
+				<p className={`paragraph width-full block`}></p>
 
 				{/*<RippleGraph nodes={nodes} links={links} />*/}
 				{/*<D3Graph
