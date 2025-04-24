@@ -14,8 +14,8 @@ export default function Home() {
 		<main className={`main center height-full`}>
 			<h1 className={`style-1 thin lowercase`}>count change.</h1>
 			<p className={`paragraph width-full block left-align`}>
-				There exist a number of ways to approximate the impact of any given
-				action.
+				There exist a number of ways in which to go about approximating the
+				impact of any given action.
 			</p>
 		</main>
 	);

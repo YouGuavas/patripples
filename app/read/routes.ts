@@ -1,5 +1,5 @@
 const routes = [
-	{ name: 'the future of patripples', path: '/read/patripples', tags: ['x'] },
+	{ name: 'patripples', path: '/read/patripples', tags: ['x'] },
 	{
 		name: 'a walk in the park',
 		path: '/read/a_walk_in_the_park',
