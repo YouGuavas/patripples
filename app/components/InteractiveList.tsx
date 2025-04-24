@@ -25,6 +25,7 @@ export default function InteractiveList(props: propsType) {
 
 	return (
 		<>
+			<h3 className={`style-1 thin lowercase spaced`}>Filters: </h3>
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{props.categories.map((category) => (
 					<li
@@ -38,6 +39,8 @@ export default function InteractiveList(props: propsType) {
 					</li>
 				))}
 			</ul>
+			<h3 className={`style-1 thin lowercase spaced`}>Thoughts: </h3>
+
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{links.map(({ name, path, tags }) =>
 					tags.indexOf(filter) !== -1 ? (
