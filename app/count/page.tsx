@@ -15,7 +15,9 @@ export default function Home() {
 			<h1 className={`style-1 thin lowercase`}>how to count change.</h1>
 			<p className={`paragraph width-full block left-align`}>
 				There exist a number of ways in which to go about approximating the
-				impact of any given action.
+				impact of any action taken upon the world. One might simply guess, or
+				intuit. One might calculate the curvature of a set of small assumptions
+				and extrapolate based off of that.
 			</p>
 		</main>
 	);

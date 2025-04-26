@@ -53,12 +53,12 @@ export default function EmailForm() {
 					disabled={status === 'loading'}
 					className="py-1 style-1 lowercase thin spaced"
 				>
-					{status === 'loading' ? 'Submitting...' : 'ripple'}
+					{status === 'loading' ? 'rippling...' : 'wave'}
 				</button>
 			</div>
 			{status === 'success' && (
 				<p className="text-green-600">
-					Thanks! You&apos;re rippling right along.
+					Thanks! You&apos;re already ahead of the curve.
 				</p>
 			)}
 
