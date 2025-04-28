@@ -48,7 +48,8 @@ export default function Home() {
 				<p className={`paragraph full left`}>
 					Those pebbles you tossed - however small - altered the flow of the
 					water and the air around them. They did this in their removal; in
-					their displacement.
+					their displacement. Consider both the spaces that they left behind,
+					and the spaces we now occupy.
 				</p>
 				<h2 className={`lowercase spaced style-1 thin`}>
 					How to throw stones.
@@ -106,9 +107,7 @@ export default function Home() {
 					site a little bit. See what clicks with you. That seems to work for
 					the dolphins.
 				</p>
-				<h2 className={`lowercase spaced style-1 thin`}>
-					What You&apos;ll Find Here
-				</h2>{' '}
+				<h2 className={`lowercase spaced style-1 thin`}>What is here.</h2>{' '}
 				<ul className={`no-deco`}>
 					<li>
 						Essays & Articles – Deep dives into concepts that shape our world.
@@ -126,16 +125,11 @@ export default function Home() {
 						meaningful conversations.
 					</li>
 				</ul>{' '}
-				<h2 className={`lowercase spaced style-1 thin`}>
-					Join the Exploration
-				</h2>{' '}
+				<h2 className={`lowercase spaced style-1 thin`}>Join the wave.</h2>{' '}
 				<p>
-					Patripples is an evolving entity, shaped by curiosity and discovery.
-					If you&apos;re someone who thrives on pushing boundaries and seeking
-					deeper understanding, this is your space. Subscribe, engage, and
-					contribute your own ripples to the conversation. Stay Connected Follow
-					along on social platforms, subscribe for updates, and feel free to
-					reach out with ideas or collaborations. The journey is just beginning.
+					Subscribe, engage, and contribute your own whorl to the imprint that
+					we leave behind. Follow along on social platforms, subscribe for
+					updates, and feel free to reach out with ideas or collaborations.
 				</p>
 				<p>
 					Oh, and if you haven&apos;t already, please consider adding yourself
