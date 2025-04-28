@@ -73,13 +73,13 @@ export default function Home() {
 			<p className={`paragraph width-full block left-align`}>
 				Say that I&apos;ve got one tree. That tree is somewhere between zero and
 				fifty years old. It is an oak tree (or an elm, or a willow, or a pine
-				tree). We are in an urban (or suburban or a rural) domain. This results
-				in our tree&apos;s having some Base Trunk Width (BTW).
+				tree). We are in an urban (or a suburban or a rural) domain. This
+				results in our tree&apos;s having some Base Trunk Width (BTW). We are
+				going to make a set of assumptions which arrive us at our Base Trunk
+				Width (BTW).
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				If we do not know our situation with precision - which is not always the
-				case - we must make some set of assumptions. Which, again, deprecate
-				against one another.
+				To do: Expand on this, and on previously pinned concept.
 			</p>
 		</main>
 	);

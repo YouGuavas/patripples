@@ -127,13 +127,8 @@ export default function Home() {
 				</ul>{' '}
 				<h2 className={`lowercase spaced style-1 thin`}>Join the wave.</h2>{' '}
 				<p>
-					Subscribe, engage, and contribute your own whorl to the imprint that
-					we leave behind. Follow along on social platforms, subscribe for
-					updates, and feel free to reach out with ideas or collaborations.
-				</p>
-				<p>
-					Oh, and if you haven&apos;t already, please consider adding yourself
-					to my mailing list for future updates:
+					If you haven&apos;t already, please consider adding yourself to my
+					mailing list for future updates:
 				</p>
 				<EmailForm />
 			</main>
