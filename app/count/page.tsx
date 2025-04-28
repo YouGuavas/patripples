@@ -7,7 +7,8 @@ import InteractiveList from '../components/InteractiveList';
 
 export const metadata: Metadata = {
 	title: 'Patripples | How to Count Change',
-	description: 'Learn how to count change with patripples.',
+	description:
+		'Learn how to count change with patripples. Calculated by Patrick Yambrick.',
 };
 export default function Home() {
 	return (
