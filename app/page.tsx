@@ -86,9 +86,9 @@ export default function Home() {
 				<ul className={`no-deco flex column gap-small`}>
 					<li>
 						Amplifying Nature - Healing old wounds. Let what would otherwise
-						fester breathe instead. I believe that this sort of action - healing
-						ones, done in harmony with what is - always leaves behind a positive
-						ripple.
+						fester breathe instead. I believe that this sort of action - a
+						healing one, done in harmony with what is - always leaves behind a
+						positive ripple.
 					</li>{' '}
 					<li>
 						Accelerating Empathy - Deep empathy - for each other, of course;
