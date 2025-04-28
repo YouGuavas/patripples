@@ -18,7 +18,7 @@ export default function Home() {
 				Note:{' '}
 				<Link
 					className={`style-1 no-deco spaced lowercase`}
-					href="/glossary/vernal_pool"
+					href="/read/glossary/vernal_pool"
 				>
 					vernal pool
 				</Link>
