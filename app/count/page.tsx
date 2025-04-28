@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>how to count change.</h1>
+			<h1 className={`style-1 thin lowercase`}>count my change.</h1>
 			<p className={`paragraph width-full block left-align`}>
 				There exist a number of ways in which to go about approximating the
 				impact of any action taken upon a space. One might simply guess, or
