@@ -15,13 +15,13 @@ export const ThemeContext = createContext<ThemeContextType | undefined>(
 );
 
 export const SpaceProvider = ({ children }: { children: React.ReactNode }) => {
-	const [theme, setThemeState] = useState<Theme>('spaceship');
+	const [theme, setThemeState] = useState<Theme>('default');
 
 	// On first load: try localStorage or system preference
 	useEffect(() => {
 		const stored = localStorage.getItem('theme') as Theme | null;
 
-		const initialTheme = 'spaceship';
+		const initialTheme = 'default';
 		setThemeState(initialTheme);
 		document.documentElement.classList.add(initialTheme);
 	}, []);

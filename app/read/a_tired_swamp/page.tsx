@@ -36,7 +36,7 @@ export default function Home() {
 				<br />
 
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How a swamp gets tired.
 				</h2>
@@ -57,7 +57,7 @@ export default function Home() {
 					for my ego&apos;s sake. Note any mistakes.
 				</p>
 				<h3
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to split a swamp.
 				</h3>
@@ -106,7 +106,7 @@ export default function Home() {
 					a part.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to re-tire a swamp.
 				</h2>

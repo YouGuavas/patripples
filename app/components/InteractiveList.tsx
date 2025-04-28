@@ -32,7 +32,7 @@ export default function InteractiveList(props: propsType) {
 						key={`${category}`}
 						className={`${
 							filter.toLowerCase() === category.toLowerCase() ? 'active' : ''
-						} no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2 bordered pointer`}
+						} no-deco lowercase style-1 spaced color-2 rounded darken px-1 py-1 pointer`}
 						onClick={(e) => handleFilter(e, category)}
 					>
 						{category}

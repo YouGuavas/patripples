@@ -34,7 +34,7 @@ export default function Home() {
 				</p>
 				<br />
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to sit down on a log.
 				</h2>
@@ -64,7 +64,7 @@ export default function Home() {
 					could see no eyes seeing me.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to walk in a park.
 				</h2>
@@ -103,7 +103,7 @@ export default function Home() {
 					standing upon a branch of sprawling peace.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to break an olive branch.
 				</h2>
@@ -130,7 +130,7 @@ export default function Home() {
 					Or those noisy leaves who&apos;d set out to shout at each silent step.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to betray an owl.
 				</h2>
@@ -152,7 +152,7 @@ export default function Home() {
 					Yes.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to roll deep.
 				</h2>
@@ -182,7 +182,7 @@ export default function Home() {
 					Can you believe them?
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to look at birds.
 				</h2>

@@ -66,8 +66,12 @@ export default function Home() {
 				</span>
 				<br />
 
-				<h2 className={`lowercase thin spaced left`}>Cultivating the Mind.</h2>
-				<h3 className={`lowercase thin spaced left`}>An idea as a plant.</h3>
+				<h2 className={`lowercase style-1 thin spaced left`}>
+					Cultivating the Mind.
+				</h2>
+				<h3 className={`lowercase style-1 thin spaced left`}>
+					An idea as a plant.
+				</h3>
 				<p className={`paragraph width-full block`}>
 					When we tend to one and feed its tension, it tends to bloom with great
 					intention. When we leave its fruit and flower on the vine to linger,
@@ -87,7 +91,9 @@ export default function Home() {
 					and flowers are not known for their agency. A plant strengthens its
 					roots through patience, symbiosis, and biodiversity.
 				</p>
-				<h3 className={`lowercase thin spaced left`}>seeding a thought.</h3>
+				<h3 className={`lowercase style-1 thin spaced left`}>
+					seeding a thought.
+				</h3>
 				<p className={`paragraph width-full block`}>
 					If an idea is a plant, then it must have sprouted from a seed. From
 					where did that seed spring? Was it born in the belly, between breaths
@@ -121,7 +127,7 @@ export default function Home() {
 					more incredible ecosystem - when we&apos;re cooperating with one
 					another.
 				</p>
-				<h3 className={`lowercase thin spaced left`}>
+				<h3 className={`lowercase style-1 thin spaced left`}>
 					A thinker as a gardener.
 				</h3>
 				<p className={`paragraph width-full block`}>

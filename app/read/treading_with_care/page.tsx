@@ -29,7 +29,7 @@ export default function Home() {
 				</p>
 				<br />
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to begin with reverence.
 				</h2>
@@ -56,7 +56,7 @@ export default function Home() {
 				</p>
 
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to observe our surroundings.
 				</h2>
@@ -111,7 +111,7 @@ export default function Home() {
 					over time. You don&apos;t have to lift a finger, just some litter.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to make a dent.
 				</h2>
@@ -173,7 +173,7 @@ export default function Home() {
 				</p>
 
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to respect what is.
 				</h2>
@@ -216,7 +216,7 @@ export default function Home() {
 					from traffic.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					how to divine the past.
 				</h2>

@@ -35,7 +35,7 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}> -Evo Morales</p>
 				<br />
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to find a bog.
 				</h2>
@@ -64,7 +64,7 @@ export default function Home() {
 					/>
 				</div>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to navigate a bog.
 				</h2>
@@ -142,7 +142,7 @@ export default function Home() {
 					Or something like that.
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to get to a bog.
 				</h2>{' '}
@@ -200,7 +200,7 @@ export default function Home() {
 					know - be our own Band-aid?
 				</p>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to weave a tale.
 				</h2>
@@ -234,7 +234,7 @@ export default function Home() {
 					src={dke.src}
 				/>
 				<h2
-					className={`lowercase thin spaced left width-full block left-align`}
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to do something about it.
 				</h2>
