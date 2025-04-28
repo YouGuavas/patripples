@@ -79,7 +79,8 @@ export default function Home() {
 				Width (BTW).
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				To do: Expand on this, and on previously pinned concept.
+				To do: Expand on this, and on previously pinned concept; add
+				explanations.
 			</p>
 		</main>
 	);

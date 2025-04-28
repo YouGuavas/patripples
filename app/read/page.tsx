@@ -14,6 +14,15 @@ export default function Home() {
 		<main className={`main center height-full`}>
 			<h1 className={`style-1 thin lowercase`}>read my mind.</h1>
 			<InteractiveList categories={categories} routes={routes} />
+			<p className={`paragraph`}>
+				Note:{' '}
+				<Link
+					className={`style-1 no-deco spaced lowercase`}
+					href="/glossary/vernal_pond"
+				>
+					vernal ponds
+				</Link>
+			</p>
 		</main>
 	);
 }
