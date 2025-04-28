@@ -15,9 +15,9 @@
 .default {
 	--color-1: rgb(240, 250, 240);
 	--color-2: black;
-	--color-3: #53744f;
-	--color-4: rgb(90, 100, 90);
-	--color-5: rgb(65, 80, 65);
+	--color-3: rgb(100, 150, 100);
+	--color-4: rgb(60, 80, 60);
+	--color-5: rgb(120, 140, 120);
 	--color-6: rgb(130, 145, 130);
 
 	--style-font-1: 'Amatic SC', 'Oswald', 'Patrick Hand', serif;
