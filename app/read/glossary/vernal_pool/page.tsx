@@ -19,9 +19,9 @@ export default function Home() {
 				>
 					vernal pool
 				</Link>{' '}
-				is an ephemeral pool formation - a bit like a temporary wetland - which
-				generally exists in the winter through the end of spring, at which time
-				it evaporates, giving way to a drier dip or divot in the land.
+				is an ephemeral pool formation - a temporary wetland - which generally
+				exists in the winter through the end of spring, at which time it
+				evaporates, giving way to a drier dip or divot in the land.
 			</p>
 			<p className={`paragraph`}>
 				Vernal pools and their inhabitants are valuable members of their larger

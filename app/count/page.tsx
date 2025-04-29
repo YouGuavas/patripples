@@ -34,7 +34,7 @@ export default function Home() {
 				represented decimally as 0.95 - 95 cents (or three quarters, two dimes,
 				for those of us who learned how not to count on change).
 			</p>
-			<h2 className={`style-1 thin lowercase`}>What is .95x.95?</h2>
+			<h2 className={`style-1 thin lowercase`}>How to square a decimal.</h2>
 			<p className={`paragraph width-full block left-align`}>0.95 x 0.95 = ?</p>
 			<p className={`paragraph width-full block left-align`}>95 x 95 = ?</p>
 			<p className={`paragraph width-full block left-align`}>5 x 5 = 25</p>
@@ -56,20 +56,34 @@ export default function Home() {
 				95% accuracy rate, we are probably around 90% right, by angular math.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				That pattern holds. 0.95^4 = 0.95 x 0.95 x 0.95 x 0.95 = 0.9025 x 0.9025
-				= 0.81450625. Make note that a wily enough datamancer could make this
-				look like that long decimal, or like 0.81, or - by some stretches of the
-				imagination, <em>0.82</em>.
+				Do you notice how that is a multiple of nine, and some change? 9 x 1000
+				= 9000; 5 x 5 = 25. 9025. That pattern holds. 0.95^4 = 0.95 x 0.95 x
+				0.95 x 0.95 = 0.9025 x 0.9025 = 0.81450625. Make note that a wily enough
+				datamancer could make this look like that long decimal, or like 0.81, or
+				- by some stretches of the imagination, <em>0.82</em>. This will be an
+				important idea later. For now - interpretation matters.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				Does that matter?
+				Suppose that, instead of beginning with a 95% accuracy strength rating
+				for each of our assumptions, we instead begin at 75%. Our approximation
+				now looks as follows:
+			</p>
+			<p className={`paragraph width-full block left-align`}>0.75 x 0.75 = ?</p>
+			<p className={`paragraph width-full block left-align`}>75 x 75 = ?</p>
+			<p className={`paragraph width-full block left-align`}>
+				5 x 5 = 25 (Stack those easy wins.)
+			</p>
+			<p className={`paragraph width-full block left-align`}>70 x 70 = 4900</p>
+			<p className={`paragraph width-full block left-align`}>
+				2x(70 x 5) = 10 x 70 = 700
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				Yes, but I am putting a pin in it for now, with the intention of making
-				a full post later about how approximation can be used both productively
-				and - uhh - less than productively.
+				Add those totals (4900 + 700 + 25), and we arrive at 0.5625, or 56.25%
+				accuracy rate, following two assumptions.
 			</p>
-
+			<p className={`paragraph width-full block left-align`}>Oof.</p>
+			<h2 className={`style-1 thin lowercase`}>How change matters.</h2>
+			<p className={`paragraph width-full block left-align`}></p>
 			<p className={`paragraph width-full block left-align`}>
 				Say that I&apos;ve got one tree. That tree is somewhere between zero and
 				fifty years old. It is an oak tree (or an elm, or a willow, or a pine
@@ -77,6 +91,17 @@ export default function Home() {
 				results in our tree&apos;s having some Base Trunk Width (BTW). We are
 				going to make a set of assumptions which arrive us at our Base Trunk
 				Width (BTW).
+			</p>
+			<p className={`paragraph width-full block left-align`}>
+				From there (BTW), we are going to derive some nominal value, using as
+				few speculative generosities as possible - an effort to remain in
+				balance with{' '}
+				<Link className={`no-deco spaced`} href="../read/glossary/occams_razor">
+					Occam&apos;s Razor
+				</Link>
+				. We may need to make some assumptions and speculations together, but
+				these will be rooted in reality, and their leaps small. This will
+				generate our Nominal Tree (NT) value.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				To do: Expand on this, and on previously pinned concept; add
