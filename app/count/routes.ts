@@ -1,5 +1,5 @@
 const routes = [
-	{ name: 'the future of patripples', path: '/read/patripples', tags: ['x'] },
+	{ name: 'the future of patripples', path: '/count/', tags: ['x'] },
 ];
 
 export default routes;

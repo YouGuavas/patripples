@@ -24,17 +24,14 @@ export default function Home() {
 				of an intermediate mathematical education.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				The accuracy of the result of any calculation arrived at through a
-				sequence of range-based approximations is probabilistically accurate
-				with direct proportionality to the accuracy of the set of assumptions we
-				took to arrive at our conclusion, with this caveat - the resultant
-				probability decreases with each assumption. If I am 95% sure that I am
-				right about some assumption I have made, that may seem fine. In many
-				cases, it is. The danger lies in stacking assumptions. 95% can be
-				represented decimally as 0.95 - 95 cents (or three quarters, two dimes,
-				for those of us who learned how not to count on change).
+				The accuracy of a conclusion based on several uncertain assumptions
+				depends on the accuracy of each assumption - but the overall confidence
+				shrinks with each additionl imperfect assumption. If I am 95% sure that
+				I am right about some assumption I have made, that may seem fine. In
+				many cases, it is. The danger lies in stacking assumptions. 95% can be
+				represented decimally as 0.95.
 			</p>
-			<h2 className={`style-1 thin lowercase`}>How to square a decimal.</h2>
+			<h2 className={`style-1 thin lowercase`}>How to get wronger.</h2>
 			<p className={`paragraph width-full block left-align`}>0.95 x 0.95 = ?</p>
 			<p className={`paragraph width-full block left-align`}>95 x 95 = ?</p>
 			<p className={`paragraph width-full block left-align`}>5 x 5 = 25</p>
@@ -53,7 +50,7 @@ export default function Home() {
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				Now that we&apos;ve made two assumptions in a row, each with a generous
-				95% accuracy rate, we are probably around 90% right, by angular math.
+				95% accuracy rate, we are probably around 90% right, by my angular math.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				Do you notice how that is a multiple of nine, and some change? 9 x 1000
@@ -61,12 +58,14 @@ export default function Home() {
 				0.95 x 0.95 = 0.9025 x 0.9025 = 0.81450625. Make note that a wily enough
 				datamancer could make this look like that long decimal, or like 0.81, or
 				- by some stretches of the imagination, <em>0.82</em>. This will be an
-				important idea later. For now - interpretation matters.
+				important idea later. For now - hold in mind that even in the relatively
+				objective world of numbers, interpretation often matters. And recall the
+				truth of the multiples of nine - that they always add up to nine.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				Suppose that, instead of beginning with a 95% accuracy strength rating
-				for each of our assumptions, we instead begin at 75%. Our approximation
-				now looks as follows:
+				Suppose that, rather than begin with a 95% accuracy strength rating for
+				each of our assumptions, we begin at 75%. Our approximation now looks as
+				follows:
 			</p>
 			<p className={`paragraph width-full block left-align`}>0.75 x 0.75 = ?</p>
 			<p className={`paragraph width-full block left-align`}>75 x 75 = ?</p>
@@ -81,7 +80,20 @@ export default function Home() {
 				Add those totals (4900 + 700 + 25), and we arrive at 0.5625, or 56.25%
 				accuracy rate, following two assumptions.
 			</p>
+			<p className={`paragraph width-full block left-align`}>
+				Note the trends at play. In both instances, we see progressively worse
+				results over time. If we are <em>exceptionally</em> clever, our
+				best-case scenario is that, as we make successive correct guesses, the
+				likelihood of our continuing to guess correctly decreases at a slightly
+				less depressing rate than the person who was guessing with an average
+				success rate.
+			</p>
 			<p className={`paragraph width-full block left-align`}>Oof.</p>
+
+			<h2 className={`style-1 thin lowercase`}>How to right wrong, angles.</h2>
+			<p className={`paragraph width-full block left-align`}>
+				Consider the graceful hand of an artist.
+			</p>
 			<h2 className={`style-1 thin lowercase`}>How change matters.</h2>
 			<p className={`paragraph width-full block left-align`}></p>
 			<p className={`paragraph width-full block left-align`}>
@@ -101,8 +113,9 @@ export default function Home() {
 				</Link>
 				. We may need to make some assumptions and speculations together, but
 				these will be rooted in reality, and their leaps small. This will
-				generate our Nominal Tree (NT) value.
+				generate our Expected Nominal Tree (ENT) value.
 			</p>
+
 			<p className={`paragraph width-full block left-align`}>
 				To do: Expand on this, and on previously pinned concept; add
 				explanations.

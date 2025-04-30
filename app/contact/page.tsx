@@ -39,9 +39,9 @@ export default function Home() {
 					include any personal or sensitive information.
 				</p>
 				<p className={`paragraph`}>
-					I store email addresses and first names - as provided in the email
-					form on the home page - in a database for use in personal mailing
-					lists. This allows me to keep my site free and clean, with minimal
+					I store email addresses and first names, as provided in the email form
+					on the home page, in a database for use in personal mailing lists.
+					This allows me to keep my site free and clean, with minimal
 					advertising to you.
 				</p>
 			</main>
