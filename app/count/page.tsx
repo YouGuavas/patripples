@@ -5,6 +5,9 @@ import routes from './routes';
 import categories from '../categories';
 import InteractiveList from '../components/InteractiveList';
 
+import hand from '../../public/graphite/hand.png';
+import raven from '../../public/memes/crow_art.png';
+
 export const metadata: Metadata = {
 	title: 'Patripples | How to Count Change',
 	description:
@@ -12,7 +15,7 @@ export const metadata: Metadata = {
 };
 export default function Home() {
 	return (
-		<main className={`main center height-full`}>
+		<main className={`main left height-full`}>
 			<h1 className={`style-1 thin lowercase`}>count my change.</h1>
 			<p className={`paragraph width-full block left-align`}>
 				There exist a number of ways in which to go about approximating the
@@ -94,6 +97,27 @@ export default function Home() {
 			<p className={`paragraph width-full block left-align`}>
 				Consider the graceful hand of an artist.
 			</p>
+			<Image
+				alt="A hand making a finger guns gesture"
+				height={300}
+				width={425}
+				src={hand.src}
+			/>
+			<p className={`paragraph width-full block left-align`}>
+				That artist sat, incorrectly - if reasonably - drawing their own hand,
+				for however long it took them. When we leave a stray line in our drawing
+				or brushstroke in our painting, we have a decision to make -
+			</p>
+			<p className={`paragraph width-full block left-align`}>
+				We can leave it:
+			</p>
+			<Image
+				alt="A tumblr thread about a raven using a paintbrush."
+				height={500}
+				width={425}
+				src={raven.src}
+			/>
+
 			<h2 className={`style-1 thin lowercase`}>How change matters.</h2>
 			<p className={`paragraph width-full block left-align`}></p>
 			<p className={`paragraph width-full block left-align`}>
@@ -114,11 +138,6 @@ export default function Home() {
 				. We may need to make some assumptions and speculations together, but
 				these will be rooted in reality, and their leaps small. This will
 				generate our Expected Nominal Tree (ENT) value.
-			</p>
-
-			<p className={`paragraph width-full block left-align`}>
-				To do: Expand on this, and on previously pinned concept; add
-				explanations.
 			</p>
 		</main>
 	);
