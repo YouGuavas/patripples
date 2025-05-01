@@ -50,8 +50,8 @@ export default function Home() {
 					one.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					It was the early goin&apos; of the second comin' of the roarin&apos;
-					twenties. I was cosplayin&apos; a whiskey-sippin&apos;,
+					It was the early goin&apos; of the second comin&apos; of the
+					roarin&apos; twenties. I was cosplayin&apos; a whiskey-sippin&apos;,
 					smoke-rollin&apos; detective, down on his luck. Everywhere I walked, I
 					imagined that the world quaked beneath my b-- Puma Legacy Dark Modes.
 				</p>
@@ -68,8 +68,8 @@ export default function Home() {
 					How to Find a Dragon.
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
-					I don't know the guy's intentions. I don't think he was malicious. I
-					think he somehow thought that I was an opp.
+					I don&apos;t know the guy&apos;s intentions. I don&apos;t think he was
+					malicious. I think he somehow thought that I was an opp.
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
 					I can&apos;t say I blame him. In a way, I was doing what some cop
@@ -111,7 +111,7 @@ export default function Home() {
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					I would later discover that she had dropped her phone before slamming
-					my dad's Prius door on me.
+					my dad&apos;s Prius door on me.
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
 					Early the next morning, I set out on foot to earn my own redemption.
@@ -140,8 +140,8 @@ export default function Home() {
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
 					Up the next street I strolled, and mathed some mental nodes. Knowing
-					dark crystals' sinister intentions, I set out at tension - tall, grey,
-					in showboat shoes, to boot.
+					dark crystals&apos; sinister intentions, I set out at tension - tall,
+					grey, in showboat shoes, to boot.
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
 					I nobly made note of which houses (and neighbor networks of them)
@@ -230,10 +230,10 @@ export default function Home() {
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
 					&quot;Oh, nevermind. I had a gun there, and I was just letting you
-					know I wasn't pulling it on you.&quot;
+					know I wasn&apos;t pulling it on you.&quot;
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
-					&quot;Oh, cool. I wasn't even thinking about that.&quot;
+					&quot;Oh, cool. I wasn&apos;t even thinking about that.&quot;
 				</p>{' '}
 				<Image
 					id="it_me"
