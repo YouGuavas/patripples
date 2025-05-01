@@ -20,6 +20,11 @@ const routes = [
 		path: '/read/a_tired_swamp',
 		tags: ['swamp science', 'x'],
 	},
+	{
+		name: 'vibe patrol',
+		path: '/read/vibe_patrol',
+		tags: ['preemptive arts', 'x'],
+	},
 ];
 
 export default routes;

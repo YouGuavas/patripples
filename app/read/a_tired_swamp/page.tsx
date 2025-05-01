@@ -3,8 +3,6 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
 import { GreenProviderWrapper } from '../../ThemeProviderWrapper';
-import tall_tree from '../../../public/trees/tall_tree.png';
-import owl_tree from '../../../public/trees/owl_tree.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | A Tired Swamp',
@@ -40,6 +38,15 @@ export default function Home() {
 				>
 					How a swamp gets tired.
 				</h2>
+				<p className={`paragraph style-1`}>
+					Note:{' '}
+					<Link
+						className={`style-1 no-deco spaced lowercase`}
+						href="/read/glossary/vernal_pool"
+					>
+						vernal pool
+					</Link>
+				</p>
 				<p className={`paragraph width-full block left-align`}>
 					Do you know how an ogre is like an onion, in that they have layers?
 				</p>

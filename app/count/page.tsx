@@ -17,6 +17,7 @@ export default function Home() {
 	return (
 		<main className={`main left height-full`}>
 			<h1 className={`style-1 thin lowercase`}>count my change.</h1>
+			<p className={`paragraph width-full block left-align`}>(In progress.)</p>
 			<p className={`paragraph width-full block left-align`}>
 				There exist a number of ways in which to go about approximating the
 				impact of any action taken upon a space. One might simply guess, or
@@ -119,7 +120,6 @@ export default function Home() {
 			/>
 
 			<h2 className={`style-1 thin lowercase`}>How change matters.</h2>
-			<p className={`paragraph width-full block left-align`}></p>
 			<p className={`paragraph width-full block left-align`}>
 				Say that I&apos;ve got one tree. That tree is somewhere between zero and
 				fifty years old. It is an oak tree (or an elm, or a willow, or a pine

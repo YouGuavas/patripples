@@ -3,7 +3,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Blog',
+	title: 'Patripples | Axonal Pruning',
 	description: 'Patripples: ripples, mathematics, and more! Coming soon!',
 };
 export default function Home() {
