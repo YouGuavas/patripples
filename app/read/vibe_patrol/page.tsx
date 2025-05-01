@@ -53,7 +53,7 @@ export default function Home() {
 					It was the early goin&apos; of the second comin&apos; of the
 					roarin&apos; twenties. I was cosplayin&apos; a whiskey-sippin&apos;,
 					smoke-rollin&apos; detective, down on his luck. Everywhere I walked, I
-					imagined that the world quaked beneath my b-- Puma Legacy Dark Modes.
+					imagined that the world quaked beneath my... Puma Legacy Dark Modes.
 				</p>
 				<Image
 					id="dark_modes"
