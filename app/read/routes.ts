@@ -25,6 +25,11 @@ const routes = [
 		path: '/read/vibe_patrol',
 		tags: ['preemptive arts', 'x'],
 	},
+	{
+		name: 'vibe patrol ii',
+		path: '/read/vibe_patrol_2',
+		tags: ['preemptive arts', 'x'],
+	},
 ];
 
 export default routes;

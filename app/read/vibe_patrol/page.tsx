@@ -12,7 +12,7 @@ import peter_thiel from '../../../public/memes/peter_thiel.png';
 export const metadata: Metadata = {
 	title: 'Patripples | Vibe Patrol',
 	description:
-		'Learn about how swamps get tired with Patripples. Catalyzed by Patrick Yambrick.',
+		'Read a story about an afternoon spent finding a friend. Reported by Patrick Yambrick.',
 };
 export default function Home() {
 	return (
@@ -24,7 +24,7 @@ export default function Home() {
 				<ByLine date={'Wed, Apr 30, 2025'} />
 				<blockquote
 					className={`style-2 thin width-full block left-align`}
-					cite="Donkey, Shrek, (2002)"
+					cite="Caroline A. Shearer"
 				>
 					&quot;When we are in a centered, peaceful, &apos;available&apos;
 					state, the vibration of all we are transforms to high energy.&quot;
