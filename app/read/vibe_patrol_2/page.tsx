@@ -36,7 +36,6 @@ export default function Home() {
 				</p>
 				<br />
 
-				<p className={`paragraph width-full block left-align`}>(incomplete)</p>
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
@@ -68,7 +67,10 @@ export default function Home() {
 					way that resilience is both prized and intrinsic.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Vibe Patrol is one wave in the Vibe Shift.
+					Vibe Patrol is one wave in the Vibe Shift. It&apos;s choosing not to,
+					even though you know you could - because you know that there must be a
+					better way. Not necessarily an easier, or clearer way - but a better
+					one.
 				</p>
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
@@ -89,24 +91,22 @@ export default function Home() {
 					stagnant form of existence; a low vibe state.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					In this world, we have to operate, more often than not, in situations
-					which are <em>nearly</em> familiar - reality comes with a set of
-					chaotic wrinkles which are difficult to calculate for.
+					In this world, we must often operate in situations which are{' '}
+					<em>nearly</em> familiar - reality comes with a set of chaotic
+					wrinkles which are difficult to calculate for.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					While we cannot control the fact that there is chaos in the world, we
-					can attune
+					can
 				</p>
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
 					How to optimize a vibe&apos;s success rate.
 				</h2>
-				<h2
-					className={`lowercase style-1 thin spaced left width-full block left-align`}
-				>
-					What did i do wrong.
-				</h2>
+				<p className={`paragraph width-full block left-align`}>
+					Observe the following image. I was dressed just like this:
+				</p>
 				<Image
 					id="it_me"
 					alt={`This is me.`}
@@ -114,10 +114,60 @@ export default function Home() {
 					width={425}
 					src={it_me.src}
 				/>
+				<p className={`paragraph width-full block left-align`}>
+					While I knew better than to keep my hands in my pockets, my body
+					language was otherwise similar. I dress and carry myself in this way
+					with the intention of projecting a vibe, in keeping with my
+					understandings of{' '}
+					<Link
+						className={`no-deco spaced lowercase`}
+						href="./glossary/color_theory"
+					>
+						Color Theory
+					</Link>
+					,{' '}
+					<Link
+						className={`no-deco spaced lowercase`}
+						href="./glossary/body_language"
+					>
+						Body Language
+					</Link>
+					, and{' '}
+					<Link
+						className={`no-deco spaced lowercase`}
+						href="./glossary/mirror_neurons"
+					>
+						Mirror Neurons
+					</Link>
+					. When I clench my jaw in a particular way, I know that you know what
+					that means. Similarly,
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					Note the layered greys, and the mid-tone blue; also my relaxed, open
+					posture. My hope was to project a balance of intellectual authority
+					and general competence, at balance with humility, and rooted in
+					curiosity and a desire to do good. How did I do?
+				</p>
+				<h3
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
+					How to keep it real.
+				</h3>
+				<p className={`paragraph width-full block left-align`}></p>
+				<h2
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
+					What did i do wrong.
+				</h2>
 
-				<Link className={`spaced no-deco lowercase thin`} href="./vibe_patrol/">
-					Vibe Patrol I
-				</Link>
+				<p className={`paragraph width-full block left-align`}>
+					<Link
+						className={`spaced no-deco lowercase thin`}
+						href="./vibe_patrol_1/"
+					>
+						Vibe Patrol I
+					</Link>
+				</p>
 			</main>
 		</GreenProviderWrapper>
 	);

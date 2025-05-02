@@ -21,14 +21,19 @@ const routes = [
 		tags: ['swamp science', 'x'],
 	},
 	{
-		name: 'vibe patrol',
-		path: '/read/vibe_patrol',
+		name: 'vibe patrol i',
+		path: '/read/vibe_patrol_1',
 		tags: ['preemptive arts', 'x'],
 	},
 	{
 		name: 'vibe patrol ii',
 		path: '/read/vibe_patrol_2',
 		tags: ['preemptive arts', 'x'],
+	},
+	{
+		name: 'bald watching',
+		path: '/read/bald_watching',
+		tags: ['crow alchemy', 'tree totals', 'x'],
 	},
 ];
 
