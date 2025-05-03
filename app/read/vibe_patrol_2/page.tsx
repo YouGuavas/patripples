@@ -321,7 +321,7 @@ export default function Home() {
 					To maximize the probability of success within the Vibe Shift, one
 					should strive to embody an ideal, rooted in what may be attainable
 					within the current shared lifespan - we are all here dealing with each
-					other, for better or for worse... oh, wait... huh.
+					other, for better or for worse, for... oh, wait... huh.
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
 					Anyway, we&apos;re not getting rid of each other anytime soon, and nor
@@ -337,8 +337,8 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					I perceive that ideal to be: a person with a drive to understand, to
 					heal, and to support the substrate beneath the soil - envision Atlas.
-					One should aim to pair that with a drive to serve as a shield - and{' '}
-					<em>protect</em>. In a perfect world, no gun needed. Our world
+					One should aim to pair that with a drive to <em>serve</em> as a shield
+					- and <em>protect</em>. In a perfect world, no gun needed. Our world
 					isn&apos;t perfect. Despite that, I can foresee a shared legacy which{' '}
 					<em>builds toward</em> that - not through domination, but through
 					cooperation. Can you?
@@ -349,7 +349,8 @@ export default function Home() {
 					intentions, as a continual reminder of who we are. Don&apos;t stress
 					yourself out, but try to be like funnier{' '}
 					<em>respectfully insert Holy Person</em>. Then balance that with{' '}
-					<strong>wildly insert Scientific Person</strong>. I believe in you.
+					<strong>wildly insert Scientific Person</strong>. I believe in you
+					(unless you selected Nazis).
 				</p>
 			</main>
 		</GreenProviderWrapper>
