@@ -20,15 +20,14 @@ export default function Home() {
 				<ByLine date={'Fri, May 2, 2025'} />
 				<blockquote
 					className={`style-2 thin width-full block left-align`}
-					cite="Holy Bible, KJV"
+					cite="Malala"
 				>
-					&quot;Yea, though I walk through the valley of the shadow of death, I
-					shall fear no evil: for thou art with me; thy rod and thy staff they
-					comfort me.&quot;
+					&quot;When the whole world is silent, even one voice becomes
+					powerful.&quot;
 				</blockquote>
 				<p className={`paragraph width-full block left-align`}>
 					{' '}
-					-Psalm 23:4, The Holy Bible - King James Version
+					-Malala Yousafzai
 				</p>
 				<br />
 				<p className={`paragraph width-full block left-align`}>
@@ -42,7 +41,6 @@ export default function Home() {
 					If action beats reaction, then what about pre-action? Think profiling,
 					applied to the self, constructively.
 				</p>
-
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
@@ -118,7 +116,6 @@ export default function Home() {
 					empathy, and putting in work before the ball is in your hands - like
 					you&apos;re the one on the block.
 				</p>
-
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
@@ -269,22 +266,52 @@ export default function Home() {
 					What did i do wrong.
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
-					In the example below, the first row aligns with statistics for the{' '}
+					The colors in this row align with statistics for the{' '}
 					<Link
 						className={`lowercase no-deco spaced`}
 						href="https://en.wikipedia.org/wiki/Police_uniforms_in_the_United_States"
 					>
 						Most Common Police Uniform Colors
 					</Link>{' '}
-					in the US.
+					in the US. Dark (Navy) Blue does represent strength, and still, it
+					carries heat (you know that better than I do), and weight. Can you see
+					how each one, while rooted in depth and security, might be viewed in a
+					succesively assertive light by persons with only symbolic and tonal
+					understandings of your language?
 				</p>
 				<div className={`flex rectangle-large-horizontal ${styles.lightColor}`}>
-					<div className={`${styles.copColor1} box-small center`}>
-						<p className={`paragraph width-full block center`}>This color</p>
-					</div>
+					<div className={`${styles.copColor1} box-small`}></div>
 					<div className={`${styles.copColor2} box-small`}></div>
 					<div className={`${styles.copColor3} box-small`}></div>
 				</div>
+				<p className={`paragraph width-full block left-align`}>
+					My drunk ass was wearing a dark-colored hat (and absolutely{' '}
+					<em>did</em> fail to keep palms below waist, and upturned - like a
+					penguin to an eagle). Obviously. Can you feel my aggression?
+				</p>
+				<h3
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
+					How to resist.
+				</h3>
+				<p className={`paragraph width-full block left-align`}>
+					Do you want to rage against rage - passively? Consider loosely
+					incorporating colors like these into your uniforms and daily wear
+					instead. If I could do it over again, I would incorporate this{' '}
+					<em>artisan&apos;s touch</em> into my wardrobe - these colors
+					represent neutral protection in their own right.
+				</p>
+				<div className={`flex rectangle-large-horizontal ${styles.lightColor}`}>
+					<div className={`${styles.safeColor1} box-small`}></div>
+					<div className={`${styles.safeColor2} box-small`}></div>
+					<div className={`${styles.safeColor3} box-small`}></div>
+				</div>
+				<p className={`paragraph width-full block left-align`}>
+					They&apos;re not soft - have you seen those &apos;Jake, from State
+					Farm&apos; commercials? You know about khakis. Who doesn&apos;t know
+					about grey sweatpants? Slate blue? Can you say &apos;grey
+					swatpants?&apos;
+				</p>
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
@@ -292,11 +319,37 @@ export default function Home() {
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
 					To maximize the probability of success within the Vibe Shift, one
-					should strive to embody an ideal of: community-building renaissance
-					thinker with boundless curiosity and empathy, who likes to serve as a
-					shield - and <em>protect</em>. In a perfect world, no gun needed. This
-					world isn&apos;t perfect, but wouldn&apos;t it be nice for the
-					collective legacy of this intermingling of generations
+					should strive to embody an ideal, rooted in what may be attainable
+					within the current shared lifespan - we are all here dealing with each
+					other, for better or for worse... oh, wait... huh.
+				</p>{' '}
+				<p className={`paragraph width-full block left-align`}>
+					Anyway, we&apos;re not getting rid of each other anytime soon, and nor
+					should we wish to (
+					<Link
+						className={`lowercase spaced no-deco`}
+						href="./glossary/biodiversity"
+					>
+						biodiversity
+					</Link>{' '}
+					is important).
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					I perceive that ideal to be: a person with a drive to understand, to
+					heal, and to support the substrate beneath the soil - envision Atlas.
+					One should aim to pair that with a drive to serve as a shield - and{' '}
+					<em>protect</em>. In a perfect world, no gun needed. Our world
+					isn&apos;t perfect. Despite that, I can foresee a shared legacy which{' '}
+					<em>builds toward</em> that - not through domination, but through
+					cooperation. Can you?
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					If you are able to see that in your mind, angle your thoughts toward
+					that. We must carry some ideal with us which represents our best
+					intentions, as a continual reminder of who we are. Don&apos;t stress
+					yourself out, but try to be like funnier{' '}
+					<em>respectfully insert Holy Person</em>. Then balance that with{' '}
+					<strong>wildly insert Scientific Person</strong>. I believe in you.
 				</p>
 			</main>
 		</GreenProviderWrapper>
