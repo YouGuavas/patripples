@@ -85,11 +85,11 @@
 
 @media (prefers-color-scheme: dark) {
 	.default {
-		--color-1: rgb(0, 0, 0);
+		--color-1: rgb(0, 40, 0);
 		--color-2: rgb(220, 220, 220);
 		--color-3: #53744f;
 		--color-4: rgb(15, 40, 15);
-		--color-5: rgb(0, 0, 0);
+		--color-5: rgb(0, 10, 0);
 		--color-6: rgb(30, 40, 30);
 
 		--semi-transparent: 70%;
@@ -200,6 +200,31 @@ button {
 	position: relative;
 }
 /*text decoration*/
+/*shapes */
+.box-large {
+	height: 450px;
+	width: 450px;
+}
+.box-medium {
+	height: 300px;
+	width: 300px;
+}
+.box-small {
+	height: 150px;
+	width: 150px;
+}
+.rectangle-small-horizontal {
+	height: 150px;
+	width: 150px;
+}
+.rectangle-medium-horizontal {
+	height: 150px;
+	width: 300px;
+}
+.rectangle-large-horizontal {
+	height: 150px;
+	width: 450px;
+}
 /*text color*/
 .stark {
 	color: var(--color-6);
@@ -271,6 +296,7 @@ button {
 	flex-direction: column;
 	min-height: 100vh;
 	padding: 3rem 3rem 4.5rem 3rem;
+	color: var(--color-2);
 }
 .form {
 	padding-top: 2rem;
@@ -337,7 +363,7 @@ button {
 .gap-medium {
 	gap: 1rem;
 }
-.gap-big {
+.gap-large {
 	gap: 1.5rem;
 }
 .column {

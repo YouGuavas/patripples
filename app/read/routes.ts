@@ -30,11 +30,6 @@ const routes = [
 		path: '/read/vibe_patrol_2',
 		tags: ['preemptive arts', 'x'],
 	},
-	{
-		name: 'bald watching',
-		path: '/read/bald_watching',
-		tags: ['crow alchemy', 'tree totals', 'x'],
-	},
 ];
 
 export default routes;

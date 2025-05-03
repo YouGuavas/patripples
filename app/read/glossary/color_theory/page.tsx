@@ -19,6 +19,15 @@ export default function Home() {
 					Color Theory
 				</Link>{' '}
 			</p>
+			<p className={`paragraph`}>
+				<Link
+					className={`lowercase no-deco spaced`}
+					href="https://naumd.com/aileens-uniform-atlas-the-impact-of-uniform-color-on-police-perception/"
+				>
+					A similar article I discovered while writing mine which is very
+					informative and well-sourced.
+				</Link>
+			</p>
 		</main>
 	);
 }
