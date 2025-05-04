@@ -125,7 +125,9 @@ export default function Home() {
 						meaningful conversations.
 					</li>
 				</ul>{' '}
-				<h2 className={`lowercase spaced style-1 thin`}>Join the wave.</h2>{' '}
+				<h2 className={`lowercase spaced style-1 thin`}>
+					How to join the wave.
+				</h2>{' '}
 				<p>
 					If you haven&apos;t already, please consider adding yourself to my
 					mailing list for future updates:

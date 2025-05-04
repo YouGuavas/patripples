@@ -60,7 +60,8 @@ export default function Home() {
 					Instead of that, I am going to write this as a friendly set of
 					thoughts which may prove useful for any peacekeeper who still believes
 					in change. Many of us find ourselves thrust, without consent, into
-					positions which are full of chaotic energy - or which are unbeareable.
+					positions which are full of chaotic energy - or which are otherwise
+					unbearable.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					And yet, we navigate them - some have even borne the unbearable.
@@ -285,9 +286,9 @@ export default function Home() {
 					<div className={`${styles.copColor3} box-small`}></div>
 				</div>
 				<p className={`paragraph width-full block left-align`}>
-					My drunk ass was wearing a dark-colored hat (and absolutely{' '}
-					<em>did</em> fail to keep palms below waist, and upturned - like a
-					penguin to an eagle). Obviously. Can you feel my aggression?
+					I was wearing a dark-colored hat (and absolutely <em>did</em> fail to
+					keep palms below waist, and upturned - like a penguin to an eagle).
+					Obviously. Can you feel my aggression?
 				</p>
 				<h3
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
