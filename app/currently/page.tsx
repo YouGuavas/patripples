@@ -10,7 +10,7 @@ import type { Metadata } from 'next';
 import { SpaceProviderWrapper } from '../ThemeProviderWrapper';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Support',
+	title: 'Patripples | Currently',
 	description:
 		'See the visuals that drive the ripples behind Patripples! Envisioned by Patrick Yambrick.',
 };
