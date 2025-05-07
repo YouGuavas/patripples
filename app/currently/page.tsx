@@ -1,8 +1,4 @@
-import Image from 'next/image';
 import Link from 'next/link';
-import categories from '../categories';
-import InteractiveList from '../components/InteractiveList';
-import wetland from '../../public/universal/healthy_wetland.svg';
 //import RippleGraph from '../components/RippleGraph';
 
 import type { Metadata } from 'next';
