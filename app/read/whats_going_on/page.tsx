@@ -100,7 +100,7 @@ export default function Home() {
 					mother. As a result of my post-term birth, plus the intense and
 					volatile dynamic into which I was born, I developed early cognition.
 					My dad used to joke that when I was born, I read the label on the side
-					of the machines to the doctor: "Made in Tay-wan."
+					of the machines to the doctor: &quot;Made in Tay-wan.&quot;
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					I do not recall that, and I doubt its veracity. What I do recall,
