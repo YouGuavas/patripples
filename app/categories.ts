@@ -1,8 +1,12 @@
 const categories = [
-	'Crow Alchemy',
+	'Preemptive Arts',
+	'Acute Arcana',
+
+	'Corvid Alchemy',
 	'Swamp Science',
 	'Tree Totals',
-	'Preemptive Arts',
+	'Personal',
+
 	'X',
 ];
 
