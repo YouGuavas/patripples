@@ -124,8 +124,10 @@ export default function Home() {
 				&quot;unpleasant&quot; in his vicinity - he&apos;d let them know. And he
 				was <em>having</em> his Big Gulp (styrofoam or plastic cup to be later
 				cast aside as litter). Nobody was going to take Big away from him. He
-				was going to have his Escalade, and his Big Gulp, and his Big Mac, and
-				all that. He just wasn&apos;t going to work for it.
+				was going to have his Jeep or his truck, and his Big Gulp, and his Big
+				Mac, and all that. He just wasn&apos;t going to work for it. Or put it
+				to use for anyone - certainly not the family and community surrounding
+				and enabling him.
 			</p>
 
 			<p className={`paragraph width-full block left-align`}>
