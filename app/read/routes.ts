@@ -30,11 +30,7 @@ const routes = [
 		path: '/read/vibe_patrol_2',
 		tags: ['preemptive arts', 'x'],
 	},
-	{
-		name: "Micro: Cormorant's Call",
-		path: '/read/cormorants_call',
-		tags: ['swamp science', 'acute arcana', 'x'],
-	},
+
 	{
 		name: "What's Going On",
 		path: '/read/whats_going_on',
