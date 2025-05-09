@@ -106,8 +106,8 @@ export default function Home() {
 			/>
 			<p className={`paragraph width-full block left-align`}>
 				That artist sat, incorrectly - if reasonably - drawing their own hand,
-				for however long it took them. When we leave a stray line in our drawing
-				or brushstroke in our painting, we have a decision to make -
+				for however long it took them. When we leave a stray line in our
+				drawing, or brushstroke in our painting, we have a decision to make -
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				We can leave it:
