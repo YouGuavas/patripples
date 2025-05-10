@@ -32,8 +32,8 @@ const routes = [
 	},
 
 	{
-		name: "What's Going On",
-		path: '/read/whats_going_on',
+		name: 'Journal',
+		path: '/read/journal',
 		tags: ['personal', 'x'],
 	},
 ];
