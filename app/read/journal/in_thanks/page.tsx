@@ -14,7 +14,7 @@ export default function Home() {
 			>
 				In Thanks.
 			</h1>
-			<ByLine date={'Thu, May 10, 2025'} />
+			<ByLine date={'Sat, May 10, 2025'} />
 			{/* */}
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
