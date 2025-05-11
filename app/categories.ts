@@ -4,7 +4,6 @@ const categories = [
 
 	'Corvid Alchemy',
 	'Swamp Science',
-	'Tree Totals',
 	'Personal',
 
 	'X',

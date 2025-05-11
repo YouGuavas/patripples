@@ -9,6 +9,11 @@ const routes = [
 		path: '/read/journal/in_thanks',
 		tags: ['personal', 'x'],
 	},
+	{
+		name: 'Ode to Moms',
+		path: '/read/journal/ode_to_moms',
+		tags: ['personal', 'x'],
+	},
 ];
 
 export default routes;
