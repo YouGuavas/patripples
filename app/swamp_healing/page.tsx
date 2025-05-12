@@ -77,7 +77,7 @@ export default function Home() {
 					Current Achievements (First 4 weeks):
 				</h2>
 
-				<ul className="no-deco left-align width-full">
+				<ul className="no-deco left-align width-full flex column gap-small">
 					<li>
 						Cleared blockages in 2 stagnant swamp zones, reviving natural
 						drainage and evaporation.
@@ -110,7 +110,7 @@ export default function Home() {
 					Would you like to contribute to this effort non-financially?
 					Here&apos;s how.
 				</p>
-				<ul className="no-deco left-align width-full">
+				<ul className="no-deco left-align width-full flex column gap-small">
 					<li>
 						<strong>Signage</strong> - I have no way of letting people know that
 						a passive restoration is taking place.
@@ -137,7 +137,7 @@ export default function Home() {
 				<h2 className={`style-1 lowercase width-full left-align thin`}>
 					How Any Funding Would Be Spent:
 				</h2>
-				<ul className="no-deco left-align width-full">
+				<ul className="no-deco left-align width-full flex column gap-small">
 					<li>
 						Equipment for safe waste removal (gloves, masks, carts, containers,
 						waders or waterproof footwear).
@@ -146,7 +146,14 @@ export default function Home() {
 						Visual tool development (React + SVG/D3-based interactive ecosystem
 						explorer).
 					</li>
-					<li>Handheld camera for spatial documentation and storytelling.</li>
+					<li>
+						Handheld camera for spatial documentation and storytelling.
+						(Initially:{' '}
+						<Link href="https://www.amazon.com/GoPro-HERO12-Hero-Black-Stabilization/dp/B0CHZ5WBTH">
+							GoPro Hero 12 - waterproof
+						</Link>
+						)
+					</li>
 
 					<li>
 						Purchase of air, soil, and water sensors - I would love to DIY this
@@ -165,7 +172,7 @@ export default function Home() {
 				<h2 className={`style-1 lowercase width-full left-align thin`}>
 					Impact Potential:
 				</h2>
-				<ul className="no-deco left-align width-full">
+				<ul className="no-deco left-align width-full flex column gap-small">
 					<li>
 						Ecological: Reduces methane emissions, improves microclimate
 						stability, reactivates natural evapotranspiration and habitat
