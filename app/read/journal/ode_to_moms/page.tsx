@@ -5,9 +5,9 @@ import ByLine from '@/app/components/ByLine';
 import tree from '../../../../public/trees/as_above.png';
 
 export const metadata: Metadata = {
-	title: 'Patripples | What Is Happening',
+	title: 'Patripples | Ode to Moms',
 	description:
-		'Learn about what is happening with Patripples. Catalyzed by Patrick Yambrick.',
+		"Learn about fetal learning with Patripples for Mother's Day. Composed by Patrick Yambrick.",
 };
 export default function Home() {
 	return (
