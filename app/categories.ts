@@ -1,10 +1,10 @@
 const categories = [
 	'Preemptive Arts',
 	'Acute Arcana',
-
+	'Animal Magnetism',
 	'Corvid Alchemy',
 	'Swamp Science',
-	'Personal',
+	'Personal Wisdom',
 
 	'X',
 ];

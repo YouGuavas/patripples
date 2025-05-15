@@ -3,17 +3,17 @@ const routes = [
 	{
 		name: 'a walk in the park',
 		path: '/read/a_walk_in_the_park',
-		tags: ['swamp science', 'corvid alchemy', 'x'],
+		tags: ['animal magnetism', 'swamp science', 'corvid alchemy', 'x'],
 	},
 	{
 		name: 'letting things breathe',
 		path: '/read/letting_things_breathe',
-		tags: ['swamp science', 'corvid alchemy', 'x'],
+		tags: ['animal magnetism', 'swamp science', 'corvid alchemy', 'x'],
 	},
 	{
 		name: 'treading with care',
 		path: '/read/treading_with_care',
-		tags: ['swamp science', 'corvid alchemy', 'x'],
+		tags: ['animal magnetism', 'swamp science', 'corvid alchemy', 'x'],
 	},
 	{
 		name: 'a tired swamp',
@@ -34,7 +34,7 @@ const routes = [
 	{
 		name: 'Journal',
 		path: '/read/journal',
-		tags: ['personal', 'x'],
+		tags: ['personal wisdom', 'x'],
 	},
 ];
 
