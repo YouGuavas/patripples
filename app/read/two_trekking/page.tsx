@@ -81,6 +81,30 @@ export default function Home() {
 					into a sapling, it sprouts into a tree - a spring of new life, and a
 					peaceful place into which the old may fade.
 				</p>
+				<h2
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
+					how to bear witness.
+				</h2>
+				<p className={`paragraph width-full block left-align`}>
+					If you have ever witnessed a forgotten soul spring to light from a
+					dark space, then you have experienced the sort of gratitude that I
+					have experienced on this journey.
+				</p>
+				<h2
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
+					how to echo sovereign.
+				</h2>
+				<p className={`paragraph width-full block left-align`}>
+					Did you know that you can just do things? We don&apos;t have to wait
+					for circumstances to get &quot;too bad,&quot; we can make a
+					temporally-echoing difference <em>now</em>.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					Every single action that you take toward healing - yourself, your
+					world, or some unnatural swamp - creates a ripple; an echo.
+				</p>
 			</main>
 		</GreenProviderWrapper>
 	);
