@@ -30,6 +30,11 @@ const routes = [
 		path: '/read/vibe_patrol_2',
 		tags: ['preemptive arts', 'x'],
 	},
+	{
+		name: 'two trekking',
+		path: '/read/two_trekking',
+		tags: ['swamp science', 'corvid alchemy', 'x'],
+	},
 
 	{
 		name: 'Journal',
