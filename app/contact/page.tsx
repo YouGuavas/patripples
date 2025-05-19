@@ -30,6 +30,22 @@ export default function Home() {
 						patdesigns.online
 					</Link>
 				</p>
+				<h2 className="lowercase style-1 thin">Want me to make you a site?</h2>
+				<p className={`paragraph width-full block`}>
+					I do custom react and nextjs sites for solopreneurs, visionaries, and
+					revolutionaries.
+				</p>
+				<p className={`style-1`}>
+					Hire me on{' '}
+					<Link
+						className={`no-deco style-1`}
+						href="https://www.fiverr.com/s/YRlxwja/"
+					>
+						Fiverr
+					</Link>
+					.
+				</p>
+
 				<h2 className="lowercase style-1 thin">
 					Want to know about your privacy?
 				</h2>

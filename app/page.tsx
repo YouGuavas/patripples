@@ -18,6 +18,12 @@ export default function Home() {
 		<SpaceProviderWrapper>
 			<main className={`main left`}>
 				<Image src={ripples.src} height={25} width={25} alt="Ripple logo" />
+				<p className={`paragraph full left`}>
+					Update 05/19/2025: Two weeks ago, I was assaulted and illegally
+					evicted by people who I thought were close to me. I took a hiatus
+					during that period to focus on survival, and will resume posting as I
+					am able.
+				</p>
 				<h1 className={`lowercase spaced style-1 thin`}>How to patripple.</h1>
 				<p className={`paragraph full left`}>
 					As with the concept, this is a living document. I am working on it as

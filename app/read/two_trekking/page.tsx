@@ -3,7 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
 import { GreenProviderWrapper } from '../../ThemeProviderWrapper';
-import chipmunk from '../../../public/memes/dramatic_chipmunk.png';
+import moan from '../../../public/universal/moonlit.png';
+import crow from '../../../public/universal/crowfollow.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Treading With Care',
@@ -19,7 +20,7 @@ export default function Home() {
 				>
 					Two Trekking.
 				</h1>
-				<ByLine date={'Thu, May 15, 2025'} />
+				<ByLine date={'Thu, May 19, 2025'} />
 				<blockquote className={`style-2 thin width-full block left-align`}>
 					&quot;The only way to have a friend is to be one.&quot;
 				</blockquote>
@@ -53,13 +54,22 @@ export default function Home() {
 					the damage and the triage at play, his enthusiasm grew to rival my
 					own.
 				</p>
+				<Image
+					id="crow"
+					alt={`A crow through the trees.`}
+					height={333}
+					width={250}
+					src={crow.src}
+				/>
+				<p className={`paragraph width-full block`}>
+					This is a crow. This is not my (human) friend.
+				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Each of these encounters has enriched and rewarded me in ways even I
+					Each of these encounters has enriched and rewarded me in ways I
 					struggle to describe. Whether in a religious sense, or in a personal,
 					mythological, spiritual one, I have been blessed. For that, I am
 					grateful.
 				</p>
-
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
@@ -91,6 +101,37 @@ export default function Home() {
 					dark space, then you have experienced the sort of gratitude that I
 					have experienced on this journey.
 				</p>
+				<Image
+					id="moan"
+					alt={`The moon through trees.`}
+					height={333}
+					width={250}
+					src={moan.src}
+				/>
+				<p className={`paragraph width-full block left-align`}>
+					Wherever it is that we each spring from, we are all part of the same
+					system. Consciousness is vast and interconnected. Everything which
+					surrounds us - from the birds, to the trees, and the mycelia and
+					spores which flow between - represents <em>and</em> records a facet of
+					reality. Each of us represents an expression of that vast network.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					To witness the expression of another is to give them power. Whether
+					that power comes through confidence, or through the knowledge of
+					one&apos;s ability to get under the skin of another is not always
+					certain. Consider the strength you felt the last time you showed one
+					of your pursuits to a friend or mentor, and received praise - or
+					something as simple as an awestruck smile. Also consider interactions
+					where you have felt that someone was taking an action with the intent
+					of getting a rise out of you.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					In my mind, the best way to combat the latter is to embody the former.
+					This world needs more witnesses to good deeds, and more good witnesses
+					to all deeds. It can be nerve-wracking to begin a movement, certainly.
+					Often just as difficult is to be the first to sign onto the vision of
+					another.
+				</p>
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
@@ -98,12 +139,21 @@ export default function Home() {
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
 					Did you know that you can just do things? We don&apos;t have to wait
-					for circumstances to get &quot;too bad,&quot; we can make a
+					for circumstances to get &quot;too bad.&quot; We can make a
 					temporally-echoing difference <em>now</em>.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Every single action that you take toward healing - yourself, your
-					world, or some unnatural swamp - creates a ripple; an echo.
+					Every single action one takes toward healing - whether that be the
+					healing of oneself, of one&apos;s world, or of some unnatural swamp -
+					creates a ripple; an echo. This is true with or without witnesses. I
+					am fortunate enough to have had a friend join me out of curiosity, but
+					it took over a month of solo trekking (and talking about it) for that
+					to come to bear.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					Be your own witness. If you see an angle to improving the world around
+					you, go out and live that. If your truth is true, witnesses will find
+					their way to you.
 				</p>
 			</main>
 		</GreenProviderWrapper>
