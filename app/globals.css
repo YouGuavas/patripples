@@ -183,18 +183,30 @@ button {
 .style-2 {
 	font-family: var(--style-font-2);
 }
-.thin {
-	font-weight: 200;
-}
 .left-align {
 	text-align: left;
 }
+
+.thin {
+	font-weight: 200;
+}
+
 .mid {
 	font-weight: 400;
 }
 .thick,
 .bold {
 	font-weight: 800;
+}
+
+.font-small {
+	font-size: var(--font-size-sm);
+}
+.font-mid {
+	font-size: var(--font-size-md);
+}
+.font-large {
+	font-size: var(--font-size-lg);
 }
 .relative {
 	position: relative;
