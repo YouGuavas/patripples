@@ -21,7 +21,7 @@ export default function Home() {
 				<ByLine date={'Mon, Jun 2, 2025'} />
 				<blockquote className={`style-2 thin width-full block left-align`}>
 					&quot;You&apos;re beginning to dislike me, aren&apos;t you? Well,
-					dislike me. It doesn't make any difference to me now.&quot;
+					dislike me. It doesn&apos;t make any difference to me now.&quot;
 				</blockquote>
 				<p className={`paragraph width-full block left-align`}>
 					{' '}
