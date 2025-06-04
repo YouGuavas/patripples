@@ -7,7 +7,7 @@ import { GreenProviderWrapper } from '../../../ThemeProviderWrapper';
 export const metadata: Metadata = {
 	title: 'Patripples | Treading With Care',
 	description:
-		'Learn how to calculate chaos with Patripples as I describe how to walk in nature. Described by Patrick Yambrick.',
+		'Learn how to calculate chaos with Patripples as Pat describes how to walk in nature. Described by Pat Other.',
 };
 export default function Home() {
 	return (
