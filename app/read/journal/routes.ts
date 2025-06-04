@@ -14,11 +14,6 @@ const routes = [
 		path: '/read/journal/ode_to_moms',
 		tags: ['personal wisdom', 'x'],
 	},
-	{
-		name: 'Geraldo and Friends',
-		path: '/read/journal/geraldo_and_friends',
-		tags: ['animal magnetism', 'personal wisdom', 'x'],
-	},
 ];
 
 export default routes;
