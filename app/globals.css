@@ -134,6 +134,16 @@ body {
 }
 /* /shapes */
 
+/* Rudi */
+.hero {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 90vh;
+	min-width: 90vw;
+}
+/* Rudi */
+
 .main-wrapper,
 .alt-wrapper {
 	min-width: 45vw;
@@ -162,6 +172,32 @@ button {
 /*position*/
 .fixed {
 	position: fixed;
+}
+.absolute-center {
+	top: 50%;
+	left: 45%;
+}
+.z5 {
+	z-index: 5;
+}
+.z10 {
+	z-index: 10;
+}
+.z15 {
+	z-index: 15;
+}
+.undisplayed {
+	display: none;
+}
+
+.absolute {
+	position: absolute;
+}
+.relative {
+	position: relative;
+}
+.top {
+	top: 0;
 }
 /*text decoration*/
 .no-deco {
@@ -207,6 +243,9 @@ button {
 }
 .font-large {
 	font-size: var(--font-size-lg);
+}
+.font-banner {
+	font-size: 3rem;
 }
 .relative {
 	position: relative;
@@ -304,16 +343,37 @@ button {
 
 /*layout*/
 .main {
-	display: flex;
-	flex-direction: column;
 	min-height: 100vh;
-	padding: 3rem 3rem 4.5rem 3rem;
+	padding: 4.5rem 0;
 	color: var(--color-2);
+}
+
+.banner-container {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+.image-container {
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+.map-container {
+	position: relative;
+	height: 450px;
+	width: 450px;
+}
+.icon-container {
+	position: relative;
+	height: 35px;
+	width: 50px;
 }
 .form {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
+
 .row {
 	display: flex;
 	gap: 1rem;
@@ -322,7 +382,7 @@ button {
 	height: 50%;
 }
 .width-half {
-	width: 50%;
+	width: 45%;
 }
 .height-full {
 	height: 100%;
@@ -341,6 +401,10 @@ button {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
+}
+
+.centered {
+	margin: 0 auto;
 }
 /* /layout */
 
@@ -389,6 +453,7 @@ button {
 .between {
 	justify-content: space-between;
 }
+
 /* /flex */
 
 /*rotate*/
@@ -460,8 +525,24 @@ button {
 		font-size: 2rem;
 	}
 }
+@media (max-width: 450px) {
+	.hero {
+		min-height: 20vh;
+	}
+}
 
-@media only screen and (max-width: var(--md-max)) {
+@media (max-width: 850px) {
+	.banner-container {
+		height: 200px;
+		width: 200px;
+	}
+	.map-container {
+		height: 350px;
+		width: 350px;
+	}
+	.hero {
+		min-height: 60vh;
+	}
 	.disappear-md {
 		display: none;
 	}
@@ -475,6 +556,12 @@ button {
 	.my-logo {
 		position: initial;
 		top: unset;
+	}
+	.width-half {
+		width: 100%;
+	}
+	.image-container {
+		height: 200px;
 	}
 }
 

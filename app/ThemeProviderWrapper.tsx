@@ -1,19 +1,11 @@
 'use client';
 
-import { SpaceProvider, GreenProvider } from './theme/ThemeContext';
+import { ThemeProvider } from './theme/ThemeContext';
 
-export function SpaceProviderWrapper({
+export function ThemeProviderWrapper({
 	children,
 }: {
 	children: React.ReactNode;
 }) {
-	return <SpaceProvider>{children}</SpaceProvider>;
-}
-
-export function GreenProviderWrapper({
-	children,
-}: {
-	children: React.ReactNode;
-}) {
-	return <GreenProvider>{children}</GreenProvider>;
+	return <ThemeProvider>{children}</ThemeProvider>;
 }

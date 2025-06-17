@@ -9,7 +9,6 @@ import routes from '../routes';
 import { useTheme } from '@/app/theme/useTheme';
 import ripples from '../../public/logos/ripples.png';
 import clsx from 'clsx';
-import { SpaceProviderWrapper } from '../ThemeProviderWrapper';
 
 type NavLinkProps = {
 	href: string;
@@ -37,29 +36,28 @@ function NavLink({ href, children }: NavLinkProps) {
 
 export default function Nav() {
 	return (
-		<SpaceProviderWrapper>
-			<nav
-				className={`${styles.myNavFull} py-1 px-1 bg-4 left flex fixed`}
-				id="menu-full"
-			>
-				<ul className={`flex no-deco`}>
-					<li>
-						<Link className="darken" href="/">
-							<Image
-								src={ripples.src}
-								height={50}
-								width={50}
-								alt="Ripple logo"
-							/>
-						</Link>
+		<nav
+			className={`${styles.myNavFull} py-1 px-1 bg-4 left flex fixed`}
+			id="menu-full"
+		>
+			<ul className={`flex no-deco`}>
+				<li>
+					<Link className="darken" href="/">
+						<div className={`icon-container`}>
+							<Image src={ripples.src} fill alt="Ripple logo" />
+						</div>
+					</Link>
+				</li>
+				{routes.map(({ name, path, image }) => (
+					<li key={path}>
+						<NavLink href={path}>
+							<div className={`icon-container`}>
+								<Image src={image.src} fill alt={`${name}`} />
+							</div>
+						</NavLink>
 					</li>
-					{routes.map(({ name, path }) => (
-						<li key={path}>
-							<NavLink href={path}>{name}</NavLink>
-						</li>
-					))}
-				</ul>
-			</nav>
-		</SpaceProviderWrapper>
+				))}
+			</ul>
+		</nav>
 	);
 }

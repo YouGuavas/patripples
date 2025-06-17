@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
+import { ThemeProviderWrapper } from './ThemeProviderWrapper';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,9 +24,11 @@ export default function RootLayout({
 				/>
 			</Head>
 			<body className={`${inter.className} bg-5`}>
-				<Nav />
+				<ThemeProviderWrapper>
+					<Nav />
 
-				{children}
+					{children}
+				</ThemeProviderWrapper>
 			</body>
 			<Analytics />
 		</html>
