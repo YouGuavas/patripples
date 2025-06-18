@@ -18,7 +18,7 @@ export default function Character() {
 					phase={'Phase One'}
 					title={`The Seed Beneath the Concrete`}
 					archetype={[`Dormant Mage`, `Watcher`]}
-					age={[9, 18]}
+					age={[8, 18]}
 					stats={{
 						strength: 8,
 						dexterity: 10,
@@ -34,8 +34,8 @@ export default function Character() {
 				<CharacterSheet
 					phase={'Phase Two'}
 					title={`The Phoenix Without Fire`}
-					archetype={[`Explorer of Infinity`, `Mirror-Walker`]}
-					age={[19, 27]}
+					archetype={[`Unproven Prodigy`, `Fractured Hero`]}
+					age={[18, 28]}
 					stats={{
 						strength: 13,
 						dexterity: 14,
@@ -70,7 +70,7 @@ export default function Character() {
 					phase={'Phase Four'}
 					title={`The Architect in Exile`}
 					archetype={[`Rebel Scholar`, `Underground Alchemist`]}
-					age={[13, 19]}
+					age={[32, 0]}
 					stats={{
 						strength: 14,
 						dexterity: 15,

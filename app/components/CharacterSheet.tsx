@@ -23,7 +23,9 @@ export default function CharacterSheet(props: propsType) {
 	return (
 		<div className={`center width-half`}>
 			<h2 className={`style-1 uppercase spaced`}>{props.phase}:</h2>
-			<h3 className={`style-1 thin lowercase spaced`}>"{props.title}"</h3>
+			<h3 className={`style-1 thin lowercase spaced font-large`}>
+				"{props.title}"
+			</h3>
 			<div className={`image-container centered bg-2 z5`}>
 				<Image src={props.image} fill alt={`${props.alt}`} />
 			</div>{' '}
@@ -37,7 +39,7 @@ export default function CharacterSheet(props: propsType) {
 				{(Object.keys(props.stats) as (keyof statsType)[]).map((stat) => (
 					<li
 						key={`${stat}`}
-						className={`width-half no-deco font-small thin spaced color-2 rounded px-1 py-1 bordered`}
+						className={`width-half no-deco font-medium thin spaced color-2 rounded px-1 py-1 bordered`}
 					>
 						{stat}: {props.stats[stat]}/{cap}
 					</li>
