@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import CharacterSheet from '../components/CharacterSheet';
+import pat from '../../public/universal/pat.svg';
 
 import type { Metadata } from 'next';
 
@@ -15,6 +16,7 @@ export default function Home() {
 			<CharacterSheet
 				title={`Phase One`}
 				stats={{ strength: '1', intelligence: '9' }}
+				image={pat}
 			/>
 		</main>
 	);
