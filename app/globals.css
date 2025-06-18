@@ -122,10 +122,11 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
-	*:focus {
-		outline: 1px solid var(--color-3);
-	}
+body *:focus {
+	outline: 1px solid var(--color-3);
+}
+blockquote {
+	margin: 0;
 }
 /* shapes */
 
