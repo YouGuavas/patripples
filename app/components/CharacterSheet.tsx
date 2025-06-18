@@ -1,32 +1,43 @@
 import Image from 'next/image';
 
 type propsType = {
+	phase: string;
 	title: string;
-	stats: {
-		strength: string;
-		intelligence: string;
-	};
+	archetype: string[];
+	age: number[];
+	stats: statsType;
 	image: string;
 	alt: string;
 };
 interface statsType {
-	strength: string;
-	intelligence: string;
+	strength: number;
+	intelligence: number;
+	dexterity: number;
+	constitution: number;
+	wisdom: number;
+	charisma: number;
 }
 
 export default function CharacterSheet(props: propsType) {
-	const cap = '20';
+	const cap = 20;
 	return (
 		<div className={`center width-half`}>
-			<h3 className={`style-1 thin lowercase spaced`}>{props.title}: </h3>
-			<div className={`image-container centered`}>
+			<h2 className={`style-1 uppercase spaced`}>{props.phase}:</h2>
+			<h3 className={`style-1 thin lowercase spaced`}>"{props.title}"</h3>
+			<div className={`image-container centered bg-2 z5`}>
 				<Image src={props.image} fill alt={`${props.alt}`} />
 			</div>{' '}
+			<h4 className={`style-1 thin lowercase spaced`}>
+				{props.archetype[0]} // {props.archetype[1]}
+			</h4>
+			<p>
+				Age: {props.age[0]} - {props.age[1]}
+			</p>
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{(Object.keys(props.stats) as (keyof statsType)[]).map((stat) => (
 					<li
 						key={`${stat}`}
-						className={`no-deco lowercase style-1 spaced color-2 rounded px-1 py-1`}
+						className={`width-half no-deco font-small thin spaced color-2 rounded px-1 py-1 bordered`}
 					>
 						{stat}: {props.stats[stat]}/{cap}
 					</li>

@@ -13,12 +13,77 @@ export default function Character() {
 	return (
 		<main className={`main center height-full`}>
 			<h1 className={`style-1 thin lowercase`}>phases of pat.</h1>
-			<CharacterSheet
-				title={`Phase One`}
-				stats={{ strength: '12', intelligence: '18' }}
-				image={pat_full}
-				alt="Phase One Pat"
-			/>
+			<section className={`flex gap-large center`}>
+				<CharacterSheet
+					phase={'Phase One'}
+					title={`The Seed Beneath the Concrete`}
+					archetype={[`Dormant Mage`, `Watcher`]}
+					age={[9, 18]}
+					stats={{
+						strength: 8,
+						dexterity: 10,
+						constitution: 9,
+						intelligence: 14,
+
+						wisdom: 13,
+						charisma: 11,
+					}}
+					image={pat_full}
+					alt="Phase One Pat"
+				/>
+				<CharacterSheet
+					phase={'Phase Two'}
+					title={`The Phoenix Without Fire`}
+					archetype={[`Explorer of Infinity`, `Mirror-Walker`]}
+					age={[19, 27]}
+					stats={{
+						strength: 13,
+						dexterity: 14,
+						constitution: 13,
+						intelligence: 17,
+
+						wisdom: 16,
+						charisma: 15,
+					}}
+					image={pat_full}
+					alt="Phase Two Pat"
+				/>
+
+				<CharacterSheet
+					phase={'Phase Three'}
+					title={`The Psilocybin Cartographer`}
+					archetype={[`Explorer of Infinity`, `Mirror-Walker`]}
+					age={[28, 32]}
+					stats={{
+						strength: 13,
+						dexterity: 14,
+						constitution: 13,
+						intelligence: 17,
+
+						wisdom: 16,
+						charisma: 15,
+					}}
+					image={pat_full}
+					alt="Phase Three Pat"
+				/>
+				<CharacterSheet
+					phase={'Phase Four'}
+					title={`The Architect in Exile`}
+					archetype={[`Rebel Scholar`, `Underground Alchemist`]}
+					age={[13, 19]}
+					stats={{
+						strength: 14,
+						dexterity: 15,
+						constitution: 14,
+						intelligence: 18,
+
+						wisdom: 17,
+						charisma: 16,
+					}}
+					image={pat_full}
+					alt="Phase One Pat"
+				/>
+			</section>
 		</main>
 	);
 }

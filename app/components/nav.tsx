@@ -7,7 +7,6 @@ import { usePathname } from 'next/navigation';
 
 import routes from '../routes';
 import { useTheme } from '@/app/theme/useTheme';
-import ripples from '../../public/logos/ripples.png';
 import clsx from 'clsx';
 
 type NavLinkProps = {
@@ -37,17 +36,10 @@ function NavLink({ href, children }: NavLinkProps) {
 export default function Nav() {
 	return (
 		<nav
-			className={`${styles.myNavFull} py-1 px-1 bg-4 left flex fixed`}
+			className={`${styles.myNavFull} py-1 px-1 bg-4 left flex fixed z10 center`}
 			id="menu-full"
 		>
-			<ul className={`flex no-deco`}>
-				<li>
-					<Link className="darken" href="/">
-						<div className={`icon-container`}>
-							<Image src={ripples.src} fill alt="Ripple logo" />
-						</div>
-					</Link>
-				</li>
+			<ul className={`flex no-deco gap-small`}>
 				{routes.map(({ name, path, image }) => (
 					<li key={path}>
 						<NavLink href={path}>
