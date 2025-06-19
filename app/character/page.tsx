@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import CharacterSheet from '../components/CharacterSheet';
-import pat_full from '../../public/universal/pat_full.svg';
+import pat_full from '../../public/characters/pat_full.svg';
+import kid_pat from '../../public/characters/kid_pat.svg';
 
 import type { Metadata } from 'next';
 
@@ -28,7 +29,7 @@ export default function Character() {
 						wisdom: 13,
 						charisma: 11,
 					}}
-					image={pat_full}
+					image={kid_pat}
 					alt="Phase One Pat"
 				/>
 				<CharacterSheet
