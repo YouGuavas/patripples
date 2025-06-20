@@ -24,13 +24,13 @@ export default function CharacterSheet(props: propsType) {
 		<div className={`center width-half`}>
 			<h2 className={`style-1 uppercase spaced`}>{props.phase}:</h2>
 			<h3 className={`style-1 thin lowercase spaced font-large`}>
-				"{props.title}"
+				&quot;{props.title}&quot;
 			</h3>
 			<div className={`image-container centered bg-2 z5`}>
 				<Image src={props.image} fill alt={`${props.alt}`} />
 			</div>{' '}
 			<h4 className={`style-1 thin lowercase spaced`}>
-				{props.archetype[0]} // {props.archetype[1]}
+				{props.archetype[0]} / / {props.archetype[1]}
 			</h4>
 			<p>
 				Age: {props.age[0]} - {props.age[1]}
