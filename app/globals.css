@@ -200,6 +200,9 @@ button {
 .top {
 	top: 0;
 }
+.bottom {
+	bottom: 0;
+}
 /*text decoration*/
 .no-deco {
 	text-decoration: none;
@@ -368,7 +371,7 @@ button {
 .icon-container {
 	position: relative;
 	height: 35px;
-	width: 50px;
+	width: 35px;
 }
 .form {
 	padding-top: 2rem;
@@ -454,7 +457,9 @@ button {
 .between {
 	justify-content: space-between;
 }
-
+.even {
+	justify-content: space-evenly;
+}
 /* /flex */
 
 /*rotate*/

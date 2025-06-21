@@ -22,16 +22,16 @@ export default function CharacterSheet(props: propsType) {
 	const cap = 20;
 	return (
 		<div className={`center width-half`}>
-			<h2 className={`style-1 uppercase spaced`}>{props.phase}:</h2>
-			<h3 className={`style-1 thin lowercase spaced font-large`}>
+			<h3 className={`style-1 uppercase spaced`}>{props.phase}:</h2>
+			<h4 className={`style-1 thin lowercase spaced font-large`}>
 				&quot;{props.title}&quot;
-			</h3>
+			</h4>
 			<div className={`image-container centered bg-2 z5`}>
 				<Image src={props.image} fill alt={`${props.alt}`} />
 			</div>{' '}
-			<h4 className={`style-1 thin lowercase spaced`}>
+			<h5 className={`style-1 thin lowercase spaced`}>
 				{props.archetype[0]} / / {props.archetype[1]}
-			</h4>
+			</h5>
 			<p>
 				Age: {props.age[0]} - {props.age[1]}
 			</p>

@@ -36,10 +36,10 @@ function NavLink({ href, children }: NavLinkProps) {
 export default function Nav() {
 	return (
 		<nav
-			className={`${styles.myNavFull} py-1 px-1 bg-4 left flex fixed z10 center`}
+			className={`width-full bottom py-1 bg-4 left flex fixed z10 center`}
 			id="menu-full"
 		>
-			<ul className={`flex no-deco gap-small`}>
+			<ul className={`flex no-deco gap-small px-1 width-full between`}>
 				{routes.map(({ name, path, image }) => (
 					<li key={path}>
 						<NavLink href={path}>

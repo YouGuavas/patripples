@@ -17,9 +17,12 @@ export default function Home() {
 		<main className={`main left px-1`}>
 			<Image src={ripples.src} height={25} width={25} alt="Ripple logo" />
 			<p className={`paragraph full left`}>
-				Update 05/19/2025: Two weeks ago, I was assaulted and illegally evicted
-				by people who I thought were close to me. I took a hiatus during that
-				period to focus on survival, and will resume posting as I am able.
+				Update 06/21/2025: I am now resuming updates to the site.
+			</p>
+			<p className={`paragraph full left`}>
+				Update 05/19/2025: Two weeks ago, I was assaulted and illegally evicted.
+				I took a hiatus during the following period to focus on survival, and
+				will resume posting as I am able.
 			</p>
 			<h1 className={`lowercase spaced style-1 thin`}>How to patripple.</h1>
 			<p className={`paragraph full left`}>
