@@ -3,6 +3,7 @@ import Link from 'next/link';
 import CharacterSheet from '../components/CharacterSheet';
 import pat_full from '../../public/characters/pat_full.svg';
 import kid_pat from '../../public/characters/kid_pat.svg';
+import morgan from '../../public/characters/Morgan.svg';
 
 import type { Metadata } from 'next';
 
@@ -37,6 +38,7 @@ export default function Character() {
 					alt="Phase Three Pat"
 				/>
 			</section>
+
 			<section className={`flex gap-large center`}>
 				<h2 className={`style-1 thin lowercase width-full`}>Incomplete</h2>
 				<p className={`paragraph width-full`}>
@@ -58,6 +60,24 @@ export default function Character() {
 					}}
 					image={kid_pat}
 					alt="Phase One Pat"
+				/>
+
+				<CharacterSheet
+					phase={'Phase Morgan'}
+					title={`The Resilient Resurrector`}
+					archetype={[`Ashwalker`, `Reforming Phoenix`]}
+					age={[28, 30]}
+					stats={{
+						strength: 10,
+						dexterity: 17,
+						constitution: 15,
+						intelligence: 15,
+
+						wisdom: 12,
+						charisma: 18,
+					}}
+					image={morgan}
+					alt="Phase Morgan"
 				/>
 				{/*<CharacterSheet
 					phase={'Phase Two'}
