@@ -22,7 +22,7 @@ export default function CharacterSheet(props: propsType) {
 	const cap = 20;
 	return (
 		<div className={`center width-half`}>
-			<h3 className={`style-1 uppercase spaced`}>{props.phase}:</h2>
+			<h3 className={`style-1 uppercase spaced`}>{props.phase}:</h3>
 			<h4 className={`style-1 thin lowercase spaced font-large`}>
 				&quot;{props.title}&quot;
 			</h4>
