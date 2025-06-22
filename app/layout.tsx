@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from './components/nav';
+import Tips from './components/Tips';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
@@ -26,6 +27,7 @@ export default function RootLayout({
 			<body className={`${inter.className} bg-5`}>
 				<ThemeProviderWrapper>
 					<Nav />
+					<Tips />
 
 					{children}
 				</ThemeProviderWrapper>
