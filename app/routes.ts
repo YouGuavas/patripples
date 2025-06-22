@@ -3,7 +3,7 @@ import ripples from '../public/logos/ripples.png';
 import eye from '../public/universal/eye.svg';
 import book from '../public/universal/book.svg';
 import count from '../public/universal/count.svg';
-import pat from '../public/universal/pat.svg';
+import characters from '../public/universal/characters.svg';
 import dollar from '../public/universal/dollar.svg';
 import glyph_1 from '../public/patroglyphs/glyph_1.svg';
 
@@ -15,7 +15,7 @@ const routes = [
 	{ name: 'See', path: '/see', image: eye },
 	{ name: 'Read', path: '/read', image: book },
 	{ name: 'Count', path: '/count', image: count },
-	{ name: 'Character', path: '/character', image: pat },
+	{ name: 'Characters', path: '/characters', image: characters },
 	{ name: 'Patroglyphs', path: '/patroglyphs', image: glyph_1 },
 
 	{ name: 'Hire', path: '/hire', image: dollar },
