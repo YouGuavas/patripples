@@ -5,8 +5,9 @@ import Link from 'next/link';
 import styles from '../page.module.css';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Contact',
-	description: 'You can contact Pat by emailing pat@patripples.com',
+	title: 'Patripples | Hire',
+	description:
+		'Want Pat to make you a react/nextjs website, write you a story, or read your soul? Hire him here. Patripples | Patrick Other.',
 };
 export default function Home() {
 	return (

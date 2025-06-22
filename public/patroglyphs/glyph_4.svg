@@ -7,7 +7,7 @@
    width="346.81128"
    height="346.81128"
    viewBox="0 0 346.81128 346.81127"
-   sodipodi:docname="glyph_1.svg"
+   sodipodi:docname="glyph_4.svg"
    inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
    inkscape:export-filename="semicartoonselfie.png"
    inkscape:export-xdpi="96"
@@ -56,14 +56,14 @@
      ry="0.31566438"
      inkscape:label="inline" />
   <path
-     style="fill:none;stroke:#010100;stroke-width:15;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;stroke-linecap:butt;stroke-dashoffset:0"
-     d="M 178.3883,261.04199 79.292509,261.042 178.99254,60.433431 281.10955,262.25048"
+     style="fill:none;stroke:#010100;stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 280.10112,162.14719 1e-5,99.09579 L 79.492565,161.54295 281.30961,59.425933"
      id="path2"
      sodipodi:nodetypes="cccc"
      inkscape:label="outline" />
   <path
      style="fill:none;stroke:#c7c7c7;stroke-width:5;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-     d="M 178.3883,261.04199 79.292509,261.042 178.99254,60.433431 281.10955,262.25048"
+     d="m 280.10112,162.14719 1e-5,99.09579 L 79.492565,161.54295 281.30961,59.425933"
      id="path1"
      sodipodi:nodetypes="cccc"
      inkscape:label="inline" />
