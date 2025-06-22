@@ -4,6 +4,10 @@ import CharacterSheet from '../components/CharacterSheet';
 import pat_full from '../../public/characters/pat_full.svg';
 import kid_pat from '../../public/characters/kid_pat.svg';
 import morgan from '../../public/characters/Morgan.svg';
+import morgan_photo from '../../public/Morgan_photo.svg';
+import pat_photo from '../../public/Pat_photo.svg';
+import pat_wizard from '../../public/characters/pat_wizard.svg';
+import ask from '../../public/universal/ask.svg';
 
 import type { Metadata } from 'next';
 
@@ -34,7 +38,9 @@ export default function Character() {
 						wisdom: 16,
 						charisma: 15,
 					}}
+					photo={pat_photo}
 					image={pat_full}
+					fantasy={pat_wizard}
 					alt="Phase Three Pat"
 				/>
 			</section>
@@ -58,7 +64,9 @@ export default function Character() {
 						wisdom: 13,
 						charisma: 11,
 					}}
+					photo={ask}
 					image={kid_pat}
+					fantasy={ask}
 					alt="Phase One Pat"
 				/>
 
@@ -76,7 +84,9 @@ export default function Character() {
 						wisdom: 12,
 						charisma: 18,
 					}}
+					photo={morgan_photo}
 					image={morgan}
+					fantasy={ask}
 					alt="Phase Morgan"
 				/>
 				{/*<CharacterSheet

@@ -1,4 +1,6 @@
+'use client';
 import Image from 'next/image';
+import { useState } from 'react';
 
 type propsType = {
 	phase: string;
@@ -7,6 +9,9 @@ type propsType = {
 	age: number[];
 	stats: statsType;
 	image: string;
+	photo: string;
+	fantasy: string;
+
 	alt: string;
 };
 interface statsType {
@@ -19,7 +24,9 @@ interface statsType {
 }
 
 export default function CharacterSheet(props: propsType) {
+	const [image, setImage] = useState(props.image);
 	const cap = 20;
+
 	return (
 		<div className={`center width-half`}>
 			<h3 className={`style-1 uppercase spaced`}>{props.phase}:</h3>
@@ -27,7 +34,7 @@ export default function CharacterSheet(props: propsType) {
 				&quot;{props.title}&quot;
 			</h4>
 			<div className={`image-container centered bg-2 z5`}>
-				<Image src={props.image} fill alt={`${props.alt}`} />
+				<Image src={image} fill alt={`${props.alt}`} />
 			</div>{' '}
 			<h5 className={`style-1 thin lowercase spaced`}>
 				{props.archetype[0]} / / {props.archetype[1]}
@@ -35,6 +42,32 @@ export default function CharacterSheet(props: propsType) {
 			<p>
 				Age: {props.age[0]} - {props.age[1]}
 			</p>
+			<div className={`flex center gap-small`}>
+				<button
+					className={`lowercase thin spaced`}
+					onClick={() => {
+						setImage(props.photo);
+					}}
+				>
+					Photo
+				</button>
+				<button
+					className={`lowercase thin spaced`}
+					onClick={() => {
+						setImage(props.image);
+					}}
+				>
+					Portrait
+				</button>
+				<button
+					className={`lowercase thin spaced`}
+					onClick={() => {
+						setImage(props.fantasy);
+					}}
+				>
+					Fantasy
+				</button>
+			</div>
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{(Object.keys(props.stats) as (keyof statsType)[]).map((stat) => (
 					<li
