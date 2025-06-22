@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import glyphs from './glyphs';
+import { glyphs_1 } from './glyphs';
 
 import Glyphousel from '../components/glyph-ousel';
 
@@ -14,7 +14,11 @@ export default function Home() {
 		<main className={`main center`}>
 			<h1 className="lowercase style-1 thin">Patroglyphs</h1>
 			<p className={`style-1`}>Patroglyphs coming soon.</p>
-			<Glyphousel glyphs={glyphs} />
+			<Glyphousel
+				title={`${glyphs_1.title}`}
+				glyphs={glyphs_1.glyphs}
+				description={`${glyphs_1.description}`}
+			/>
 		</main>
 	);
 }
