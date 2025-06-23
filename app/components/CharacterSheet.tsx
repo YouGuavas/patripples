@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import stats from '../../public/icons/graph_icon.svg';
 import bio from '../../public/universal/book_bio.svg';
@@ -12,6 +13,10 @@ type propsType = {
 	portrait: string;
 	photo: string;
 	mythic: string;
+	standard_bio: string[];
+	mythic_bio: string[];
+	href: string;
+
 	alt: string;
 };
 
@@ -61,9 +66,11 @@ export default function CharacterSheet(props: propsType) {
 
 	return (
 		<div className={`center width-half`}>
-			<div className={`icon-container centered`}>
-				<Image src={props.phase} fill alt={`Phase Rune`} />
-			</div>
+			<Link href={props.href}>
+				<div className={`icon-container centered`}>
+					<Image src={props.phase} fill alt={`Phase Rune`} />
+				</div>
+			</Link>
 			<h4 className={`style-1 thin lowercase spaced font-large`}>
 				&quot;{props.title}&quot;
 			</h4>
@@ -122,12 +129,20 @@ export default function CharacterSheet(props: propsType) {
 			<div
 				className={`${portal + active === 'standardbio' ? null : 'collapsed'}`}
 			>
-				<p className={`width-full center paragraph`}>Standard Bio Demo</p>
+				{props.standard_bio.map((paragraph: string) => {
+					return (
+						<p className={`width-full left-align paragraph`}>{paragraph}</p>
+					);
+				})}
 			</div>
 			<div
 				className={`${portal + active === 'mythicbio' ? null : 'collapsed'}`}
 			>
-				<p className={`width-full center paragraph`}>Mythic Bio Demo</p>
+				{props.mythic_bio.map((paragraph: string) => {
+					return (
+						<p className={`width-full left-align paragraph`}>{paragraph}</p>
+					);
+				})}{' '}
 			</div>
 		</div>
 	);

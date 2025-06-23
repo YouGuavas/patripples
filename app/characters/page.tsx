@@ -28,6 +28,9 @@ export default function Character() {
 						photo,
 						portrait,
 						mythic,
+						standard_bio,
+						mythic_bio,
+						href,
 						alt,
 					} = character;
 					return (
@@ -40,6 +43,9 @@ export default function Character() {
 							photo={photo}
 							portrait={portrait}
 							mythic={mythic}
+							standard_bio={standard_bio}
+							mythic_bio={mythic_bio}
+							href={href}
 							alt={alt}
 						/>
 					);
@@ -61,6 +67,9 @@ export default function Character() {
 							photo,
 							portrait,
 							mythic,
+							standard_bio,
+							mythic_bio,
+							href,
 							alt,
 						} = character;
 						return (
@@ -73,6 +82,9 @@ export default function Character() {
 								photo={photo}
 								portrait={portrait}
 								mythic={mythic}
+								standard_bio={standard_bio}
+								mythic_bio={mythic_bio}
+								href={href}
 								alt={alt}
 							/>
 						);
