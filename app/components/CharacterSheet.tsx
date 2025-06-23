@@ -162,6 +162,15 @@ export default function CharacterSheet(props: propsType) {
 					);
 				})}{' '}
 			</div>
+			<ul
+				className={`${
+					active === 'glyphs' ? null : 'collapsed'
+				} flex gap-medium no-deco pad-none width-full center`}
+			>
+				<li className={`width-half no-deco font-medium thin spaced color-2 `}>
+					Glyph reading coming soon
+				</li>
+			</ul>
 		</div>
 	);
 }

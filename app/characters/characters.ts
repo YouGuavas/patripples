@@ -2,6 +2,8 @@ import pat_full from '../../public/characters/pat_full.svg';
 import kid_pat from '../../public/characters/kid_pat.svg';
 import morgan from '../../public/characters/Morgan.svg';
 import morgan_photo from '../../public/Morgan_photo.svg';
+import morgan_mythic from '../../public/characters/Morgan_mythic.svg';
+
 import pat_photo from '../../public/Pat_photo.svg';
 import pat_wizard from '../../public/characters/pat_wizard.svg';
 import ask from '../../public/universal/ask.svg';
@@ -78,7 +80,7 @@ const incomplete: characters = [
 		},
 		photo: morgan_photo.src,
 		portrait: morgan.src,
-		mythic: ask.src,
+		mythic: morgan_mythic.src,
 		standard_bio: [
 			"Morgan is a survivor. She's been put through the ringer, and she's stood at the brink. She has loved, and she has lost. She has seen entire lives taken away, and heard the abyss sing her name.",
 			"Even when the currents of life are doing their best to drown her out, she never sinks - she flows like water as she moves through the aether. Don't ever call her 'helpless' - her tongue is a whip that can snap like a firecracker.",
@@ -86,7 +88,7 @@ const incomplete: characters = [
 			"She's still finding her wings, yet you can see them glowing and growing as she keeps going.",
 		],
 		mythic_bio: [
-			'The Resurrectionist lets no loss stop her - and she forgets no fallen friend.',
+			'The Resurrectionist lets no loss stop her - and she forgets no fallen friend. She carries the weight of the dead on her shoulders.',
 		],
 		href: './characters/morgan',
 		alt: 'Phase Morgan',
