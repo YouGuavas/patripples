@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
+import stats from '../../public/icons/graph_icon.svg';
 
 type propsType = {
 	phase: string;
@@ -24,6 +25,7 @@ interface statsType {
 }
 
 export default function CharacterSheet(props: propsType) {
+	const [active, setActive] = useState(props.image);
 	const [image, setImage] = useState(props.image);
 	const cap = 20;
 
@@ -42,33 +44,40 @@ export default function CharacterSheet(props: propsType) {
 			<p>
 				Age: {props.age[0]} - {props.age[1]}
 			</p>
+			<div className={`icon-container pointer darken`}>
+				<Image src={stats.src} fill alt={`Stats Icon`} />
+			</div>
 			<div className={`flex center gap-small`}>
-				<button
-					className={`lowercase thin spaced`}
+				<div
+					className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
 					onClick={() => {
 						setImage(props.photo);
 					}}
 				>
 					Photo
-				</button>
-				<button
-					className={`lowercase thin spaced`}
+				</div>
+
+				<div
+					className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
 					onClick={() => {
 						setImage(props.image);
 					}}
 				>
 					Portrait
-				</button>
-				<button
-					className={`lowercase thin spaced`}
+				</div>
+
+				<div
+					className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
 					onClick={() => {
 						setImage(props.fantasy);
 					}}
 				>
 					Mythic
-				</button>
+				</div>
 			</div>
-			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
+			<ul
+				className={`collapsible flex gap-medium no-deco pad-none width-full center`}
+			>
 				{(Object.keys(props.stats) as (keyof statsType)[]).map((stat) => (
 					<li
 						key={`${stat}`}

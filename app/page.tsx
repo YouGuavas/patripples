@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ripples from '../public/logos/ripples.png';
+import cartographer from '../public/characters/cartographer.svg';
 import EmailForm from './components/EmailForm';
 import fish from '../public/memes/fish_fear.png';
 
@@ -15,7 +16,14 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main left px-1`}>
-			<Image src={ripples.src} height={25} width={25} alt="Ripple logo" />
+			<div className={`icon-container`}>
+				<Image src={ripples.src} fill alt="Ripple logo" />
+			</div>
+			<div className={`width-full center`}>
+				<div className={`image-container`}>
+					<Image src={cartographer.src} fill alt="The Cartographer" />
+				</div>
+			</div>
 			<p className={`paragraph width-full left`}>
 				Update 06/21/2025: I am now resuming updates to the site.
 			</p>
