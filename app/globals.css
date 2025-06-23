@@ -421,7 +421,7 @@ button {
 
 /*shading*/
 .darken:hover {
-	opacity: 40%;
+	opacity: 60%;
 	transition: 0.4s;
 }
 
@@ -429,7 +429,7 @@ button {
 	border: 1px solid var(--color-2);
 }
 .active {
-	opacity: 20%;
+	opacity: 40%;
 	transition: 0.4s;
 }
 

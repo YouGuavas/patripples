@@ -81,8 +81,8 @@ const incomplete: characters = [
 		mythic: ask.src,
 		standard_bio: [
 			"Morgan is a survivor. She's been put through the ringer, and she's stood at the brink. She has loved, and she has lost. She has seen entire lives taken away, and heard the abyss sing her name.",
-			"Despite the pain of the flames, the currents of life, and the weight of her dead, she never sinks - she flows like water as she moves through the aether. Don't ever call her 'helpless' - her tongue is a whip that can snap like a firecracker.",
-			"If you never make her snap it, she'll think about putting a cork in it, and trading sips of her favorite firewater with you, instead.",
+			"Even when the currents of life are doing their best to drown her out, she never sinks - she flows like water as she moves through the aether. Don't ever call her 'helpless' - her tongue is a whip that can snap like a firecracker.",
+			"If you never make her use it, and instead see right through it, she'll think about putting a cork in it, and trading sips of her favorite firewater with you, instead. If you're really lucky, she may even say a kind word or two about you.",
 			"She's still finding her wings, yet you can see them glowing and growing as she keeps going.",
 		],
 		mythic_bio: [

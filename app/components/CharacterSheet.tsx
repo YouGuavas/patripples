@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import stats from '../../public/icons/graph_icon.svg';
 import bio from '../../public/universal/book_bio.svg';
+import glyph_1 from '../../public/patroglyphs/glyph_1.svg';
 
 type propsType = {
 	phase: string;
@@ -35,10 +36,16 @@ export default function CharacterSheet(props: propsType) {
 		{ title: 'Portrait', portal: 'standard', image: props.portrait },
 		{ title: 'Mythic', portal: 'mythic', image: props.mythic },
 	];
+	const icons = [
+		{ title: 'stats', image: stats },
+		{ title: 'bio', image: bio },
+		{ title: 'glyphs', image: glyph_1 },
+	];
 
-	const [active, setActive] = useState('');
+	const [active, setActive] = useState('bio');
 	const [portal, setPortal] = useState('standard');
 	const [image, setImage] = useState(props.portrait);
+	const [title, setTitle] = useState('portrait');
 	const cap = 20;
 
 	const toggleActive = (category: string) => {
@@ -48,9 +55,14 @@ export default function CharacterSheet(props: propsType) {
 			setActive(category.toLowerCase());
 		}
 	};
-	const handleImageSwap = (new_image: string, new_portal: string) => {
+	const handleImageSwap = (
+		new_image: string,
+		new_portal: string,
+		new_title: string
+	) => {
 		if (image !== new_image) {
 			setImage(new_image);
+			setTitle(new_title.toLowerCase());
 		}
 
 		if (portal !== new_portal) {
@@ -81,30 +93,32 @@ export default function CharacterSheet(props: propsType) {
 				{props.archetype[0]} / / {props.archetype[1]}
 			</h5>
 			<ul className={`no-deco flex center pad-none gap-small`}>
-				<li
-					className={`icon-container pointer darken`}
-					onClick={() => {
-						toggleActive('stats');
-					}}
-				>
-					<Image src={stats.src} fill alt={`Stats Icon`} />
-				</li>
-				<li
-					className={`icon-container pointer darken`}
-					onClick={() => {
-						toggleActive(`bio`);
-					}}
-				>
-					<Image src={bio.src} fill alt={`Bio Icon`} />
-				</li>
-			</ul>
-			<ul className={`flex center gap-small pad-none no-deco`}>
-				{variants.map((variant) => {
+				{icons.map((icon, index) => {
 					return (
 						<li
-							className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
+							key={index}
+							className={`${
+								active === icon.title ? 'active' : null
+							} icon-container pointer darken`}
 							onClick={() => {
-								handleImageSwap(variant.image, variant.portal);
+								toggleActive(icon.title);
+							}}
+						>
+							<Image src={icon.image.src} fill alt={`${icon.title} Icon`} />
+						</li>
+					);
+				})}
+			</ul>
+			<ul className={`flex center gap-small pad-none no-deco`}>
+				{variants.map((variant, index) => {
+					return (
+						<li
+							key={index}
+							className={`${
+								title === variant.title.toLowerCase() ? 'active' : null
+							} lowercase thin spaced pointer darken bordered px-1 py-1`}
+							onClick={() => {
+								handleImageSwap(variant.image, variant.portal, variant.title);
 							}}
 						>
 							{variant.title}
@@ -129,18 +143,22 @@ export default function CharacterSheet(props: propsType) {
 			<div
 				className={`${portal + active === 'standardbio' ? null : 'collapsed'}`}
 			>
-				{props.standard_bio.map((paragraph: string) => {
+				{props.standard_bio.map((paragraph: string, index) => {
 					return (
-						<p className={`width-full left-align paragraph`}>{paragraph}</p>
+						<p key={index} className={`width-full left-align paragraph`}>
+							{paragraph}
+						</p>
 					);
 				})}
 			</div>
 			<div
 				className={`${portal + active === 'mythicbio' ? null : 'collapsed'}`}
 			>
-				{props.mythic_bio.map((paragraph: string) => {
+				{props.mythic_bio.map((paragraph: string, index) => {
 					return (
-						<p className={`width-full left-align paragraph`}>{paragraph}</p>
+						<p key={index} className={`width-full left-align paragraph`}>
+							{paragraph}
+						</p>
 					);
 				})}{' '}
 			</div>

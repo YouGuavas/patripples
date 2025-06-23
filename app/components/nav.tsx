@@ -1,6 +1,5 @@
 'use client';
 
-import styles from './nav.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -25,7 +24,7 @@ function NavLink({ href, children }: NavLinkProps) {
 			id={pathName.toLowerCase()}
 			className={clsx(
 				`style-1 lowercase spaced thin no-deco darken ${theme}`,
-				isActive ? 'darken color-2' : 'color-2'
+				isActive ? 'active' : null
 			)}
 		>
 			{children}
