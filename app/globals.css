@@ -128,6 +128,7 @@ body *:focus {
 blockquote {
 	margin: 0;
 }
+
 /* shapes */
 
 .rhombus {
@@ -479,6 +480,12 @@ button {
 
 .collapse {
 	animation: collapse 0.5s ease forwards;
+}
+.collapsed {
+	max-height: 0;
+}
+.collapsed * {
+	display: none;
 }
 
 .open {

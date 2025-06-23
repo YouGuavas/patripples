@@ -25,9 +25,17 @@ interface statsType {
 }
 
 export default function CharacterSheet(props: propsType) {
-	const [active, setActive] = useState(props.image);
+	const [active, setActive] = useState('');
 	const [image, setImage] = useState(props.image);
 	const cap = 20;
+
+	const toggleActive = (category: string) => {
+		if (active.toLowerCase() === category) {
+			setActive('');
+		} else {
+			setActive(category.toLowerCase());
+		}
+	};
 
 	return (
 		<div className={`center width-half`}>
@@ -44,7 +52,12 @@ export default function CharacterSheet(props: propsType) {
 			<p>
 				Age: {props.age[0]} - {props.age[1]}
 			</p>
-			<div className={`icon-container pointer darken`}>
+			<div
+				className={`icon-container pointer darken`}
+				onClick={() => {
+					toggleActive('stats');
+				}}
+			>
 				<Image src={stats.src} fill alt={`Stats Icon`} />
 			</div>
 			<div className={`flex center gap-small`}>
@@ -76,7 +89,10 @@ export default function CharacterSheet(props: propsType) {
 				</div>
 			</div>
 			<ul
-				className={`collapsible flex gap-medium no-deco pad-none width-full center`}
+				id={`${props.title} stats`}
+				className={`${
+					active === 'stats' ? null : 'collapsed'
+				} flex gap-medium no-deco pad-none width-full center`}
 			>
 				{(Object.keys(props.stats) as (keyof statsType)[]).map((stat) => (
 					<li
