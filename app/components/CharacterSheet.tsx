@@ -65,7 +65,7 @@ export default function CharacterSheet(props: propsType) {
 						setImage(props.fantasy);
 					}}
 				>
-					Fantasy
+					Mythic
 				</button>
 			</div>
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
