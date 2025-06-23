@@ -62,9 +62,6 @@ const complete: characters = [
 
 		alt: 'Phase Three Pat',
 	},
-];
-
-const incomplete: characters = [
 	{
 		phase: glyph_1.src,
 		title: `The Resurrectionist`,
@@ -89,10 +86,16 @@ const incomplete: characters = [
 		],
 		mythic_bio: [
 			'The Resurrectionist lets no loss stop her - and she forgets no fallen friend. She carries the weight of the dead on her shoulders.',
+			'Her skeletal hound never lets her down. Wherever she goes, he and her bats are soon to be found. Legend says she is able to call them from beyond the veil when she merges her inner elements - fire and water.',
+			"The belt she wears is said to be inhabited by the souls of those who she's lost - they call to her when she is lost, and light her way as she traverses the night.",
+			'Gained through ancient communion with forbidden crystals, the misty shroud which surrounds her serves many purposes - guiding her through the mazes she faces, serving as salve to her allies, yet noxious to those who would do her harm. Not even she can control it. It moves through her when she is at her most intuitive - or chaotic.',
+			'Be mindful of the version of her you choose to summon.',
 		],
 		href: './characters/morgan',
 		alt: 'Phase Morgan',
 	},
 ];
+
+const incomplete: characters = [];
 
 export { complete, incomplete };
