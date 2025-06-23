@@ -1,8 +1,8 @@
 import { characterType } from '../characters';
-import { incomplete } from '../characters';
+import { complete } from '../characters';
 import CharacterSheet from '../../components/CharacterSheet';
 export default function Character() {
-	const morgan: characterType = incomplete[0];
+	const morgan: characterType = complete[0];
 	const {
 		phase,
 		title,
