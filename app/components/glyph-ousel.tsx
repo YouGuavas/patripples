@@ -20,10 +20,16 @@ export default function Glyphousel(props: propsType) {
 			<h3 className={`lowercase style-1 spaced thin`}>{props.title}</h3>
 			<p>{props.description}</p>
 			<ul className={` flex gap-large center centered pad-none width-full`}>
-				{props.glyphs.map((glyph) => {
+				{props.glyphs.map((glyph, index) => {
 					return (
 						<li className={`image-container centered bg-2 z5 no-deco`}>
-							<Image src={glyph.src} fill alt={`${glyph.name} Glyph`} />;
+							<Image
+								key={index}
+								src={glyph.src}
+								fill
+								alt={`${glyph.name} Glyph`}
+							/>
+							;
 						</li>
 					);
 				})}
