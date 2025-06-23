@@ -1,32 +1,39 @@
 'use client';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import stats from '../../public/icons/graph_icon.svg';
+import bio from '../../public/universal/book_bio.svg';
 
 type propsType = {
 	phase: string;
 	title: string;
 	archetype: string[];
-	age: number[];
 	stats: statsType;
-	image: string;
+	portrait: string;
 	photo: string;
-	fantasy: string;
-
+	mythic: string;
 	alt: string;
 };
-interface statsType {
+
+type statsType = {
 	strength: number;
 	intelligence: number;
 	dexterity: number;
 	constitution: number;
 	wisdom: number;
 	charisma: number;
-}
+};
 
 export default function CharacterSheet(props: propsType) {
+	const variants = [
+		{ title: 'Photo', portal: 'standard', image: props.photo },
+		{ title: 'Portrait', portal: 'standard', image: props.portrait },
+		{ title: 'Mythic', portal: 'mythic', image: props.mythic },
+	];
+
 	const [active, setActive] = useState('');
-	const [image, setImage] = useState(props.image);
+	const [portal, setPortal] = useState('standard');
+	const [image, setImage] = useState(props.portrait);
 	const cap = 20;
 
 	const toggleActive = (category: string) => {
@@ -36,10 +43,27 @@ export default function CharacterSheet(props: propsType) {
 			setActive(category.toLowerCase());
 		}
 	};
+	const handleImageSwap = (new_image: string, new_portal: string) => {
+		if (image !== new_image) {
+			setImage(new_image);
+		}
+
+		if (portal !== new_portal) {
+			setPortal(new_portal);
+		}
+	};
+	useEffect(() => {
+		console.log(portal + active);
+		if (active === 'stats' || 'bio') {
+			return;
+		}
+	}, [portal]);
 
 	return (
 		<div className={`center width-half`}>
-			<h3 className={`style-1 uppercase spaced`}>{props.phase}:</h3>
+			<div className={`icon-container centered`}>
+				<Image src={props.phase} fill alt={`Phase Rune`} />
+			</div>
 			<h4 className={`style-1 thin lowercase spaced font-large`}>
 				&quot;{props.title}&quot;
 			</h4>
@@ -49,47 +73,39 @@ export default function CharacterSheet(props: propsType) {
 			<h5 className={`style-1 thin lowercase spaced`}>
 				{props.archetype[0]} / / {props.archetype[1]}
 			</h5>
-			<p>
-				Age: {props.age[0]} - {props.age[1]}
-			</p>
-			<div
-				className={`icon-container pointer darken`}
-				onClick={() => {
-					toggleActive('stats');
-				}}
-			>
-				<Image src={stats.src} fill alt={`Stats Icon`} />
-			</div>
-			<div className={`flex center gap-small`}>
-				<div
-					className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
+			<ul className={`no-deco flex center pad-none gap-small`}>
+				<li
+					className={`icon-container pointer darken`}
 					onClick={() => {
-						setImage(props.photo);
+						toggleActive('stats');
 					}}
 				>
-					Photo
-				</div>
-
-				<div
-					className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
+					<Image src={stats.src} fill alt={`Stats Icon`} />
+				</li>
+				<li
+					className={`icon-container pointer darken`}
 					onClick={() => {
-						setImage(props.image);
+						toggleActive(`bio`);
 					}}
 				>
-					Portrait
-				</div>
-
-				<div
-					className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
-					onClick={() => {
-						setImage(props.fantasy);
-					}}
-				>
-					Mythic
-				</div>
-			</div>
+					<Image src={bio.src} fill alt={`Bio Icon`} />
+				</li>
+			</ul>
+			<ul className={`flex center gap-small pad-none no-deco`}>
+				{variants.map((variant) => {
+					return (
+						<li
+							className={`lowercase thin spaced pointer darken bordered px-1 py-1`}
+							onClick={() => {
+								handleImageSwap(variant.image, variant.portal);
+							}}
+						>
+							{variant.title}
+						</li>
+					);
+				})}
+			</ul>
 			<ul
-				id={`${props.title} stats`}
 				className={`${
 					active === 'stats' ? null : 'collapsed'
 				} flex gap-medium no-deco pad-none width-full center`}
@@ -103,6 +119,16 @@ export default function CharacterSheet(props: propsType) {
 					</li>
 				))}
 			</ul>
+			<div
+				className={`${portal + active === 'standardbio' ? null : 'collapsed'}`}
+			>
+				<p className={`width-full center paragraph`}>Standard Bio Demo</p>
+			</div>
+			<div
+				className={`${portal + active === 'mythicbio' ? null : 'collapsed'}`}
+			>
+				<p className={`width-full center paragraph`}>Mythic Bio Demo</p>
+			</div>
 		</div>
 	);
 }
