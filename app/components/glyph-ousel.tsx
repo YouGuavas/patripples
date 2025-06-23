@@ -22,14 +22,11 @@ export default function Glyphousel(props: propsType) {
 			<ul className={` flex gap-large center centered pad-none width-full`}>
 				{props.glyphs.map((glyph, index) => {
 					return (
-						<li className={`image-container centered bg-2 z5 no-deco`}>
-							<Image
-								key={index}
-								src={glyph.src}
-								fill
-								alt={`${glyph.name} Glyph`}
-							/>
-							;
+						<li
+							key={index}
+							className={`image-container centered bg-2 z5 no-deco`}
+						>
+							<Image src={glyph.src} fill alt={`${glyph.name} Glyph`} />;
 						</li>
 					);
 				})}
