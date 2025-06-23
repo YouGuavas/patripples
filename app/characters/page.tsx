@@ -54,132 +54,37 @@ export default function Character() {
 
 			<section className={`flex gap-large center`}>
 				<h2 className={`style-1 thin lowercase width-full`}>Incomplete</h2>
-				<p className={`paragraph width-full`}>
-					(Phase One Pat cartoonization is NOT FINISHED)
-				</p>
-				{
-					incomplete.map((character, index) => {
-						const {
-							phase,
-							title,
-							archetype,
-							stats,
-							photo,
-							portrait,
-							mythic,
-							standard_bio,
-							mythic_bio,
-							href,
-							alt,
-						} = character;
-						return (
-							<CharacterSheet
-								key={index}
-								phase={phase}
-								title={title}
-								archetype={archetype}
-								stats={stats}
-								photo={photo}
-								portrait={portrait}
-								mythic={mythic}
-								standard_bio={standard_bio}
-								mythic_bio={mythic_bio}
-								href={href}
-								alt={alt}
-							/>
-						);
-					})
-					/*<CharacterSheet
-					phase={'Phase One'}
-					title={`The Seed Beneath the Concrete`}
-					archetype={[`Dormant Mage`, `Watcher`]}
-					age={[8, 18]}
-					stats={{
-						strength: 8,
-						dexterity: 10,
-						constitution: 9,
-						intelligence: 14,
-
-						wisdom: 13,
-						charisma: 11,
-					}}
-					photo={ask}
-					image={kid_pat}
-					fantasy={ask}
-					alt="Phase One Pat"
-				/>
-
-				<CharacterSheet
-					phase={'Phase Morgan'}
-					title={`The Resilient Resurrector`}
-					archetype={[`Ashwalker`, `Reforming Phoenix`]}
-					age={[28, 30]}
-					stats={{
-						strength: 10,
-						dexterity: 17,
-						constitution: 15,
-						intelligence: 15,
-
-						wisdom: 12,
-						charisma: 18,
-					}}
-					photo={morgan_photo}
-					image={morgan}
-					fantasy={ask}
-					alt="Phase Morgan"
-				/> */
-				}
-				{/*<CharacterSheet
-					phase={'Phase Two'}
-					title={`The Phoenix Without Fire`}
-					archetype={[`Unproven Prodigy`, `Fractured Hero`]}
-					age={[18, 28]}
-					stats={{
-						strength: 11,
-						dexterity: 12,
-						constitution: 10,
-						intelligence: 15,
-
-						wisdom: 12,
-						charisma: 13,
-					}}
-					image={pat_full}
-					alt="Phase Two Pat"
-				/>*/}
-				{/*<CharacterSheet
-					phase={'Phase Four'}
-					title={`The Architect in Exile`}
-					archetype={[`Rebel Scholar`, `Underground Alchemist`]}
-					age={[32, 0]}
-					stats={{
-						strength: 14,
-						dexterity: 15,
-						constitution: 14,
-						intelligence: 18,
-
-						wisdom: 17,
-						charisma: 16,
-					}}
-					image={pat_full}
-					alt="Phase Four Pat"
-				/>*/}
-				{/*<CharacterSheet
-					phase={'Phase Five'}
-					title={`The Signal Fire`}
-					archetype={[`Guiding Flame`, `Empathic Strategist`]}
-					age={[32, 0]}
-					stats={{
-						strength: 15,
-						dexterity: 16,
-						constitution: 16,
-						intelligence: 18,
-
-						wisdom: 18,
-						charisma: 18,
-					}}
-					image={pat_full}
-					alt="Phase Five Pat"
-				/>*/}
+				{incomplete.map((character, index) => {
+					const {
+						phase,
+						title,
+						archetype,
+						stats,
+						photo,
+						portrait,
+						mythic,
+						standard_bio,
+						mythic_bio,
+						href,
+						alt,
+					} = character;
+					return (
+						<CharacterSheet
+							key={index}
+							phase={phase}
+							title={title}
+							archetype={archetype}
+							stats={stats}
+							photo={photo}
+							portrait={portrait}
+							mythic={mythic}
+							standard_bio={standard_bio}
+							mythic_bio={mythic_bio}
+							href={href}
+							alt={alt}
+						/>
+					);
+				})}
 			</section>
 		</main>
 	);
