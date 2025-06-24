@@ -40,31 +40,6 @@ type statsType = {
 const complete: characters = [
 	{
 		phase: glyph_1.src,
-		title: `The Cartographer`,
-		archetype: ['Mirror-Walker', 'Explorer of Infinity'],
-		stats: {
-			strength: 13,
-			dexterity: 14,
-			constitution: 13,
-			intelligence: 17,
-
-			wisdom: 16,
-			charisma: 15,
-		},
-		photo: pat_photo.src,
-		portrait: pat_full.src,
-		mythic: pat_wizard.src,
-		standard_bio: ['Pat values ethicality and empathy.'],
-		mythic_bio: [
-			'The Cartographer is the progenitor of Patroglyphs. Little is known about him.',
-			"It's said that wherever he goes, people grow.",
-		],
-		href: './characters/patrick',
-
-		alt: 'Phase Three Pat',
-	},
-	{
-		phase: glyph_1.src,
 		title: `The Resurrectionist`,
 		archetype: ['Ashwalking Emberwitch', 'Reconfiguring Phoenix'],
 		stats: {
@@ -94,6 +69,31 @@ const complete: characters = [
 		],
 		href: './characters/morgan',
 		alt: 'Phase Morgan',
+	},
+	{
+		phase: glyph_1.src,
+		title: `The Cartographer`,
+		archetype: ['Mirror-Walker', 'Explorer of Infinity'],
+		stats: {
+			strength: 13,
+			dexterity: 14,
+			constitution: 13,
+			intelligence: 17,
+
+			wisdom: 16,
+			charisma: 15,
+		},
+		photo: pat_photo.src,
+		portrait: pat_full.src,
+		mythic: pat_wizard.src,
+		standard_bio: ['Pat values ethicality and empathy.'],
+		mythic_bio: [
+			'The Cartographer is the progenitor of Patroglyphs. Little is known about him.',
+			"It's said that wherever he goes, people grow.",
+		],
+		href: './characters/patrick',
+
+		alt: 'Phase Three Pat',
 	},
 ];
 
