@@ -1,23 +1,45 @@
-export const mythmaking = [
-	{
-		title: 'Mythic Spark',
-		rate: '$60',
-		description:
-			'Stylized portrait with symbolic elements + one-line archetypal title.',
-		demo: { title: 'The Cartographer', href: './characters/patrick' },
-	},
-	{
-		title: 'Mythic Core',
-		rate: '$120',
-		description:
-			'Portrait + full poetic caption (archetype, transformation, elemental themes)',
-		demo: { title: 'The Resurrectionist', href: './characters/morgan' },
-	},
-	{
-		title: 'Mythic Patron',
-		rate: '$200',
-		description:
-			'Portrait + full poetic caption (archetype, transformation, elemental themes)',
-		demo: { title: 'TBD', href: './hire' },
-	},
-];
+export type serviceTierType = {
+	title: string;
+	services: serviceType[];
+	description: string;
+};
+
+export type serviceType = {
+	title: string;
+	rate: string;
+	description: string;
+	demo: demoType;
+};
+type demoType = {
+	title: string;
+	href: string;
+};
+
+export const mythmaking = {
+	title: 'Mythmaking',
+	description:
+		"You are more than a selfie. I know it, you know it, and now the world can know it - all you've got to do is let me help you show it. Let me forge your myth:",
+	services: [
+		{
+			title: 'Mythic Spark',
+			rate: '$60',
+			description:
+				'Stylized portrait with symbolic elements + one-line archetypal title.',
+			demo: { title: 'The Cartographer', href: './characters/patrick' },
+		},
+		{
+			title: 'Mythic Core',
+			rate: '$120',
+			description:
+				'Portrait + full poetic caption (archetype, transformation, elemental themes)',
+			demo: { title: 'The Resurrectionist', href: './characters/morgan' },
+		},
+		{
+			title: 'Mythic Patron',
+			rate: '$200',
+			description:
+				'Portrait + full poetic caption (archetype, transformation, elemental themes)',
+			demo: { title: 'TBD', href: './hire' },
+		},
+	],
+};

@@ -1,28 +1,19 @@
 import Link from 'next/link';
+import { serviceType } from '../hire/services';
 
 type propsType = {
 	title: string;
-	services: serviceType[];
-};
-
-type serviceType = {
-	title: string;
-	rate: string;
 	description: string;
-	demo: demoType;
-};
-
-type demoType = {
-	title: string;
-	href: string;
+	services: serviceType[];
 };
 
 export default function Rates(props: propsType) {
 	return (
-		<>
+		<div className="flex column gap-medium center">
 			<h3 className="uppercase style-1 spaced" id={props.title}>
 				{props.title}
 			</h3>
+			<p className={`width-half center centered`}>{props.description}</p>
 			<ul className={`flex gap-large center centered pad-none width-full`}>
 				{props.services.map((service, index) => {
 					return (
@@ -43,6 +34,6 @@ export default function Rates(props: propsType) {
 					);
 				})}
 			</ul>
-		</>
+		</div>
 	);
 }

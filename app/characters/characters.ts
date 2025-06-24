@@ -44,9 +44,10 @@ const complete: characters = [
 		archetype: ['Mirror-Walker', 'Explorer of Infinity'],
 		stats: {
 			strength: 13,
-			intelligence: 17,
 			dexterity: 14,
 			constitution: 13,
+			intelligence: 17,
+
 			wisdom: 16,
 			charisma: 15,
 		},

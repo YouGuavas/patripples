@@ -57,7 +57,11 @@ export default function Home() {
 				<p>Or you can just dm me on whatever platform you found me on.</p>
 			</section>
 			<section className={`width-full`}>
-				<Rates title={`Mythmaking`} services={mythmaking} />
+				<Rates
+					title={mythmaking.title}
+					services={mythmaking.services}
+					description={mythmaking.description}
+				/>
 			</section>
 		</main>
 	);
