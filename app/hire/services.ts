@@ -43,7 +43,7 @@ export const services = [
 				title: 'Mythic Patron',
 				rate: '$200',
 				description:
-					'Portrait + full poetic caption (archetype, transformation, elemental themes)',
+					'Core Tier + Additional Variant Image + short voice note unpacking the meaning.',
 				demo: { title: 'TBD', href: './hire' },
 			},
 		],
@@ -56,7 +56,7 @@ export const services = [
 		services: [
 			{
 				title: 'Pedestal',
-				rate: '$60',
+				rate: '$75',
 				description:
 					'A single-page website dedicated to telling your story or selling your wares.',
 				demo: {
@@ -65,17 +65,20 @@ export const services = [
 				},
 			},
 			{
-				title: 'Mythic Core',
-				rate: '$120',
+				title: 'Altar',
+				rate: '$150',
 				description:
-					'A mid-sized (three-to-five pages) website which immerses ',
-				demo: { title: 'The Resurrectionist', href: './characters/morgan' },
+					'A mid-sized (three-to-five pages) website designed with your myth in mind.',
+				demo: {
+					title: 'Rudi From Flint',
+					href: 'https://rudi-from-flint.vercel.app/',
+				},
 			},
 			{
-				title: 'Pantheon',
-				rate: '$200',
+				title: 'Temple',
+				rate: '$250',
 				description:
-					'Portrait + full poetic caption (archetype, transformation, elemental themes)',
+					'A legendary website. Altar Tier, plus three add-ons of your choosing.',
 				demo: { title: 'TBD', href: './hire' },
 			},
 		],
