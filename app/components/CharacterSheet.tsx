@@ -5,21 +5,7 @@ import { useState, useEffect } from 'react';
 import stats from '../../public/icons/graph_icon.svg';
 import bio from '../../public/universal/book_bio.svg';
 import glyph_1 from '../../public/patroglyphs/glyph_1.svg';
-
-type propsType = {
-	phase: string;
-	title: string;
-	archetype: string[];
-	stats: statsType;
-	portrait: string;
-	photo: string;
-	mythic: string;
-	standard_bio: string[];
-	mythic_bio: string[];
-	href: string;
-
-	alt: string;
-};
+import { characterType } from '../characters/characters';
 
 type statsType = {
 	strength: number;
@@ -30,7 +16,7 @@ type statsType = {
 	charisma: number;
 };
 
-export default function CharacterSheet(props: propsType) {
+export default function CharacterSheet(props: characterType) {
 	const variants = [
 		{ title: 'Photo', portal: 'standard', image: props.photo },
 		{ title: 'Portrait', portal: 'standard', image: props.portrait },
@@ -174,6 +160,12 @@ export default function CharacterSheet(props: propsType) {
 						Glyph reading coming soon
 					</li>
 				</ul>
+				<p className={`width-half centered`}>
+					Want a card like this? Check out my{' '}
+					<Link className={`no-deco spaced style-1`} href={`./hire`}>
+						Mythic {props.tier} <em className={`style-1`}>Mythmaking</em> tier!
+					</Link>
+				</p>
 			</div>
 		</div>
 	);

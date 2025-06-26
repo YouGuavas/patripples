@@ -15,6 +15,7 @@ export default function Character() {
 		mythic_bio,
 		href,
 		alt,
+		tier,
 	} = morgan;
 	return (
 		<main className={`main center height-full`}>
@@ -33,6 +34,7 @@ export default function Character() {
 					mythic_bio={mythic_bio}
 					href={href}
 					alt={alt}
+					tier={tier}
 				/>
 			</section>
 		</main>

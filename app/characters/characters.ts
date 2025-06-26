@@ -27,6 +27,7 @@ export type characterType = {
 	href: string;
 
 	alt: string;
+	tier: string;
 };
 type statsType = {
 	strength: number;
@@ -69,6 +70,7 @@ const complete: characters = [
 		],
 		href: './characters/morgan',
 		alt: 'Phase Morgan',
+		tier: 'Core',
 	},
 	{
 		phase: glyph_1.src,
@@ -94,6 +96,7 @@ const complete: characters = [
 		href: './characters/patrick',
 
 		alt: 'Phase Three Pat',
+		tier: 'Spark',
 	},
 ];
 

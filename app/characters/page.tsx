@@ -29,6 +29,7 @@ export default function Character() {
 						mythic_bio,
 						href,
 						alt,
+						tier,
 					} = character;
 					return (
 						<CharacterSheet
@@ -44,6 +45,7 @@ export default function Character() {
 							mythic_bio={mythic_bio}
 							href={href}
 							alt={alt}
+							tier={tier}
 						/>
 					);
 				})}
@@ -64,6 +66,7 @@ export default function Character() {
 						mythic_bio,
 						href,
 						alt,
+						tier,
 					} = character;
 					return (
 						<CharacterSheet
@@ -79,6 +82,7 @@ export default function Character() {
 							mythic_bio={mythic_bio}
 							href={href}
 							alt={alt}
+							tier={tier}
 						/>
 					);
 				})}
