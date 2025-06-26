@@ -2,7 +2,7 @@ import { characterType } from '../characters';
 import { complete } from '../characters';
 import CharacterSheet from '../../components/CharacterSheet';
 export default function Character() {
-	const morgan: characterType = complete[1];
+	const morgan: characterType = complete[0];
 	const {
 		phase,
 		title,
@@ -19,7 +19,9 @@ export default function Character() {
 	} = morgan;
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>Morgan Character Card.</h1>
+			<h1 className={`style-1 thin lowercase`}>
+				The Resurrectionist Character Card.
+			</h1>
 
 			<section className={`flex gap-large center`}>
 				<CharacterSheet
