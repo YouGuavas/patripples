@@ -58,9 +58,9 @@ export default function Home() {
 				<p>I am open to barter and trade exchange.</p>
 				<p>I require a 20%, non-refundable deposit.</p>
 			</section>
-			{services.map((service) => {
+			{services.map((service, index) => {
 				return (
-					<section className={`width-full`}>
+					<section key={index} className={`width-full`}>
 						<Rates
 							title={service.title}
 							services={service.services}
