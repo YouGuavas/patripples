@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Rates from '../components/Rates';
 
-import { mythmaking } from './services';
+import { services } from './services';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Hire',
@@ -56,13 +56,17 @@ export default function Home() {
 				</p>
 				<p>Or you can just dm me on whatever platform you found me on.</p>
 			</section>
-			<section className={`width-full`}>
-				<Rates
-					title={mythmaking.title}
-					services={mythmaking.services}
-					description={mythmaking.description}
-				/>
-			</section>
+			{services.map((service) => {
+				return (
+					<section className={`width-full`}>
+						<Rates
+							title={service.title}
+							services={service.services}
+							description={service.description}
+						/>
+					</section>
+				);
+			})}
 		</main>
 	);
 }
