@@ -1,17 +1,15 @@
-import pat_full from '../../public/characters/pat_full.svg';
-import kid_pat from '../../public/characters/kid_pat.svg';
 import morgan from '../../public/characters/Morgan.svg';
 import morgan_photo from '../../public/Morgan_photo.svg';
 import morgan_mythic from '../../public/characters/Morgan_mythic.svg';
 
+import pat_full from '../../public/characters/pat_full.svg';
 import pat_photo from '../../public/Pat_photo.svg';
 import pat_wizard from '../../public/characters/pat_wizard.svg';
-import ask from '../../public/universal/ask.svg';
 
+import jess_and_stephen from '../../public/characters/Jessica and Stephen.svg';
+import jess_and_stephen_photo from '../../public/characters/Jessica and Stephen photo.svg';
+import ask from '../../public/universal/ask.svg';
 import glyph_1 from '../../public/patroglyphs/glyph_1.svg';
-import glyph_2 from '../../public/patroglyphs/glyph_2.svg';
-import glyph_3 from '../../public/patroglyphs/glyph_3.svg';
-import glyph_4 from '../../public/patroglyphs/glyph_4.svg';
 
 type characters = characterType[];
 export type characterType = {
@@ -100,6 +98,31 @@ const complete: characters = [
 	},
 ];
 
-const incomplete: characters = [];
+const incomplete: characters = [
+	{
+		phase: glyph_1.src,
+		title: `The Emphatic Empaths`,
+		archetype: ['Ashwalking Emberwitch', 'Reconfiguring Phoenix'],
+		stats: {
+			strength: 8,
+			dexterity: 16,
+			constitution: 10,
+			intelligence: 12,
+
+			wisdom: 15,
+			charisma: 18,
+		},
+		photo: jess_and_stephen_photo.src,
+		portrait: jess_and_stephen.src,
+		mythic: ask.src,
+		standard_bio: [
+			'Have you ever met your mirror? This dynamic duo make forests feel like home. ',
+		],
+		mythic_bio: [''],
+		href: './characters/emphatic_empaths/',
+		alt: 'Phase Morgan',
+		tier: 'Core',
+	},
+];
 
 export { complete, incomplete };

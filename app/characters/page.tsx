@@ -52,7 +52,7 @@ export default function Character() {
 			</section>
 
 			<section className={`flex gap-large center`}>
-				<h2 className={`style-1 thin lowercase width-full`}>Incomplete</h2>
+				<h2 className={`style-1 thin lowercase width-full`}>Complete</h2>
 				{incomplete.map((character, index) => {
 					const {
 						phase,
