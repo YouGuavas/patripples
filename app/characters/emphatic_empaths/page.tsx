@@ -1,11 +1,14 @@
 import { characterType } from '../characters';
 import { complete } from '../characters';
 import Image from 'next/image';
+import Link from 'next/link';
 import the_banana from '../../../public/characters/the_banana.svg';
 import the_girls from '../../../public/characters/the_girls.svg';
 import the_bloomkeeper from '../../../public/characters/the_bloomkeeper.svg';
 import alloy_alchemist from '../../../public/characters/alloy_alchemist.svg';
 import the_foretold from '../../../public/characters/the_foretold.svg';
+import tiny_mushroom from '../../../public/universal/tiny_mushroom.svg';
+
 import CharacterSheet from '../../components/CharacterSheet';
 import type { Metadata } from 'next';
 
@@ -78,6 +81,30 @@ export default function Character() {
 						<Image src={the_banana.src} alt={alt} fill />
 					</div>
 				</div>
+			</section>
+			<section className={`flex gap-large center`}>
+				<p className={`width-full left-align paragraph`}>
+					Like these? Don&apos;t forget to check out the rest of my{' '}
+					<Link className={`no-deco spaced thin lowercase`} href="./characters">
+						Characters
+					</Link>
+				</p>
+				<p className={`width-full left-align paragraph`}>
+					Low on funds, but have something delightful or transformative to swap
+					for my spellwork? I get down to alchemy. I did The Empaths&apos; page
+					in trade for a tiny mushroom, plus some good company:
+				</p>
+				<div className="image-container">
+					{' '}
+					<Image
+						src={tiny_mushroom.src}
+						alt={'A tiny, 3D-printed mushroom.'}
+						fill
+					/>
+				</div>
+				<p className={`width-full left-align paragraph`}>
+					What will we exchange?
+				</p>
 			</section>
 		</main>
 	);
