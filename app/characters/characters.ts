@@ -71,7 +71,7 @@ const complete: characters = [
 			'Behind the alloy spin the souls of a nearly-jaded teacher and a streetwise preacher, each propping the other up from opposing sides of the same coin. The nearly-nihilistic preacher takes a puff of a cigar as he leans back in his chair. The teacher sips from a half-empty bottle to stave off despair.',
 			'Beneath this scene swirls a layered stew of dreams. A self-automating Alchemist exchanges energy for money in the name of transmuting a better future for his little homunculus. A child dreams of brighter days following a trying ordeal. A mother holds her baby.',
 			"The Twig Sentinel - Bearing a bark shield, she is a walking hug with a drive to defend. She fears the roaring of thunder, because it reminds her of all the times she had to bark to keep her home safe - she hopes she never has to bite. Seriously. Could you please quiet down? You're stressing her out.",
-			"The Giggle at Your Funeral - She may be all sunshine, all the time - despite her sore hip and rough history - but if you ever make her big sister bark (or spark misery) she'll lay down her chew toy and mark you up with a bright smile.",
+			"The Giggle at Your Funeral - She may be all sunshine, all the time - despite her sore hip and rough history - but if you ever make her big sister bark (or spark misery), she'll lay down her chew toy and mark you up with a bright smile.",
 			"The Foretold - If Vibes were currency, he would be King. He is silent abundance. His dish runneth over. When he meows, that means he's speaking, and you'd better listen up - he's been out slinking all night, and he brings urgent tidings.",
 		],
 		href: './characters/emphatic_empaths/',
