@@ -358,6 +358,11 @@ button {
 	width: 300px;
 	height: 300px;
 }
+.jumbo-container {
+	position: relative;
+	width: 60vw;
+	height: 45vw;
+}
 
 .image-container {
 	position: relative;
