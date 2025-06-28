@@ -85,9 +85,10 @@ export default function Character() {
 			<section className={`flex gap-large center`}>
 				<p className={`width-full left-align paragraph`}>
 					Like these? Don&apos;t forget to check out the rest of my{' '}
-					<Link className={`no-deco spaced thin lowercase`} href="./characters">
+					<Link className={`no-deco spaced thin lowercase`} href="./">
 						Characters
 					</Link>
+					.
 				</p>
 				<p className={`width-full left-align paragraph`}>
 					Low on funds, but have something delightful or transformative to swap

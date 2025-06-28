@@ -17,8 +17,14 @@ export default function Home() {
 					I&apos;ve made.
 				</p>
 				<p className={`style-1`}>
-					Swapped a mythology page in exchange for a magical trinket, food, and
-					shelter.
+					Swapped a{' '}
+					<Link
+						href="../characters/emphatic_empaths"
+						className={'lowercase spaced no-deco thin style-1'}
+					>
+						mythology page
+					</Link>{' '}
+					in exchange for a magical trinket, food, and shelter.
 				</p>
 			</section>
 		</main>

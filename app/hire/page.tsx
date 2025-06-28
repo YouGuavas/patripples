@@ -55,7 +55,6 @@ export default function Home() {
 					.
 				</p>
 				<p>Or you can just dm me on whatever platform you found me on.</p>
-				<p>I am open to barter and trade exchange.</p>
 				<p>I require a 20%, non-refundable deposit in order to start work.</p>
 				<p>
 					Khajiit lacks coin, but has wares, wheres, or stories to share?{' '}
