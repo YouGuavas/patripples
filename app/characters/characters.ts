@@ -8,6 +8,7 @@ import pat_wizard from '../../public/characters/pat_wizard.svg';
 
 import jess_and_stephen from '../../public/characters/Jessica and Stephen.svg';
 import jess_and_stephen_photo from '../../public/characters/Jessica and Stephen photo.svg';
+import empaths from '../../public/characters/emphatic_empaths.svg';
 import ask from '../../public/universal/ask.svg';
 import glyph_1 from '../../public/patroglyphs/glyph_1.svg';
 
@@ -40,7 +41,7 @@ const complete: characters = [
 	{
 		phase: glyph_1.src,
 		title: `The Emphatic Empaths`,
-		archetype: ['Aetherbound Rootwitch', 'Quick-witted Voidpriest'],
+		archetype: ['Chaotic Rootwitch', 'Alchemic Oathkeeper'],
 		stats: {
 			strength: 8,
 			dexterity: 16,
@@ -52,14 +53,26 @@ const complete: characters = [
 		},
 		photo: jess_and_stephen_photo.src,
 		portrait: jess_and_stephen.src,
-		mythic: ask.src,
+		mythic: empaths.src,
 		standard_bio: [
 			"Have you ever met your mirror? This dynamic duo could make a forest feel like home. Frankly, they frequently do! See these legendary myths at any Electric Forest, and you're sure to feel it for life.",
 			"Whether they're homesteading, going viral, or Making Things Happen (tm), these emphatic empaths always consider your feelings and hope for your healing. They find themselves eternally guiding, even when they're internally reeling.",
-			'Each once stood at their own brink long ago - one swaying, the other shaking - and still, these survivors stand. Today, they stand together - two embracing trees, not entangled, but entwined - while strong roots sprout beneath.',
+			'Each once stood at their own brink - one swaying, the other shaking - and each refused to sink. Today, they stand together - two entwined trees, not entangled, but interwoven and embraced - while strong roots sprout down below.',
 			'One bears eternal fire, while the other always tends the hearth.',
 		],
-		mythic_bio: ['Mythic bio coming soon.'],
+		mythic_bio: [
+			'The Emphatic Empaths - Having each arrived on this side of reality after emerging from a portal in a forest aglow with memories of fireflies and electricity, these legends in the making breathe redefinition into existence. One springs color from the roughshod, and the other smelts grit into silver.',
+			"The Bloomkeeper - Sprang forth from a lake and leapt straight into entanglement, The Bloomkeeper crafted a specialized set of gills from a strange weed she found growing on a rock at the edge of a nondescript lake. She did that once - on accident - and she has not been able to replicate it since. Anyway, now she has gills - and you most likely don't. So do not mess with her near water. And do not mess with anything she loves anywhere near a plant, or she will find a one-time way to ward you with it. She does not know what or how she will do, but she promises that she will figure it out, and that it will be very, very uncomfortable. For you. The Giggle at Your Funeral will love it.",
+			"Where there might otherwise be scars, instead sprawl ivy and stars. She keeps regal rabbits that'd make Radagast grin. Wherever she plots to plant her roots, seeds sprout and sunshine spouts.",
+			'In her dream field: she forms that sunshine into a shield, which she uses to repel the forces of darkness which would see her flowers wilt. A pillar wrapped in ivy stands strong behind her. Her shield cuts a path for the sprout she hopes to see bloom.',
+
+			"The Alloy-sworn Alchemist - Forged from fire and scarred by silver, his vibe gives 'continuous transcendence,' his tone rings 'penance,' and his thoughts sound strong resonance. He carries no shield, since he became one. These are hallmarks of those who have transmuted pain.",
+			'Behind the alloy spin the souls of a nearly-jaded teacher and a streetwise preacher, each propping the other up from opposing sides of a coin. The nearly-nihilistic preacher takes a puff of a cigar as he leans back in his chair. The teacher sips from a half-empty bottle to stave off despair.',
+			'Beneath this scene swirls a layered stew of dreams. A self-automating Alchemist exchanges energy for money in the name of transmuting a better future for his little homunculus. A child dreams of brighter days following a trying ordeal. A mother holds her baby.',
+			"The Twig Sentinel - Bearing a bark shield, she is a walking hug with a drive to defend. She fears the roaring of thunder, because it reminds her of all the times she had to bark to keep her home safe - she hopes she never has to bite. Seriously. Could you please quiet down? You're stressing her out.",
+			"The Giggle at Your Funeral - She may be all sunshine, all the time - despite her sore hip and rough history - but if you ever make her big sister bark (or spark misery) she'll lay down her chew toy and mark you up with a bright smile.",
+			"The Foretold - If Vibes were currency, he would be King. He is silent abundance. His dish runneth over. When he meows, that means he's speaking, and you'd better listen up - he's been out slinking all night, and he brings urgent tidings.",
+		],
 		href: './characters/emphatic_empaths/',
 		alt: 'Phase Married',
 		tier: 'Patron',
@@ -81,7 +94,7 @@ const complete: characters = [
 		portrait: morgan.src,
 		mythic: morgan_mythic.src,
 		standard_bio: [
-			"Morgan is a survivor. She's been put through the ringer, and she's stood at the brink. She has loved, and she has lost. She has seen entire lives taken away, and heard the abyss sing her name.",
+			"The Resurrectionist is a survivor. She's been put through the ringer, and she's stood at the brink. She has loved, and she has lost. She has seen entire lives taken away, and heard the abyss sing her name.",
 			"Even when the currents of life are doing their best to drown her out, she never sinks - she flows like water as she moves through the aether. Don't ever call her 'helpless' - her tongue is a whip that can snap like a firecracker.",
 			"If you never make her use it, and instead see right through it, she'll think about putting a cork in it, and trading sips of her favorite firewater with you, instead. If you're really lucky, she may even say a kind word or two about you.",
 			"She's still finding her wings, yet you can see them glowing and growing as she keeps going.",
