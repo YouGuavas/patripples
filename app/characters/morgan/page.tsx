@@ -1,8 +1,16 @@
 import { characterType } from '../characters';
 import { complete } from '../characters';
 import CharacterSheet from '../../components/CharacterSheet';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Patripples | The Resurrectionist',
+	description:
+		"Patripples | Patrick Other - See yourself mythologized as you've always visualized! SVG animations, character portraits, storytelling, and more.",
+};
+
 export default function Character() {
-	const morgan: characterType = complete[0];
+	const morgan: characterType = complete[1];
 	const {
 		phase,
 		title,

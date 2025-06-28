@@ -44,7 +44,10 @@ export const services = [
 				rate: '$200',
 				description:
 					'Core Tier + Additional Variant Image + short voice note unpacking the meaning.',
-				demo: { title: 'TBD', href: './hire' },
+				demo: {
+					title: 'The Emphatic Empaths',
+					href: './characters/emphatic_empaths',
+				},
 			},
 		],
 	},

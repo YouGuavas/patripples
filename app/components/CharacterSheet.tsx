@@ -23,7 +23,6 @@ export default function CharacterSheet(props: characterType) {
 		{ title: 'Mythic', portal: 'mythic', image: props.mythic },
 	];
 	const icons = [
-		{ title: 'stats', image: stats },
 		{ title: 'bio', image: bio },
 		{ title: 'glyphs', image: glyph_1 },
 	];
@@ -113,7 +112,7 @@ export default function CharacterSheet(props: characterType) {
 						);
 					})}
 				</ul>
-				<ul
+				{/*<ul
 					className={`${
 						active === 'stats' ? null : 'collapsed'
 					} flex gap-medium no-deco pad-none width-full center`}
@@ -126,7 +125,7 @@ export default function CharacterSheet(props: characterType) {
 							{stat}: {props.stats[stat]}/{cap}
 						</li>
 					))}
-				</ul>
+				</ul>*/}
 				<div
 					className={`${
 						portal + active === 'standardbio' ? null : 'collapsed'

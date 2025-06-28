@@ -39,6 +39,33 @@ type statsType = {
 const complete: characters = [
 	{
 		phase: glyph_1.src,
+		title: `The Emphatic Empaths`,
+		archetype: ['Aetherbound Rootwitch', 'Quick-witted Voidpriest'],
+		stats: {
+			strength: 8,
+			dexterity: 16,
+			constitution: 10,
+			intelligence: 12,
+
+			wisdom: 15,
+			charisma: 18,
+		},
+		photo: jess_and_stephen_photo.src,
+		portrait: jess_and_stephen.src,
+		mythic: ask.src,
+		standard_bio: [
+			"Have you ever met your mirror? This dynamic duo could make a forest feel like home. Frankly, they frequently do! See these legendary myths at any Electric Forest, and you're sure to feel it for life.",
+			"Whether they're homesteading, going viral, or Making Things Happen (tm), these emphatic empaths always consider your feelings and hope for your healing. They find themselves eternally guiding, even when they're internally reeling.",
+			'Each once stood at their own brink long ago - one swaying, the other shaking - and still, these survivors stand. Today, they stand together - two embracing trees, not entangled, but entwined - while strong roots sprout beneath.',
+			'One bears eternal fire, while the other always tends the hearth.',
+		],
+		mythic_bio: ['Mythic bio coming soon.'],
+		href: './characters/emphatic_empaths/',
+		alt: 'Phase Married',
+		tier: 'Patron',
+	},
+	{
+		phase: glyph_1.src,
 		title: `The Resurrectionist`,
 		archetype: ['Ashwalking Emberwitch', 'Reconfiguring Phoenix'],
 		stats: {
@@ -98,31 +125,6 @@ const complete: characters = [
 	},
 ];
 
-const incomplete: characters = [
-	{
-		phase: glyph_1.src,
-		title: `The Emphatic Empaths`,
-		archetype: ['Ashwalking Emberwitch', 'Reconfiguring Phoenix'],
-		stats: {
-			strength: 8,
-			dexterity: 16,
-			constitution: 10,
-			intelligence: 12,
-
-			wisdom: 15,
-			charisma: 18,
-		},
-		photo: jess_and_stephen_photo.src,
-		portrait: jess_and_stephen.src,
-		mythic: ask.src,
-		standard_bio: [
-			'Have you ever met your mirror? This dynamic duo make forests feel like home. ',
-		],
-		mythic_bio: [''],
-		href: './characters/emphatic_empaths/',
-		alt: 'Phase Morgan',
-		tier: 'Core',
-	},
-];
+const incomplete: characters = [];
 
 export { complete, incomplete };
