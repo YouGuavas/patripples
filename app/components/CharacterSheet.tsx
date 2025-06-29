@@ -18,7 +18,7 @@ type statsType = {
 
 export default function CharacterSheet(props: characterType) {
 	const variants = [
-		{ title: 'Photo', portal: 'standard', image: props.photo },
+		//{ title: 'Photo', portal: 'standard', image: props.photo },
 		{ title: 'Portrait', portal: 'standard', image: props.portrait },
 		{ title: 'Mythic', portal: 'mythic', image: props.mythic },
 	];
