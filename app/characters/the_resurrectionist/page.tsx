@@ -1,6 +1,8 @@
 import { characterType } from '../characters';
 import { complete } from '../characters';
-import CharacterSheet from '../../components/CharacterSheet';
+import Image from 'next/image';
+import BarterTicker from '@/app/components/BarterTicker';
+
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -10,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function Character() {
-	const morgan: characterType = complete[1];
+	const empaths: characterType = complete[1];
 	const {
 		phase,
 		title,
@@ -24,29 +26,34 @@ export default function Character() {
 		href,
 		alt,
 		tier,
-	} = morgan;
+	} = empaths;
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>
-				The Resurrectionist Character Card.
-			</h1>
+			<h1 className={`style-1 thin lowercase`}>{title} Character Page.</h1>
 
 			<section className={`flex gap-large center`}>
-				<CharacterSheet
-					phase={phase}
-					title={title}
-					archetype={archetype}
-					stats={stats}
-					photo={photo}
-					portrait={portrait}
-					mythic={mythic}
-					standard_bio={standard_bio}
-					mythic_bio={mythic_bio}
-					href={href}
-					alt={alt}
-					tier={tier}
-				/>
+				{standard_bio.map((paragraph: string, index) => {
+					return (
+						<p key={index} className={`width-full left-align paragraph`}>
+							{paragraph}
+						</p>
+					);
+				})}
+				<div className="jumbo-container bg-6">
+					<Image src={portrait} alt={alt} fill />
+				</div>
+				{mythic_bio.map((paragraph: string, index) => {
+					return (
+						<p key={index} className={`width-full left-align paragraph`}>
+							{paragraph}
+						</p>
+					);
+				})}
+				<div className="jumbo-container bg-6">
+					<Image src={mythic} alt={alt} fill />
+				</div>
 			</section>
+			<BarterTicker />
 		</main>
 	);
 }

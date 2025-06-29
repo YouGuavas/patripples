@@ -11,6 +11,7 @@ import tiny_mushroom from '../../../public/universal/tiny_mushroom.svg';
 
 import CharacterSheet from '../../components/CharacterSheet';
 import type { Metadata } from 'next';
+import BarterTicker from '@/app/components/BarterTicker';
 
 export const metadata: Metadata = {
 	title: 'Patripples | The Empaths',
@@ -82,35 +83,7 @@ export default function Character() {
 					</div>
 				</div>
 			</section>
-			<section className={`flex gap-large center`}>
-				<p className={`width-full left-align paragraph`}>
-					Like these? Don&apos;t forget to check out the rest of my{' '}
-					<Link className={`no-deco spaced thin lowercase`} href="./">
-						Characters
-					</Link>
-					.
-				</p>
-				<p className={`width-full left-align paragraph`}>
-					Low on funds, but have something delightful or transformative to swap
-					for my spellwork? I get down to alchemy. I did The Empaths&apos; page
-					in trade for a tiny mushroom, plus some good company:
-				</p>
-				<div className="image-container">
-					{' '}
-					<Image
-						src={tiny_mushroom.src}
-						alt={'A tiny, 3D-printed mushroom.'}
-						fill
-					/>
-				</div>
-				<p className={`width-full left-align paragraph`}>
-					What will we{' '}
-					<Link href="../hire/barter/" className={`spaced no-deco lowercase`}>
-						exchange
-					</Link>
-					?
-				</p>
-			</section>
+			<BarterTicker />
 		</main>
 	);
 }
