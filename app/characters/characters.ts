@@ -1,9 +1,12 @@
 import morgan from '../../public/characters/Morgan.svg';
 import morgan_photo from '../../public/Morgan_photo.svg';
+import the_resurrectionist from '../../public/characters/the_resurrectionist.svg';
 import morgan_mythic from '../../public/characters/Morgan_mythic.svg';
 
 import pat_full from '../../public/characters/pat_full.svg';
 import pat_photo from '../../public/Pat_photo.svg';
+
+import the_cartographer from '../../public/characters/the_cartographer.svg';
 import pat_wizard from '../../public/characters/pat_wizard.svg';
 
 import jess_and_stephen from '../../public/characters/Jessica and Stephen.svg';
@@ -93,7 +96,7 @@ const complete: characters = [
 		},
 		photo: morgan_photo.src,
 		portrait: morgan.src,
-		mythic: morgan_mythic.src,
+		mythic: the_resurrectionist.src,
 		standard_bio: [
 			"The Resurrectionist is a survivor. She's been put through the ringer, and she's stood at the brink. She has loved, and she has lost. She has seen entire lives taken away, and heard the abyss sing her name.",
 			"Even when the currents of life are doing their best to drown her out, she never sinks - she flows like water as she moves through the aether. Don't ever call her 'helpless' - her tongue is a whip that can snap like a firecracker.",
@@ -126,7 +129,7 @@ const complete: characters = [
 		},
 		photo: pat_photo.src,
 		portrait: pat_full.src,
-		mythic: pat_wizard.src,
+		mythic: the_cartographer.src,
 		standard_bio: ['Pat values ethicality and empathy.'],
 		mythic_bio: [
 			'The Cartographer is the progenitor of Patroglyphs. Little is known about him.',
