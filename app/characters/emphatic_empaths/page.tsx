@@ -104,7 +104,11 @@ export default function Character() {
 					/>
 				</div>
 				<p className={`width-full left-align paragraph`}>
-					What will we exchange?
+					What will we{' '}
+					<Link href="../hire/barter/" className={`spaced no-deco lowercase`}>
+						exchange
+					</Link>
+					?
 				</p>
 			</section>
 		</main>

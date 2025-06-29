@@ -56,7 +56,7 @@ const complete: characters = [
 		mythic: empaths.src,
 		standard_bio: [
 			"Have you ever met your mirror? This dynamic duo could make a forest feel like home. Frankly, they frequently do! Meet these myths in an Electric Forest, and you're sure to feel it for life.",
-			"Whether they're homesteading, going viral, or Making Things Happen (tm), these emphatic empaths always consider your feelings and hope for your healing. They find themselves eternally guiding, even when they're internally reeling.",
+			"Whether they're homesteading, going viral, or Making Things Happen (tm), these two Emotional Tens always consider your feelings and hope for your healing. They find themselves eternally guiding, even when they're internally reeling.",
 			'Each once stood at their own brink - one swaying, the other shaking - and each refused to sink. Today, they stand together - two entwined trees, not entangled, but interwoven and embraced - while strong roots sprout down below.',
 			'One bears eternal fire, while the other always tends the hearth.',
 			"Oh, and I'm pretty sure their cat is a wizard.",
