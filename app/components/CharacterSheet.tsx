@@ -64,13 +64,10 @@ export default function CharacterSheet(props: characterType) {
 	return (
 		<div className={`center width-full`}>
 			<div className={`centered center width-half`}>
-				<Link href={props.href}>
-					<div className={`icon-container centered`}>
-						<Image src={props.phase} fill alt={`Phase Rune`} />
-					</div>
-				</Link>
 				<h4 className={`style-1 thin lowercase spaced font-large`}>
-					&quot;{props.title}&quot;
+					<Link href={props.href} className={`style-1 no-deco`}>
+						&quot;{props.title}&quot;
+					</Link>
 				</h4>
 				<div className={`image-container centered bg-2 z5`}>
 					<Image src={image} fill alt={`${props.alt}`} />

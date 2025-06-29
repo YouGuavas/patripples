@@ -110,7 +110,7 @@ const complete: characters = [
 			'Gained through ancient communion with forbidden crystals, the misty shroud which surrounds her serves many purposes - guiding her through the mazes she faces, serving as salve to her allies, yet noxious to those who would do her harm. Not even she can control it. It moves through her when she is at her most intuitive - or chaotic.',
 			'Be mindful of the version of her you choose to summon.',
 		],
-		href: './characters/morgan',
+		href: './characters/the_resurrectionist',
 		alt: 'Phase Morgan',
 		tier: 'Core',
 	},
@@ -135,7 +135,7 @@ const complete: characters = [
 			'The Cartographer is the progenitor of Patroglyphs. Little is known about him.',
 			"It's said that wherever he goes, people grow.",
 		],
-		href: './characters/patrick',
+		href: './characters/the_cartographer',
 
 		alt: 'Phase Three Pat',
 		tier: 'Spark',
