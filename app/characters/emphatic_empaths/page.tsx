@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 export default function Character() {
-	const empaths: characterType = complete[0];
+	const empaths: characterType = complete[2];
 	const {
 		phase,
 		title,
@@ -42,9 +42,6 @@ export default function Character() {
 			</h1>
 
 			<section className={`flex gap-large center`}>
-				<div className="jumbo-container bg-6">
-					<Image src={photo} alt={alt} fill />
-				</div>
 				{standard_bio.map((paragraph: string, index) => {
 					return (
 						<p key={index} className={`width-full left-align paragraph`}>

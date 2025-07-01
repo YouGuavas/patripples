@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 		"Patripples | Patrick Other - See yourself mythologized as you've always visualized! SVG animations, character portraits, storytelling, and more.",
 };
 export default function Character() {
+	complete.reverse();
 	return (
 		<main className={`main center height-full`}>
 			<h1 className={`style-1 thin lowercase`}>characters of patripples.</h1>
