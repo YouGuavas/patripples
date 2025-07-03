@@ -147,7 +147,7 @@ const complete: characters = [
 	{
 		phase: glyph_1.src,
 		title: `The Loyal Fool`,
-		archetype: ['Emberlight of the Fae-Net', 'Alchemic Oathkeeper'],
+		archetype: ['Friend of the Fae', "Magician's Apprentice"],
 		stats: {
 			strength: 8,
 			dexterity: 16,
@@ -159,10 +159,10 @@ const complete: characters = [
 		},
 		photo: donovan.src,
 		portrait: donovan.src,
-		mythic: ask.src,
+		mythic: the_fool.src,
 		standard_bio: [
 			"Some men just want to watch the world burn. Others know it will, wish it wouldn't, and watch it happen anyway, tired from trying to stop it.",
-			"Never mistake this quick-witted, fleet-footed fool for slow. It's not that he doesn't see enough, it's that he wishes he didn't see it all. It doesn't matter how dark the vision, it will never dim the light within him.",
+			"Never mistake this quick-witted, fleet-footed Fool for slow. It's not that he doesn't see enough, it's that he wishes he didn't see it all. It doesn't matter how low the vibe gets, .",
 		],
 		mythic_bio: ['Mythic bio coming soon.'],
 		href: './characters/the_fool/',
