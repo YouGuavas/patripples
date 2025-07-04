@@ -11,12 +11,8 @@ import ask from '../public/universal/ask.svg';
 
 const routes = [
 	{ name: 'Home', path: '/', image: ripples },
-
-	{ name: 'See', path: '/see', image: eye },
 	{ name: 'Read', path: '/read', image: book },
-	{ name: 'Count', path: '/count', image: count },
 	{ name: 'Characters', path: '/characters', image: characters },
-	{ name: 'Patroglyphs', path: '/patroglyphs', image: glyph_1 },
 
 	{ name: 'Hire', path: '/hire', image: dollar },
 

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ripples from '../public/logos/ripples.png';
 import cartographer from '../public/characters/cartographer.svg';
+import pat from '../public/characters/pat_full.svg';
 import EmailForm from './components/EmailForm';
 import fish from '../public/memes/fish_fear.png';
 
@@ -23,48 +24,48 @@ export default function Home() {
 				<div className={`image-container`}>
 					<Image src={cartographer.src} fill alt="The Cartographer" />
 				</div>
+				<p className={`paragraph left`}>
+					Welcome to patripples. I&apos;m The Cartographer.
+				</p>
 			</div>
-			<p className={`paragraph width-full left`}>
-				Update 06/21/2025: I am now resuming updates to the site.
-			</p>
-			<p className={`paragraph width-full left`}>
-				Update 05/19/2025: Two weeks ago, I was assaulted and illegally evicted.
-				I took a hiatus during the following period to focus on survival, and
-				will resume posting as I am able.
-			</p>
-			<h1 className={`lowercase spaced style-1 thin`}>How to patripple.</h1>
-			<p className={`paragraph width-full left`}>
-				As with the concept, this is a living document. I am working on it as I
-				go along. You are welcome to come back to check for updates whenever it
-				pleases you.
-			</p>
-			<p className={`paragraph width-full left`}>
-				Have you ever tossed a handful of pebbles into a pond or a creek, and
-				watched the water ripple?
-			</p>{' '}
-			<p className={`paragraph width-full left`}>
-				If you have, you have changed the course of history - etched your
-				fingerprint onto the world in a lasting way. How did you do that?
-			</p>
-			<p className={`paragraph width-full left`}>
-				You did that through curiosity, or through resilience, or through
-				intuition. You did that because something within you compelled you to.
-				If you did something like this recently, then probably, you were
-				pondering how imbalanced things are. In a previous decade, maybe you did
-				so because you wanted to see what would happen, or because you realized
-				that you&apos;d never reach Mars, so you invented a clever, impish way
-				to move it a stone&apos;s throw and a skip away.
-			</p>
-			<p className={`paragraph width-full left`}>
-				Scientifically speaking, you did that through the long, slow process of
-				erosion.
-			</p>
-			<p className={`paragraph width-full left`}>
-				Those pebbles you tossed - however small - altered the flow of the water
-				and the air around them. They did this in their removal; in their
-				displacement. Consider both the spaces that they left behind, and the
-				spaces we now occupy.
-			</p>
+			<section>
+				<div className={`image-container`}>
+					<Image src={pat.src} fill alt="Pat" />
+				</div>
+				<h1 className={`lowercase spaced style-1 thin`}>How to patripple.</h1>
+				<p className={`paragraph width-full left`}>
+					As with the concept, this is a living document. I am working on it as
+					I go along. You are welcome to come back to check for updates whenever
+					it pleases you.
+				</p>
+				<p className={`paragraph width-full left`}>
+					Have you ever tossed a handful of pebbles into a pond or a creek, and
+					watched the water ripple?
+				</p>{' '}
+				<p className={`paragraph width-full left`}>
+					If you have, you have changed the course of history - etched your
+					fingerprint onto the world in a lasting way. How did you do that?
+				</p>
+				<p className={`paragraph width-full left`}>
+					You did that through curiosity, or through resilience, or through
+					intuition. You did that because something within you compelled you to.
+					If you did something like this recently, then probably, you were
+					pondering how imbalanced things are. In a previous decade, maybe you
+					did so because you wanted to see what would happen, or because you
+					realized that you&apos;d never reach Mars, so you invented a clever,
+					impish way to move it a stone&apos;s throw and a skip away.
+				</p>
+				<p className={`paragraph width-full left`}>
+					Scientifically speaking, you did that through the long, slow process
+					of erosion.
+				</p>
+				<p className={`paragraph width-full left`}>
+					Those pebbles you tossed - however small - altered the flow of the
+					water and the air around them. They did this in their removal; in
+					their displacement. Consider both the spaces that they left behind,
+					and the spaces we now occupy.
+				</p>
+			</section>
 			<section>
 				<h2 className={`lowercase spaced style-1 thin`}>
 					How to join the wave.

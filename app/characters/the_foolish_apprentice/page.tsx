@@ -6,7 +6,7 @@ import BarterTicker from '@/app/components/BarterTicker';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'Patripples | The Fool',
+	title: 'Patripples | The Foolish Apprentice',
 	description:
 		"Patripples | Patrick Other - See yourself mythologized as you've always visualized! SVG animations, character portraits, storytelling, and more.",
 };

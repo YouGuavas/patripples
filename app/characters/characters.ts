@@ -62,7 +62,7 @@ const complete: characters = [
 		mythic: the_cartographer.src,
 		standard_bio: ['Pat values ethicality and empathy.'],
 		mythic_bio: [
-			'The Cartographer is the progenitor of Patroglyphs. Little is known about him.',
+			'Little is known about The Cartographer. He appears when he is called, and delivers only the lessons you need most pressingly.',
 			"It's said that wherever he goes, people grow.",
 		],
 		href: './characters/the_cartographer',
@@ -146,7 +146,7 @@ const complete: characters = [
 	},
 	{
 		phase: glyph_1.src,
-		title: `The Loyal Fool`,
+		title: `The Foolish Apprentice`,
 		archetype: ['Friend of the Fae', "Magician's Apprentice"],
 		stats: {
 			strength: 8,
@@ -165,7 +165,7 @@ const complete: characters = [
 			"Never mistake this quick-witted, fleet-footed Fool for slow. It's not that he doesn't see enough, it's that he wishes he didn't see it all. It doesn't matter how low the vibe gets, .",
 		],
 		mythic_bio: ['Mythic bio coming soon.'],
-		href: './characters/the_fool/',
+		href: './characters/the_foolish_apprentice/',
 		alt: 'Phase Carolina',
 		tier: 'Spark',
 	},

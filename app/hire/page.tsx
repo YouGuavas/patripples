@@ -16,7 +16,7 @@ export default function Home() {
 			<section className={`width-full`}>
 				<h1 className="lowercase style-1 thin">Want to work with Pat?</h1>
 				<p className={`style-1`}>
-					Pay me on{' '}
+					Tip me on{' '}
 					<Link
 						className={`no-deco style-1`}
 						href="https://cash.app/$pyambrick"
@@ -55,7 +55,6 @@ export default function Home() {
 					.
 				</p>
 				<p>Or you can just dm me on whatever platform you found me on.</p>
-				<p>I require a 20%, non-refundable deposit in order to start work.</p>
 				<p>
 					Khajiit lacks coin, but has wares, wheres, or stories to share?{' '}
 					<Link href="./hire/barter" className={`spaced no-deco`}>

@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import stats from '../../public/icons/graph_icon.svg';
 import bio from '../../public/universal/book_bio.svg';
-import glyph_1 from '../../public/patroglyphs/glyph_1.svg';
 import { characterType } from '../characters/characters';
 
 type statsType = {
@@ -22,10 +21,7 @@ export default function CharacterSheet(props: characterType) {
 		{ title: 'Portrait', portal: 'standard', image: props.portrait },
 		{ title: 'Mythic', portal: 'mythic', image: props.mythic },
 	];
-	const icons = [
-		{ title: 'bio', image: bio },
-		{ title: 'glyphs', image: glyph_1 },
-	];
+	const icons = [{ title: 'bio', image: bio }];
 
 	const [active, setActive] = useState('bio');
 	const [portal, setPortal] = useState('standard');
@@ -63,35 +59,18 @@ export default function CharacterSheet(props: characterType) {
 
 	return (
 		<div className={`center width-full`}>
-			<div className={`centered center width-half`}>
+			<div className={`centered center width-full`}>
 				<h4 className={`style-1 thin lowercase spaced font-large`}>
 					<Link href={props.href} className={`style-1 no-deco`}>
 						&quot;{props.title}&quot;
 					</Link>
 				</h4>
-				<div className={`image-container centered bg-2 z5`}>
+				<div className={`portrait-container centered bg-2 z5`}>
 					<Image src={image} fill alt={`${props.alt}`} />
 				</div>{' '}
 				<h5 className={`style-1 thin lowercase spaced`}>
 					{props.archetype[0]} / / {props.archetype[1]}
 				</h5>
-				<ul className={`no-deco flex center pad-none gap-small`}>
-					{icons.map((icon, index) => {
-						return (
-							<li
-								key={index}
-								className={`${
-									active === icon.title ? 'active' : null
-								} icon-container pointer darken`}
-								onClick={() => {
-									toggleActive(icon.title);
-								}}
-							>
-								<Image src={icon.image.src} fill alt={`${icon.title} Icon`} />
-							</li>
-						);
-					})}
-				</ul>
 				<ul className={`flex center gap-small pad-none no-deco`}>
 					{variants.map((variant, index) => {
 						return (
@@ -99,7 +78,7 @@ export default function CharacterSheet(props: characterType) {
 								key={index}
 								className={`${
 									title === variant.title.toLowerCase() ? 'active' : null
-								} lowercase thin spaced pointer darken bordered px-1 py-1`}
+								} lowercase thin spaced pointer darken px-1 py-1 style-1`}
 								onClick={() => {
 									handleImageSwap(variant.image, variant.portal, variant.title);
 								}}
@@ -147,15 +126,6 @@ export default function CharacterSheet(props: characterType) {
 						);
 					})}{' '}
 				</div>
-				<ul
-					className={`${
-						active === 'glyphs' ? null : 'collapsed'
-					} flex gap-medium no-deco pad-none width-full center`}
-				>
-					<li className={`width-half no-deco font-medium thin spaced color-2 `}>
-						Glyph reading coming soon
-					</li>
-				</ul>
 				<p className={`width-half centered`}>
 					Want a card like this? Check out my{' '}
 					<Link className={`no-deco spaced style-1`} href={`./hire`}>
