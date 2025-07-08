@@ -38,8 +38,8 @@ export default function EmailForm() {
 	}
 
 	return (
-		<form onSubmit={handleSubmit} className="full form">
-			<div className={`full row`}>
+		<form onSubmit={handleSubmit} className="width-full form center">
+			<div className={`width-full row center`}>
 				<input
 					type="email"
 					value={email}
@@ -53,7 +53,7 @@ export default function EmailForm() {
 					disabled={status === 'loading'}
 					className="py-1 style-1 lowercase thin spaced"
 				>
-					{status === 'loading' ? 'rippling...' : 'wave'}
+					{status === 'loading' ? 'subscribing...' : 'subscribe'}
 				</button>
 			</div>
 			{status === 'success' && (

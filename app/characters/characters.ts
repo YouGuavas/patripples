@@ -62,8 +62,8 @@ const complete: characters = [
 		mythic: the_cartographer.src,
 		standard_bio: ['Pat values ethicality and empathy.'],
 		mythic_bio: [
-			'Little is known about The Cartographer. He appears when he is called, and delivers only the lessons you need most pressingly.',
-			"It's said that wherever he goes, people grow.",
+			'Little is known about The Cartographer. He appears when he is called, and delivers only the lessons you need most pressingly. Often, he seems more confused than you are.',
+			"It's said that wherever he goes, people grow. What that means, I do not know.",
 		],
 		href: './characters/the_cartographer',
 
@@ -164,7 +164,9 @@ const complete: characters = [
 			"Some men just want to watch the world burn. Others know it will, wish it wouldn't, and watch it happen anyway, tired from trying to stop it.",
 			"Never mistake this quick-witted, fleet-footed Fool for slow. It's not that he doesn't see enough, it's that he wishes he didn't see it all. It doesn't matter how low the vibe gets, .",
 		],
-		mythic_bio: ['Mythic bio coming soon.'],
+		mythic_bio: [
+			"A student of many and servant to none, this foolish apprentice departed the Mage's Academy to become the master of his own myth.",
+		],
 		href: './characters/the_foolish_apprentice/',
 		alt: 'Phase Carolina',
 		tier: 'Spark',

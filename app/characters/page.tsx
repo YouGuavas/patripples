@@ -14,7 +14,8 @@ export default function Character() {
 	complete.reverse();
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>characters of patripples.</h1>
+			<h1 className={`style-1 thin lowercase`}>mythic dossiers.</h1>
+
 			<section className={`flex gap-large center`}>
 				{complete.map((character, index) => {
 					const {

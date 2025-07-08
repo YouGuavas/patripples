@@ -1,10 +1,6 @@
-import {
-	FacebookShareButton,
-	FacebookIcon,
-	TwitterShareButton,
-	TwitterIcon,
-} from 'react-share';
-
+import Image from 'next/image';
+import { FacebookShareButton, TwitterShareButton } from 'react-share';
+import FacebookIcon from '../../public/icons/facebook_icon.svg';
 type propsType = {
 	url: string;
 };
@@ -14,7 +10,9 @@ const FbButton = (props: propsType) => {
 			className={`inline-flex items-center justify-center rounded-full `}
 			url={props.url}
 		>
-			<FacebookIcon className="h-6 w-6" round={true} />
+			<div className={`icon-container`}>
+				<Image fill src={FacebookIcon.src} alt="Facebook Icon" />
+			</div>
 		</FacebookShareButton>
 	);
 };
