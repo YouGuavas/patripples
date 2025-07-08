@@ -3,7 +3,7 @@ import { serviceType } from '../hire/services';
 
 type propsType = {
 	title: string;
-	description: string;
+	description: string[];
 	services: serviceType[];
 };
 
@@ -13,7 +13,13 @@ export default function Rates(props: propsType) {
 			<h3 className="uppercase style-1 spaced" id={props.title}>
 				{props.title}
 			</h3>
-			<p className={`width-half center centered`}>{props.description}</p>
+			{props.description.map((paragraph, index) => {
+				return (
+					<p key={index} className={`width-half center centered`}>
+						{paragraph}
+					</p>
+				);
+			})}
 			<ul className={`flex gap-large center centered pad-none width-full`}>
 				{props.services.map((service, index) => {
 					return (

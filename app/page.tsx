@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main left px-1`}>
-			<div className={`icon-container`}>
-				<Image src={ripples.src} fill alt="Ripple logo" />
-			</div>
 			<section className={`width-full center`}>
+				<div className={`icon-container centered`}>
+					<Image src={ripples.src} fill alt="Ripple logo" />
+				</div>
 				<h1 className={`lowercase style-1`}>Welcome to patripples.</h1>
 				<div className={`image-container center centered`}>
 					<Image src={cartographer.src} fill alt="The Cartographer" />

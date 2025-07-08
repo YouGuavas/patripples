@@ -19,43 +19,11 @@ export type demoType = {
 
 export const services = [
 	{
-		title: 'Mythmaking',
-		description:
-			"You are more than a selfie. I know it, you know it, and now the world can know it - all you've got to do is let me help you show it. Let me forge your myth:",
-		services: [
-			{
-				title: 'Mythic Spark',
-				rate: '$60',
-				description:
-					'Stylized portrait with symbolic elements + one-line archetypal title.',
-				demo: { title: 'The Cartographer', href: './characters/patrick' },
-			},
-
-			{
-				title: 'Mythic Core',
-				rate: '$120',
-				description:
-					'Portrait + full poetic caption (archetype, transformation, elemental themes)',
-				demo: { title: 'The Resurrectionist', href: './characters/morgan' },
-			},
-
-			{
-				title: 'Mythic Patron',
-				rate: '$200',
-				description:
-					'Core Tier + Additional Variant Image + short voice note unpacking the meaning.',
-				demo: {
-					title: 'The Emphatic Empaths',
-					href: './characters/emphatic_empaths',
-				},
-			},
-		],
-	},
-
-	{
 		title: 'Altarcrafting',
-		description:
-			'Your story carries the weight of ancient myth. You deserve a legendary altar.',
+		description: [
+			'Your story carries the weight of ancient myth, and deserves to be etched in the fossil record as part of the legendary, ongoing altar to humanity.',
+			"I don't know much about fossils, so let me forge you a website fit for a legend, instead. When one can't do 'fossil record,' 'digital footprint' may do.",
+		],
 		services: [
 			{
 				title: 'Pedestal',
@@ -83,6 +51,40 @@ export const services = [
 				description:
 					'A legendary website. Altar Tier, plus three add-ons of your choosing.',
 				demo: { title: 'TBD', href: './hire' },
+			},
+		],
+	},
+	{
+		title: 'Mythmaking',
+		description: [
+			"You are more than a selfie. I know it, you know it, and now the world can know it - all you've got to do is let me help you show it. Let me forge your myth:",
+		],
+		services: [
+			{
+				title: 'Mythic Spark',
+				rate: '$60',
+				description:
+					'Stylized portrait with symbolic elements + one-line archetypal title.',
+				demo: { title: 'The Cartographer', href: './characters/patrick' },
+			},
+
+			{
+				title: 'Mythic Core',
+				rate: '$120',
+				description:
+					'Portrait + full poetic caption (archetype, transformation, elemental themes)',
+				demo: { title: 'The Resurrectionist', href: './characters/morgan' },
+			},
+
+			{
+				title: 'Mythic Patron',
+				rate: '$200',
+				description:
+					'Core Tier + Additional Variant Image + short voice note unpacking the meaning.',
+				demo: {
+					title: 'The Emphatic Empaths',
+					href: './characters/emphatic_empaths',
+				},
 			},
 		],
 	},

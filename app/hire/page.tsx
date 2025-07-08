@@ -13,55 +13,6 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main center flex column gap-medium`}>
-			<section className={`width-full`}>
-				<h1 className="lowercase style-1 thin">Want to work with Pat?</h1>
-				<p className={`style-1`}>
-					Tip me on{' '}
-					<Link
-						className={`no-deco style-1`}
-						href="https://cash.app/$pyambrick"
-					>
-						Cashapp
-					</Link>
-					.
-				</p>
-
-				<p className={`style-1`}>
-					Hire me on{' '}
-					<Link
-						className={`no-deco style-1`}
-						href="https://www.fiverr.com/s/YRlxwja/"
-					>
-						Fiverr
-					</Link>
-					.
-				</p>
-				<p>
-					Once you&apos;ve figured out what you want - or if you have any
-					questions - Email me:{' '}
-					<Link
-						className={`no-deco style-1 spaced lowercase`}
-						href="mailto:pat@patripples.com"
-					>
-						pat@patripples.com
-					</Link>{' '}
-					or{' '}
-					<Link
-						className={`no-deco style-1 spaced lowercase`}
-						href="mailto:patrickyambrick@gmail.com"
-					>
-						patrickyambrick@gmail.com
-					</Link>
-					.
-				</p>
-				<p>Or you can just dm me on whatever platform you found me on.</p>
-				<p>
-					Khajiit lacks coin, but has wares, wheres, or stories to share?{' '}
-					<Link href="./hire/barter" className={`spaced no-deco`}>
-						Please, step into my back room.
-					</Link>
-				</p>
-			</section>
 			{services.map((service, index) => {
 				return (
 					<section key={index} className={`width-full`}>
@@ -73,6 +24,41 @@ export default function Home() {
 					</section>
 				);
 			})}
+			<section className={`width-full`}>
+				<h2 className="lowercase style-1 thin">Want to work with Pat?</h2>
+				<p className={`style-1`}>
+					Tip Pat on{' '}
+					<Link
+						className={`no-deco style-1`}
+						href="https://cash.app/$pyambrick"
+					>
+						Cashapp
+					</Link>
+					.
+				</p>
+
+				<p className={`style-1`}>
+					Hire Pat on{' '}
+					<Link
+						className={`no-deco style-1`}
+						href="https://www.fiverr.com/s/YRlxwja/"
+					>
+						Fiverr
+					</Link>
+					.
+				</p>
+				<p>
+					Email me for orders or further questions:{' '}
+					<Link
+						className={`no-deco style-1 spaced lowercase`}
+						href="mailto:pat@patripples.com"
+					>
+						pat@patripples.com
+					</Link>{' '}
+					.
+				</p>
+				<p>Or DM me through the platform on which you found me.</p>
+			</section>
 		</main>
 	);
 }
