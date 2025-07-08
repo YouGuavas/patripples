@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './components/nav';
 import Tips from './components/Tips';
+import { ShareButtonsGroup } from './components/SocialButtons';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';

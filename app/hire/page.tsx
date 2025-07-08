@@ -13,6 +13,14 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main center flex column gap-medium`}>
+			<p>
+				DM Pat on Instagram (@patrizzzzzzle) or whatever portal you hopped in
+				from, or head over to his{' '}
+				<Link href="/contact" className="no-deco spaced">
+					contact page
+				</Link>{' '}
+				to find out how to get in touch.
+			</p>
 			{services.map((service, index) => {
 				return (
 					<section key={index} className={`width-full`}>

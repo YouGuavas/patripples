@@ -21,8 +21,9 @@ export const services = [
 	{
 		title: 'Altarcrafting',
 		description: [
-			'Your story carries the weight of ancient myth, and deserves to be etched in the fossil record as part of the legendary, ongoing altar to humanity.',
-			"I don't know much about fossils, so let me forge you a website fit for a legend, instead. When one can't do 'fossil record,' 'digital footprint' may do.",
+			'(I will make you a website)',
+			'Your story carries the weight of many myths, and deserves to be etched into the fossil record as part of the legendary, ongoing altar to humanity.',
+			"I don't know much about fossils, so let me forge you a website fit for a legend and enhance your digital footprint, instead.",
 		],
 		services: [
 			{
@@ -57,6 +58,8 @@ export const services = [
 	{
 		title: 'Mythmaking',
 		description: [
+			'(I will make you a myth)',
+
 			"You are more than a selfie. I know it, you know it, and now the world can know it - all you've got to do is let me help you show it. Let me forge your myth:",
 		],
 		services: [
