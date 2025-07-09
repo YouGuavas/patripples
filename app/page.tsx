@@ -27,8 +27,7 @@ export default function Home() {
 				</div>
 				<p className={`paragraph left`}>I&apos;m The Cartographer.</p>
 				<p className={`paragraph left`}>
-					Looks like you&apos;re who they sent to help. I knew they&apos;d send
-					someone.
+					You must be who they sent to help. I knew they&apos;d send someone.
 				</p>
 				<p className={`paragraph left`}>
 					As you can see, I&apos;ve become calcified.

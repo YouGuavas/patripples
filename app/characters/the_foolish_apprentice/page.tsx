@@ -29,7 +29,7 @@ export default function Character() {
 	} = empaths;
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>{title} Character Page.</h1>
+			<h1 className={`style-1 thin lowercase`}>{title} Dossier.</h1>
 
 			<section className={`flex gap-large center`}>
 				{standard_bio.map((paragraph: string, index) => {
