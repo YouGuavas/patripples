@@ -39,7 +39,7 @@ export default function Character() {
 						</p>
 					);
 				})}
-				<div className="jumbo-container bg-6">
+				<div className="portrait-container bg-6">
 					<Image src={portrait} alt={alt} fill />
 				</div>
 				{mythic_bio.map((paragraph: string, index) => {
@@ -49,7 +49,7 @@ export default function Character() {
 						</p>
 					);
 				})}
-				<div className="jumbo-container bg-6">
+				<div className="portrait-container bg-6">
 					<Image src={mythic} alt={alt} fill />
 				</div>
 			</section>
