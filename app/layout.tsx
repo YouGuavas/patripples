@@ -6,10 +6,10 @@ import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
+import { UrlProviderWrapper } from './UrlProviderWrapper';
 import { ThemeProviderWrapper } from './ThemeProviderWrapper';
 
 const inter = Inter({ subsets: ['latin'] });
-
 export default function RootLayout({
 	children,
 }: Readonly<{
@@ -27,10 +27,13 @@ export default function RootLayout({
 			</Head>
 			<body className={`${inter.className} bg-5`}>
 				<ThemeProviderWrapper>
-					<Nav />
-					<Tips />
+					<UrlProviderWrapper>
+						<ShareButtonsGroup />
+						<Nav />
+						<Tips />
 
-					{children}
+						{children}
+					</UrlProviderWrapper>
 				</ThemeProviderWrapper>
 			</body>
 			<Analytics />
