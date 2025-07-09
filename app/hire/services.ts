@@ -1,3 +1,10 @@
+import homestead from '../../public/site_screenshots/homestead.png';
+import rudi from '../../public/site_screenshots/rudi.png';
+
+import the_cartographer from '../../public/characters/the_cartographer.svg';
+import the_resurrectionist from '../../public/characters/the_resurrectionist.svg';
+
+import ask from '../../public/universal/ask.svg';
 export type servicesType = serviceTierType[];
 
 export type serviceTierType = {
@@ -15,6 +22,7 @@ export type serviceType = {
 export type demoType = {
 	title: string;
 	href: string;
+	image: string;
 };
 
 export const services = [
@@ -28,30 +36,32 @@ export const services = [
 		services: [
 			{
 				title: 'Pedestal',
-				rate: '$75',
+				rate: '$60',
 				description:
-					'A single-page website dedicated to telling your story or selling your wares.',
+					'A single-page website dedicated to telling your story or selling your wares. Simple, straightforward way to keep your clients informed or to tell your story.',
 				demo: {
 					title: 'Single-page Homesteader Site',
 					href: 'https://template-one-red.vercel.app/',
+					image: homestead.src,
 				},
 			},
 			{
 				title: 'Altar',
-				rate: '$150',
+				rate: '$120',
 				description:
-					'A mid-sized (three-to-five pages) website designed with your myth in mind.',
+					'A mid-sized (three-to-five pages) website designed with your myth in mind. This is a more functional site than pedestal tier, with multi-page navigation and options available for tools and functionality.',
 				demo: {
 					title: 'Rudi From Flint',
 					href: 'https://rudi-from-flint.vercel.app/',
+					image: rudi.src,
 				},
 			},
 			{
 				title: 'Temple',
-				rate: '$250',
+				rate: '$225',
 				description:
 					'A legendary website. Altar Tier, plus three add-ons of your choosing.',
-				demo: { title: 'TBD', href: './hire' },
+				demo: { title: 'TBD', href: './hire', image: ask.src },
 			},
 		],
 	},
@@ -65,28 +75,37 @@ export const services = [
 		services: [
 			{
 				title: 'Mythic Spark',
-				rate: '$60',
+				rate: '$30',
 				description:
 					'Stylized portrait with symbolic elements + one-line archetypal title.',
-				demo: { title: 'The Cartographer', href: './characters/patrick' },
+				demo: {
+					title: 'The Cartographer',
+					href: './characters/patrick',
+					image: the_cartographer.src,
+				},
 			},
 
 			{
 				title: 'Mythic Core',
-				rate: '$120',
+				rate: '$60',
 				description:
 					'Portrait + full poetic caption (archetype, transformation, elemental themes)',
-				demo: { title: 'The Resurrectionist', href: './characters/morgan' },
+				demo: {
+					title: 'The Resurrectionist',
+					href: './characters/morgan',
+					image: the_resurrectionist.src,
+				},
 			},
 
 			{
 				title: 'Mythic Patron',
-				rate: '$200',
+				rate: '$120',
 				description:
 					'Core Tier + Additional Variant Image + short voice note unpacking the meaning.',
 				demo: {
-					title: 'The Emphatic Empaths',
-					href: './characters/emphatic_empaths',
+					title: 'TBD',
+					href: './hire',
+					image: ask.src,
 				},
 			},
 		],

@@ -30,12 +30,12 @@ const TweetButton = (props: propsType) => {
 		</TwitterShareButton>
 	);
 };
-const ShareButtonsGroup = (props: propsType) => {
+const ShareButtonsGroup = () => {
 	const url = useContext(UrlContext);
 
 	return (
-		<div className={`flex gap-medium`}>
-			<h3 className="inline-flex items-center justify-center">Share</h3>
+		<div className={`flex gap-medium width-full center`}>
+			<h3 className="thin spaced style-1">Share</h3>
 			<TweetButton url={url} />
 			<FbButton url={url} />
 		</div>

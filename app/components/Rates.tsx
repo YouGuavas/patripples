@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { serviceType } from '../hire/services';
 
@@ -36,6 +37,9 @@ export default function Rates(props: propsType) {
 									{service.demo.title}
 								</Link>
 							</p>
+							<div className={`image-container`}>
+								<Image fill src={service.demo.image} alt={service.demo.title} />
+							</div>
 						</li>
 					);
 				})}

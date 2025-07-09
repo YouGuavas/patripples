@@ -13,14 +13,6 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main center flex column gap-medium`}>
-			<p>
-				DM Pat on Instagram (@patrizzzzzzle) or whatever portal you hopped in
-				from, or head over to his{' '}
-				<Link href="/contact" className="no-deco spaced">
-					contact page
-				</Link>{' '}
-				to find out how to get in touch.
-			</p>
 			{services.map((service, index) => {
 				return (
 					<section key={index} className={`width-full`}>
@@ -35,7 +27,7 @@ export default function Home() {
 			<section className={`width-full`}>
 				<h2 className="lowercase style-1 thin">Want to work with Pat?</h2>
 				<p className={`style-1`}>
-					Tip Pat on{' '}
+					Tip me on{' '}
 					<Link
 						className={`no-deco style-1`}
 						href="https://cash.app/$pyambrick"
@@ -46,7 +38,7 @@ export default function Home() {
 				</p>
 
 				<p className={`style-1`}>
-					Hire Pat on{' '}
+					Hire me on{' '}
 					<Link
 						className={`no-deco style-1`}
 						href="https://www.fiverr.com/s/YRlxwja/"
