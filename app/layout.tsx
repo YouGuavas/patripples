@@ -28,10 +28,11 @@ export default function RootLayout({
 			<body className={`${inter.className} bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
-						<ShareButtonsGroup />
+						{
+							//<ShareButtonsGroup />
+						}{' '}
 						<Nav />
 						<Tips />
-
 						{children}
 					</UrlProviderWrapper>
 				</ThemeProviderWrapper>

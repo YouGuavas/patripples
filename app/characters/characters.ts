@@ -163,13 +163,13 @@ const complete: characters = [
 		standard_bio: [
 			"Some men just want to watch the world burn. Others know it will, wish it wouldn't, and watch it happen anyway, tired from trying to stop it.",
 			"Never mistake this quick-witted, fleet-footed Fool for slow. It's not that he doesn't see enough, it's that he wishes he didn't see it all.",
-			"It doesn't matter how serious the vibe gets, this goose will keep it silly. Or else.",
+			"It doesn't matter how serious the vibe gets, this goose will keep it silly.",
 		],
 		mythic_bio: [
 			"A student of many and servant to none, the Foolish Apprentice departed the Mage's Academy years ago to become the master of his own myth.",
-			'His travels have carried equal parts mystery and myth. Few know the depths of the peril he has faced, yet all may feel their warmth, transmuted.',
+			'His travels have carried equal parts mystery and myth. Few know the depths or the darkness he has faced, yet all may feel their lessons, transmuted through his wisdom and compassion.',
+			'Often a great boon, the ever-burning ember rose he carries with care now traps his stare - drawing his gaze for hours and days.',
 			'No matter the mystery or the misery he faces, he keeps his lighthouse ember glowing - a beacon to his favored fae as they wander in from the fog.',
-			'As The Fool who gently tends his rose is never harmed by its thorns, this Magician never lets the fire of potential burn him - or those around him. Instead, he dances - free before the flame.',
 		],
 		href: './characters/the_foolish_apprentice/',
 		alt: 'Phase Carolina',
