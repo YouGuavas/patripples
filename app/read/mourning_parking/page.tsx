@@ -23,26 +23,18 @@ export default function Home() {
             <h2
                 className={`lowercase style-1 thin spaced left width-full block left-align`}
             >
-                how to bring a friend.
+                a lot scene.
             </h2>
             <p className={`paragraph width-full block left-align`}>
-                I have been rehabilitating a local set of swamps and false{' '}
-                <Link
-                    className={`spaced no-deco lowercase`}
-                    href="/read/glossary/vernal_pool"
-                >
-                    vernal pools
-                </Link>{' '}
-                using found materials and holistic land remediation methods for the
-                better part of this spring. This has been an incredibly rewarding and
-                fruitful experience, from which I have drawn a great deal of personal
-                worth. I have encountered inspiring eagles; wise, old owls; chatty
-                crows; intrepid mink; and even a couple clever chickadees.
+                &quot;Woo!&quot;
+                she cheered to her mirror.
+                
             </p>
             <p className={`paragraph width-full block left-align`}>
-                Today, I was lucky to bring a (human) friend along on my trek - a first.
-                It went well, and once he came to understand the scope of both the
-                damage and the triage at play, his enthusiasm grew to rival my own.
+                She&apos;d finally done it! In her fifteen years of gleeful glazing at the grocery, she&apos;d often arrived early.
+            </p>
+            <p className={`paragraph width-full block left-align`}>
+                But she&apos;d never been there before four, before.
             </p>
             <Image
                 id="crow"
@@ -51,15 +43,7 @@ export default function Home() {
                 width={250}
                 src={crow.src}
             />
-            <p className={`paragraph width-full block`}>
-                This is a crow. This is not my (human) friend.
-            </p>
-            <p className={`paragraph width-full block left-align`}>
-                Each of these encounters has enriched and rewarded me in ways I struggle
-                to describe. Whether in a religious sense, or in a personal,
-                mythological, spiritual one, I have been blessed. For that, I am
-                grateful.
-            </p>
+            
             </section>
             
         </main>
