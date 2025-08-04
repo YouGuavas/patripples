@@ -41,6 +41,11 @@ const routes = [
 		path: '/read/journal',
 		tags: ['personal wisdom', 'x'],
 	},
+	{
+		name: 'mourning parking',
+		path: '/read/mourning_parking',
+		tags: ['animal magnetism', 'swamp science', 'corvid alchemy', 'x'],
+	},
 ];
 
 export default routes;
