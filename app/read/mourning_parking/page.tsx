@@ -126,7 +126,7 @@ In this damn near rudderless world, we often find ourselves beholden to certain 
             <p className={`paragraph width-full block left-align`}>
                 To begin, let us ask ourselves some questions, and do our best to hold these with us as we continue.
             </p>
-            			<ul className={`flex column gap-medium no-deco pad-none width-full center`}><li>
+            			<ul className={`flex column gap-medium pad-none width-half left-align`}><li>
                             What can we learn about freedom and traditional work?</li> <li>What thoughts does this trigger regarding resilience?</li> <li>Where did The Elf&apos;s unpaid efforts go?</li> <li>What sort of emotional journey did The Elf endure, and what will be the effect of that on the rest of her week?</li> <li>What sort of person tends to find themself in positions like this? Do you see any parallels in your life?</li></ul>
 
                             <p className={`paragraph width-full block left-align`}>
@@ -140,7 +140,7 @@ In this damn near rudderless world, we often find ourselves beholden to certain 
 <p className={`paragraph width-full block left-align`}>
                 A friend of mine recently expressed, in her way, resentment at having received so many compliments on her resilience. She also expressed that this resentment stems from her possession of two deeply human desires:
             </p>
-            <ul className={`flex column gap-medium no-deco pad-none width-full center`}><li>
+            <ul className={`flex column gap-medium pad-none width-half left-align`}><li>
                             One for connection</li><li>The other for comfort</li></ul>
                             <p className={`paragraph width-full block left-align`}>
                                 It was her position that all these compliments on her resilience had felt more like comments on her ability to take a hit when the only contact she&apos;d wanted to take was something like a hug, at best.
