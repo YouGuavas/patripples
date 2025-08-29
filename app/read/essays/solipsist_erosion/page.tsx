@@ -201,7 +201,7 @@ I know what my future holds.</p>
             <br />
 
 <p className={`paragraph width-full block left-align`}>
-    Each of us is powerful. Like that <Link href="https://www.youtube.com/watch?v=2_fDhqRk_Ro" className="no-deco spaced">Marianne Williamson poem</Link>, quoted in &apos;<em>Coach Carter</em>&apos;. Even in those moments where we feel the most powerless, we retain our voices. We can always use those. I choose to use mine in this way:
+    Each of us is powerful. Like that <Link href="https://www.youtube.com/watch?v=2_fDhqRk_Ro" className="no-deco spaced">Marianne Williamson poem</Link>, quoted in &apos;<em>Coach Carter</em>.&apos; Even in those moments where we feel the most powerless, we retain our voices. We can always use those. I choose to use mine in this way:
             </p>
             <ul className="no-deco left align flex column gap-small">
                 <li>
@@ -218,7 +218,7 @@ I know what my future holds.</p>
             <hr />
             <br />
             <p className={`paragraph width-full block left-align`}>
-                Thanks for reading my silly tree essay! If things follow my plans, this will serve as part one of a series, meant to prime readers. Subsequent installments will tackle deep dives into specific concepts, especially as they apply to the world we live in today. That said, I currently live in an immobile car on a borrowed patch of land - there&apos;s no telling what kind of wrench might land in my plans. Look for Part Two sometime in the middle of next week (Tuesday = Wednesday). I am working on adding engagement to this platform. In the meantime, if you have any thoughts, questions, or just want to discuss the ideas at play here, feel free to DM me wherever you have access to me. Take care, and watch for falling trees!
+                Thanks for reading my silly tree essay! If things follow my plans, this will serve as part one of a series, with this installment meant to prime readers. Subsequent installments will tackle deep dives into specific concepts, especially as they apply to the world in which we live today. That said, I currently live in an immobile, unheated car on a borrowed patch of land (gratitude to my hosts!), and I am updating this site using a broken laptop (thanks to my donor!) - there&apos;s no telling what kind of wrench might land in my plans. Look for Part Two sometime in the middle of next week (Tuesday - Wednesday). I am working on adding engagement to this platform. In the meantime, if you have any thoughts, questions, or just want to discuss the ideas at play here, feel free to DM me wherever you have access to me. Take care, and watch for falling trees!
             </p>
             </section>
 
