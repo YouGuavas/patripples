@@ -5,6 +5,7 @@ const categories = [
 	'Corvid Alchemy',
 	'Swamp Science',
 	'Personal Wisdom',
+	'Gravity',
 
 	'X',
 ];
