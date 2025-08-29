@@ -203,7 +203,7 @@ I know what my future holds.</p>
 <p className={`paragraph width-full block left-align`}>
     Each of us is powerful. Like that <Link href="https://www.youtube.com/watch?v=2_fDhqRk_Ro" className="no-deco spaced">Marianne Williamson poem</Link>, quoted in &apos;<em>Coach Carter</em>&apos;. Even in those moments where we feel the most powerless, we retain our voices. We can always use those. I choose to use mine in this way:
             </p>
-            <ul className="no-deco">
+            <ul className="no-deco left align flex column gap-small">
                 <li>
                     singing in harmony with the oppressed, othered, and broken
                 </li><li>
