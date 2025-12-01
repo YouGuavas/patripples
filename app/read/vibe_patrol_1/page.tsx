@@ -51,13 +51,15 @@ export default function Home() {
 				smoke-rollin&apos; detective, down on his luck. Everywhere I walked, I
 				imagined that the world quaked beneath my... Puma Legacy Dark Modes.
 			</p>
-			<Image
-				id="dark_modes"
-				alt={`Puma Legacy Dark Modes`}
-				height={333}
-				width={425}
-				src={dark_modes.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="dark_modes"
+					alt={`Puma Legacy Dark Modes`}
+					height={333}
+					width={400}
+					src={dark_modes.src}
+				/>
+			</div>
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
 			>
@@ -120,13 +122,15 @@ export default function Home() {
 				luck.&apos;
 			</p>
 			<Link href="https://gunshowcomic.com/648">
-				<Image
-					id="this_is_fine"
-					alt={`This is fine. Meme.`}
-					height={333}
-					width={425}
-					src={this_is_fine.src}
-				/>
+				<div className="width-full block">
+					<Image
+						id="this_is_fine"
+						alt={`This is fine. Meme.`}
+						height={333}
+						width={400}
+						src={this_is_fine.src}
+					/>
+				</div>
 			</Link>
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
@@ -156,13 +160,15 @@ export default function Home() {
 				</Link>
 				.
 			</p>
-			<Image
-				id="spidermans"
-				alt={`Same spidermans meme.`}
-				height={333}
-				width={425}
-				src={spidermans.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="spidermans"
+					alt={`Same spidermans meme.`}
+					height={333}
+					width={400}
+					src={spidermans.src}
+				/>
+			</div>
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
 			>
@@ -228,13 +234,15 @@ export default function Home() {
 			<p className={`paragraph width-full block left-align`}>
 				&quot;Oh, cool. I wasn&apos;t even thinking about that.&quot;
 			</p>{' '}
-			<Image
-				id="it_me"
-				alt={`This is me.`}
-				height={333}
-				width={425}
-				src={it_me.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="it_me"
+					alt={`This is me.`}
+					height={333}
+					width={400}
+					src={it_me.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block left-align`}>
 				We went on to spend the next two hours in his driveway unpacking both
 				the trials and the highs he had experienced with his ex, who he -

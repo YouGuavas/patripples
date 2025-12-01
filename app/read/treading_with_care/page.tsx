@@ -181,13 +181,15 @@ export default function Home() {
 				white immigrant status, and humans would be treated the way that we are
 				treating current immigrants. Even the chipmunks were giving us side eye.
 			</p>
-			<Image
-				id="munk"
-				alt={`Dramatic chipmunk youtube reference meme. Not an actual chipmunk, but a marmot. Photo credit: the anon meme-maker. A legend.`}
-				height={333}
-				width={250}
-				src={chipmunk.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="munk"
+					alt={`Dramatic chipmunk youtube reference meme. Not an actual chipmunk, but a marmot. Photo credit: the anon meme-maker. A legend.`}
+					height={333}
+					width={400}
+					src={chipmunk.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block left-align`}>
 				The crows seem to be using me as an unpaid cleaning service - not for
 				themselves, but for our past selves. In exchange for my cooperation,

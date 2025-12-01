@@ -44,13 +44,15 @@ export default function Home() {
 				fiercest heat breaths. Third, I called aloud and two crows cawed loudly
 				back to me.
 			</p>
-			<Image
-				id="tall_tree"
-				alt={`A tall tree`}
-				height={333}
-				width={250}
-				src={tall_tree.src}
-			/>
+			<div className=" width-full block">
+				<Image
+					id="tall_tree"
+					alt={`A tall tree`}
+					height={333}
+					width={400}
+					src={tall_tree.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block left-align`}>
 				They perched upon a dead tree - stood tall before me. Two crows, four
 				eyes, each one leaving me seen. I set beside me one blue bead as they,
@@ -84,13 +86,15 @@ export default function Home() {
 				those two crows whose beads we&apos;d last seen when I sat myself down
 				on their green, mossy seat.
 			</p>
-			<Image
-				id="tall_tree"
-				alt={`An American crow and a barred owl perched in a tree`}
-				height={333}
-				width={250}
-				src={owl_tree.src}
-			/>
+			<div className=" width-full block">
+				<Image
+					id="tall_tree"
+					alt={`An American crow and a barred owl perched in a tree`}
+					height={333}
+					width={400}
+					src={owl_tree.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block left-align`}>
 				&quot;CAW! CAW! CAW!&quot; From out of frame, they came and they perched
 				and began to commune. Above me conceived, and so I received - as above,

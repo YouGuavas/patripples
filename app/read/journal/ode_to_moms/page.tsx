@@ -132,7 +132,7 @@ export default function Home() {
 					id="as_above"
 					alt={`As above, so below`}
 					height={333}
-					width={250}
+					width={400}
 					src={tree.src}
 				/>
 			</div>

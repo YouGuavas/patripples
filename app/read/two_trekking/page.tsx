@@ -51,13 +51,15 @@ export default function Home() {
 				It went well, and once he came to understand the scope of both the
 				damage and the triage at play, his enthusiasm grew to rival my own.
 			</p>
-			<Image
-				id="crow"
-				alt={`A crow through the trees.`}
-				height={333}
-				width={250}
-				src={crow.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="crow"
+					alt={`A crow through the trees.`}
+					height={333}
+					width={400}
+					src={crow.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block`}>
 				This is a crow. This is not my (human) friend.
 			</p>
@@ -98,13 +100,15 @@ export default function Home() {
 				space, then you have experienced the sort of gratitude that I have
 				experienced on this journey.
 			</p>
-			<Image
-				id="moan"
-				alt={`The moon through trees.`}
-				height={333}
-				width={250}
-				src={moan.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="moan"
+					alt={`The moon through trees.`}
+					height={333}
+					width={400}
+					src={moan.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block left-align`}>
 				Wherever it is that we each spring from, we are all part of the same
 				system. Consciousness is vast and interconnected. Everything which

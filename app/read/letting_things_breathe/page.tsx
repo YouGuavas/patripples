@@ -46,20 +46,24 @@ export default function Home() {
 				humans&apos; recent history.
 			</p>
 			<div className={`flex gap-medium`}>
-				<Image
-					id="artifact"
-					alt={`The rusted nameplate from some past person's lunchbox, toolbox, or similar.`}
-					height={333}
-					width={250}
-					src={artifact.src}
-				/>
-				<Image
-					id="artifact"
-					alt={`The rusted nameplate from some past person's lunchbox, toolbox, or similar.`}
-					height={333}
-					width={250}
-					src={moss.src}
-				/>
+				<div className=" width-full block">
+					<Image
+						id="artifact"
+						alt={`The rusted nameplate from some past person's lunchbox, toolbox, or similar.`}
+						height={333}
+						width={400}
+						src={artifact.src}
+					/>
+				</div>
+				<div className=" width-full block">
+					<Image
+						id="artifact"
+						alt={`The rusted nameplate from some past person's lunchbox, toolbox, or similar.`}
+						height={333}
+						width={400}
+						src={moss.src}
+					/>
+				</div>
 			</div>
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
@@ -219,13 +223,15 @@ export default function Home() {
 				figures out this cosmic mystery: &quot;Where on the DKE slope are{' '}
 				<em>we</em>?&quot;
 			</p>
-			<Image
-				id="dke"
-				alt={`Dunning-Kruger effect graph. Photo credit: Wikipedia.`}
-				height={333}
-				width={250}
-				src={dke.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="dke"
+					alt={`Dunning-Kruger effect graph. Photo credit: Wikipedia.`}
+					height={333}
+					width={400}
+					src={dke.src}
+				/>
+			</div>
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
 			>
@@ -256,13 +262,15 @@ export default function Home() {
 				sustainable structural integrity in mind. Ladies love natural stability
 				and consistency.
 			</p>
-			<Image
-				id="kip"
-				alt={`Kip. Photo credit: the anon meme-maker. A legend.`}
-				height={333}
-				width={250}
-				src={kip.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="kip"
+					alt={`Kip. Photo credit: the anon meme-maker. A legend.`}
+					height={333}
+					width={400}
+					src={kip.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block left-align`}>
 				What happens when we don&apos;t let things breathe?
 			</p>

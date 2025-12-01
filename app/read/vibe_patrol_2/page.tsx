@@ -141,13 +141,15 @@ export default function Home() {
 				</Link>
 				, I was dressed in these clothes:
 			</p>
-			<Image
-				id="it_me"
-				alt={`This is me.`}
-				height={333}
-				width={425}
-				src={it_me.src}
-			/>
+			<div className="width-full block">
+				<Image
+					id="it_me"
+					alt={`This is me.`}
+					height={333}
+					width={400}
+					src={it_me.src}
+				/>
+			</div>
 			<p className={`paragraph width-full block left-align`}>
 				While I knew better than to keep my hands in my pockets, my body
 				language was otherwise similar. I dress and carry myself in this way
