@@ -16,7 +16,7 @@ export default function Nav() {
 				Like what I&apos;m doing? Tip me on{' '}
 				<Link
 					className={`spaced thin no-deco`}
-					href={`https://cash.app/$pyambrick/`}
+					href={`https://cash.app/$patripples/`}
 				>
 					Cashapp
 				</Link>

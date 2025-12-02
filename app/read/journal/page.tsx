@@ -6,7 +6,7 @@ import categories from '../../categories';
 import InteractiveList from '../../components/InteractiveList';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Read',
+	title: 'Patripples | Journal',
 	description: 'Patripples: ripples, mathematics, and more! Coming soon!',
 };
 export default function Home() {

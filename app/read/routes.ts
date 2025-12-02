@@ -35,11 +35,21 @@ const routes = [
 		path: '/read/two_trekking',
 		tags: ['swamp science', 'corvid alchemy', 'x'],
 	},
+	{
+		name: 'Essays',
+		path: '/read/essays',
+		tags: ['gravity', 'personal wisdom', 'x'],
+	},
 
 	{
 		name: 'Journal',
 		path: '/read/journal',
 		tags: ['personal wisdom', 'x'],
+	},
+	{
+		name: 'mourning parking',
+		path: '/read/mourning_parking',
+		tags: ['animal magnetism', 'swamp science', 'corvid alchemy', 'x'],
 	},
 ];
 
