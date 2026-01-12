@@ -1,15 +1,12 @@
 import Image from 'next/image';
-import D3Graph from '../components/D3Graph';
-import Link from 'next/link';
+
 import routes from './routes';
 import categories from '../categories';
-import InteractiveList from '../components/InteractiveList';
-import wetland from '../../public/universal/healthy_wetland.svg';
+import InteractiveList from '@/app/components/InteractiveList';
+import wetland from '@/app/public/universal/healthy_wetland.svg';
 //import RippleGraph from '../components/RippleGraph';
 
 import type { Metadata } from 'next';
-
-import styles from '../page.module.css';
 
 const nodes = [
 	{ id: 'You' },

@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import tall_tree from '../../../public/trees/tall_tree.png';
-import owl_tree from '../../../public/trees/owl_tree.png';
+import tall_tree from '@/public/trees/tall_tree.png';
+import owl_tree from '@/public/trees/owl_tree.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | A Walk in the Park',

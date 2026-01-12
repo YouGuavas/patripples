@@ -1,9 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import routes from './routes';
-import categories from '../../../categories';
-import InteractiveList from '../../../components/InteractiveList';
+import categories from '@/app/categories';
+import InteractiveList from '@/app/components/InteractiveList';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Essays',

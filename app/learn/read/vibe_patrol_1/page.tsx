@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import this_is_fine from '../../../public/memes/this_is_fine.png';
-import dark_modes from '../../../public/universal/dark_modes.png';
-import it_me from '../../../public/universal/semicartoonselfie.png';
-import spidermans from '../../../public/memes/spidermans.png';
+import this_is_fine from '@/app/public/memes/this_is_fine.png';
+import dark_modes from '@/app/public/universal/dark_modes.png';
+import it_me from '@/app/public/universal/semicartoonselfie.png';
+import spidermans from '@/app/public/memes/spidermans.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Vibe Patrol',

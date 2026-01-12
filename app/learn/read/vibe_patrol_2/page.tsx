@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import it_me from '../../../public/universal/semicartoonselfie.png';
+import it_me from '@/app/public/universal/semicartoonselfie.png';
 import styles from './styles.module.css';
 export const metadata: Metadata = {
 	title: 'Patripples | Vibe Patrol II',

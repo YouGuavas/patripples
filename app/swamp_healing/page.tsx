@@ -2,19 +2,6 @@ import Link from 'next/link';
 
 import type { Metadata } from 'next';
 
-const nodes = [
-	{ id: 'You' },
-	{ id: 'Person A' },
-	{ id: 'Person B' },
-	{ id: 'Person A Friends' },
-	{ id: 'Person B Friends' },
-	{ id: 'Relatives' },
-	{ id: 'Employees' },
-	{ id: 'Coworkers' },
-	{ id: 'Idea A' },
-	{ id: 'Idea B' },
-];
-
 export const metadata: Metadata = {
 	title: 'Swamp Grant Proposal | Patripples',
 	description:

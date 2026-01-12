@@ -1,10 +1,8 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import ripples from '../public/logos/ripples.png';
-import cartographer from '../public/characters/cartographer_calcified.svg';
-import pat from '../public/characters/pat_solo.svg';
+import ripples from '@/app/public/logos/ripples.png';
+import cartographer from '@/app/public/characters/cartographer_calcified.svg';
+import pat from '@/app/public/characters/pat_solo.svg';
 import EmailForm from './components/EmailForm';
-import fish from '../public/memes/fish_fear.png';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {

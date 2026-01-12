@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import { glyphs_1 } from './glyphs';
 
 import Glyphousel from '../components/glyph-ousel';

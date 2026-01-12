@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import moan from '../../../public/universal/moonlit.png';
-import crow from '../../../public/universal/crowfollow.png';
+import moan from '@/app/public/universal/moonlit.png';
+import crow from '@/app/public/universal/crowfollow.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Treading With Care',
