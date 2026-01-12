@@ -1,12 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import routes from './routes';
-import categories from '../categories';
-import InteractiveList from '../components/InteractiveList';
 
-import hand from '../../public/graphite/hand.png';
-import raven from '../../public/memes/crow_art.png';
+import hand from '../../../public/graphite/hand.png';
+import raven from '../../../public/memes/crow_art.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | How to Count Change',
