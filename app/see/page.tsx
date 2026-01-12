@@ -3,7 +3,7 @@ import Image from 'next/image';
 import routes from './routes';
 import categories from '../categories';
 import InteractiveList from '@/app/components/InteractiveList';
-import wetland from '@/app/public/universal/healthy_wetland.svg';
+import wetland from '@/public/universal/healthy_wetland.svg';
 //import RippleGraph from '../components/RippleGraph';
 
 import type { Metadata } from 'next';

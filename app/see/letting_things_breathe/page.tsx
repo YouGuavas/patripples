@@ -2,8 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import reclamation from '@/app/public/trees/reclamation_tree.png';
-import trash from '@/app/public/bog_finds/trash_stack.png';
+import reclamation from '@/public/trees/reclamation_tree.png';
+import trash from '@/public/bog_finds/trash_stack.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Letting Things Breathe',

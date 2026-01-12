@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import chipmunk from '@/app/public/memes/dramatic_chipmunk.png';
+import chipmunk from '@/public/memes/dramatic_chipmunk.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Treading With Care',

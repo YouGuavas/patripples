@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import tall_tree_toon from '@/app/public/trees/tall_tree_toon.png';
-import crow_tree from '@/app/public/trees/crow_tree.png';
-import crow_and_owl_tree from '@/app/public/trees/crow_and_owl_tree.png';
-import betrayal_tree from '@/app/public/trees/betrayal_tree.png';
+import tall_tree_toon from '@/public/trees/tall_tree_toon.png';
+import crow_tree from '@/public/trees/crow_tree.png';
+import crow_and_owl_tree from '@/public/trees/crow_and_owl_tree.png';
+import betrayal_tree from '@/public/trees/betrayal_tree.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | A Walk in the Park',

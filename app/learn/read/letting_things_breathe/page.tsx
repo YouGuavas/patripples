@@ -2,10 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import artifact from '@/app/public/bog_finds/nameplate_artifact.png';
-import moss from '@/app/public/bog_finds/moss_reclamation.png';
-import dke from '@/app/public/bog_finds/dke.png';
-import kip from '@/app/public/memes/kip.png';
+import artifact from '@/public/bog_finds/nameplate_artifact.png';
+import moss from '@/public/bog_finds/moss_reclamation.png';
+import dke from '@/public/bog_finds/dke.png';
+import kip from '@/public/memes/kip.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Letting Things Breathe',

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
-import tree from '@/app/public/trees/as_above.png';
+import tree from '@/public/trees/as_above.png';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Ode to Moms',
