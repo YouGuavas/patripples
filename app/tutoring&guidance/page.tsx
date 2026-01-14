@@ -15,7 +15,8 @@ export default function Home() {
 	return (
 		<main className={`main left px-1`}>
 			<Card
-				title={'GED English'}
+				title={'No Study, No Sweat'}
+				subject={'GED English'}
 				body={'What Patrick did:'}
 				footer={'Result:'}
 			/>

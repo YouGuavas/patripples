@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>read my mind.</h1>
+			<h1 className={`style-1 thin lowercase`}>Learn with Patrick.</h1>
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{routes.map(({ name, path }, index) => {
 					return (
