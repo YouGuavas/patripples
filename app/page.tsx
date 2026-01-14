@@ -61,7 +61,7 @@ export default function Home() {
 						land.
 					</li>
 					<li>
-						Patrick repairs electronics and cars, and solve general day-to-day
+						Patrick repairs electronics and cars, and solves general day-to-day
 						problems for people.
 					</li>
 				</ul>
@@ -70,7 +70,7 @@ export default function Home() {
 					<p className={`paragraph width-full left`}>
 						As with the concept, this is a living document. I am working on it
 						as I go along. You are welcome to come back to check for updates
-						whenever it pleases you.
+						whenever it suits you.
 					</p>
 					<p className={`paragraph width-full left`}>
 						Have you ever tossed a handful of pebbles into a pond or a creek,

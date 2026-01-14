@@ -8,12 +8,12 @@ import raven from '../../../public/memes/crow_art.png';
 export const metadata: Metadata = {
 	title: 'Patripples | How to Count Change',
 	description:
-		'Learn how to count change with patripples. Calculated by Patrick Yambrick.',
+		'Learn how to count change with Patrick at Patripples. Calculated by Patrick Yambrick.',
 };
 export default function Home() {
 	return (
 		<main className={`main left height-full`}>
-			<h1 className={`style-1 thin lowercase`}>count my change.</h1>
+			<h1 className={`style-1 thin lowercase`}>count Patrick&apos;s change.</h1>
 			<p className={`paragraph width-full block left-align`}>(In progress.)</p>
 			<p className={`paragraph width-full block left-align`}>
 				There exist a number of ways in which to go about approximating the

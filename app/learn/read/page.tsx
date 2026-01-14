@@ -7,12 +7,13 @@ import InteractiveList from '@/app/components/InteractiveList';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Read',
-	description: 'Patripples: ripples, mathematics, and more! Coming soon!',
+	description:
+		"Read Patrick's essays and journal entries at Patripples. Written by Patrick Yambrick.",
 };
 export default function Home() {
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>read my mind.</h1>
+			<h1 className={`style-1 thin lowercase`}>read Patrick&apos;s mind.</h1>
 			<InteractiveList categories={categories} routes={routes} />
 		</main>
 	);
