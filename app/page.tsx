@@ -6,8 +6,8 @@ import EmailForm from '@/app/components/EmailForm';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
-	title: 'Patripples | Home',
-	description: 'Patripples: ripples, mathematics, and more! Coming soon!',
+	title: 'Patripples | Essays, Articles, and Tutoring by Patrick Yambrick',
+	description: 'Patripples: a learning hub composed by Patrick Yambrick.',
 	icons: {
 		icon: '/favicon.ico',
 	},
@@ -23,81 +23,89 @@ export default function Home() {
 				<div className={`image-container center centered`}>
 					<Image src={cartographer.src} fill alt="The Cartographer" />
 				</div>
-				<p className={`paragraph left`}>I&apos;m The Cartographer.</p>
-				<p className={`paragraph left`}>
-					You must be who they sent to help. I knew they&apos;d send someone.
-				</p>
-				<p className={`paragraph left`}>
-					As you can see, I&apos;ve become calcified.
-				</p>
-				<p className={`paragraph left`}>
-					Oh, you&apos;re not who they sent to help? You must be here for the
-					other guy.
-				</p>
-				<p className={`paragraph left`}>
-					Carry on. He&apos;s right down there.
-				</p>
-				<p className={`paragraph left`}>I&apos;ll just... stand here.</p>
+				<div className="left-align width-half centered flex column">
+					<p className={`paragraph left`}>I&apos;m The Cartographer.</p>
+					<p className={`paragraph left`}>
+						You must be who they sent to help. I knew they&apos;d send someone.
+					</p>
+					<p className={`paragraph left`}>
+						As you can see, I&apos;ve become calcified.
+					</p>
+					<p className={`paragraph left`}>
+						Oh, you&apos;re not who they sent to help? You must be here for the
+						other guy.
+					</p>
+					<p className={`paragraph left`}>
+						Carry on. He&apos;s right down there.
+					</p>
+					<p className={`paragraph left`}>I&apos;ll just... stand here.</p>
+				</div>
 			</section>
-			<section className={`width-full center`}>
-				<h2 className={`lowercase spaced style-1 thin`}>
-					How to put yourself on The Map.
-				</h2>{' '}
-				<p>
-					If you haven&apos;t already, add yourself to The Cartographer&apos;s
-					mailing list for Future Updates:
-				</p>
-				<EmailForm />
-			</section>
+
 			<section className={`width-full center`}>
 				<h2 className={`lowercase spaced style-1 thin`}>I&apos;m Patrick!</h2>
 				<div className={`image-container centered`}>
 					<Image src={pat.src} fill alt="Pat" />
 				</div>
 				<h2 className={`lowercase spaced style-1 thin`}>
-					Here&apos;s What I Do
+					Here&apos;s What Patrick Does
 				</h2>
-				<ul className={`no-deco pad-none`}>
-					<li>I build websites in React and Nextjs.</li>
-					<li>I create SVGs in Inkscape.</li>
-					<li>I convert your legacies into legends.</li>
+				<ul
+					className={`no-deco pad-none centered width-half left-align flex column gap-small`}
+				>
+					<li>Patrick builds websites in React and Nextjs.</li>
+					<li>Patrick creates logo and character SVGs in Inkscape.</li>
+					<li>Patrick offers ACT, GED, and college level tutoring.</li>
+					<li>
+						Patrick applies ecological and regenerative systems thinking to
+						land.
+					</li>
+					<li>
+						Patrick repairs electronics and cars, and solve general day-to-day
+						problems for people.
+					</li>
 				</ul>
 				<h2 className={`lowercase spaced style-1 thin`}>How to patripple.</h2>
-				<p className={`paragraph width-full left`}>
-					As with the concept, this is a living document. I am working on it as
-					I go along. You are welcome to come back to check for updates whenever
-					it pleases you.
-				</p>
-				<p className={`paragraph width-full left`}>
-					Have you ever tossed a handful of pebbles into a pond or a creek, and
-					watched the water ripple?
-				</p>{' '}
-				<p className={`paragraph width-full left`}>
-					If you have, you know how to patripple.
-				</p>
-				<p className={`paragraph width-full left`}>
-					It&apos;s the process of enacting major change over time through
-					small, mundane actions.
-				</p>
+				<div className="width-half centered left-align flex column">
+					<p className={`paragraph width-full left`}>
+						As with the concept, this is a living document. I am working on it
+						as I go along. You are welcome to come back to check for updates
+						whenever it pleases you.
+					</p>
+					<p className={`paragraph width-full left`}>
+						Have you ever tossed a handful of pebbles into a pond or a creek,
+						and watched the water ripple?
+					</p>{' '}
+					<p className={`paragraph width-full left`}>
+						If you have, you know how to patripple.
+					</p>
+					<p className={`paragraph width-full left`}>
+						It&apos;s the process of enacting major change over time through
+						small, mundane actions.
+					</p>
+				</div>
 			</section>
 
 			<section className={`width-full center`}>
 				<h2 className={`lowercase spaced style-1 thin`}>What is here.</h2>{' '}
-				<ul className={`no-deco pad-none`}>
+				<ul
+					className={`no-deco pad-none centered flex column gap-small left-align width-half`}
+				>
 					<li>
-						Essays & Articles – Deep dives into concepts that shape our world.
+						Essays and Articles – Follow Patrick and The Cartographer on deep
+						dives into concepts that shape our world.
 					</li>
 					<li>
-						Visual Explorations – Mathematical and conceptual visualizations
-						that make abstract ideas tangible.
+						Tutoring and Guidance – Hire Patrick as a tutor or The Cartographer
+						as a guide, and view my relevant public resources here.
 					</li>{' '}
 					<li>
-						Experiments & Projects – Hands-on applications of the theories
-						discussed.
+						Web Development and Design - Find examples of Patrick&apos;s
+						websites, design philosophy, and projects here.
 					</li>{' '}
 					<li>
-						Community & Discussion – A space for those who want to engage in
-						meaningful conversations.
+						Repair and Problem Solving - See how Patrick and The Cartographer
+						solve problems, and learn the principles which underlie my methods.
 					</li>
 				</ul>{' '}
 			</section>
