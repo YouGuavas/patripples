@@ -30,7 +30,7 @@ export default function Home() {
 					Tip me on{' '}
 					<Link
 						className={`no-deco style-1`}
-						href="https://cash.app/$pyambrick"
+						href="https://cash.app/$patripples"
 					>
 						Cashapp
 					</Link>
