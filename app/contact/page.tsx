@@ -6,12 +6,14 @@ import styles from '../page.module.css';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Contact',
-	description: 'You can contact Pat by emailing pat@patripples.com',
+	description: 'You can contact Patrick by emailing pat@patripples.com',
 };
 export default function Home() {
 	return (
 		<main className={`main center`}>
-			<h1 className={`lowercase style-1 thin`}>Want to ask Pat something?</h1>
+			<h1 className={`lowercase style-1 thin`}>
+				Want to ask Patrick something?
+			</h1>
 			<p className={`style-1 lowercase`}>
 				Email:{' '}
 				<Link
@@ -21,20 +23,11 @@ export default function Home() {
 					pat@patripples.com
 				</Link>
 			</p>
-			<h2 className="lowercase style-1 thin">Want to know more about Pat?</h2>
-			<p className={`style-1`}>
-				Check out{' '}
-				<Link className={`no-deco style-1`} href="https://patdesigns.online/">
-					patdesigns.online
-				</Link>
-			</p>
+
 			<h2 className="lowercase style-1 thin">
-				Want Pat to make you a website?
+				Want Patrick to make you a website?
 			</h2>
-			<p className={`paragraph width-full block`}>
-				Pat does custom react and nextjs sites for high-character solopreneurs,
-				visionaries, and revolutionaries.
-			</p>
+
 			<p className={`style-1`}>
 				Hire me on{' '}
 				<Link

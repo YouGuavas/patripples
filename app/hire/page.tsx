@@ -7,7 +7,7 @@ import { services } from './services';
 export const metadata: Metadata = {
 	title: 'Patripples | Hire',
 	description:
-		'Want Pat to make you a react/nextjs website, write you a story, or read your soul? Hire him here. Patripples | Patrick Other.',
+		'Want Patrick to make you a react/nextjs website, write you a story, or read your soul? Hire him here. Patripples | Patrick Other.',
 };
 
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
 				);
 			})}
 			<section className={`width-full`}>
-				<h2 className="lowercase style-1 thin">Want to work with Pat?</h2>
+				<h2 className="lowercase style-1 thin">Want to work with Patrick?</h2>
 				<p className={`style-1`}>
 					Tip me on{' '}
 					<Link

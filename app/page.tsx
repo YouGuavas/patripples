@@ -54,11 +54,12 @@ export default function Home() {
 					className={`no-deco pad-none centered width-half left-align flex column gap-small`}
 				>
 					<li>Patrick builds websites in React and Nextjs.</li>
+					<li>Patrick writes and edits content that converts.</li>
+
 					<li>Patrick creates logo and character SVGs in Inkscape.</li>
-					<li>Patrick offers ACT, GED, and college level tutoring.</li>
 					<li>
-						Patrick applies ecological and regenerative systems thinking to
-						land.
+						Patrick offers ACT, GED, and college level tutoring, specializing in
+						mathematics.
 					</li>
 					<li>
 						Patrick repairs electronics and cars, and solves general day-to-day

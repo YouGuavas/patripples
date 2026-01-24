@@ -27,29 +27,27 @@ export type demoType = {
 
 export const services = [
 	{
-		title: 'Altarcrafting',
+		title: 'Websites',
 		description: [
-			'(I will make you a website)',
-			'Your story carries the weight of many myths, and deserves to be etched into the fossil record as part of the legendary, ongoing altar to humanity.',
-			"I don't know much about fossils, so let me forge you a website fit for a legend and enhance your digital footprint, instead.",
+			'Patrick likes to make websites for friends, small businesses, homesteaders, and go-getters.',
 		],
 		services: [
 			{
-				title: 'Pedestal',
-				rate: '$60',
+				title: 'Vibed',
+				rate: '$300',
 				description:
-					'A single-page website dedicated to telling your story or selling your wares. Simple, straightforward way to keep your clients informed or to tell your story.',
+					'A single-page website dedicated to telling your story, selling your stuff, or sharing your information. A simple, straightforward way to keep your clients up to date.',
 				demo: {
-					title: 'Single-page Homesteader Site',
+					title: 'Single-page Site',
 					href: 'https://template-one-red.vercel.app/',
 					image: homestead.src,
 				},
 			},
 			{
-				title: 'Altar',
-				rate: '$120',
+				title: 'Typed',
+				rate: '$500',
 				description:
-					'A mid-sized (three-to-five pages) website designed with your myth in mind. This is a more functional site than pedestal tier, with multi-page navigation and options available for tools and functionality.',
+					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Typed sites come with multi-page navigation and options available for additional features.',
 				demo: {
 					title: 'Rudi From Flint',
 					href: 'https://rudi-from-flint.vercel.app/',
@@ -57,15 +55,15 @@ export const services = [
 				},
 			},
 			{
-				title: 'Temple',
-				rate: '$225',
+				title: 'Developed',
+				rate: '$750',
 				description:
-					'A legendary website. Altar Tier, plus three add-ons of your choosing.',
+					'A developed website. Typed tier, plus three add-ons of your choosing.',
 				demo: { title: 'TBD', href: './hire', image: ask.src },
 			},
 		],
 	},
-	{
+	/*{
 		title: 'Mythmaking',
 		description: [
 			'(I will make you a myth)',
@@ -109,5 +107,5 @@ export const services = [
 				},
 			},
 		],
-	},
+	},*/
 ];
