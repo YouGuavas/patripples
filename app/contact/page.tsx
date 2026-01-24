@@ -18,9 +18,9 @@ export default function Home() {
 				Email:{' '}
 				<Link
 					className={`no-deco style-1 spaced lowercase`}
-					href="mailto:pat@patripples.com"
+					href="mailto:patrickyambrick@gmail.com"
 				>
-					pat@patripples.com
+					patrickyambrick@gmail.com
 				</Link>
 			</p>
 
@@ -43,12 +43,12 @@ export default function Home() {
 				Want to know about your privacy?
 			</h2>
 			<p className={`paragraph`}>
-				Pat uses Vercel&apos;s web analytics to understand how this site is used
-				and to improve your experience. This data is anonymous and does not
+				Patrick uses Vercel&apos;s web analytics to understand how this site is
+				used and to improve your experience. This data is anonymous and does not
 				include any personal or sensitive information.
 			</p>
 			<p className={`paragraph`}>
-				Pat stores email addresses and first names, as provided in the email
+				Patrick stores email addresses and first names, as provided in the email
 				form on the home page, in a database for use in personal mailing lists.
 				This allows me to keep my site free and clean, with minimal advertising
 				to you.
