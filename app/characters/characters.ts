@@ -1,6 +1,6 @@
 //import morgan from '../../public/characters/Morgan.svg';
 //import morgan_photo from '../../public/Morgan_photo.svg';
-import the_resurrectionist from '../../public/characters/the_resurrectionist.svg';
+//import the_resurrectionist from '../../public/characters/the_resurrectionist.svg';
 //import morgan_mythic from '../../public/characters/Morgan_mythic.svg';
 
 import pat_full from '../../public/characters/pat_full.svg';
@@ -10,12 +10,12 @@ import the_cartographer from '../../public/characters/the_cartographer.svg';
 
 //import jess_and_stephen from '../../public/characters/Jessica and Stephen.svg';
 //import jess_and_stephen_photo from '../../public/characters/Jessica and Stephen photo.svg';
-import empaths from '../../public/characters/emphatic_empaths.svg';
+//import empaths from '../../public/characters/emphatic_empaths.svg';
 
 //import donovan from '../../public/characters/Donovan.svg';
-import the_fool from '../../public/characters/the_fool.svg';
+//import the_fool from '../../public/characters/the_fool.svg';
 
-import ask from '../../public/universal/ask.svg';
+//import ask from '../../public/universal/ask.svg';
 import glyph_1 from '../../public/patroglyphs/glyph_1.svg';
 
 type characters = characterType[];
