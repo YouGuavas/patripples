@@ -29,7 +29,7 @@ export const services = [
 	{
 		title: 'Websites',
 		description: [
-			'Patrick likes to make websites for friends, small businesses, homesteaders, and go-getters.',
+			'Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
 		],
 		services: [
 			{

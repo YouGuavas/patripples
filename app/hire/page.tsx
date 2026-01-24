@@ -5,7 +5,7 @@ import Rates from '../components/Rates';
 import { services } from './services';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Hire',
+	title: 'Patripples | Hire Patrick',
 	description:
 		'Want Patrick to make you a react/nextjs website, write you a story, or read your soul? Hire him here. Patripples | Patrick Other.',
 };
@@ -51,13 +51,13 @@ export default function Home() {
 					Email me for orders or further questions:{' '}
 					<Link
 						className={`no-deco style-1 spaced lowercase`}
-						href="mailto:pat@patripples.com"
+						href="mailto:patrickyambrick@gmail.com"
 					>
-						pat@patripples.com
+						patrickyambrick@gmail.com
 					</Link>{' '}
 					.
 				</p>
-				<p>Or DM me through the platform on which you found me.</p>
+				<p>Or DM me through the platform you found me on.</p>
 			</section>
 		</main>
 	);
