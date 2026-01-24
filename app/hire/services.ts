@@ -29,7 +29,7 @@ export const services = [
 	{
 		title: 'Websites',
 		description: [
-			'Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
+			'A web developer based in Flint, Michigan, Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
 		],
 		services: [
 			{
