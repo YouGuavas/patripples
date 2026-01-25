@@ -1,10 +1,9 @@
-import homestead from '../../public/site_screenshots/homestead.png';
-import rudi from '../../public/site_screenshots/rudi.png';
+import homestead from '@/public/site_screenshots/homestead.png';
+//import rudi from '../../public/site_screenshots/rudi.png';
+import wilson from '@/public/site_screenshots/wilson.png';
+import patripples from '@/public/site_screenshots/patripples.png';
 
-import the_cartographer from '../../public/characters/the_cartographer.svg';
-import the_resurrectionist from '../../public/characters/the_resurrectionist.svg';
-
-import ask from '../../public/universal/ask.svg';
+//import ask from '@/public/universal/ask.svg';
 export type servicesType = serviceTierType[];
 
 export type serviceTierType = {
@@ -49,9 +48,9 @@ export const services = [
 				description:
 					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Typed sites come with multi-page navigation and options available for additional features.',
 				demo: {
-					title: 'Rudi From Flint',
-					href: 'https://rudi-from-flint.vercel.app/',
-					image: rudi.src,
+					title: 'Wilson Stump Grinding',
+					href: 'https://wilson-stump-grinding.vercel.app/',
+					image: wilson.src,
 				},
 			},
 			{
@@ -59,7 +58,7 @@ export const services = [
 				rate: '$750',
 				description:
 					'A developed website. Typed tier, plus three add-ons of your choosing.',
-				demo: { title: 'TBD', href: './hire', image: ask.src },
+				demo: { title: 'This Site', href: './', image: patripples.src },
 			},
 		],
 	},

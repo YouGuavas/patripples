@@ -5,8 +5,8 @@ import Link from 'next/link';
 import styles from '../page.module.css';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Contact',
-	description: 'You can contact Patrick by emailing pat@patripples.com',
+	title: 'Patripples | Contact Patrick',
+	description: 'Contact information for Patrick Yambrick at Patripples.',
 };
 export default function Home() {
 	return (

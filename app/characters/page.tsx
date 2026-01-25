@@ -8,7 +8,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title: 'Patripples | Characters',
 	description:
-		"Patripples | Patrick Yambrick - See yourself mythologized as you've always visualized! SVG animations, character portraits, storytelling, and more.",
+		'SVG character portraits, storytelling, and more by Patrick Yambrick.',
 };
 export default function Character() {
 	complete.reverse();

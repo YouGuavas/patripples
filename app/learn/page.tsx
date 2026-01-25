@@ -4,8 +4,9 @@ import Link from 'next/link';
 import routes from './routes';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Learn',
-	description: 'Patripples: ripples, mathematics, and more! Coming soon!',
+	title: 'Patripples | Learn with Patrick',
+	description:
+		'Start your learning journey with Patrick. Notes, essays, illustrations, and walkthroughs by Patrick Yambrick.',
 };
 export default function Home() {
 	return (
