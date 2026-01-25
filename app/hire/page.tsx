@@ -7,7 +7,7 @@ import { services } from './services';
 export const metadata: Metadata = {
 	title: 'Patripples | Hire Patrick',
 	description:
-		'Want Patrick to make you a react/nextjs website, write you a story, or read your soul? Hire him here. Patripples | Patrick Other.',
+		"Services offered by Patrick Yambrick. Based in Flint, Michigan, Patrick's offerings include web development and design with react and nextjs, content writing, tutoring, and mechanical and electrical repair. Centered in Genesee county and surrounding, with digital services available nationwide.",
 };
 
 export default function Home() {
