@@ -6,10 +6,9 @@ import categories from '@/app/categories';
 import InteractiveList from '@/app/components/InteractiveList';
 
 export const metadata: Metadata = {
-	title:
-		'Patripples | Read learning companion pieces written by Patrick Yambrick',
+	title: 'Patripples | Read',
 	description:
-		"Read Patrick's learning companion pieces at Patripples. Written by Patrick Yambrick.",
+		"Read Patrick's essays and journal entries at Patripples. Written by Patrick Yambrick.",
 };
 export default function Home() {
 	return (
