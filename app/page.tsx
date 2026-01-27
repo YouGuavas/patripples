@@ -6,8 +6,10 @@ import EmailForm from '@/app/components/EmailForm';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
-	title: 'Patripples | Essays, Articles, and Tutoring by Patrick Yambrick',
-	description: 'Patripples: a learning hub composed by Patrick Yambrick.',
+	title:
+		'Patripples | Web Development and Tutoring in Michigan by Patrick Yambrick',
+	description:
+		'Patripples: a learning hub and web development business composed by Patrick Yambrick. Based in Flint, Michigan, and serving Michigan. Patrick offers personalized websites and tutoring, as well as open resources and future online courses.',
 	icons: {
 		icon: '/favicon.ico',
 	},
