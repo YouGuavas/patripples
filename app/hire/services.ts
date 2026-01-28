@@ -1,5 +1,5 @@
 import homestead from '@/public/site_screenshots/homestead.png';
-//import rudi from '../../public/site_screenshots/rudi.png';
+import rudi from '../../public/site_screenshots/rudi.png';
 import wilson from '@/public/site_screenshots/wilson.png';
 import patripples from '@/public/site_screenshots/patripples.png';
 
@@ -28,7 +28,7 @@ export const services = [
 	{
 		title: 'Websites',
 		description: [
-			'A web developer in Flint, Michigan, Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
+			'Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
 		],
 		services: [
 			{
@@ -59,6 +59,25 @@ export const services = [
 				description:
 					'A developed website. Typed tier, plus three add-ons of your choosing.',
 				demo: { title: 'This Site', href: './', image: patripples.src },
+			},
+		],
+	},
+	{
+		title: 'Bundles',
+		description: [
+			'Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
+		],
+		services: [
+			{
+				title: 'Build a Brand',
+				rate: '$750',
+				description:
+					'A customized Typed (3 page) website, unique to your brand/identity. Includes contact form. Options available.',
+				demo: {
+					title: 'Rudi From Flint (Paused)',
+					href: 'https://rudi-from-flint.vercel.app/',
+					image: rudi.src,
+				},
 			},
 		],
 	},
