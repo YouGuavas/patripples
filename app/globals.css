@@ -433,6 +433,9 @@ button {
 .centered {
 	margin: 0 auto;
 }
+.margin-none {
+	margin: 0;
+}
 /* /layout */
 
 /*shaping*/
