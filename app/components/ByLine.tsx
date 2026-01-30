@@ -1,7 +1,7 @@
 type propsType = {
-	author: String;
+	author?: String;
 	date: String;
-	edited: String;
+	edited?: String;
 };
 export default function ByLine(props: propsType) {
 	return (
