@@ -35,11 +35,12 @@ export default function Home() {
 						As you can see, I&apos;ve become calcified.
 					</p>
 					<p className={`paragraph left`}>
-						Oh, you&apos;re not who they sent to help? You must be here for the
-						other guy.
+						Oh, you&apos;re not who they sent to help? You must be here to chat
+						with other guy.
 					</p>
+					<p className={`paragraph left`}>Kinda 67.</p>
 					<p className={`paragraph left`}>
-						Carry on. He&apos;s right down there.
+						Anyway, carry on. He&apos;s right down there.
 					</p>
 					<p className={`paragraph left`}>I&apos;ll just... stand here.</p>
 				</div>
@@ -96,8 +97,8 @@ export default function Home() {
 					className={`no-deco pad-none centered flex column gap-small left-align width-half`}
 				>
 					<li>
-						Essays and Articles – Explore practical knowledge with Patrick and
-						cosmic insights with The Cartographer.
+						Blog Posts and Articles – Explore practical knowledge with Patrick
+						and cosmic insights with The Cartographer.
 					</li>
 					<li>
 						Tutoring and Peer Guidance –{' '}
@@ -111,7 +112,7 @@ export default function Home() {
 					</li>{' '}
 					<li>
 						Web Development and Design - Find examples of Patrick&apos;s website
-						development and design projects here.
+						development and design here.
 					</li>{' '}
 					<li>
 						Repair and Problem Solving - See how Patrick and The Cartographer
