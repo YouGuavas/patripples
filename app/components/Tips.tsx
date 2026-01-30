@@ -17,18 +17,17 @@ export default function Nav() {
 				<Link className={`spaced thin no-deco`} href={`./contact`}>
 					Contact
 				</Link>{' '}
-				Patrick -{' '}
+				-{' '}
 				<Link
 					className={`spaced thin no-deco`}
 					href={`https://cash.app/$patripples/`}
 				>
 					Cashapp
 				</Link>{' '}
-				Patrick -{' '}
+				-{' '}
 				<Link className={`spaced thin no-deco`} href={`./hire`}>
 					Hire
 				</Link>{' '}
-				Patrick
 			</p>
 		</header>
 	);
