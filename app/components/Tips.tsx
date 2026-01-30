@@ -13,14 +13,25 @@ export default function Nav() {
 			id="menu-full"
 		>
 			<p>
-				Like what I&apos;m doing? Tip me on{' '}
+				Like something you see here?{' '}
+				<Link
+					className={`spaced thin no-deco`}
+					href={`mailto:patrickyambrick@gmail.com`}
+				>
+					Email
+				</Link>{' '}
+				Patrick -{' '}
 				<Link
 					className={`spaced thin no-deco`}
 					href={`https://cash.app/$patripples/`}
 				>
 					Cashapp
-				</Link>
-				.
+				</Link>{' '}
+				Patrick -{' '}
+				<Link className={`spaced thin no-deco`} href={`./hire`}>
+					Hire
+				</Link>{' '}
+				Patrick
 			</p>
 		</header>
 	);
