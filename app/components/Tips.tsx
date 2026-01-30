@@ -14,11 +14,8 @@ export default function Nav() {
 		>
 			<p>
 				Like something you see here?{' '}
-				<Link
-					className={`spaced thin no-deco`}
-					href={`mailto:patrickyambrick@gmail.com`}
-				>
-					Email
+				<Link className={`spaced thin no-deco`} href={`./contact`}>
+					Contact
 				</Link>{' '}
 				Patrick -{' '}
 				<Link
