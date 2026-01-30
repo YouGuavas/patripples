@@ -26,7 +26,7 @@ export type demoType = {
 
 export const services = [
 	{
-		title: 'Websites',
+		title: "Patrick's Websites",
 		description: [
 			'Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
 		],
@@ -63,9 +63,9 @@ export const services = [
 		],
 	},
 	{
-		title: 'Bundles',
+		title: "Patrick's Bundles",
 		description: [
-			'Patrick builds websites for small businesses, homesteaders, creative trend-setters, and other go-getters.',
+			"Beyond websites, Patrick offers bundles. Looking for branding and alignment insights, clear content writing, scalable digital art, or SEO? Take a look at Patrick's Bundles below.",
 		],
 		services: [
 			{
