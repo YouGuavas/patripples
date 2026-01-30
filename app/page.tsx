@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import ripples from '@/public/logos/ripples.png';
 import cartographer from '@/public/characters/cartographer_calcified.svg';
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 	title:
 		'Patripples | Web Development and Tutoring in Michigan by Patrick Yambrick',
 	description:
-		'Patripples: a learning hub and web development business composed by Patrick Yambrick. Based in Flint, Michigan, and serving Michigan. Patrick offers personalized websites and tutoring, as well as open resources and future online courses.',
+		'Patripples: a learning and web development hub by Patrick Yambrick. Based in Flint, Michigan, Patrick offers personalized websites and tutoring, as well as educational resources.',
 	icons: {
 		icon: '/favicon.ico',
 	},
@@ -95,20 +96,26 @@ export default function Home() {
 					className={`no-deco pad-none centered flex column gap-small left-align width-half`}
 				>
 					<li>
-						Essays and Articles – Follow Patrick and The Cartographer on deep
-						dives into concepts that shape our world.
+						Essays and Articles – Explore practical knowledge with Patrick and
+						cosmic insights with The Cartographer.
 					</li>
 					<li>
-						Tutoring and Guidance – Hire Patrick as a tutor or The Cartographer
-						as a guide, and view my relevant public resources here.
+						Tutoring and Peer Guidance –{' '}
+						<Link
+							className={`style-1 no-deco spaced lowercase`}
+							href={`./hire`}
+						>
+							Hire
+						</Link>{' '}
+						Patrick as a tutor or The Cartographer as a peer guide.
 					</li>{' '}
 					<li>
-						Web Development and Design - Find examples of Patrick&apos;s
-						websites, design philosophy, and projects here.
+						Web Development and Design - Find examples of Patrick&apos;s website
+						development and design projects here.
 					</li>{' '}
 					<li>
 						Repair and Problem Solving - See how Patrick and The Cartographer
-						solve problems, and learn the principles which underlie my methods.
+						solve problems, and learn the principles scaffolding patripples.
 					</li>
 				</ul>{' '}
 			</section>
