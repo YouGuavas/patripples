@@ -15,34 +15,46 @@ export default function Home() {
 			>
 				What Is Patripples?
 			</h1>
-			<ByLine author={`Patrick Yambrick`} date={'Friday, Jan 30, 2026'} />
-			<blockquote
-				className={`style-2 thin width-full block left-align`}
-				cite="Donkey, Shrek, (2002)"
-			></blockquote>
-			<p className={`paragraph width-full block left-align`}>
-				{' '}
-				-Donkey, <em>Shrek</em> (2002) - while seeking a specific flower.
-			</p>
-			<br />
+			<ByLine
+				author={`Patrick Yambrick`}
+				date={'Friday, Jan 30, 2026'}
+				edited={'Friday, Jan 30, 2026'}
+			/>
 
-			<h2
-				className={`lowercase style-1 thin spaced left width-full block left-align`}
-			>
-				How a swamp gets tired.
-			</h2>
-			<p className={`paragraph style-1`}>
-				Note:{' '}
-				<Link
-					className={`style-1 no-deco spaced lowercase`}
-					href="/read/glossary/vernal_pool"
+			<br />
+			<section>
+				<h2
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
-					vernal pool
-				</Link>
-			</p>
-			<p className={`paragraph width-full block left-align`}>
-				Do you know how an ogre is like an onion, in that they have layers?
-			</p>
+					About Patrick
+				</h2>
+
+				<p className={`paragraph width-full block left-align`}>
+					In order to understand{' '}
+					<Link className={`style-1 no-deco spaced lowercase`} href="./../..">
+						patripples
+					</Link>
+					, you must first understand Patrick. Patrick is a{' '}
+					<Link
+						className={`style-1 no-deco spaced lowercase`}
+						href="./../../characters"
+					>
+						character
+					</Link>
+				</p>
+				<h3
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
+					Who Is Patrick?
+				</h3>
+				<p className={`paragraph width-full block left-align`}>Coming soon!</p>
+				<h3
+					className={`lowercase style-1 thin spaced left width-full block left-align`}
+				>
+					What Does Patrick Do?
+				</h3>
+				<p className={`paragraph width-full block left-align`}>Coming soon!</p>
+			</section>
 		</main>
 	);
 }
