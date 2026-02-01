@@ -7,7 +7,7 @@ type propsType = {
 export default function Card(props: propsType) {
 	return (
 		<div
-			className={` left-align style-1 lowercase rounded bordered px-1 width-full flex column`}
+			className={` left-align style-1 lowercase rounded bordered px-1 flex column`}
 		>
 			<div className={`flex row center gap-large`}>
 				<h4 className={``}>{props.title}</h4>
