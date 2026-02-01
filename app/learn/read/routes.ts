@@ -5,9 +5,9 @@ const routes = [
 		tags: ['how to', 'x'],
 	},
 	{
-		name: 'How Patrick Builds A Website',
-		path: '/learn/read/how_Patrick_builds_a_website',
-		tags: ['how to', 'x'],
+		name: "Patrick's Pitfalls - Vague Wording",
+		path: '/learn/read/patricks_pitfalls_vague_wording',
+		tags: ["patrick's pitfalls", 'x'],
 	},
 ];
 

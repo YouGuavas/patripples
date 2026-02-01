@@ -70,55 +70,66 @@ export default function Home() {
 						problems for people.
 					</li>
 				</ul>
-				<h2 className={`lowercase spaced style-1 thin`}>How to patripple.</h2>
-				<div className="width-half centered left-align flex column">
-					<p className={`paragraph width-full left`}>
-						As with the concept, this is a living document. I am working on it
-						as I go along. You are welcome to come back to check for updates
-						whenever it suits you.
-					</p>
-					<p className={`paragraph width-full left`}>
-						Have you ever tossed a handful of pebbles into a pond or a creek,
-						and watched the water ripple?
-					</p>{' '}
-					<p className={`paragraph width-full left`}>
-						If you have, you know how to patripple.
-					</p>
-					<p className={`paragraph width-full left`}>
-						It&apos;s the process of enacting major change over time through
-						small, mundane actions.
-					</p>
-				</div>
 			</section>
 
-			<section className={`width-full center`}>
-				<h2 className={`lowercase spaced style-1 thin`}>What is here.</h2>{' '}
-				<ul
-					className={`no-deco pad-none centered flex column gap-small left-align width-half`}
-				>
-					<li>
-						Blog Posts and Articles – Explore practical knowledge with Patrick
-						and cosmic insights with The Cartographer.
-					</li>
-					<li>
-						Tutoring and Peer Guidance –{' '}
-						<Link
-							className={`style-1 no-deco spaced lowercase`}
-							href={`./hire`}
-						>
-							Hire
-						</Link>{' '}
-						Patrick as a tutor or The Cartographer as a peer guide.
-					</li>{' '}
-					<li>
-						Web Development and Design - Find examples of Patrick&apos;s website
-						development and design here.
-					</li>{' '}
-					<li>
-						Repair and Problem Solving - See how Patrick and The Cartographer
-						solve problems, and learn the principles scaffolding patripples.
-					</li>
-				</ul>{' '}
+			<section className={`width-full flex margin-top-sm`}>
+				<div className={`center width-half`}>
+					<h3 className={`lowercase spaced style-1 thin`}>What is here.</h3>{' '}
+					<ul
+						className={`no-deco pad-none centered flex column gap-small left-align width-full`}
+					>
+						<li>
+							<strong>Blog Posts and Articles</strong> – Explore practical
+							knowledge with Patrick and cosmic insights with The Cartographer.
+						</li>
+						<li>
+							<strong>Tutoring and Peer Guidance</strong> – Work with Patrick as
+							a tutor or The Cartographer as a peer guide.
+						</li>{' '}
+						<li>
+							<strong>Web Development and Design</strong> -{' '}
+							<Link
+								className={`style-1 no-deco spaced lowercase`}
+								href={`./hire`}
+							>
+								Find
+							</Link>{' '}
+							examples of Patrick&apos;s website development and design here.
+						</li>{' '}
+						<li>
+							<strong>Repair and Problem Solving</strong> - See how Patrick and
+							The Cartographer solve problems, and learn the principles
+							scaffolding patripples.
+						</li>
+					</ul>{' '}
+				</div>
+				<div className={`center width-half`}>
+					<h3 className={`lowercase spaced style-1 thin`}>
+						How Patrick Helps You.
+					</h3>{' '}
+					<ul
+						className={`no-deco pad-none centered flex column gap-small left-align width-full`}
+					>
+						<li>
+							<strong>Clarify Your Creative Idea</strong> - Do you have a really
+							cool idea? Does it not land like it should? Been there, seen it
+							all. Here to help you step past that pitfall.
+						</li>
+						<li>
+							<strong>Build On Your Web Design</strong> - Like what you&apos;re
+							working with, but think it needs a visual touch up? Or do you want
+							to hit reset and go with a full rebrand? Either way, Patrick can
+							help you with your web design woes.
+						</li>
+						<li>
+							<strong>Amplify Your Business</strong> - Are you good at what you
+							do? Are you proud of it? Do you do great work for others, and
+							still see less traffic than you reasonably should? Let me take a
+							look at your ads and website content, and see if we can remedy
+							this travesty.
+						</li>
+					</ul>{' '}
+				</div>
 			</section>
 		</main>
 	);

@@ -1,10 +1,10 @@
 type propsType = {
 	title: String;
-	subject: String;
+	subject?: String;
 	body: String;
 	footer: String;
 };
-export default function ByLine(props: propsType) {
+export default function Card(props: propsType) {
 	return (
 		<div
 			className={` left-align style-1 lowercase rounded bordered px-2 width-full flex column`}

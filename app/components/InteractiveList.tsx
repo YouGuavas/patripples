@@ -2,6 +2,8 @@
 'use client';
 
 import { useState } from 'react';
+import Card from './Card';
+
 import { supabase } from '../api/lib/supabase';
 import Link from 'next/link';
 
@@ -44,22 +46,18 @@ export default function InteractiveList(props: propsType) {
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{links.map(({ name, path, tags }) =>
 					tags.indexOf(filter) !== -1 ? (
-						<li
+						<Link
 							key={`${name}`}
-							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2`}
+							className={`no-deco lowercase style-1 thin spaced color-2  darken px-2 py-2 `}
+							scroll={false}
+							href={`${path}`}
+							id={name.toLowerCase()}
 						>
-							<Link
-								className={`no-deco lowercase style-1 thin spaced color-2 rounded darken px-2 py-2 bordered`}
-								scroll={false}
-								href={`${path}`}
-								id={name.toLowerCase()}
-							>
-								{`${name}.`}
-							</Link>
-						</li>
+							<Card title={name} subject={tags[0]} body={``} footer={``} />
+						</Link>
 					) : (
 						<></>
-					)
+					),
 				)}
 			</ul>
 		</>

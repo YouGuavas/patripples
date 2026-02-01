@@ -436,6 +436,9 @@ button {
 .margin-none {
 	margin: 0;
 }
+.margin-top-sm {
+	margin-top: 1.5rem;
+}
 /* /layout */
 
 /*shaping*/
