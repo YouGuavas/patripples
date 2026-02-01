@@ -1,8 +1,8 @@
 type propsType = {
-	title: String;
-	subject?: String;
-	body: String;
-	footer: String;
+	title: string;
+	subject?: string;
+	body?: string;
+	footer?: string;
 };
 export default function Card(props: propsType) {
 	return (
