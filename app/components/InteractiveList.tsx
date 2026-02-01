@@ -48,7 +48,7 @@ export default function InteractiveList(props: propsType) {
 					tags.indexOf(filter) !== -1 ? (
 						<Link
 							key={`${name}`}
-							className={`no-deco lowercase style-1 thin spaced color-2  darken px-2 py-2 `}
+							className={`no-deco lowercase style-1 thin spaced color-2  darken `}
 							scroll={false}
 							href={`${path}`}
 							id={name.toLowerCase()}

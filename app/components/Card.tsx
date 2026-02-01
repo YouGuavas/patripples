@@ -7,7 +7,7 @@ type propsType = {
 export default function Card(props: propsType) {
 	return (
 		<div
-			className={` left-align style-1 lowercase rounded bordered px-2 width-full flex column`}
+			className={` left-align style-1 lowercase rounded bordered px-1 width-full flex column`}
 		>
 			<div className={`flex row center gap-large`}>
 				<h4 className={``}>{props.title}</h4>
@@ -18,13 +18,13 @@ export default function Card(props: propsType) {
 			</div>
 			<div className={`flex row left`}>
 				<p>
-					<em>What are {props.title}? </em>
+					<em>Describing {props.title}: </em>
 					{props.body}
 				</p>
 			</div>
 			<div className={`flex row left`}>
 				<p>
-					<em>Why do {props.title} matter? </em>
+					<em>Explaining the value of {props.title}: </em>
 					{props.footer}
 				</p>
 			</div>
