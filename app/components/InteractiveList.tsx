@@ -15,6 +15,8 @@ interface routeType {
 	name: string;
 	path: string;
 	tags: string[];
+	body?: string;
+	footer?: string;
 }
 
 export default function InteractiveList(props: propsType) {
@@ -44,7 +46,7 @@ export default function InteractiveList(props: propsType) {
 			<h3 className={`style-1 thin lowercase spaced`}>Thoughts: </h3>
 
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
-				{links.map(({ name, path, tags }) =>
+				{links.map(({ name, path, tags, body, footer }) =>
 					tags.indexOf(filter) !== -1 ? (
 						<Link
 							key={`${name}`}
@@ -53,7 +55,12 @@ export default function InteractiveList(props: propsType) {
 							href={`${path}`}
 							id={name.toLowerCase()}
 						>
-							<Card title={name} subject={tags[0]} body={``} footer={``} />
+							<Card
+								title={name}
+								subject={tags[0]}
+								body={body}
+								footer={footer}
+							/>
 						</Link>
 					) : (
 						<></>

@@ -15,7 +15,7 @@
 
 # production
 /build
-/app/learn/read/*
+/app/learn/read/article_staging
 
 # misc
 .DS_Store
