@@ -39,7 +39,7 @@ export default function CharacterSheet(props: characterType) {
 	const handleImageSwap = (
 		new_image: string,
 		new_portal: string,
-		new_title: string
+		new_title: string,
 	) => {
 		if (image !== new_image) {
 			setImage(new_image);
@@ -68,9 +68,9 @@ export default function CharacterSheet(props: characterType) {
 				<div className={`portrait-container centered bg-2 z5`}>
 					<Image src={image} fill alt={`${props.alt}`} />
 				</div>{' '}
-				<h5 className={`style-1 thin lowercase spaced`}>
+				{/*<h5 className={`style-1 thin lowercase spaced`}>
 					{props.archetype[0]} / / {props.archetype[1]}
-				</h5>
+				</h5>*/}
 				<ul className={`flex center gap-small pad-none no-deco`}>
 					{variants.map((variant, index) => {
 						return (
@@ -126,12 +126,12 @@ export default function CharacterSheet(props: characterType) {
 						);
 					})}{' '}
 				</div>
-				<p className={`width-half centered`}>
+				{/*<p className={`width-half centered`}>
 					Want a card like this? Check out my{' '}
 					<Link className={`no-deco spaced style-1`} href={`./hire`}>
 						Mythic {props.tier} <em className={`style-1`}>Mythmaking</em> tier!
 					</Link>
-				</p>
+				</p>*/}
 			</div>
 		</div>
 	);

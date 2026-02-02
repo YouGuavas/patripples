@@ -16,9 +16,7 @@ export default function Character() {
 	const {
 		phase,
 		title,
-		archetype,
-		stats,
-		photo,
+
 		portrait,
 		mythic,
 		standard_bio,
@@ -53,7 +51,6 @@ export default function Character() {
 					<Image src={mythic} alt={alt} fill />
 				</div>
 			</section>
-			<BarterTicker />
 		</main>
 	);
 }

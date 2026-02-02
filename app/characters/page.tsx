@@ -14,16 +14,14 @@ export default function Character() {
 	complete.reverse();
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>mythic dossiers.</h1>
-
+			<h1 className={`style-1 thin lowercase`}>Character Files.</h1>
+			<p>This is a side project that I am updating as I go along.</p>
 			<section className={`flex gap-large center`}>
 				{complete.map((character, index) => {
 					const {
 						phase,
 						title,
-						archetype,
-						stats,
-						photo,
+
 						portrait,
 						mythic,
 						standard_bio,
@@ -37,9 +35,6 @@ export default function Character() {
 							key={index}
 							phase={phase}
 							title={title}
-							archetype={archetype}
-							stats={stats}
-							photo={photo}
 							portrait={portrait}
 							mythic={mythic}
 							standard_bio={standard_bio}
