@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import routes from './routes';
 import categories from '@/app/categories';
-import InteractiveList from '@/app/components/InteractiveList';
+import { InteractiveLinkList as InteractiveList } from '@/app/components/InteractiveList';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Essays',
