@@ -102,7 +102,13 @@ export function InteractiveList(props: propsType) {
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{links.map(({ name, path, tags, body, footer }) =>
 					tags.indexOf(filter) !== -1 ? (
-						<Card title={name} subject={tags[0]} body={body} footer={footer} />
+						<Card
+							key={`${name}`}
+							title={name}
+							subject={tags[0]}
+							body={body}
+							footer={footer}
+						/>
 					) : (
 						<></>
 					),
