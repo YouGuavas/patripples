@@ -46,22 +46,6 @@ type statsType = {
 const complete: characters = [
 	{
 		phase: glyph_1.src,
-		title: `The Empaths`,
-
-		portrait: jess_and_stephen.src,
-		mythic: the_empaths.src,
-		standard_bio: ['Patrick values ethicality and empathy.'],
-		mythic_bio: [
-			'Little is known about The Cartographer. He appears when he is called, and delivers only the lessons you need most pressingly. Often, he seems more confused than you are.',
-			"It's said that wherever he goes, people grow. What that means, I do not know.",
-		],
-		href: './characters/the_cartographer',
-
-		alt: 'Phase Three Patrick',
-		tier: 'Spark',
-	},
-	{
-		phase: glyph_1.src,
 		title: `The Cartographer`,
 
 		portrait: pat_full.src,
