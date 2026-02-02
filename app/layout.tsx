@@ -1,6 +1,7 @@
 import React from 'react';
-import Nav from './components/nav';
-import Tips from './components/Tips';
+import Nav from '@/app/components/nav';
+import Tips from '@/app/components/Tips';
+import UpdateTicker from '@/app/components/widgets/UpdateTicker';
 import { ShareButtonsGroup } from './components/SocialButtons';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
@@ -28,6 +29,14 @@ export default function RootLayout({
 			<body className={`${inter.className} bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
+						<UpdateTicker
+							updates={[
+								{
+									text: "Read 'Patrick's Pitfalls - Vague Wording' - out now.",
+									href: '/learn/read/vague_wording',
+								},
+							]}
+						/>
 						{
 							//<ShareButtonsGroup />
 						}{' '}
