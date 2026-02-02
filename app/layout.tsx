@@ -6,6 +6,7 @@ import { ShareButtonsGroup } from './components/SocialButtons';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import { UrlProviderWrapper } from './UrlProviderWrapper';
 import { ThemeProviderWrapper } from './ThemeProviderWrapper';
@@ -47,6 +48,7 @@ export default function RootLayout({
 				</ThemeProviderWrapper>
 			</body>
 			<Analytics />
+			<SpeedInsights />
 		</html>
 	);
 }
