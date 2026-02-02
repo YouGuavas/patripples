@@ -27,7 +27,7 @@ export default function Home() {
 					<Image src={cartographer.src} fill alt="The Cartographer" />
 				</div>
 				<div className="left-align width-half centered flex column">
-					<p className={`paragraph left`}>I&apos;m The Cartographer.</p>
+					<p className={`paragraph left`}>Hi! I&apos;m The Cartographer.</p>
 					<p className={`paragraph left`}>
 						You must be who they sent to help. I knew they&apos;d send someone.
 					</p>
@@ -36,9 +36,9 @@ export default function Home() {
 					</p>
 					<p className={`paragraph left`}>
 						Oh, you&apos;re not who they sent to help? You must be here to chat
-						with other guy.
+						with the other guy.
 					</p>
-					<p className={`paragraph left`}>Kinda 67.</p>
+					<p className={`paragraph left`}>Kinda 67, not gonna lie.</p>
 					<p className={`paragraph left`}>
 						Anyway, carry on. He&apos;s right down there.
 					</p>
