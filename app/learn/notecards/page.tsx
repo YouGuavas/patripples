@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Card from '@/app/components/Card';
 import routes from './routes';
 import categories from './categories';
-import InteractiveList from '@/app/components/InteractiveList';
+import { InteractiveList } from '@/app/components/InteractiveList';
 
 export const metadata: Metadata = {
 	title: 'Patripples | Notecards',
