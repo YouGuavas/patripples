@@ -61,6 +61,10 @@ export default function RootLayout({
 					</UrlProviderWrapper>
 				</ThemeProviderWrapper>
 			</body>
+			<script
+				async
+				src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
+			></script>
 
 			<Analytics />
 		</html>
