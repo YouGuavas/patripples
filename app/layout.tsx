@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import Script from 'next/script';
 import Nav from '@/app/components/nav';
 import Tips from '@/app/components/Tips';
@@ -8,6 +9,7 @@ import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import cart from '@/public/icons/cart.svg';
 import './globals.css';
 import { UrlProviderWrapper } from './UrlProviderWrapper';
 import { ThemeProviderWrapper } from './ThemeProviderWrapper';
@@ -17,6 +19,11 @@ function PreloadResources() {
 	ReactDOM.preconnect('https://app.snipcart.com');
 	ReactDOM.preconnect('https://cdn.snipcart.com');
 	return null;
+}
+declare global {
+	interface Window {
+		Snipcart: any;
+	}
 }
 
 const inter = Inter({ subsets: ['latin'] });
@@ -44,6 +51,18 @@ export default function RootLayout({
 			<body className={`${inter.className} bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
+						<button
+							id="snipcart-link"
+							className={`snipcart-checkout snipcart-summary cart-button fixed`}
+						>
+							<Image
+								alt="Shopping Cart"
+								src={cart.src}
+								height={35}
+								width={35}
+							/>
+							<span className="snipcart-items-count"></span>
+						</button>
 						<UpdateTicker
 							updates={[
 								{
