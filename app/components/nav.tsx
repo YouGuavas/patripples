@@ -24,7 +24,7 @@ function NavLink({ href, children }: NavLinkProps) {
 			id={pathName.toLowerCase()}
 			className={clsx(
 				`style-1 lowercase spaced thin no-deco darken ${theme}`,
-				isActive ? 'active' : null
+				isActive ? 'active' : null,
 			)}
 		>
 			{children}
@@ -43,7 +43,7 @@ export default function Nav() {
 					<li key={path}>
 						<NavLink href={path}>
 							<div className={`icon-container`}>
-								<Image src={image.src} fill alt={`${name}`} />
+								<Image height={40} width={40} src={image.src} alt={`${name}`} />
 							</div>
 						</NavLink>
 					</li>
