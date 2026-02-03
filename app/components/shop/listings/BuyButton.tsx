@@ -2,6 +2,7 @@
 
 type propsType = {
 	id: number;
+	title: string;
 	price: number;
 	image?: string;
 	stock: number;
@@ -9,9 +10,11 @@ type propsType = {
 };
 
 export default function BuyButton(props: propsType) {
-	const { id, price, image, stock, url } = props;
+	const { id, title, price, image, stock, url } = props;
+	const name = title;
 	const handleAddToCart = () => {
 		if (window.Snipcart) {
+			alert('hiya');
 			window.Snipcart.api.cart.items.add({
 				id,
 				name,

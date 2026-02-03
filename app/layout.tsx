@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Script from 'next/script';
 import Nav from '@/app/components/nav';
 import Tips from '@/app/components/Tips';
 import UpdateTicker from '@/app/components/widgets/UpdateTicker';
@@ -9,17 +8,12 @@ import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
-import cart from '@/public/icons/cart.svg';
+
 import './globals.css';
 import { UrlProviderWrapper } from './UrlProviderWrapper';
 import { ThemeProviderWrapper } from './ThemeProviderWrapper';
-import ReactDOM from 'react-dom';
+//import CartButton from './components/shop/listings/CartButton';
 
-function PreloadResources() {
-	ReactDOM.preconnect('https://app.snipcart.com');
-	ReactDOM.preconnect('https://cdn.snipcart.com');
-	return null;
-}
 declare global {
 	interface Window {
 		Snipcart: any;
@@ -34,7 +28,6 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<PreloadResources />
 			<Head>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -43,6 +36,8 @@ export default function RootLayout({
 					rel="stylesheet"
 				/>
 
+				<link rel="preconnect" href="https://app.snipcart.com" />
+				<link rel="preconnect" href="https://cdn.snipcart.com" />
 				<link
 					rel="stylesheet"
 					href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css"
@@ -51,18 +46,8 @@ export default function RootLayout({
 			<body className={`${inter.className} bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
-						<button
-							id="snipcart-link"
-							className={`snipcart-checkout snipcart-summary cart-button fixed`}
-						>
-							<Image
-								alt="Shopping Cart"
-								src={cart.src}
-								height={35}
-								width={35}
-							/>
-							<span className="snipcart-items-count"></span>
-						</button>
+						{/*						<CartButton />
+						 */}{' '}
 						<UpdateTicker
 							updates={[
 								{
@@ -80,10 +65,15 @@ export default function RootLayout({
 					</UrlProviderWrapper>
 				</ThemeProviderWrapper>
 			</body>
-			<script
+			{/*<script
 				async
 				src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
 			></script>
+			<div
+				hidden
+				id="snipcart"
+				data-api-key="OGU2OWMwOGMtNjM2Mi00MWEyLTlhYmUtYjA1MTA4YzY5MzNkNjM4MTI3MDA4NDE3MzEzOTgy"
+			></div>*/}
 
 			<Analytics />
 		</html>

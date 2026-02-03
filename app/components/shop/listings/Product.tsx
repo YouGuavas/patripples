@@ -31,7 +31,7 @@ const Product: React.FC<ProductProps> = ({
 			<Image src={image} alt={`Preview of ${image}`} height={200} width={150} />
 			<p>Price: ${price}</p>
 			{renderStock()}
-			<BuyButton id={id} price={price} stock={stock} url={url} />
+			<BuyButton id={id} title={name} price={price} stock={stock} url={url} />
 		</div>
 	);
 };
