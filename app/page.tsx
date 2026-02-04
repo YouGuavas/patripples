@@ -3,7 +3,7 @@ import Image from 'next/image';
 import ripples from '@/public/logos/ripples.png';
 import cartographer from '@/public/characters/cartographer_calcified.svg';
 import pat from '@/public/characters/pat_solo.svg';
-import EmailForm from '@/app/components/EmailForm';
+//import EmailForm from '@/app/components/EmailForm';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {

@@ -1,13 +1,13 @@
 import React from 'react';
-import Image from 'next/image';
+//import Image from 'next/image';
 import Nav from '@/app/components/nav';
 import Tips from '@/app/components/Tips';
 import UpdateTicker from '@/app/components/widgets/UpdateTicker';
-import { ShareButtonsGroup } from './components/SocialButtons';
+//import { ShareButtonsGroup } from './components/SocialButtons';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+//import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import './globals.css';
 import { UrlProviderWrapper } from './UrlProviderWrapper';
