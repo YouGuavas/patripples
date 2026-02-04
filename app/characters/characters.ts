@@ -8,9 +8,9 @@ import pat_full from '../../public/characters/pat_full.svg';
 import the_cartographer from '../../public/characters/the_cartographer.svg';
 //import pat_wizard from '../../public/characters/pat_wizard.svg';
 
-import jess_and_stephen from '../../public/characters/Jessica and Stephen.svg';
+//import jess_and_stephen from '../../public/characters/Jessica and Stephen.svg';
 //import jess_and_stephen_photo from '../../public/characters/Jessica and Stephen photo.svg';
-import the_empaths from '../../public/characters/emphatic_empaths.svg';
+//import the_empaths from '../../public/characters/emphatic_empaths.svg';
 
 //import donovan from '../../public/characters/Donovan.svg';
 //import the_fool from '../../public/characters/the_fool.svg';
