@@ -26,6 +26,7 @@ export default function Home() {
 				<div className={`image-container center centered`}>
 					<Image
 						fetchPriority="high"
+						loading="eager"
 						src={cartographer.src}
 						fill
 						alt="The Cartographer"
