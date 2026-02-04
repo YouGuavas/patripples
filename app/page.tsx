@@ -24,7 +24,12 @@ export default function Home() {
 				</div>
 				<h1 className={`lowercase style-1`}>Welcome to patripples.</h1>
 				<div className={`image-container center centered`}>
-					<Image src={cartographer.src} fill alt="The Cartographer" />
+					<Image
+						fetchPriority="high"
+						src={cartographer.src}
+						fill
+						alt="The Cartographer"
+					/>
 				</div>
 				<div className="left-align width-half centered flex column">
 					<p className={`paragraph left`}>Hi! I&apos;m The Cartographer.</p>
