@@ -7,10 +7,9 @@ import ByLine from '@/app/components/ByLine';
 import Footer from '@/app/components/blog/Footer';
 
 export const metadata: Metadata = {
-	title:
-		"Patripples | 'Patrick\'s Pitfalls - Vague Wording' by Patrick Yambrick",
+	title: "Patripples | 'Vague Wording' by Patrick Yambrick",
 	description:
-		"Patrick's Pitfalls is a series dedicated to sharing painfully earned wisdom in a digestible format. This one is about vague wording, how it crushes web traffic, and how to fix it. Written by Patrick Yambrick.",
+		'Follow Patrick as he shares painfully earned wisdom in a digestible format. This one is about vague wording, how it crushes web traffic, and how to fix it. Written by Patrick Yambrick.',
 };
 export default function Home() {
 	return (
@@ -18,12 +17,12 @@ export default function Home() {
 			<h1
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
 			>
-				Patrick&apos;s Pitfalls - Vague Wording
+				Vague Wording
 			</h1>
 			<ByLine
 				author={`Patrick Yambrick`}
 				date={'Sunday, Feb 1, 2026'}
-				edited={'Sunday, Feb 1, 2026'}
+				edited={'Thursday, Feb 5, 2026'}
 			/>
 
 			<br />
@@ -31,14 +30,14 @@ export default function Home() {
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
-					What Are Patrick&apos;s Pitfalls?
+					What Is This?
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
 					I have always been a fan of the saying, &quot;Smart people learn from
 					their mistakes. Wise people learn from the mistakes of others.&quot;
-					In that context, I offer you Patrick&apos;s Pitfalls: wisdom painfully
-					earned and mistakes carelessly made, so that you don&apos;t waste your
-					time doing the same.
+					In that context, I offer you wisdom painfully earned and mistakes
+					carelessly made, so that you don&apos;t waste your time doing the
+					same.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					As someone who likes to try their hand at everything, and who insists
@@ -46,15 +45,15 @@ export default function Home() {
 					lie, I have much wisdom to share.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Patrick&apos;s Pitfalls is my attempt at bringing you brief, useful
-					snippets of wisdom to make your life easier.
+					This is my attempt at bringing you brief, useful snippets of wisdom to
+					make your life easier.
 				</p>
 			</section>
 			<section>
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
-					Today&apos;s Pitfall: Vague Wording.
+					Vague Wording.
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
 					&quot;Welcome to my class on tensor analysis. It is about tensors,
