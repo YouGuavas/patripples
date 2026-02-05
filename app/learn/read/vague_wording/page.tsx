@@ -258,7 +258,7 @@ export default function Home() {
 					sweet, I am going to wrap this up.
 				</p>
 			</section>
-			<Footer title={"'Patrick's Pitfalls - Vague Wording'"} />
+			<Footer title={"'Vague Wording'"} />
 		</main>
 	);
 }
