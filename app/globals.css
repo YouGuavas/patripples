@@ -549,15 +549,15 @@ button {
 }
 
 .scroll-text {
-	padding-left: 30%;
-	animation: scroll 15s linear infinite;
+	padding-left: 60%;
+	animation: scroll 30s linear infinite;
 }
 @keyframes scroll {
 	0% {
-		transform: translateX(0);
+		transform: translateX(60%);
 	}
 	100% {
-		transform: translateX(-100%);
+		transform: translateX(-210%);
 	}
 }
 
