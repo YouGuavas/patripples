@@ -14,7 +14,6 @@ export default function BuyButton(props: propsType) {
 	const name = title;
 	const handleAddToCart = () => {
 		if (window.Snipcart) {
-			alert('hiya');
 			window.Snipcart.api.cart.items.add({
 				id,
 				name,

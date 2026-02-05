@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<Head>
+			<head>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
 				<link rel="preconnect" href="https://app.snipcart.com" />
@@ -41,7 +41,7 @@ export default function RootLayout({
 					rel="stylesheet"
 					href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css"
 				/>
-			</Head>
+			</head>
 			<body className={`${inter.className} bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
