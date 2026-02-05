@@ -9,7 +9,7 @@ type updateType = {
 export default function UpdateTicker(props: propsType) {
 	return (
 		<ul
-			className={`margin-none scroll-container left width-full left-align flex row gap-small no-deco`}
+			className={`margin-none flex-wrap-none scroll-container left width-full left-align flex row gap-small no-deco`}
 		>
 			{props.updates.map((update, index) => {
 				return (

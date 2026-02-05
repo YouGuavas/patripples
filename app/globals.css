@@ -150,6 +150,9 @@ ul {
 	padding: 1rem;
 	border-radius: var(--radius);
 }
+.flex-wrap-none {
+	flex-wrap: none;
+}
 .alt-wrapper {
 	top: 15vh;
 	background-color: var(--color-1);
