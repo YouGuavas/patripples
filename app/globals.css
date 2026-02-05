@@ -150,8 +150,8 @@ ul {
 	padding: 1rem;
 	border-radius: var(--radius);
 }
-.flex-wrap-none {
-	flex-wrap: none;
+ul.flex-wrap-none {
+	flex-wrap: nowrap;
 }
 .alt-wrapper {
 	top: 15vh;
