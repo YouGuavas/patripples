@@ -52,6 +52,10 @@ export default function RootLayout({
 									text: "Read 'Patrick's Pitfalls - Vague Wording' - out now.",
 									href: '/learn/read/vague_wording',
 								},
+								{
+									text: 'Shop coming soon. Demo out now (not live).',
+									href: '/shop',
+								},
 							]}
 						/>
 						{
