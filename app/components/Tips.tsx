@@ -20,9 +20,9 @@ export default function Nav() {
 				-{' '}
 				<Link
 					className={`spaced thin no-deco`}
-					href={`https://cash.app/$patripples/`}
+					href={`https://www.paypal.com/ncp/payment/CNTTTX8KJLDRJ`}
 				>
-					Cashapp
+					Paypal
 				</Link>{' '}
 				-{' '}
 				<Link className={`spaced thin no-deco`} href={`./hire`}>
