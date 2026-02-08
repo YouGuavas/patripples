@@ -8,9 +8,8 @@ interface DataItem {
 interface PieChartProps {
 	title: string;
 	data: DataItem[];
-	width: number;
-	height: number;
-	margin: { top: number; right: number; bottom: number; left: number };
+	width?: number;
+	height?: number;
 	innerRadius?: number; // Optional inner radius for a donut chart
 	outerRadius?: number;
 }
@@ -18,14 +17,14 @@ interface PieChartProps {
 const D3Pie: React.FC<PieChartProps> = ({
 	title,
 	data,
-	width,
-	height,
-	margin,
+	width = 450,
+	height = 450,
 	innerRadius = 0,
 	outerRadius,
 }) => {
 	const svgRef = useRef<SVGSVGElement>(null);
 	const radius = outerRadius || Math.min(width, height) / 2;
+	const margin = { top: 20, right: 20, bottom: 20, left: 20 };
 
 	useEffect(() => {
 		// Clear any previous chart elements on update
