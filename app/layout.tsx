@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'Patrick's Pitfalls - Vague Wording' - out now.",
-									href: '/learn/read/vague_wording',
+									text: "Read 'How Small Businesses Can Stay Steady During Disruption' - out now.",
+									href: '/learn/read/how_small_businesses_can_stay_steady_during_disruption',
 								},
 								{
 									text: 'Shop coming soon. Demo out now (not live).',
