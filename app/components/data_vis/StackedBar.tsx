@@ -64,7 +64,7 @@ export default function D3StackedBarPCT<T extends Record<string, unknown>>({
 			.selectAll('g')
 			.data(stackedData)
 			.join('g')
-			.attr('fill', (d) => color(d.key) as string)
+			.attr('fill', (d) => color(d.key as string))
 			.selectAll('rect')
 			.data((d) => d)
 			.join('rect')

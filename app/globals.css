@@ -566,6 +566,11 @@ button {
 	margin-top: 10%;
 }
 
+.jumbo-container {
+	width: 80vw;
+	max-height: 700px;
+}
+
 @media screen and (min-width: var(--sm-max)) {
 	.my-rotate {
 		transform: rotate(var(--rotate-2));
