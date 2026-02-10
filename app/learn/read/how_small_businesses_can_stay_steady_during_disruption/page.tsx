@@ -23,8 +23,8 @@ export default function Home() {
 			</h1>
 			<ByLine
 				author={`Patrick Yambrick`}
-				date={'Thursday, Feb 9, 2026'}
-				edited={'Thursday, Feb 9, 2026'}
+				date={'Monday, Feb 9, 2026'}
+				edited={'Monday, Feb 9, 2026'}
 			/>
 
 			<br />
@@ -143,7 +143,7 @@ export default function Home() {
 					one benefiting, instead?
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					If you expected that &quot;SEO opportunism&quot; as the reason for my
+					If you suspected &quot;SEO opportunism&quot; as the reason for my
 					mentioning ChatGPT, Kid Rock, Bad Bunny, and that Budweiser Super Bowl
 					commercial in the same breath, you guessed it!
 				</p>
