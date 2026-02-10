@@ -52,7 +52,7 @@ export default function Home() {
 
 				<p className={`paragraph width-full block left-align`}>
 					Perhaps you were seeking an escape from your small business anxiety,
-					and hoped to do so by looking at your favorite news source ahead of
+					and hoped to do so by looking at your favorite news source following
 					Super Bowl Sunday.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
