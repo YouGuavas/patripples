@@ -128,16 +128,6 @@ export default function Home() {
 					</ul>{' '}
 				</div>
 			</section>
-			<section className={`width-full flex margin-top-sm`}>
-				<h2 className={`lowercase spaced style-1 thin`}>Who I Am.</h2>{' '}
-				<p className={`paragraph left`}>
-					I am a web developer and designer from Flint, Michigan. With a focus
-					on helping local small businesses, creatives, contractors,
-					entrepreneurs, and other solo operators, I deliver high-quality,
-					high-impact, accessible websites that increase visibility and drive
-					growth for my clients.
-				</p>
-			</section>
 		</main>
 	);
 }
