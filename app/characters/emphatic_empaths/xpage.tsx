@@ -11,7 +11,7 @@ import tiny_mushroom from '../../../public/universal/tiny_mushroom.svg';
 
 import CharacterSheet from '../../components/CharacterSheet';
 import type { Metadata } from 'next';
-import BarterTicker from '@/app/components/BarterTicker';
+import BarterTicker from '@/app/components/widgets/BarterTicker';
 
 export const metadata: Metadata = {
 	title: 'Patripples | The Empaths',

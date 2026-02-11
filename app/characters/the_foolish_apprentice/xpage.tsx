@@ -1,7 +1,7 @@
 import { characterType } from '../characters';
 import { complete } from '../characters';
 import Image from 'next/image';
-import BarterTicker from '@/app/components/BarterTicker';
+import BarterTicker from '@/app/components/widgets/BarterTicker';
 
 import type { Metadata } from 'next';
 
