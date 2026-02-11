@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 	title:
 		"Patripples | 'How Small Businesses Can Stay Steady During Disruption' by Patrick Yambrick",
 	description:
-		"Read Patrick's thoughts on 'How Small Businesses Can Stay Steady During Disruption.' Consistency and foresight are key. Written by Patrick Yambrick.",
+		"Read Patrick's thoughts on 'How Small Businesses Can Stay Steady During Disruption.' Consistency and foresight are key. Written by Patrick Yambrick, a web developer and designer for small businesses in the Flint, Michigan area.",
 };
 export default function Home() {
 	return (

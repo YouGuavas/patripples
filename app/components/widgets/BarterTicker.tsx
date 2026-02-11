@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import tiny_mushroom from '../../public/universal/tiny_mushroom.svg';
+import tiny_mushroom from '@/public/universal/tiny_mushroom.svg';
 
 export default function BarterTicker() {
 	return (

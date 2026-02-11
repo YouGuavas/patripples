@@ -9,7 +9,7 @@ import Footer from '@/app/components/blog/Footer';
 export const metadata: Metadata = {
 	title: "Patripples | 'Vague Wording' by Patrick Yambrick",
 	description:
-		'Follow Patrick as he shares painfully earned wisdom in a digestible format. This one is about vague wording, how it crushes web traffic, and how to fix it. Written by Patrick Yambrick.',
+		'Follow Patrick as he shares painfully earned wisdom in a digestible format. This one is about vague wording, how it crushes web traffic, and how to fix it. Written by Patrick Yambrick, a web developer and designer for small businesses in the Flint, Michigan area.',
 };
 export default function Home() {
 	return (

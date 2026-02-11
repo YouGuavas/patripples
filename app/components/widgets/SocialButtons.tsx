@@ -1,10 +1,10 @@
 'use client';
 import Image from 'next/image';
 import { FacebookShareButton, TwitterShareButton } from 'react-share';
-import FacebookIcon from '../../public/icons/facebook_icon.svg';
-import TwitterIcon from '../../public/icons/twitter_icon.svg';
+import FacebookIcon from '@/public/icons/facebook_icon.svg';
+import TwitterIcon from '@/public/icons/twitter_icon.svg';
 import { useContext } from 'react';
-import { UrlContext } from '../context/UrlContext';
+import { UrlContext } from '@/app/context/UrlContext';
 type propsType = {
 	url: string;
 };
