@@ -1,5 +1,6 @@
 import homestead from '@/public/site_screenshots/homestead.png';
 import rudi from '../../public/site_screenshots/rudi.png';
+import the_cartographer from '@/public/characters/the_cartographer.svg';
 import wilson from '@/public/site_screenshots/wilson.png';
 import patripples from '@/public/site_screenshots/patripples.png';
 
@@ -43,10 +44,10 @@ export const services = [
 				},
 			},
 			{
-				title: 'Typed',
+				title: 'Developed',
 				rate: '$500',
 				description:
-					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Typed sites come with multi-page navigation and options available for additional features.',
+					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
 				demo: {
 					title: 'Wilson Stump Grinding',
 					href: 'https://wilson-stump-grinding.vercel.app/',
@@ -54,14 +55,15 @@ export const services = [
 				},
 			},
 			{
-				title: 'Developed',
+				title: 'Engineered',
 				rate: '$750',
 				description:
-					'A developed website. Typed tier, plus three add-ons of your choosing.',
+					'An engineered website. Developed tier, plus three add-ons of your choosing.',
 				demo: { title: 'This Site', href: './', image: patripples.src },
 			},
 		],
 	},
+
 	{
 		title: "Patrick's Bundles",
 		description: [
@@ -72,7 +74,7 @@ export const services = [
 				title: 'Build a Brand',
 				rate: '$750',
 				description:
-					'A customized Typed (3 page) website, unique to your brand/identity. Includes contact form. Options available.',
+					'A customized Developed (3 page) website, unique to your brand/identity. Includes contact form. Options available.',
 				demo: {
 					title: 'Rudi From Flint (Paused)',
 					href: 'https://rudi-from-flint.vercel.app/',
@@ -122,6 +124,26 @@ export const services = [
 					title: 'TBD',
 					href: './hire',
 					image: ask.src,
+				},
+			},
+		],
+	},
+	
+	{
+		title: "Patrick's Storytelling",
+		description: [
+			'Patrick creates svg portraits for you in a style featured on patripples. Highly reusable, these portraits are designed with your digital essence in mind. Your portrait will be well suited for use in a variety of ways, from social media profile pictures, to website branding and storytelling. Patrick also writes poetic captions centered around your persona and portrait.',
+		],
+		services: [
+			{
+				title: 'Simple Story',
+				rate: '$50',
+				description:
+					"A single svg portrait, styled after you, in the 'portrait' style found on the patripples characters page. Accompanied by a brief, poetic caption or story.",
+				demo: {
+					title: 'Patrick',
+					href: './characters/the_cartographer',
+					image: the_cartographer.src,
 				},
 			},
 		],
