@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import salt_guy from '@/public/memes/salt_guy.svg';
-import patrick_super_bowl from '@/public/characters/patrick_super_bowl.svg';
+import patrick_super_bowl from '@/public/scenes/patrick_super_bowl.svg';
 import type { Metadata } from 'next';
 import ByLine from '@/app/components/ByLine';
 import Footer from '@/app/components/blog/Footer';

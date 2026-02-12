@@ -16,7 +16,7 @@
 
 # production
 /build
-/app/read/article_staging
+/app/read/article_staging/
 
 # misc
 .DS_Store
