@@ -35,7 +35,7 @@ export const services = [
 		services: [
 			{
 				title: 'Vibed',
-				rate: '$300',
+				rate: '$500',
 				description:
 					'A single-page website dedicated to telling your story, selling your stuff, or sharing your information. A simple, straightforward way to keep your clients up to date.',
 				demo: {
@@ -46,7 +46,7 @@ export const services = [
 			},
 			{
 				title: 'Developed',
-				rate: '$500',
+				rate: '$750',
 				description:
 					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
 				demo: {
@@ -61,7 +61,7 @@ export const services = [
 			},
 			{
 				title: 'Engineered',
-				rate: '$750',
+				rate: '$900',
 				description:
 					'An engineered website. Developed tier, plus three add-ons of your choosing.',
 				demo: { title: 'This Site', href: './', images: [patripples.src] },
@@ -77,7 +77,7 @@ export const services = [
 		services: [
 			{
 				title: 'Build a Brand',
-				rate: '$750',
+				rate: '$1200',
 				description:
 					'A customized Developed (3 page) website, unique to your brand/identity. Includes contact form. Options available.',
 				demo: {
