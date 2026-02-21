@@ -1,8 +1,9 @@
 import homestead from '@/public/site_screenshots/homestead.png';
 import rudi from '../../public/site_screenshots/rudi.png';
-import the_cartographer from '@/public/characters/the_cartographer.svg';
 import wilson from '@/public/site_screenshots/wilson.png';
 import patripples from '@/public/site_screenshots/patripples.png';
+import wilson_testimonial_1 from '@/public/testimonials/wilson_stump/testimonial_1.png';
+import wilson_testimonial_2 from '@/public/testimonials/wilson_stump/testimonial_2.png';
 
 //import ask from '@/public/universal/ask.svg';
 export type servicesType = serviceTierType[];
@@ -22,7 +23,7 @@ export type serviceType = {
 export type demoType = {
 	title: string;
 	href: string;
-	image: string;
+	images: string[]; // Updated to an array of strings for multiple images
 };
 
 export const services = [
@@ -40,7 +41,7 @@ export const services = [
 				demo: {
 					title: 'Single-page Site',
 					href: 'https://template-one-red.vercel.app/',
-					image: homestead.src,
+					images: [homestead.src],
 				},
 			},
 			{
@@ -51,7 +52,11 @@ export const services = [
 				demo: {
 					title: 'Wilson Stump Grinding',
 					href: 'https://wilson-stump-grinding.vercel.app/',
-					image: wilson.src,
+					images: [
+						wilson.src,
+						wilson_testimonial_1.src,
+						wilson_testimonial_2.src,
+					],
 				},
 			},
 			{
@@ -59,7 +64,7 @@ export const services = [
 				rate: '$750',
 				description:
 					'An engineered website. Developed tier, plus three add-ons of your choosing.',
-				demo: { title: 'This Site', href: './', image: patripples.src },
+				demo: { title: 'This Site', href: './', images: [patripples.src] },
 			},
 		],
 	},
@@ -78,7 +83,7 @@ export const services = [
 				demo: {
 					title: 'Rudi From Flint (Paused)',
 					href: 'https://rudi-from-flint.vercel.app/',
-					image: rudi.src,
+					images: [rudi.src],
 				},
 			},
 		],

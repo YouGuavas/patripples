@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Carousel from './Carousel';
 import Link from 'next/link';
 import { serviceType } from '../hire/services';
 
@@ -37,9 +38,14 @@ export default function Rates(props: propsType) {
 									{service.demo.title}
 								</Link>
 							</p>
-							<div className={`image-container`}>
-								<Image fill src={service.demo.image} alt={service.demo.title} />
-							</div>
+							<Image
+								src={service.demo.images[0]}
+								alt={service.demo.title}
+								height={300}
+								width={300}
+							/>
+
+							{/*<Carousel images={service.demo.images} />*/}
 						</li>
 					);
 				})}

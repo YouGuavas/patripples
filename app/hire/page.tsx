@@ -7,7 +7,7 @@ import { services } from './services';
 export const metadata: Metadata = {
 	title: 'Patripples | Hire Patrick',
 	description:
-		"Services offered by Patrick Yambrick. Based in Flint, Michigan, Patrick's offerings include web development and design with react and nextjs, content writing, tutoring, and mechanical and electrical repair. Centered in Genesee county and surrounding, with digital services available nationwide.",
+		"Services offered by Patrick Yambrick. Based in Flint, Michigan, Patrick's offerings include web development and design with react and nextjs, content writing, tutoring, and mechanical and electrical repair. Centered in Genesee county, with digital services available remotely.",
 };
 
 export default function Home() {
@@ -30,23 +30,13 @@ export default function Home() {
 					Tip me on{' '}
 					<Link
 						className={`no-deco style-1`}
-						href="https://cash.app/$patripples"
+						href="https://www.paypal.com/ncp/payment/CNTTTX8KJLDRJ"
 					>
-						Cashapp
+						Paypal
 					</Link>
 					.
 				</p>
 
-				<p className={`style-1`}>
-					Hire me on{' '}
-					<Link
-						className={`no-deco style-1`}
-						href="https://www.fiverr.com/s/YRlxwja/"
-					>
-						Fiverr
-					</Link>
-					.
-				</p>
 				<p>
 					Email me for orders or further questions:{' '}
 					<Link

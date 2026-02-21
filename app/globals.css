@@ -281,6 +281,13 @@ button {
 	height: 150px;
 	width: 450px;
 }
+
+.object-cover {
+	object-fit: cover;
+}
+.flex-shrink-0 {
+	flex-shrink: 0;
+}
 /*text color*/
 .stark {
 	color: var(--color-6);
