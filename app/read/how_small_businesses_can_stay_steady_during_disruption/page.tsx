@@ -23,8 +23,28 @@ export default function Home() {
 			<ByLine
 				author={`Patrick Yambrick`}
 				date={'Monday, Feb 9, 2026'}
-				edited={'Monday, Feb 9, 2026'}
+				edited={'Sat, Feb 28, 2026'}
 			/>
+			<p className={`paragraph width-full block left-align`}>
+				Edit: clarifying that this is not me taking a political stance. I was
+				exploring the idea of riding waves of disruption within a morally
+				acceptable bandwidth in order to capture search traffic. The result,
+				though limited as this one-page sample size may be, has been
+				affirmative: it works. I got a slight bump in my traffic, receiving my
+				highest view count to date, along with a higher trickle of passive
+				clicks than the previous baseline, since. What you can take away from
+				that is that even when I am using political adjacent language on my
+				site, that does not translate to anything pertaining to any work I do
+				for you. If you are paying me for work that fits within most mainstream
+				moral and legal frameworks, I will do that work, and apply the social
+				scientific leverage I gain from my own thought posting to your paid work
+				in alignment with professional expectations.
+			</p>
+			<p className={`paragraph width-full block left-align`}>
+				That is: I posted this for science. I learned some stuff. Insights
+				gained from that stuff can help me help you get more traffic to your own
+				site.
+			</p>
 
 			<br />
 			<section>
