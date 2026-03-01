@@ -1,15 +1,15 @@
 const routes = [
-	/*{
-		name: 'How AI Data Centers Impact Landowners In Michigan',
-		path: '/read/how_ai_data_centers_impact_landowners_in_michigan',
+	{
+		name: 'Michigan Landowners: How AI Data Centers Impact You',
+		path: '/read/front_page/michigan_landowners_ai_data_centers_impact_you',
 		tags: ['short (1000 words)', 'how to', 'x'],
 		body: 'Small businesses are often the most vulnerable to disruption, but have a chance to make plays following the Super Bowl.',
 		footer:
 			'Staying ahead of the curve during disruption by planning ahead and taking small, consistent actions yields better results and more leverage.',
-	},*/
+	},
 	{
 		name: 'How Small Businesses Can Stay Steady During Disruption',
-		path: '/how_small_businesses_can_stay_steady_during_disruption',
+		path: '/read/front_page/how_small_businesses_can_stay_steady_during_disruption',
 		tags: ['short (1000 words)', 'how to', 'x'],
 		body: 'Small businesses are often the most vulnerable to disruption, but have a chance to make plays following the Super Bowl.',
 		footer:
@@ -17,7 +17,7 @@ const routes = [
 	},
 	{
 		name: 'Vague Wording',
-		path: '/vague_wording',
+		path: '/read/front_page/vague_wording',
 		tags: ['short (1000 words)', 'x'],
 		body: 'Vague wording is a web traffic limiter! Find out why here.',
 		footer:
