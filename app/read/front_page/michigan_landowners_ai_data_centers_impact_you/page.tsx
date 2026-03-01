@@ -100,7 +100,7 @@ export default function Home() {
 			</p>
 			<p className={`paragraph width-full block left-align`}>Oh-ee-oh...</p>
 			<iframe
-				width="560"
+				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/fPcoFK8jem8?si=ybDLFQb0DTmSIL2_"
 				title="YouTube video player"
@@ -124,7 +124,7 @@ export default function Home() {
 				often playing the underdog to much bigger guys.
 			</p>
 			<iframe
-				width="560"
+				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/O-AoTK2iRPY?si=_2lSTWzzcLIIA0VD"
 				title="YouTube video player"
@@ -365,7 +365,7 @@ export default function Home() {
 				shout &quot;Enough!&quot;
 			</p>
 			<iframe
-				width="560"
+				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/k3h5jcI-MFI?si=zCZIKerGxaZkoF80"
 				title="YouTube video player"
@@ -603,7 +603,7 @@ export default function Home() {
 					you&apos;re tired of seeing Raditz step on Goku (or you), speak up,
 					and (metaphorically) punch back.
 				</p>
-				<div id={`disruptions`} className={`jumbo-container centered`}>
+				<div id={`disruptions`} className={`centered`}>
 					<Image
 						src={raditz_goku.src}
 						height={500}
