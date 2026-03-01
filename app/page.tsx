@@ -8,9 +8,9 @@ import pat from '@/public/characters/pat_solo.svg';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title:
-		'Patripples | Web Development and Tutoring in Michigan by Patrick Yambrick',
+		'Patripples | Web Development, Design, and Writing in Michigan by Patrick Yambrick',
 	description:
-		'Patripples: a learning and web development hub by Patrick Yambrick. Based in Flint, Michigan, Patrick offers personalized websites and tutoring, as well as educational resources.',
+		'Patripples: a learning and web development hub by Patrick Yambrick. Based in Flint, Michigan, Patrick offers personalized websites and writing, together with relevant educational resources.',
 	icons: {
 		icon: '/favicon.ico',
 	},
