@@ -174,8 +174,14 @@ export default function Home() {
 				there is no tomato sauce in the recipe; just lard, onions, meat, and
 				straightforward seasoning). I missed the Tigers - even though most
 				wouldn&apos;t know me as a baseball fan; I used to watch games with my
-				family back in the Tigers&apos; stadium days, when anyone could afford
-				to get in.{' '}
+				family back in the{' '}
+				<Link
+					className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
+					href="https://en.wikipedia.org/wiki/Tiger_Stadium_(Detroit)"
+				>
+					Tiger Stadium
+				</Link>{' '}
+				days, when anyone could afford to get in.{' '}
 			</p>
 			<p className={`paragraph width-full block left-align`}>Get ya peanuts!</p>{' '}
 			<p className={`paragraph width-full block left-align`}>
@@ -189,14 +195,8 @@ export default function Home() {
 				)!
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				I grew up watching the Tigers play in{' '}
-				<Link
-					className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
-					href="https://en.wikipedia.org/wiki/Tiger_Stadium_(Detroit)"
-				>
-					Tiger Stadium
-				</Link>
-				. I have played probably 800 games of pickup basketball against{' '}
+				I grew up watching the Tigers play in Tiger Stadium. I have played
+				probably 800 games of pickup basketball against{' '}
 				<Link
 					className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
 					href="https://www.abc12.com/news/local/mid-michigan-dad-catches-home-run-bare-handed-at-tigers-game-while-holding-baby/article_eeff5180-1b7f-11ee-bc3a-9faabda72677.html"
@@ -385,10 +385,10 @@ export default function Home() {
 				From Rosie the Riveter types like my late, great grandmother, to the
 				young men and women just trying to get by in an ever-changing world, to
 				our aging forebears who will need our patience and our help increasingly
-				over the next decade - from the workers we lost to the construction of
-				the Mighty Mac (some American heroes who fell to valorous
-				bridge-building, if you ask me) - we are America&apos;s &quot;Now hold
-				up just a minute.&quot; Sign.
+				over the next decade - to the workers we lost to the construction of the
+				Mighty Mac (some American heroes who fell to valorous bridge-building,
+				if you ask me) - we are America&apos;s &quot;Now hold up just a
+				minute.&quot; Sign.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				If you are a developer: you don&apos;t have to stop. We aren&apos;t
