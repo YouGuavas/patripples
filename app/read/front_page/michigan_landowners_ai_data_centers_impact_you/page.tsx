@@ -603,10 +603,11 @@ export default function Home() {
 					you&apos;re tired of seeing Raditz step on Goku (or you), speak up,
 					and (metaphorically) punch back.
 				</p>
-				<div id={`disruptions`} className={`centered`}>
+				<div className={`centered`}>
 					<Image
 						src={raditz_goku.src}
-						fill
+						height={250}
+						width={250}
 						alt={`Raditz stands triumphantly over Goku.`}
 					/>
 				</div>
