@@ -606,8 +606,7 @@ export default function Home() {
 				<div id={`disruptions`} className={`centered`}>
 					<Image
 						src={raditz_goku.src}
-						height={500}
-						width={250}
+						fill
 						alt={`Raditz stands triumphantly over Goku.`}
 					/>
 				</div>
