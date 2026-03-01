@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'How Small Businesses Can Stay Steady During Disruption' - out now.",
-									href: '/learn/read/how_small_businesses_can_stay_steady_during_disruption',
+									text: "Read 'Michigan Landowners: How AI Data Centers Impact You' - out now.",
+									href: '/read/front_page/michigan_landowners_ai_data_centers_impact_you',
 								},
 								{
 									text: 'Shop coming soon. Demo out now (not live).',

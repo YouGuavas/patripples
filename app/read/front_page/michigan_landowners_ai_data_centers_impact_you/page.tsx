@@ -268,7 +268,7 @@ export default function Home() {
 				<Image
 					src={patrick_data_center.src}
 					fill
-					alt={`Patrick attends the Super Bowl.`}
+					alt={`Patrick looks at a mass-produced AI data center.`}
 				/>
 			</div>
 			<p className={`paragraph width-full block left-align`}>
