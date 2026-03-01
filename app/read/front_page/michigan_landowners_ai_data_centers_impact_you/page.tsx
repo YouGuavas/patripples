@@ -613,8 +613,8 @@ export default function Home() {
 				</div>
 				<p className={`paragraph width-full block left-align`}>
 					Many of you are built more like Goku than you think (if you
-					haven&apos;t seen Dragon Ball - Goku gives up a lot, but he comes all
-					the way back from this moment, dozens of times over).
+					haven&apos;t seen Dragon Ball - Goku sacrifices a lot, but he comes
+					all the way back from this moment, dozens of times over).
 				</p>
 			</section>
 			<Footer title={"'Michigan Landowners: How AI Data Centers Impact You'"} />
