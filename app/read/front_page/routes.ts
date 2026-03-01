@@ -2,10 +2,10 @@ const routes = [
 	{
 		name: 'Michigan Landowners: How AI Data Centers Impact You',
 		path: '/read/front_page/michigan_landowners_ai_data_centers_impact_you',
-		tags: ['short (1000 words)', 'how to', 'x'],
-		body: 'Small businesses are often the most vulnerable to disruption, but have a chance to make plays following the Super Bowl.',
+		tags: ['long (2000 words)', 'x'],
+		body: 'Michigan landowners have a chance to ride a rising wave by holding out against AI Data Center developers.',
 		footer:
-			'Staying ahead of the curve during disruption by planning ahead and taking small, consistent actions yields better results and more leverage.',
+			"Staying ahead of extractive tech is more confusing than ever. Check out Patrick's opinion about just that. Stay tuned for more on the topic.",
 	},
 	{
 		name: 'How Small Businesses Can Stay Steady During Disruption',

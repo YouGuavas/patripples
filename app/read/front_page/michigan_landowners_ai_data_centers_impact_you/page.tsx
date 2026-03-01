@@ -80,7 +80,7 @@ export default function Home() {
 				welcoming and hospitable, and we are not pushovers.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				If you weren't standing outside{' '}
+				If you weren&apos;t standing outside{' '}
 				<Link
 					className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
 					href="https://www.mlb.com/tigers/ballpark"
@@ -159,8 +159,8 @@ export default function Home() {
 			</h3>
 			<p className={`paragraph width-full block left-align`}>
 				Man, if you felt even a tinge of that growing up in Michigan, especially
-				in Flint, especially in the '90s and '00s, you know what a time that was
-				to be alive.
+				in Flint, especially in the &apos;90s and &apos;00s, you know what a
+				time that was to be alive.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				When I was, uhh, &quot;taken on extended vacation to Colorado by my
@@ -261,8 +261,8 @@ export default function Home() {
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				Recently, a wave of proposals for AI data centers has swept across
-				Michigan. They're trying to drop them in anywhere, in mass. Does that
-				remind you of anything we've seen before?
+				Michigan. They&apos;re trying to drop them in anywhere, in mass. Does
+				that remind you of anything we&apos;ve seen before?
 			</p>
 			<div id={`disruptions`} className={`jumbo-container centered`}>
 				<Image
@@ -353,7 +353,7 @@ export default function Home() {
 				That means they are listening. To you. They are watching you.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				Following the water crisis, and the way the recession in '08 hit us
+				Following the water crisis, and the way the recession in &apos;08 hit us
 				especially hard, many are discounting our populace as aging,
 				overwhelmed, and behind.
 			</p>
@@ -449,10 +449,10 @@ export default function Home() {
 			</h4>
 			<ul className={`flex column left-align gap-small pad-none no-deco`}>
 				<li>
-					Nitrogen Oxide (NOx) - even when they don't leech from the grid, these
-					centers dump noxious NOx into the atmosphere via their generators;
-					know any kids with asthma (like me when I was little)? They will love
-					the new data centers.
+					Nitrogen Oxide (NOx) - even when they don&apos;t leech from the grid
+					and drive your bills through the roof, these centers dump noxious NOx
+					into the atmosphere via their generators; know any kids with asthma
+					(like me when I was little)? They will love the new data centers.
 				</li>
 				<li>Formaldehyde - need I say more?</li>
 				<li>
