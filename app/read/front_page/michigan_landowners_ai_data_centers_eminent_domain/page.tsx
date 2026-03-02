@@ -463,6 +463,16 @@ export default function Home() {
 				>
 					Who Is Most At Risk Of Eminent Domain Targetings?
 				</h2>
+				<p className={`paragraph width-full block left-align`}>
+					Anybody near a major run of{' '}
+					<Link
+						className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
+						href="https://www.pewresearch.org/short-reads/2025/10/24/what-we-know-about-energy-use-at-us-data-centers-amid-the-ai-boom/"
+					>
+						high voltage power lines
+					</Link>
+					.
+				</p>
 
 				<p className={`paragraph width-full block left-align`}>
 					Small, working class towns with proximity to water and any sign of
