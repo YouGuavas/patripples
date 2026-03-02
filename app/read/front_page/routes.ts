@@ -1,5 +1,13 @@
 const routes = [
 	{
+		name: 'Michigan Landowners: How AI Data Centers Could Use Eminent Domain Against You',
+		path: '/read/front_page/michigan_landowners_ai_data_centers_eminent_domain',
+		tags: ['long (2000 words)', 'x'],
+		body: 'Michigan landowners from all walks of life face a serious risk if eminent domain angles are ignored.',
+		footer:
+			"Staying ahead of extractive tech is more confusing than ever. Check out Patrick's opinion about just that. Stay tuned for more on the topic.",
+	},
+	{
 		name: 'Michigan Landowners: How AI Data Centers Impact You',
 		path: '/read/front_page/michigan_landowners_ai_data_centers_impact_you',
 		tags: ['long (2000 words)', 'x'],

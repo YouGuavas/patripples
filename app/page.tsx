@@ -44,7 +44,16 @@ export default function Home() {
 						Oh, you&apos;re not who they sent to help? You must be here to chat
 						with the other guy.
 					</p>
-					<p className={`paragraph left`}>Kinda Kid Rock, not gonna lie.</p>
+					<p className={`paragraph left`}>
+						Kinda{' '}
+						<Link
+							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
+							href="/read/front_page/eminent_domain"
+						>
+							Eminent Domain
+						</Link>{' '}
+						energy, not gonna lie.
+					</p>
 					<p className={`paragraph left`}>
 						Anyway, carry on. He&apos;s right down there.
 					</p>
