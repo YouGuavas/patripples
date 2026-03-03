@@ -48,7 +48,7 @@ export default function Home() {
 						Kinda{' '}
 						<Link
 							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
-							href="/read/front_page/eminent_domain"
+							href="/read/front_page/michigan_landowners_ai_data_centers_eminent_domain"
 						>
 							Eminent Domain
 						</Link>{' '}
