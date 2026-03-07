@@ -184,8 +184,9 @@ export default function Home() {
 						Professor G. Reginald Bell&apos;s
 					</Link>
 					inimitable teaching style - accessible at scale, to anybody,
-					regardless of race, creed, income, or social standing - as I like to
-					believe that he and many like him would have liked to see.
+					regardless of race, creed, income, or social standing - as I choose to
+					believe that he and many of similar spirit to him would have liked to
+					see.
 				</p>
 
 				<iframe
