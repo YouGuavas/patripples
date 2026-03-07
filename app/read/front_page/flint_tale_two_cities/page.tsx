@@ -79,9 +79,15 @@ export default function Home() {
 			</p>
 
 			<p className={`paragraph width-full block left-align`}>
-				My Last Article focused on a hero I never met, then spiraled into my
-				original intent of informing some of my readers - real live local
-				leaders - of a potential blindside coming their way.
+				<Link
+					className={` lowercase style-1 spaced color-2 rounded darken`}
+					href="/read/front_page/michigan_landowners_ai_data_centers_eminent_domain"
+				>
+					My Last Article
+				</Link>{' '}
+				focused on a hero I never met, then spiraled into my original intent of
+				informing some of my readers - real live local leaders - of a potential
+				blindside coming their way.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				If I were a morally grey{' '}
