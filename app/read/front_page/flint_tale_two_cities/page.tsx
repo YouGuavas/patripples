@@ -11,9 +11,9 @@ import Footer from '@/app/components/blog/Footer';
 
 export const metadata: Metadata = {
 	title:
-		"Patripples | 'A Tale of More Than Two Cities: How Flint Area And National Legacies Intertwine' by Patrick Yambrick",
+		"Patripples | 'A Tale of More Than Two Cities: How Flint Area And National Legacies Intertwine With National Disruptions' by Patrick Yambrick",
 	description:
-		"Read Patrick's thoughts on 'A Tale of More Than Two Cities: How Flint Area And National Legacies Intertwine.' Resilience and creativity are key. Written by Patrick Yambrick, a web developer and designer for small businesses in the Flint, Michigan area.",
+		"Read Patrick's thoughts on 'A Tale of More Than Two Cities: How Flint Area And National Legacies Intertwine With National Disruptions.' Resilience and creativity are key. Written by Patrick Yambrick, a web developer and designer for small businesses in the Flint, Michigan area.",
 };
 export default function Home() {
 	return (
@@ -21,7 +21,8 @@ export default function Home() {
 			<h1
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
 			>
-				A Tale of More Than Two Cities: How Flint Area Legacies Intertwine
+				A Tale of More Than Two Cities: How Flint Area And National Legacies
+				Intertwine With National Disruptions
 			</h1>
 
 			<ByLine
