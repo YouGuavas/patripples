@@ -189,12 +189,7 @@ export default function Home() {
 					see.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					<Link
-						className={` lowercase style-1 spaced color-2 rounded darken`}
-						href="https://en.wikipedia.org/wiki/Kettering_University"
-					>
-						Who was Professor Bell? You guessed it - a story for another time.
-					</Link>
+					Who was Professor Bell? You guessed it - a story for another time.
 				</p>
 
 				<iframe
