@@ -188,6 +188,14 @@ export default function Home() {
 					believe that he and many of similar spirit to him would have liked to
 					see.
 				</p>
+				<p className={`paragraph width-full block left-align`}>
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="https://en.wikipedia.org/wiki/Kettering_University"
+					>
+						Who was Professor Bell? You guessed it - a story for another time.
+					</Link>
+				</p>
 
 				<iframe
 					width="360"
