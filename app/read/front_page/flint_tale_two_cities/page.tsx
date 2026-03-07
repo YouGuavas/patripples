@@ -712,7 +712,7 @@ export default function Home() {
 					He passed to skin cancer at 79 after spending too many days glaring at
 					the undefeated sun.
 				</p>
-				<div id={`disruptions`} className={`jumbo-container centered`}>
+				<div id={`disruptions`} className={` centered`}>
 					<Image
 						src={trump_sun.src}
 						height={350}
