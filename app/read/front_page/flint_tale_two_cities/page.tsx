@@ -31,6 +31,10 @@ export default function Home() {
 				edited={'Saturday, Mar 7, 2026'}
 			/>
 			<p className={`paragraph width-full block left-align`}>
+				Many of the references I make in this post deserve expanded stories of
+				their own. I intend to revisit some of them later.
+			</p>
+			<p className={`paragraph width-full block left-align`}>
 				Privacy disclaimer before clicking on any embedded songs or videos in
 				this article: although I track no data on you when you use these embeds,
 				the services from which I source them do. If you are curious to learn
@@ -783,10 +787,6 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					If you have the energy: drop that project you&apos;ve been sitting on
 					this week and watch the water ripple.
-				</p>
-				<p className={`paragraph width-full block left-align`}>
-					Many of the references I made in this post deserve expanded stories of
-					their own. I intend to revisit some of them later.
 				</p>
 			</section>
 			<Footer
