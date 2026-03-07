@@ -134,10 +134,9 @@ export default function Home() {
 			<p className={`paragraph width-full block left-align`}>
 				In this article, I will briefly explore the legacies of two bygone
 				leaders who I have met (not former US President Barack Obama, though I
-				embed a video of his here - I am referring to a former professor, and to
-				a family patriarch), spiral into some thoughts about how their energy
-				translates itself into today&apos;s heroes, and bring things back to
-				level with words of encouragement for everyone around Flint trying to
+				embed a video of his here), spiral into some thoughts about how their
+				energy translates itself into today&apos;s heroes, and bring things back
+				to level with words of encouragement for everyone around Flint trying to
 				keep their heads high and dreams afloat - while exploring some thoughts
 				around how to bridge a divide within our community.
 			</p>
@@ -407,8 +406,14 @@ export default function Home() {
 					/>
 				</div>
 				<p className={`paragraph width-full block left-align`}>
-					Did you know that former US President Barack Obama used to read 10
-					letters from constituents every night?
+					Did you know that former US President Barack Obama used to{' '}
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="https://obamawhitehouse.archives.gov/letters"
+					>
+						read 10 letters from constituents
+					</Link>{' '}
+					every night?
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					- Because sometimes national leaders pretend to listen for long enough
