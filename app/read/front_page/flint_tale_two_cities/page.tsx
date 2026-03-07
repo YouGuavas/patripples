@@ -199,9 +199,6 @@ export default function Home() {
 					referrerPolicy="strict-origin-when-cross-origin"
 					allowFullScreen
 				></iframe>
-				<p className={`paragraph width-full block left-align`}>
-					Who was Professor Reg Bell? You guessed it - a story for another time.
-				</p>
 
 				<p className={`paragraph width-full block left-align`}>
 					Take that and mix it with a little:
