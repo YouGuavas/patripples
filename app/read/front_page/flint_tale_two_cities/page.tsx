@@ -649,7 +649,7 @@ export default function Home() {
 					Michiganders always step up.
 				</p>
 			</section>
-			<section>
+			<section className="bg-6 py-2 px-1 width-full">
 				<h2
 					className={`lowercase style-1 thin spaced left width-full block left-align`}
 				>
