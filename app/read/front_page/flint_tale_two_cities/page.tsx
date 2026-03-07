@@ -122,7 +122,7 @@ export default function Home() {
 				. But I am not.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
-				I am a front-end web developer with years of experience using{' '}
+				I am a front-end web developer with years of experience, using{' '}
 				<Link
 					className={` lowercase style-1 spaced color-2 rounded darken`}
 					href="https://www.greensighter.com/blog/nextjs-vs-react"
