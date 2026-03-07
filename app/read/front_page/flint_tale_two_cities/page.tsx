@@ -187,9 +187,7 @@ export default function Home() {
 					regardless of race, creed, income, or social standing - as I like to
 					believe that he and many like him would have liked to see.
 				</p>
-				<p className={`paragraph width-full block left-align`}>
-					Who was Professor Reg Bell? You guessed it - a story for another time.
-				</p>
+
 				<iframe
 					width="360"
 					height="315"
@@ -200,6 +198,9 @@ export default function Home() {
 					referrerPolicy="strict-origin-when-cross-origin"
 					allowFullScreen
 				></iframe>
+				<p className={`paragraph width-full block left-align`}>
+					Who was Professor Reg Bell? You guessed it - a story for another time.
+				</p>
 
 				<p className={`paragraph width-full block left-align`}>
 					Take that and mix it with a little:
