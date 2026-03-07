@@ -45,6 +45,9 @@ export default function Home() {
 				need to take anything down, you already know how to find the contact
 				page. Let me know.
 			</p>
+			<p className={`paragraph width-full block left-align`}>
+				Profanity warning.
+			</p>
 			<iframe
 				width="560"
 				height="315"
