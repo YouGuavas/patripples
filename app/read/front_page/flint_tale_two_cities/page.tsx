@@ -49,7 +49,7 @@ export default function Home() {
 				Profanity warning.
 			</p>
 			<iframe
-				width="560"
+				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/m47Is4ipcF8?si=5x6FD7zIRGscpt9v"
 				title="YouTube video player"
@@ -397,7 +397,7 @@ export default function Home() {
 					) from Flint speaks clearly enough to grab the ear of the sitting
 					president of the United States.
 				</p>
-				<div id={`disruptions`} className={`jumbo-container centered`}>
+				<div id={`disruptions`} className={` centered`}>
 					<Image
 						src={obama_copeny_flint.src}
 						height={350}
@@ -522,7 +522,7 @@ export default function Home() {
 					the song feels pertinent. He is from Ohio. Obvious profanity warning.)
 				</p>
 				<iframe
-					width="560"
+					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/DviqacxbJnU?si=lywoO_SrkMsrPFVd"
 					title="YouTube video player"
@@ -614,7 +614,7 @@ export default function Home() {
 					?
 				</p>
 				<iframe
-					width="560"
+					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/j5zeMtEcQoI?si=BJuObUKa4xBDOp0S"
 					title="YouTube video player"
@@ -748,7 +748,7 @@ export default function Home() {
 					clip that will make a segment of my audience feel heard.)
 				</p>{' '}
 				<iframe
-					width="560"
+					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/l9F4jXtJniw?si=6Yl6eY2qOZZuic2P"
 					title="YouTube video player"
