@@ -48,9 +48,9 @@ export default function Home() {
 						Kinda{' '}
 						<Link
 							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
-							href="/read/front_page/michigan_landowners_ai_data_centers_eminent_domain"
+							href="/read/front_page/flint_tale_two_cities"
 						>
-							Eminent Domain
+							Tornado In Michigan
 						</Link>{' '}
 						energy, not gonna lie.
 					</p>

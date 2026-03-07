@@ -1,7 +1,7 @@
 const routes = [
 	{
 		name: 'In Thanks',
-		path: '/read/journal/in_thanks',
+		path: '/read/journal//in_thanks',
 		tags: ['personal wisdom', 'x'],
 	},
 	{

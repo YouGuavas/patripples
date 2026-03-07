@@ -12,8 +12,8 @@ export default function Footer(props: propsType) {
 				Thanks for Reading
 			</h3>
 			<p className={`paragraph width-full block left-align`}>
-				Thank you for reading {props.title}! Curious to know more about
-				something you read here, or how to apply it?{' '}
+				Thank you for reading {props.title}! Want to share your story or have
+				your words heard?{' '}
 				<Link
 					className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
 					href="/contact"

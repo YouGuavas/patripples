@@ -11,7 +11,7 @@ interface ThemeContextType {
 }
 
 export const ThemeContext = createContext<ThemeContextType | undefined>(
-	undefined
+	undefined,
 );
 
 export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {

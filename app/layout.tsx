@@ -49,13 +49,10 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'Michigan Landowners: What You Need To Know Ahead of the AI Data Center Invasion' - out now.",
-									href: '/read/front_page/michigan_landowners_ai_data_centers_eminent_domain',
+									text: "Read 'A Tale of More Than Two Cities: How Flint Area And National Legacies Intertwine' - out now.",
+									href: '/read/front_page/flint_tale_two_cities',
 								},
-								{
-									text: "Read 'Michigan Landowners: How AI Data Centers Impact You' - out now.",
-									href: '/read/front_page/michigan_landowners_ai_data_centers_impact_you',
-								},
+
 								{
 									text: 'Shop coming soon. Demo out now (not live).',
 									href: '/shop',
