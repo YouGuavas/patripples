@@ -53,6 +53,16 @@ export default function Home() {
 			<p className={`paragraph width-full block left-align`}>
 				Profanity warning.
 			</p>
+			<p className={`paragraph width-full block left-align`}>
+				Clarification added that I do not support any xenophobia - there are
+				depictions of instruments of harm in this video. My intent is not to
+				threaten or intimidate, but to pay homage to a bygone era which played a
+				role in the formation of myself and many of those around me, while
+				encouraging growth toward a new era rooted in peace. Do not watch this
+				video if depictions of violence (particularly against Arab-faced people)
+				are offensive to you. My apologies to anybody who clicked that before I
+				added this.
+			</p>
 			<iframe
 				width="360"
 				height="315"
