@@ -692,8 +692,8 @@ export default function Home() {
 					I wasn&apos;t around grandpa Earl much when I was young, but I
 					understand him to have been a hard patriarch throughout most of his
 					life who tried to make everything right with the loved ones he&apos;d
-					hurt at the end of his life. For some, the gesture was enough. For
-					many, it was too little, too late.
+					hurt at the end. For some, the gesture was enough. For many, it was
+					too little, too late.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					He was an{' '}
