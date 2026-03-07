@@ -68,8 +68,14 @@ export default function Home() {
 				Arab-faced people bother you - there is a depiction of a threat against
 				Saddam Hussein, and of nooses. I hold the belief that art is meant to
 				make us feel something. I am not looking to hearken back to post-9-11
-				unity against Arabs, nor to trigger any mental health issues, but to
-				highlight the repeating patterns we seem to see so frequently.
+				unity against Arabs, nor to trigger any mental health issues or glorify
+				a violent mindset, only to highlight the repeating patterns we seem to
+				see so frequently in our world.
+			</p>
+			<p className={`paragraph width-full block left-align`}>
+				Someone told me recently, &quot;I want people to choose love over hate.
+				I want oil to weigh less than blood. I want right to matter more than
+				what&apos;s wrong.&quot; And I agree.
 			</p>
 			<iframe
 				width="360"
