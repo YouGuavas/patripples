@@ -512,7 +512,10 @@ export default function Home() {
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					(This is{' '}
-					<Link href="https://calscruby.com/?srsltid=AfmBOootcQYNbokg0DnSYnSGgqGa4E7INH2qpPUd8LRYkZXaoWMVWWJB">
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="https://calscruby.com/?srsltid=AfmBOootcQYNbokg0DnSYnSGgqGa4E7INH2qpPUd8LRYkZXaoWMVWWJB"
+					>
 						Cal Scruby
 					</Link>{' '}
 					- he has nothing to do with Flint or Michigan, to my knowledge, but
