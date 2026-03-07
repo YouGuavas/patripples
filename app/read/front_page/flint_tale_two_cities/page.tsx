@@ -63,6 +63,14 @@ export default function Home() {
 				are offensive to you. My apologies to anybody who clicked that before I
 				added this.
 			</p>
+			<p className={`paragraph width-full block left-align`}>
+				Again: do not watch the MC Breed video if depictions of violence against
+				Arab-faced people bother you - there is a depiction of a threat against
+				Saddam Hussein, and of nooses. I hold the belief that art is meant to
+				make us feel something. I am not looking to hearken back to post-9-11
+				unity against Arabs, nor to trigger any mental health issues, but to
+				highlight the repeating patterns we seem to see so frequently.
+			</p>
 			<iframe
 				width="360"
 				height="315"
