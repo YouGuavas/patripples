@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'A Tale of More Than Two Cities: How Flint Area And National Legacies Intertwine' - out now.",
-									href: '/read/front_page/flint_tale_two_cities',
+									text: "Read 'SEO Basics: How to Read Graphs (Women\'s Day Edition)' - out now.",
+									href: '/read/front_page/seo_basics_how_to_read_graphs',
 								},
 
 								{

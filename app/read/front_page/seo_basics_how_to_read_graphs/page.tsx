@@ -8,9 +8,9 @@ import marie from '@/public/photos/portraits/marie_curie.jpg';
 
 export const metadata: Metadata = {
 	title:
-		"Patripples | 'Small Business: SEO Basics - How to Read Graphs' by Patrick Yambrick",
+		"Patripples | 'SEO Basics: How to Read Graphs (Women\'s Day Edition)' by Patrick Yambrick",
 	description:
-		"Read Patrick's thoughts on 'Small Business: SEO Basics - How to Read Graphs' Consistency and foresight are key. Written by Patrick Yambrick, a web developer and designer for small businesses in the Flint, Michigan area.",
+		"Read Patrick's thoughts on 'SEO Basics: How to Read Graphs (Women\'s Day Edition).' Resilience and quiet influence are key. Written by Patrick Yambrick, a web developer and designer for small businesses in the Flint, Michigan area.",
 };
 export default function Home() {
 	return (
@@ -425,8 +425,8 @@ export default function Home() {
 
 				<p className={`paragraph width-full block left-align`}>
 					It means that women both domestic and abroad are capable of more than
-					the glass ceiling would have them believe, and they are proving it
-					every day.
+					the world would have them believe, and they have been proving it since
+					the beginning of time.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					Want to see your name (or subtle influence) baked into a post like
@@ -435,6 +435,22 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					If you have the time: drop one piece of that project you&apos;ve been
 					sitting on this week and watch the water ripple.
+				</p>
+				<iframe
+					width="360"
+					height="315"
+					src="https://www.youtube.com/embed/i4ooH8frBWg?si=QXcP5JESxHAKfR1c"
+					title="YouTube video player"
+					frameBorder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerPolicy="strict-origin-when-cross-origin"
+					allowFullScreen
+				></iframe>
+				<p className={`paragraph width-full block left-align`}>
+					I may not have had any novias in Colorado. That doesn&apos;t mean I
+					can&apos;t wish a happy Sunday to all the women mentioned here, and to
+					my many friends, sisters, cousins, grandmas, stepmoms, and other
+					influential women I have met.
 				</p>
 			</section>
 
