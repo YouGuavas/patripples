@@ -50,8 +50,14 @@ export default function Home() {
 					outlandish or untrue claims.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Oh, wait, did you get tired of me talking about dudes in My Last
-					Article?
+					Oh, wait, did you get tired of me talking about dudes in{' '}
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="/read/front_page/michigan_tale_two_cities/"
+					>
+						My Last Article
+					</Link>
+					?
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					Good. Did you know that today is{' '}
@@ -71,16 +77,8 @@ export default function Home() {
 						href="https://en.wikipedia.org/wiki/June_Carter_Cash"
 					>
 						June Carter
-					</Link>{' '}
-					was related to me. Remember when I mentioned having a lot of grandmas
-					in{' '}
-					<Link
-						className={` lowercase style-1 spaced color-2 rounded darken`}
-						href="/read/front_page/michigan_tale_two_cities/"
-					>
-						My Last Article
 					</Link>
-					?
+					.
 				</p>
 				<iframe
 					width="360"
