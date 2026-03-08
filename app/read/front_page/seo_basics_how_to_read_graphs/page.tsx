@@ -458,6 +458,9 @@ export default function Home() {
 					the many friends, sisters, cousins, grandmas, stepmoms, and other
 					influential women I have met throughout my life.
 				</p>
+				<p className={`paragraph width-full block left-align`}>
+					Especially in Michigan.
+				</p>
 			</section>
 
 			<Footer
