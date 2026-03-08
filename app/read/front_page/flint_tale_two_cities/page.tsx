@@ -28,8 +28,13 @@ export default function Home() {
 			<ByLine
 				author={`Patrick Yambrick`}
 				date={'Saturday, Mar 7, 2026'}
-				edited={'Saturday, Mar 7, 2026'}
+				edited={'Saturday, Mar 8, 2026'}
 			/>
+			<p className={`paragraph width-full block left-align`}>
+				Edit Mar 8, 2026: fix video formatting, correct some self-censoring so
+				possible interpretations are more focused within the bandwidth of my
+				intent.
+			</p>
 			<p className={`paragraph width-full block left-align`}>
 				Many of the references I make in this post deserve expanded stories of
 				their own. I intend to revisit some of them later.
@@ -252,15 +257,14 @@ export default function Home() {
 					used to be vaguely inspirational? (Obvious profanity warning):
 				</p>
 				<iframe
-					className="rounded"
-					data-testid="embed-iframe"
-					src="https://open.spotify.com/embed/track/7dL1kfcbBItKitxt23ZzBO?utm_source=generator"
-					width="60%"
-					height="152"
+					width="360"
+					height="315"
+					src="https://www.youtube.com/embed/wuSOJhNzuiE?si=IHFaVgJ7wLhMDvib"
+					title="YouTube video player"
 					frameBorder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerPolicy="strict-origin-when-cross-origin"
 					allowFullScreen
-					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-					loading="lazy"
 				></iframe>
 				<p className={`paragraph width-full block left-align`}>
 					Or when{' '}
@@ -273,15 +277,14 @@ export default function Home() {
 					paved the way for him to do what he did to music?
 				</p>
 				<iframe
-					data-testid="embed-iframe"
-					className="rounded"
-					src="https://open.spotify.com/embed/track/3Um9toULmYFGCpvaIPFw7l?utm_source=generator"
-					width="60%"
-					height="152"
+					width="360"
+					height="315"
+					src="https://www.youtube.com/embed/H-kA3UtBj4M?si=IaU0P2zUtGWloEQX"
+					title="YouTube video player"
 					frameBorder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerPolicy="strict-origin-when-cross-origin"
 					allowFullScreen
-					allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-					loading="lazy"
 				></iframe>
 				<p className={`paragraph width-full block left-align`}>
 					Don&apos;t tell me you don&apos;t know{' '}
@@ -294,7 +297,7 @@ export default function Home() {
 					.
 				</p>
 				<iframe
-					width="560"
+					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/0J2QdDbelmY?si=1Sq6ptw283kiRnGn"
 					title="YouTube video player"
@@ -335,7 +338,7 @@ export default function Home() {
 					competition?
 				</p>
 				<iframe
-					width="560"
+					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/8YzboDdS5O4?si=4GODyzSWVV5S6pC-"
 					title="YouTube video player"
@@ -389,7 +392,7 @@ export default function Home() {
 					?
 				</p>
 				<iframe
-					width="560"
+					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/bg1dF4TpI0k?si=J9SMG17PWO0y_iwH"
 					title="YouTube video player"
@@ -417,7 +420,7 @@ export default function Home() {
 					Why Bring National Politics Into It?
 				</h2>
 				<p className={`paragraph width-full block left-align`}>
-					- Because sometimes, a little s**t (please forgive me if you read
+					- Because sometimes, a little sh*t (please forgive me if you read
 					this,{' '}
 					<Link
 						className={` lowercase style-1 spaced color-2 rounded darken`}
@@ -746,7 +749,7 @@ export default function Home() {
 					<Image
 						src={trump_sun.src}
 						height={350}
-						width={450}
+						width={350}
 						alt={`The sitting president of the United States stares at the sun.`}
 					/>
 				</div>
