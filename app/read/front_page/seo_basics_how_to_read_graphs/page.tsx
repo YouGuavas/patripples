@@ -287,7 +287,7 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					<Link
 						className={` lowercase style-1 spaced color-2 rounded darken`}
-						href="https://automotivehalloffame.org/honoree/mary-barra/"
+						href="https://en.wikipedia.org/wiki/Madonna"
 					>
 						Madonna
 					</Link>{' '}
