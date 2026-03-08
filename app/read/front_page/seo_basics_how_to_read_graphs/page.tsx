@@ -447,8 +447,8 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					I may not have had any novias in Colorado. That doesn&apos;t mean I
 					can&apos;t wish a happy Sunday to all the women mentioned here, and to
-					my many friends, sisters, cousins, grandmas, stepmoms, and other
-					influential women I have met.
+					the many friends, sisters, cousins, grandmas, stepmoms, and other
+					influential women I have met throughout my life.
 				</p>
 			</section>
 
