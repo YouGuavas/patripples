@@ -268,7 +268,7 @@ export default function Home() {
 					You can never count{' '}
 					<Link
 						className={` lowercase style-1 spaced color-2 rounded darken`}
-						href="https://automotivehalloffame.org/honoree/mary-barra/"
+						href="https://en.wikipedia.org/wiki/Aretha_Franklin"
 					>
 						Aretha
 					</Link>{' '}
@@ -338,7 +338,15 @@ export default function Home() {
 					In the name of exactly that, have this list of women from outside of
 					Michigan who I do not know, and who many around me respect.
 				</p>
-
+				<p className={`paragraph width-full block left-align`}>
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="https://en.wikipedia.org/wiki/Stevie_Nicks"
+					>
+						Stevie Nicks
+					</Link>
+					.
+				</p>
 				<iframe
 					width="360"
 					height="315"
