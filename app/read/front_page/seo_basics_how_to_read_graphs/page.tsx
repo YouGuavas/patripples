@@ -78,7 +78,7 @@ export default function Home() {
 					>
 						June Carter
 					</Link>{' '}
-					is related to me .
+					is related to me.
 				</p>
 				<iframe
 					width="360"
@@ -272,7 +272,7 @@ export default function Home() {
 					>
 						Aretha
 					</Link>{' '}
-					out .
+					out.
 				</p>
 				<iframe
 					width="360"
