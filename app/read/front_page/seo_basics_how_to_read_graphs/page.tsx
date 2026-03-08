@@ -330,9 +330,7 @@ export default function Home() {
 					referrerPolicy="strict-origin-when-cross-origin"
 					allowFullScreen
 				></iframe>
-				<p className={`paragraph width-full block left-align`}>
-					Some businesswomen, artists, and others.
-				</p>
+
 				<p className={`paragraph width-full block left-align`}>All respect.</p>
 				<p className={`paragraph width-full block left-align`}>
 					In the name of exactly that, have this list of women from outside of
