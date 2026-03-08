@@ -77,8 +77,8 @@ export default function Home() {
 						href="https://en.wikipedia.org/wiki/June_Carter_Cash"
 					>
 						June Carter
-					</Link>
-					.
+					</Link>{' '}
+					is related to me .
 				</p>
 				<iframe
 					width="360"
