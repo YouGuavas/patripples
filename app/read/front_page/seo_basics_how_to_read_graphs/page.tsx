@@ -71,14 +71,14 @@ export default function Home() {
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					That is perfect, because what I was actually told while growing up is
-					that{' '}
+					that I am related to{' '}
 					<Link
 						className={` lowercase style-1 spaced color-2 rounded darken`}
 						href="https://en.wikipedia.org/wiki/June_Carter_Cash"
 					>
 						June Carter
-					</Link>{' '}
-					is related to me.
+					</Link>
+					.
 				</p>
 				<iframe
 					width="360"
