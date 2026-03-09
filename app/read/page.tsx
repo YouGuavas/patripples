@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<main className={`main center height-full`}>
 			<h1 className={`style-1 thin lowercase`}>read Patrick&apos;s mind.</h1>
-			<InteractiveList categories={categories} routes={routes} />
+			<InteractiveList categories={['x']} routes={routes} />
 		</main>
 	);
 }

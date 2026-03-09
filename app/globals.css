@@ -216,6 +216,10 @@ button {
 	text-decoration: none;
 	list-style: none;
 }
+.roman-deco {
+	text-decoration: none;
+	list-style: lower-roman;
+}
 .spaced {
 	letter-spacing: 0.1rem;
 }
