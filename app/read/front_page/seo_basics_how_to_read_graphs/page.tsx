@@ -24,8 +24,18 @@ export default function Home() {
 				<ByLine
 					author={`Patrick Yambrick`}
 					date={'Sunday, Mar 8, 2026'}
-					edited={'Sunday, Mar 8, 2026'}
+					edited={'Sunday, Mar 9, 2026'}
 				/>
+				<p className={`paragraph width-full block left-align`}>
+					Edit March 9: corrected typo just after{' '}
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="https://en.wikipedia.org/wiki/Carter_Family"
+					>
+						Carter Family
+					</Link>{' '}
+					music video.
+				</p>
 
 				<iframe
 					width="360"
@@ -91,7 +101,7 @@ export default function Home() {
 					allowFullScreen
 				></iframe>
 				<p className={`paragraph width-full block left-align`}>
-					I was going to share one fo the videos from their Johnny and June
+					I was going to share one of the videos from their Johnny and June
 					days. She looked really anxious and overwhelmed in some of those, from
 					my perspective. For that reason, I have chosen to forego those videos
 					for this one.
