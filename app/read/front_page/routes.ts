@@ -1,8 +1,8 @@
 const routes = [
 	{
-		name: 'VII. Placeholder Title',
-		path: '/read/front_page/placeholder',
-		tags: ['short (1000 words)', 'x'],
+		name: 'VII. SEO Basics: If Thou Wouldst Be Perfect (How to Improve Your Bounce Rate)',
+		path: '/read/front_page/seo_basics_bounce_rate',
+		tags: ['long (2000 words)', 'x'],
 		body: '.',
 		footer: '.',
 	},
