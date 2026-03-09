@@ -376,8 +376,8 @@ export default function Home() {
 					If the foundations be destroyed, what can the righteous do?
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					The Lord is in his holy temple, the Lord's throne is in heaven: his
-					eyes behold, his eyelids try, the children of men.
+					The Lord is in his holy temple, the Lord&apos;s throne is in heaven:
+					his eyes behold, his eyelids try, the children of men.
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
 					The Lord trieth the righteous: but the wicked and him that loveth

@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'SEO Basics: How to Read Graphs (Women\'s Day Edition)' - out now.",
-									href: '/read/front_page/seo_basics_how_to_read_graphs',
+									text: "Read 'SEO Basics: If Thou Wouldst Be Perfect (How to Improve Your Bounce Rate)' - out now.",
+									href: '/read/front_page/seo_basics_bounce_rate',
 								},
 
 								{
