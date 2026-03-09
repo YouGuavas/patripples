@@ -244,7 +244,7 @@ export default function Home() {
 					Who&apos;s Cash?
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					The Man In Black.
+					The Man In Black&apos;s Cash.
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
