@@ -2,7 +2,7 @@ const routes = [
 	{
 		name: 'VII. SEO Basics: If Thou Wouldst Be Perfect (How to Improve Your Bounce Rate)',
 		path: '/read/front_page/seo_basics_bounce_rate',
-		tags: ['long (2000 words)', 'x'],
+		tags: ['short (1000 words)', 'x'],
 		body: 'Want to see me decrease my bounce rate in real time? This is the post for you.',
 		footer:
 			'No matter who you are in this world, you can climb the golden ladder if you act with courage, benevolence, and righteousness.',
