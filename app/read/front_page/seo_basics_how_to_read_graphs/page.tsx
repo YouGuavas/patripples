@@ -24,7 +24,7 @@ export default function Home() {
 				<ByLine
 					author={`Patrick Yambrick`}
 					date={'Sunday, Mar 8, 2026'}
-					edited={'Sunday, Mar 9, 2026'}
+					edited={'Monday, Mar 9, 2026'}
 				/>
 				<p className={`paragraph width-full block left-align`}>
 					Edit March 9: corrected typo just after{' '}
