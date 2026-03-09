@@ -83,6 +83,26 @@ export default function Home() {
 					</Link>{' '}
 					if anything I say or do is against the rules.
 				</p>
+				<p className={`paragraph width-full block left-align`}>
+					My intention here is to look at a political administration which I
+					believe - though since I can&apos;t prove it with objective evidence,
+					I won&apos;t claim it as &quot;truth&quot; - uses religion as a guise
+					for manipulation, through the lens of my personal connection to God,
+					Jesus, or whatever powers may be.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					Like it or not, national political and religious tides have an impact
+					on local small businesses. I am not going to dive into that analysis
+					in this post. Just know that it is real. My mom ran a business during
+					and just after the{' '}
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="https://en.wikipedia.org/wiki/2008_financial_crisis"
+					>
+						2008 Financial Crisis
+					</Link>
+					. So: no source, no stats - it just does.
+				</p>
 				<h2
 					className={`lowercase style-1 spaced left width-full block left-align`}
 				>

@@ -4,7 +4,8 @@ const routes = [
 		path: '/read/front_page/seo_basics_bounce_rate',
 		tags: ['long (2000 words)', 'x'],
 		body: '.',
-		footer: '.',
+		footer:
+			'No matter who you are in this world, you can climb the golden ladder if you act with courage, benevolence, and righteousness.',
 	},
 	{
 		name: "VI. SEO Basics - How to Read Graphs (Women's Day Edition)",
