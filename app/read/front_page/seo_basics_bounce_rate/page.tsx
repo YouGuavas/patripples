@@ -84,6 +84,9 @@ export default function Home() {
 					if anything I say or do is against the rules.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
+					- End Disclaimer.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
 					My intention here is to look at a political administration which I
 					believe - though since I can&apos;t prove it with objective evidence,
 					I won&apos;t claim it as &quot;truth&quot; - uses religion as a guise
