@@ -291,7 +291,10 @@ export default function Home() {
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					An orange bank robber from{' '}
-					<Link href="https://en.wikipedia.org/wiki/New_York_City">
+					<Link
+						className={` lowercase style-1 spaced color-2 rounded darken`}
+						href="https://en.wikipedia.org/wiki/New_York_City"
+					>
 						New York City
 					</Link>
 					.
