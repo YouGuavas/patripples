@@ -1,5 +1,13 @@
 const routes = [
 	{
+		name: 'VIII. Personal Finance: All About Me (How to Start Your Small Business From Anywhere)',
+		path: '/read/front_page/finance_about_me',
+		tags: ['short (1000 words)', 'x'],
+		body: 'Want to see what compounding returns look like? Check this piece out.',
+		footer:
+			'No matter where you start, you can climb the highest peaks without pride.',
+	},
+	{
 		name: 'VII. SEO Basics: If Thou Wouldst Be Perfect (How to Improve Your Bounce Rate)',
 		path: '/read/front_page/seo_basics_bounce_rate',
 		tags: ['short (1000 words)', 'x'],

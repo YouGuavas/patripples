@@ -18,7 +18,7 @@ export default function Home() {
 			<h1 className={`style-1 thin spaced left width-full block left-align`}>
 				Vibe Patrol.
 			</h1>
-			<ByLine date={'Wed, Apr 30, 2025'} />
+			<ByLine date={'Wed, Apr 30, 2025'} edited={'Mon, Mar 10, 2026'} />
 			<blockquote
 				className={`style-2 thin width-full block left-align`}
 				cite="Caroline A. Shearer"
@@ -31,6 +31,12 @@ export default function Home() {
 				-Caroline A. Shearer
 			</p>
 			<br />
+			<p className={`paragraph width-full block left-align`}>
+				{' '}
+				Edit Mar 9, 2026: altered the following line from the section titled
+				&apos;How To Find A Dragon&apos;: &quot;I can't say I blame him. In a
+				way, I was doing what some cop should have been doing.&quot;
+			</p>
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
 			>
@@ -70,8 +76,7 @@ export default function Home() {
 				malicious. I think he somehow thought that I was an opp.
 			</p>{' '}
 			<p className={`paragraph width-full block left-align`}>
-				I can&apos;t say I blame him. In a way, I was doing what some cop should
-				have been doing.
+				I can&apos;t say I blame him. I was dressed like a cop.
 			</p>{' '}
 			<p className={`paragraph width-full block left-align`}>
 				At the time, I was close with a long-lost friend of mine, who struggles
