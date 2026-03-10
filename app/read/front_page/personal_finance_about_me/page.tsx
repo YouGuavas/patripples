@@ -32,8 +32,13 @@ export default function Home() {
 			/>
 			<p className={`paragraph width-full block left-align`}>Happy Tuesday!</p>
 			<p className={`paragraph width-full block left-align`}>
-				My last post was too heavy. Too steeped in religion and religious
-				imagery.
+				<Link
+					className={` spaced color-2 rounded darken`}
+					href="/read/front_page/seo_basics_bounce_rate"
+				>
+					My last post
+				</Link>{' '}
+				was too heavy. Too steeped in religion and religious imagery.
 			</p>
 			<p className={`paragraph width-full block left-align`}>
 				Hope you all don&apos;t mind if I focus on lightweight fiction this time
