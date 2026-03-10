@@ -621,13 +621,10 @@ export default function Home() {
 
 				<p className={`paragraph width-full block left-align`}>
 					No matter who you start as in this world, you can climb to the highest
-					peaks if you act with courage, loyalty, and righteousness.
+					peaks if you act with courage, loyalty, and righteousness - and never
+					fear the darkness.
 				</p>
-				<p className={`paragraph width-full block left-align`}>
-					I would know - if we know each other or if you have been visible to
-					me, I have probably been quietly auditing you (I can&apos;t help it;
-					it&apos;s just how I am).
-				</p>
+
 				<p className={`paragraph width-full block left-align`}>
 					If you aren&apos;t too proud: drop one piece of that project
 					you&apos;ve been sitting on this week and watch the water ripple.
