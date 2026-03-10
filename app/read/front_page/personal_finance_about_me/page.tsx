@@ -183,7 +183,7 @@ export default function Home() {
 					and after the{' '}
 					<Link
 						className={`spaced color-2 rounded darken`}
-						href="#https://en.wikipedia.org/wiki/2008_financial_crisis"
+						href="https://en.wikipedia.org/wiki/2008_financial_crisis"
 					>
 						2008 Financial Crisis
 					</Link>
