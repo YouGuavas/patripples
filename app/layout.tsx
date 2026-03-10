@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'Personal Finance: All About Me (How Not to Ruin Your Small Business)' - out now.",
-									href: '/read/front_page/finance_about_me',
+									text: "Read 'Personal Finance: All About Me (How to Start Your Small Business From Anywhere)' - out now.",
+									href: '/read/front_page/personal_finance_about_me',
 								},
 
 								{

@@ -1,7 +1,7 @@
 const routes = [
 	{
 		name: 'VIII. Personal Finance: All About Me (How to Start Your Small Business From Anywhere)',
-		path: '/read/front_page/finance_about_me',
+		path: '/read/front_page/personal_finance_about_me',
 		tags: ['short (1000 words)', 'x'],
 		body: 'Want to see what compounding returns look like? Check this piece out.',
 		footer:
