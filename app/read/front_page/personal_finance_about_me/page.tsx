@@ -27,9 +27,10 @@ export default function Home() {
 			</h1>
 			<ByLine
 				author={`Patrick Yambrick`}
-				date={'Monday, Mar 9, 2026'}
-				edited={'Monday, Mar 9, 2026'}
+				date={'Tuesday, Mar 10, 2026'}
+				edited={'Tuesday, Mar 10, 2026'}
 			/>
+			<p className={`paragraph width-full block left-align`}>Happy Tuesday!</p>
 			<p className={`paragraph width-full block left-align`}>
 				My last post was too heavy. Too steeped in religion and religious
 				imagery.
