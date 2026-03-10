@@ -34,8 +34,8 @@ export default function Home() {
 			<p className={`paragraph width-full block left-align`}>
 				{' '}
 				Edit Mar 9, 2026: altered the following line from the section titled
-				&apos;How To Find A Dragon&apos;: &quot;I can't say I blame him. In a
-				way, I was doing what some cop should have been doing.&quot;
+				&apos;How To Find A Dragon&apos;: &quot;I can&apos;t say I blame him. In
+				a way, I was doing what some cop should have been doing.&quot;
 			</p>
 			<h2
 				className={`lowercase style-1 thin spaced left width-full block left-align`}
