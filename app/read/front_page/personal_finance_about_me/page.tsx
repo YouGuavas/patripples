@@ -304,7 +304,13 @@ export default function Home() {
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					They would pay me back with{' '}
-					<Link href="https://en.wikipedia.org/wiki/Interest">interest</Link>.
+					<Link
+						className={`spaced color-2 rounded darken`}
+						href="https://en.wikipedia.org/wiki/Interest"
+					>
+						interest
+					</Link>
+					.
 				</p>
 
 				<p className={`paragraph width-full block left-align`}>
@@ -313,7 +319,10 @@ export default function Home() {
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					Talk about{' '}
-					<Link href="https://www.investopedia.com/terms/c/compoundreturn.asp">
+					<Link
+						className={`spaced color-2 rounded darken`}
+						href="https://www.investopedia.com/terms/c/compoundreturn.asp"
+					>
 						compounding returns
 					</Link>
 					.
@@ -454,9 +463,9 @@ export default function Home() {
 					.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Each member has received a marking received in a past chapter for
-					crimes they committed (or were framed for) - which are relevant to
-					their respective sin.
+					Each member has a marking received in a past chapter for crimes they
+					committed (or were framed for) - which are relevant to their
+					respective sin.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					These markings correspond, naturally, with the Seven Deadly Sins -
