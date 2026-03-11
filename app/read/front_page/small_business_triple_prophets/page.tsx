@@ -418,8 +418,8 @@ export default function Home() {
 					of a ready mind;
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
-					Neither as being lords over God's heritage, but being examples to the
-					flock.
+					Neither as being lords over God&apos;s heritage, but being examples to
+					the flock.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					And when the chief Shepherd shall appear, ye shall receive a crown of
@@ -520,11 +520,18 @@ export default function Home() {
 					believe what I believe.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Whatever you feel when you read my posts, I hope that you know I
-					wouldn&apos;t be doing it if I didn&apos;t feel it were right. I
-					wouldn&apos;t have you added in one of my communication channels if I
-					didn&apos;t think you were capable of digesting these pieces and
-					reaching your own conclusions.
+					Whatever you feel when you read my posts, I hope that it is clear I am
+					doing it because I care, and because I believe in something worth
+					standing up for. I wouldn&apos;t have you added in one of my
+					communication channels if I didn&apos;t think you were capable of
+					digesting these pieces and reaching your own conclusions.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					In Zen Buddhism, which is compatible with Christianity - as it is a
+					method of operating which fits within most other religions; not a
+					religion itself, and not something which requires the worship of any
+					deity - one of the core tenets is called &quot;Right Action.&quot; It
+					is very straightforward: do your best to do the right thing.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					I see things in a particular light, and my way of viewing the world
@@ -534,7 +541,9 @@ export default function Home() {
 					I have been misunderstood a number of times for acting too fervently
 					in defense of the small, or in defense of truths I believe to be
 					right, rooted in my understanding of the world as someone from a
-					family with generations-old Christian and Catholic roots.
+					family with generations-old Christian and Catholic roots - but this
+					has not destroyed me. Rather, it has given me a reason to speak, and
+					returned my voice with which to do so.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					This isn&apos;t about me, though. It is about the prospects of your
