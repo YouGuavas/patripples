@@ -1,5 +1,12 @@
 const routes = [
 	{
+		name: 'IX. Small Business: How to Triple Your Prophets (Singing Peace Above the Din of War)',
+		path: '/read/front_page/small_business_triple_prophets',
+		tags: ['long (2000 words)', 'x'],
+		body: 'Want to triple your prophets? Check this piece out.',
+		footer: 'Learning about lions and their roars.',
+	},
+	{
 		name: 'VIII. Personal Finance: All About Me (How to Start Your Small Business From Anywhere)',
 		path: '/read/front_page/personal_finance_about_me',
 		tags: ['short (1000 words)', 'x'],

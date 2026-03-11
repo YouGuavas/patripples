@@ -593,7 +593,7 @@ export default function Home() {
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/5EcsBgxXDqc?si=rPQR8-9VsAF7cX8F"
-						title="Welcome to the Black Parade - My Chemical Romance"
+						title="Supernatural - Death\'s Intro"
 						frameBorder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerPolicy="strict-origin-when-cross-origin"
