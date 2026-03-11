@@ -50,7 +50,7 @@ export default function Home() {
 							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
 							href="/read/front_page/personal_finance_about_me"
 						>
-							Lion
+							Ignoring Scripture
 						</Link>{' '}
 						energy, not gonna lie.
 					</p>
