@@ -5,6 +5,8 @@ import ByLine from '@/app/components/ByLine';
 import Footer from '@/app/components/blog/Footer';
 import Collapsible from '@/app/components/blog/Collapsible';
 
+import patrick_pews from '@/public/scenes/patrick/patrick_pews.svg';
+
 export const metadata: Metadata = {
 	title:
 		"Patripples | 'Small Business: How to Triple Your Prophets (Singing Peace Above the Din of War)' by Patrick Yambrick",
@@ -33,6 +35,13 @@ export default function Home() {
 				</Link>
 				.
 			</p>
+			<div className={`jumbo-container centered`}>
+				<Image
+					src={patrick_pews.src}
+					fill
+					alt={`Patrick speaks with you while surrounded by pews.`}
+				/>
+			</div>
 			<hr />
 			<p className={`paragraph width-full block left-align`}>
 				&quot;Now therefore hearken unto their voice: howbeit yet protest
