@@ -48,7 +48,7 @@ export default function Home() {
 						Kinda{' '}
 						<Link
 							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
-							href="/read/front_page/personal_finance_about_me"
+							href="/read/front_page/small_business_triple_prophets"
 						>
 							Ignoring Scripture
 						</Link>{' '}
