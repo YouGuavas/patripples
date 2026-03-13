@@ -735,7 +735,7 @@ export default function Home() {
 					>
 						the Ark
 					</Link>
-					, Go-Rilla traverses the local swamp - which he knew intimately, from
+					, Go-Rilla traverses the local swamp - which he knows intimately, from
 					when his tribe initially conquered and established order on Server
 					518.
 				</p>
