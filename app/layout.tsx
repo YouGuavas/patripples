@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'Small Business: How to Triple Your Prophets (Singing Peace Above the Din of War)' - out now.",
-									href: '/read/front_page/small_business_triple_prophets',
+									text: "Read 'Social Learning: The Art of War (And Leadership)' - out now.",
+									href: '/read/front_page/social_learning_art_of_war',
 								},
 
 								{
