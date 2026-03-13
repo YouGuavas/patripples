@@ -938,7 +938,7 @@ export default function Home() {
 					Silly as it may sound, I like to think that, whatever else is going on
 					in the world, a guy like Go-Rilla is out there, quietly watching over
 					the people who embody those ideals which his tribe upheld so fervently
-					- even when cutting through a jungle which feels more like a
+					- even when cutting through a jungle which sometimes feels more like a
 					labyrinth.
 				</p>{' '}
 				<div className={`jumbo-container centered`}>
