@@ -3,8 +3,8 @@ const routes = [
 		name: '1. Social Learning: The Art of War (And Leadership)',
 		path: '/read/front_page/social_learning_art_of_war',
 		tags: ['longer (3000 words)', 'x'],
-		body: 'Want to triple your prophets? Check this piece out.',
-		footer: 'Learning about lions and their roars.',
+		body: "Want to be a leader, but scared you'll mess up. You probably will. You are human. Here is some wisdom that will mitigate your losses when that happens.",
+		footer: "Learning about leaders and their left-behinds' lessons.",
 	},
 	{
 		name: 'IX. Small Business: How to Triple Your Prophets (Singing Peace Above the Din of War)',
