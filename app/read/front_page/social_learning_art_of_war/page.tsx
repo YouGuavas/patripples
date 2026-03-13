@@ -662,18 +662,30 @@ export default function Home() {
 					Confused, you accept.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					At first, those around you are skeptical - hey, so are you. You all
-					just watched your leader Leeroy the raid, then pass the buck to a
-					younger, more inexperienced guy. Totally wild.
+					At first, those around you are skeptical - hey, so are you. You just
+					watched one of your leaders{' '}
+					<Link
+						className={`spaced color-2 rounded darken`}
+						href="https://www.freep.com/story/news/local/michigan/oakland/2026/03/12/temple-israel-shooting-west-bloomfield/89119641007/"
+					>
+						Leeroy
+					</Link>{' '}
+					the raid, then pass the buck to a younger, more inexperienced guy. You
+					are skeptical about the people around you and their intent. Valid.
+					That was wild. It didn&apos;t make any sense.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					But as you all carry on, you find yourself naturally fitting the role
-					more and more closely.
+					But as you carry on, you find yourself emobdying the role more and
+					more naturally.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					You arrive at this through consistency, discipline, a fair ear, and a
 					steady hand. Out of care for the community you have been left steward
 					of, you do this even when you are uncertain.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					Through all this, you have come to a realization: as long as you
+					don&apos;t Leeroy the raid, things tend to work out in your favor.
 				</p>
 				<h3
 					className={`lowercase style-1 spaced left width-full block left-align`}
@@ -806,6 +818,10 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					They say that &quot;The price good men pay for indifference to public
 					affairs is to be ruled by evil men.&quot; Lessons learned.
+				</p>
+				<p className={`paragraph width-full block left-align`}>
+					Go-Rilla learned that lesson the hard way - the destruction of
+					everything he had built was his tuition.
 				</p>
 			</Collapsible>
 			<Collapsible id="3" title="III - How to Strike Gently" bg="bg-6">
