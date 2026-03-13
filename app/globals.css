@@ -131,6 +131,11 @@ blockquote {
 ul {
 	padding-left: 0;
 }
+ul.numerals {
+	padding-left: 1rem;
+	list-style: lower-roman;
+	list-style-position: inside;
+}
 h1,
 h2,
 h3,
@@ -138,6 +143,11 @@ h4 {
 	font-weight: 800;
 	text-decoration: underline;
 }
+
+p.paragraph {
+	opacity: 0.75;
+}
+
 .cart-button {
 	border: none;
 	background-color: transparent;

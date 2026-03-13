@@ -1,5 +1,12 @@
 const routes = [
 	{
+		name: '1. Social Learning: How to Triple Your Prophets',
+		path: '/read/front_page/social_learning_placeholder',
+		tags: ['long (2000 words)', 'x'],
+		body: 'Want to triple your prophets? Check this piece out.',
+		footer: 'Learning about lions and their roars.',
+	},
+	{
 		name: 'IX. Small Business: How to Triple Your Prophets (Singing Peace Above the Din of War)',
 		path: '/read/front_page/small_business_triple_prophets',
 		tags: ['long (2000 words)', 'x'],
