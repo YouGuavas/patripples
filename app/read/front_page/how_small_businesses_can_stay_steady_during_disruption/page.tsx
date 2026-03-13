@@ -60,6 +60,7 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>ChatGPT.</p>
 				<div id={`disruptions`} className={`jumbo-container centered`}>
 					<Image
+						loading="eager"
 						src={patrick_super_bowl.src}
 						fill
 						alt={`Patrick attends the Super Bowl.`}

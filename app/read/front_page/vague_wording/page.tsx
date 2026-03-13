@@ -78,6 +78,8 @@ export default function Home() {
 					Raditz.
 				</p>
 				<Image
+					fetchPriority="high"
+					loading="eager"
 					src={raditz_goku.src}
 					height={500}
 					width={250}
@@ -223,6 +225,7 @@ export default function Home() {
 					non-standard.
 				</p>
 				<iframe
+					loading="lazy"
 					width="560"
 					height="315"
 					src="https://www.youtube.com/embed/Dyy3d8MnlA4?si=wCHyossmMraIKfHi"

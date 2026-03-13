@@ -83,6 +83,7 @@ export default function Home() {
 				what&apos;s wrong.&quot; And I agree.
 			</p>
 			<iframe
+				loading="eager"
 				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/m47Is4ipcF8?si=5x6FD7zIRGscpt9v"
@@ -222,6 +223,7 @@ export default function Home() {
 				</p>
 
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/s9n_2FJZ3vU?si=utPHCbhqXXAQXM0K"
@@ -236,6 +238,7 @@ export default function Home() {
 					Take that and mix it with a little:
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/ewEibhjgaNQ?si=N90M_5rL_q_BTb0k"
@@ -257,6 +260,7 @@ export default function Home() {
 					used to be vaguely inspirational? (Obvious profanity warning):
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/wuSOJhNzuiE?si=IHFaVgJ7wLhMDvib"
@@ -277,6 +281,7 @@ export default function Home() {
 					paved the way for him to do what he did to music?
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/H-kA3UtBj4M?si=IaU0P2zUtGWloEQX"
@@ -297,6 +302,7 @@ export default function Home() {
 					.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/0J2QdDbelmY?si=1Sq6ptw283kiRnGn"
@@ -338,6 +344,7 @@ export default function Home() {
 					competition?
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/8YzboDdS5O4?si=4GODyzSWVV5S6pC-"
@@ -392,6 +399,7 @@ export default function Home() {
 					?
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/bg1dF4TpI0k?si=J9SMG17PWO0y_iwH"
@@ -454,6 +462,7 @@ export default function Home() {
 					to let reality sink in.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/IQD__OsokaU?si=o9lcs8TWIxw5j1yK"
@@ -556,6 +565,7 @@ export default function Home() {
 					the song feels pertinent. He is from Ohio. Obvious profanity warning.)
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/DviqacxbJnU?si=lywoO_SrkMsrPFVd"
@@ -648,6 +658,7 @@ export default function Home() {
 					?
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/j5zeMtEcQoI?si=BJuObUKa4xBDOp0S"
@@ -782,6 +793,7 @@ export default function Home() {
 					clip that will make a segment of my audience feel heard.)
 				</p>{' '}
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/l9F4jXtJniw?si=6Yl6eY2qOZZuic2P"

@@ -64,6 +64,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/dK0OxWzkdBg?si=AoHkWdoAD3bjcfLF"
@@ -136,6 +137,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<Image
+						loading="lazy"
 						src={will_i.src}
 						fill
 						alt={`Patrick gives a sermon at Saint Peter\'s Basilica.`}
@@ -148,6 +150,7 @@ export default function Home() {
 
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/MrUYnOFZc2M?si=tmyklvHB-qRs0OKq"
@@ -208,6 +211,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/-gsDBuHwqbM?si=E-TCZRaJxDhc6M3E"
@@ -272,6 +276,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://youtube.com/embed/63LrvayPxq4?si=2TUUz8MuLgGXqDi7"
@@ -435,6 +440,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/3lm6oNBVRz0?si=IP9m7u3u7UHDCyHA"
@@ -512,6 +518,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://youtube.com/embed/ghGg_7GZZVI?si"
@@ -541,6 +548,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/umwRJaElqAw?si=0By6sYFlrKl6M099"
@@ -562,6 +570,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/9BdG8cXm7JU?si=4rECTkdIx5rnhMci"
@@ -608,6 +617,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/l5-gja10qkw?si=2Rjo66WZNP1_eVWP"

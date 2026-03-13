@@ -100,6 +100,7 @@ export default function Home() {
 			</p>
 			<p className={`paragraph width-full block left-align`}>Oh-ee-oh...</p>
 			<iframe
+				loading="eager"
 				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/fPcoFK8jem8?si=ybDLFQb0DTmSIL2_"
@@ -113,7 +114,12 @@ export default function Home() {
 				We are &apos;04 Pistons fans around here.
 			</p>{' '}
 			<div id={`disruptions`} className={`jumbo-container centered`}>
-				<Image src={Pistons.src} fill alt={`Patrick attends the Super Bowl.`} />
+				<Image
+					loading="lazy"
+					src={Pistons.src}
+					fill
+					alt={`Patrick attends the Super Bowl.`}
+				/>
 			</div>
 			<p className={`paragraph width-full block left-align`}>
 				We might not all run, but most of us watched Rip Hamilton run around all
@@ -124,6 +130,7 @@ export default function Home() {
 				often playing the underdog to much bigger guys.
 			</p>
 			<iframe
+				loading="lazy"
 				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/O-AoTK2iRPY?si=_2lSTWzzcLIIA0VD"
@@ -365,6 +372,7 @@ export default function Home() {
 				shout &quot;Enough!&quot;
 			</p>
 			<iframe
+				loading="lazy"
 				width="360"
 				height="315"
 				src="https://www.youtube.com/embed/k3h5jcI-MFI?si=zCZIKerGxaZkoF80"

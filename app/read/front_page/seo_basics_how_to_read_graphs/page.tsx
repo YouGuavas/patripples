@@ -38,6 +38,7 @@ export default function Home() {
 				</p>
 
 				<iframe
+					loading="eager"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/uErKI0zWgjg?si=KwaYr9GKwaSyS046"
@@ -91,6 +92,7 @@ export default function Home() {
 					.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/ewnfWoSQz3o?si=5g5QWhcQaRTdDXjy"
@@ -173,6 +175,7 @@ export default function Home() {
 					.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/99_oQ9ueLvc?si=a0XNxlZd_TflkO5e"
@@ -204,6 +207,7 @@ export default function Home() {
 					to you?
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/evypdgY6KpQ?si=nASW5Y61Aikr_JDU"
@@ -285,6 +289,7 @@ export default function Home() {
 					out.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/A134hShx_gw?si=MnJ4rbdKlFfPPFoe"
@@ -331,6 +336,7 @@ export default function Home() {
 					.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/qBUKfQRbzuk?si=D__IvAhd8QQgzx_R"
@@ -356,6 +362,7 @@ export default function Home() {
 					.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/Ov1SOhwfbys?si=ufCqi3lV-bLDNBN0"
@@ -386,6 +393,7 @@ export default function Home() {
 					?
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/jcemHIqmkYI?si=yOf8RG0mMMBPlaim"
@@ -451,6 +459,7 @@ export default function Home() {
 					sitting on this week and watch the water ripple.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/i4ooH8frBWg?si=QXcP5JESxHAKfR1c"

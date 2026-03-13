@@ -37,6 +37,8 @@ export default function Home() {
 			</p>
 			<div className={`jumbo-container centered`}>
 				<Image
+					fetchPriority="high"
+					loading="eager"
 					src={patrick_pews.src}
 					fill
 					alt={`Patrick speaks with you while surrounded by pews.`}
@@ -162,6 +164,7 @@ export default function Home() {
 			</p>
 			<div className={`jumbo-container centered`}>
 				<iframe
+					loading="lazy"
 					width="100%"
 					height="100%"
 					src="https://www.youtube.com/embed/XdpGJSe44_o?si=HEc4qI4QFNwlHnOE"
@@ -292,6 +295,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/xnO2HDmT1D8?si=VrRzdQv6KieFCzYF"
@@ -584,6 +588,7 @@ export default function Home() {
 				</p>{' '}
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/eedeXTWZUn8?si=qA8x-pBY8XTovqKd"

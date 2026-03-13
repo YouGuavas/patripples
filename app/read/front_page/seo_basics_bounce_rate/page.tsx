@@ -50,6 +50,7 @@ export default function Home() {
 					<Image
 						src={pc.src}
 						fill
+						loading="eager"
 						alt={`Patrick gives a sermon at Saint Peter\'s Basilica.`}
 					/>
 				</div>
@@ -113,6 +114,7 @@ export default function Home() {
 				</h2>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/MYSVMgRr6pw?si=QvNEOFWFv6A8Pn2O
@@ -248,6 +250,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/9bifZBxG0Gg"
@@ -266,6 +269,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/DTP9__vi3d4"
@@ -335,6 +339,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/RRKJiM9Njr8?si=82qCxlIWlH-1_3XF"
@@ -431,6 +436,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/Iw3d5LIpoHw?si=lTxp7DGLoOtKpte6"
@@ -590,6 +596,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/5EcsBgxXDqc?si=rPQR8-9VsAF7cX8F"
@@ -717,6 +724,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/Odlw8WdsZS8"
@@ -825,6 +833,7 @@ export default function Home() {
 				</h2>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/-QWsZQGY-dM"

@@ -73,6 +73,7 @@ export default function Home() {
 				around.){' '}
 			</p>
 			<iframe
+				loading="eager"
 				src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1288736793117233%2F&show_text=false&width=560&t=0"
 				width="360"
 				height="180"
@@ -367,6 +368,7 @@ export default function Home() {
 					together, just in case.
 				</p>
 				<iframe
+					loading="lazy"
 					width="360"
 					height="315"
 					src="https://www.youtube.com/embed/rndEQbvPKhM?si=49BFqC-pIuZN7rzD"
