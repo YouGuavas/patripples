@@ -686,7 +686,7 @@ export default function Home() {
 					for his trusty slingshot - a formidable weapon in{' '}
 					<Link
 						className={`spaced color-2 rounded darken`}
-						href="https://www.freep.com/story/news/local/michigan/oakland/2026/03/12/temple-israel-shooting-west-bloomfield/89119641007/"
+						href="https://www.biblegateway.com/passage/?search=1%20Samuel%2017&version=NIV;KJV"
 					>
 						the right hands
 					</Link>
@@ -705,12 +705,19 @@ export default function Home() {
 					></iframe>
 				</div>
 				<p className={`paragraph width-full block left-align`}>
-					Hungry and alone, Go-Rilla traverses the local swamp - which he knew
-					intimately, from when his tribe initially conquered and established
-					order on Server 518.
+					Hungry and alone in the jungles of{' '}
+					<Link
+						className={`spaced color-2 rounded darken`}
+						href="https://en.wikipedia.org/wiki/Ark:_Survival_Evolved"
+					>
+						the Ark
+					</Link>
+					, Go-Rilla traverses the local swamp - which he knew intimately, from
+					when his tribe initially conquered and established order on Server
+					518.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Since his abdication, much of the path he and his friends cut had
+					Since his abdication, much of the path he and his friends cut has
 					regrown.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
@@ -726,7 +733,7 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					<Link
 						className={`spaced color-2 rounded darken`}
-						href="https://www.freep.com/story/news/local/michigan/oakland/2026/03/12/temple-israel-shooting-west-bloomfield/89119641007/"
+						href="https://ark.fandom.com/wiki/Tribe:Department_of_Defense"
 					>
 						The Department of Defense
 					</Link>{' '}
