@@ -561,7 +561,7 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					<Link
 						className={`spaced color-2 rounded darken`}
-						href="https://www.freep.com/story/news/local/michigan/oakland/2026/03/12/temple-israel-shooting-west-bloomfield/89119641007/"
+						href="https://www.forbes.com/sites/cherylrobinson/2024/10/24/how-video-games-are-developing-future-leaders-for-boardrooms/"
 					>
 						According to Forbes
 					</Link>
