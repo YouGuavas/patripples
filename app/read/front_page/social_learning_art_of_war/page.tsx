@@ -346,6 +346,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/WRmBChQjZPs"
@@ -439,6 +440,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/oWu_jApIWAM?si=zCkGrWTEIyxZpDmo"
@@ -649,6 +651,7 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>Not my video:</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/mLyOj_QD4a4?si=joHkaIu8me5jNhll"
@@ -717,6 +720,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/DBql20NSxsc?si=Rwot6BhBAtvS3LzB"
@@ -878,6 +882,7 @@ export default function Home() {
 				</p>{' '}
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/lCjSKUs1bXk?si=3dRA-sb2z1eVTI2s"
@@ -938,6 +943,7 @@ export default function Home() {
 				</p>{' '}
 				<div className={`jumbo-container centered`}>
 					<iframe
+						loading="lazy"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/Vn8phH0k5HI?si=iFfStV-ZtotKj2QE"
