@@ -64,7 +64,7 @@ export default function Home() {
 			<section className={`width-full center`}>
 				<h2 className={`lowercase spaced style-1 thin`}>I&apos;m Patrick!</h2>
 				<div className={`image-container centered`}>
-					<Image src={pat.src} fill alt="Pat" />
+					<Image src={pat.src} loading="lazy" fill alt="Patrick" />
 				</div>
 				<h2 className={`lowercase spaced style-1 thin`}>
 					Here&apos;s What I Do.
