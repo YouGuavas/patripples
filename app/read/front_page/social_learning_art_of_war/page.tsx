@@ -6,6 +6,8 @@ import Footer from '@/app/components/blog/Footer';
 import Collapsible from '@/app/components/blog/Collapsible';
 import TableOfContents from '@/app/components/blog/TableOfContents';
 
+import patrick_sun_tzu from '@/public/scenes/patrick/patrick_sun_tzu.svg';
+
 export const metadata: Metadata = {
 	title:
 		"Patripples | 'Social Learning: The Art of War (And Leadership)' by Patrick Yambrick",
@@ -25,6 +27,13 @@ export default function Home() {
 				date={'Friday, Mar 13, 2026'}
 				edited={'Friday, Mar 13, 2026'}
 			/>
+			<div className={`jumbo-container centered`}>
+				<Image
+					src={patrick_sun_tzu.src}
+					fill
+					alt={`Patrick reads Sun Tzu to you.`}
+				/>
+			</div>
 			<hr />
 			<p className={`paragraph width-full block left-align`}>
 				III. Attack by Stratagem -{' '}
