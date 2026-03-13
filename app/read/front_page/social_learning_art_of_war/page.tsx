@@ -44,7 +44,7 @@ export default function Home() {
 			</p>
 			<p className={` width-full block left-align`}>
 				Hence to fight and conquer in all your battles is not supreme
-				excellence; supreme excellence consists in breaking the enemy's
+				excellence; supreme excellence consists in breaking the enemy&apos;s
 				resistance without fighting.
 			</p>{' '}
 			<p className={` width-full block left-align`}>
