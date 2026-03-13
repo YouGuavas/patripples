@@ -29,6 +29,8 @@ export default function Home() {
 			/>
 			<div className={`jumbo-container centered`}>
 				<Image
+					fetchPriority="high"
+					loading="eager"
 					src={patrick_sun_tzu.src}
 					fill
 					alt={`Patrick reads Sun Tzu to you.`}
