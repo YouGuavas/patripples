@@ -670,10 +670,11 @@ export default function Home() {
 					Then he thrusts the keys to the kingdom into your hands.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					You are the man of the house now. I can&apos;t do this anymore. Bye.
+					&quot;You are the man of the house now. I can&apos;t do this anymore.
+					Bye.&quot;
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Confused, you accept.
+					Confused, you accept. In a flash, the man is gone.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					At first, those around you are skeptical - hey, so are you. You just
