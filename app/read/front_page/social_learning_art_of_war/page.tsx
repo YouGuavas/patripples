@@ -319,8 +319,8 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					I would love to just one-tap solve that conflict, but alas: I am not a
 					Palestinian genius. I am some privileged white kid who doesn&apos;t
-					know his place. And it seems to an outsider like every time someone
-					solves the conflict, someone *
+					know his place. And it seems to an outsider like me that every time
+					someone solves the conflict, someone *
 					<Link
 						className={`spaced color-2 rounded darken`}
 						href="https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
@@ -335,8 +335,8 @@ export default function Home() {
 					>
 						a human and understandable quest for vengeance
 					</Link>
-					, which should nevertheless dictate that the world be at war on his
-					behalf.
+					, which - no matter how understandable - should not dictate that the
+					world be at war on his behalf.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					I am choosing to share this song because of its lyrics - which carried
