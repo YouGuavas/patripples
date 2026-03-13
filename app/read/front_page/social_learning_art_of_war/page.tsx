@@ -681,17 +681,17 @@ export default function Home() {
 					watched one of your leaders{' '}
 					<Link
 						className={`spaced color-2 rounded darken`}
-						href="https://www.freep.com/story/news/local/michigan/oakland/2026/03/12/temple-israel-shooting-west-bloomfield/89119641007/"
+						href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/Leeroy_Jenkins&ved=2ahUKEwi2na_A0p2TAxUbhIkEHZ3ACWcQFnoECB4QAQ&usg=AOvVaw0lPdo-ouqTaj-2js-gdutX"
 					>
 						Leeroy
 					</Link>{' '}
-					the raid, then pass the buck to a younger, more inexperienced guy. You
+					the raid, then pass the buck to a younger, less experienced guy. You
 					are skeptical about the people around you and their intent. Valid.
-					That was wild. It didn&apos;t make any sense.
+					What just happened was wild. It didn&apos;t make any sense.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					But as you carry on, you find yourself emobdying the role more and
-					more naturally.
+					As you carry on, you find yourself emobdying the role more and more
+					naturally.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					You arrive at this through consistency, discipline, a fair ear, and a
