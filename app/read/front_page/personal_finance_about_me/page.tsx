@@ -64,7 +64,7 @@ export default function Home() {
 				</p>
 				<div className={`jumbo-container centered`}>
 					<iframe
-						loading="lazy"
+						loading="eager"
 						width="100%"
 						height="100%"
 						src="https://www.youtube.com/embed/dK0OxWzkdBg?si=AoHkWdoAD3bjcfLF"

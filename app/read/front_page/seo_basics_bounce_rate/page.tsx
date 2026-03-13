@@ -51,6 +51,7 @@ export default function Home() {
 						src={pc.src}
 						fill
 						loading="eager"
+						fetchPriority="high"
 						alt={`Patrick gives a sermon at Saint Peter\'s Basilica.`}
 					/>
 				</div>
