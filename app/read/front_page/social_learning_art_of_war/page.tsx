@@ -317,10 +317,10 @@ export default function Home() {
 					cultural appropriation of reggae with his musical style.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					I would love to just one-tap solve that conflict, but alas: I am not a
-					Palestinian genius. I am some privileged white kid who doesn&apos;t
+					I would love to put forth a solve to that conflict, but alas: I am not
+					a Palestinian genius. I am some privileged white kid who doesn&apos;t
 					know his place. And it seems to an outsider like me that every time
-					someone solves the conflict, someone *
+					someone approaches a solution to the conflict, someone *
 					<Link
 						className={`spaced color-2 rounded darken`}
 						href="https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
