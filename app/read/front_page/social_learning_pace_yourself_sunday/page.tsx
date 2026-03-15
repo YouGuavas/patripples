@@ -78,7 +78,8 @@ export default function Home() {
 				helpful circumstances over and beyond the ordinary rules.
 			</p>
 			<p className={` width-full block left-align`}>
-				According as circumstances are favorable, one should modify one's plans.
+				According as circumstances are favorable, one should modify one&apos;s
+				plans.
 			</p>
 			<p className={` width-full block left-align`}>
 				All warfare is based on deception.
