@@ -45,7 +45,7 @@ export default function Home() {
 				traumatic impact on its survivors than I initially considered. Labeling
 				a threat to your lives as a &quot;Miracle&quot; was a profound
 				misjudgement on my part. I hope that you can forgive me and appreciate
-				my apology, and accept it if you cannot.
+				my apology; I accept it if you cannot or will not.
 			</p>
 			<p className={`paragraph edit-1 width-full block left-align`}>
 				As I will explain later, part of my intent with this set of posts is to
