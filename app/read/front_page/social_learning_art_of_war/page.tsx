@@ -875,10 +875,6 @@ export default function Home() {
 					They say that &quot;The price good men pay for indifference to public
 					affairs is to be ruled by evil men.&quot; Lessons learned.
 				</p>
-				<p className={`paragraph width-full block left-align`}>
-					Go-Rilla learned that lesson the hard way - the destruction of
-					everything he had built was his tuition.
-				</p>
 			</Collapsible>
 			<Collapsible id="3" title="III - How to Strike Gently" bg="bg-6">
 				<p className={`paragraph width-full block left-align`}>
