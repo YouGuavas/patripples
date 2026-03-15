@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'Social Learning: The Art of War (And Leadership)' - out now.",
-									href: '/read/front_page/social_learning_art_of_war',
+									text: "Read 'Social Learning: Pace Yourself Sunday' - out now.",
+									href: '/read/front_page/social_learning_pace_yourself_sunday',
 								},
 
 								{

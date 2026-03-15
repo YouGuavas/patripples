@@ -1,5 +1,12 @@
 const routes = [
 	{
+		name: '2. Social Learning: Pace Yourself Sunday',
+		path: '/read/front_page/social_learning_pace_yourself_sunday',
+		tags: ['short (1000 words)', 'x'],
+		body: "Don\'t rush things.",
+		footer: 'He who travels 50 Li...',
+	},
+	{
 		name: '1. Social Learning: The Art of War (And Leadership)',
 		path: '/read/front_page/social_learning_art_of_war',
 		tags: ['longer (3000 words)', 'x'],

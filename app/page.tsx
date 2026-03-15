@@ -48,9 +48,9 @@ export default function Home() {
 						Kinda{' '}
 						<Link
 							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
-							href="/read/front_page/social_learning_art_of_war"
+							href="/read/front_page/social_learning_pace_yourself_sunday"
 						>
-							Not Reading Sun Tzu
+							Not Pacing Yourself
 						</Link>{' '}
 						energy, not gonna lie.
 					</p>
