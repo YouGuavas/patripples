@@ -250,7 +250,7 @@ export default function Home() {
 					Just have a plan to get or be somewhere safe in the event of weather,
 					and know that there are going to be people looking to scam you by
 					using emotions, information manipulation, and all manner of other
-					tactics. Don&poas;t give anyone your passwords.
+					tactics. Don&apos;t give anyone your passwords.
 				</p>{' '}
 				<p className={`paragraph width-full block left-align`}>
 					If you get any emails or offers that seem too targeted, or too good to
