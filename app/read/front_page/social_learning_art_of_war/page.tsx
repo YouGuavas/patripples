@@ -36,7 +36,7 @@ export default function Home() {
 				address it here. I referred to the attack on Temple Israel as &quot;The
 				West Bloomfield Miracle&quot;. I did not properly consider the
 				implications of that statement before posting. I do not believe that any
-				attack on any house of worship should be considered a
+				attack on any house of worship should be framed as a
 				&quot;Miracle.&quot;
 			</p>{' '}
 			<p className={`paragraph edit-1 width-full block left-align`}>
