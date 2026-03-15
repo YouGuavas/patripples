@@ -206,13 +206,11 @@ export default function Home() {
 						allowFullScreen
 					></iframe>
 				</div>
-
 				<h3
 					className={`lowercase style-1 spaced left width-full block left-align`}
 				>
 					Why Are You Telling Me About Inoculation?
 				</h3>
-
 				<p className={`paragraph width-full block left-align`}>
 					Good question.
 				</p>
@@ -243,24 +241,35 @@ export default function Home() {
 					doodling today, so I made that meme up top.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Be safe. Be prepared. You don&apos;t need to learn the name of the
-					wind or anything. Just have a plan to get or be somewhere safe in the
-					event of weather, and know that there are going to be people looking
-					to scam you by using emotions, information manipulation, and all
-					manner of other tactics. Don&poas;t give anyone your passwords. If you
-					get any emails or offers that seem too targeted, or too good to be
-					true - they might be. Use caution. No need for paranoia if you are
+					Be safe. Be prepared.
+				</p>{' '}
+				<p className={`paragraph width-full block left-align`}>
+					You don&apos;t need to learn the name of the wind or anything.
+				</p>{' '}
+				<p className={`paragraph width-full block left-align`}>
+					Just have a plan to get or be somewhere safe in the event of weather,
+					and know that there are going to be people looking to scam you by
+					using emotions, information manipulation, and all manner of other
+					tactics. Don&poas;t give anyone your passwords.
+				</p>{' '}
+				<p className={`paragraph width-full block left-align`}>
+					If you get any emails or offers that seem too targeted, or too good to
+					be true - they might be. Use caution. No need for paranoia if you are
 					prepped. Ask a trusted friend for a second opinion if anything
 					conspicuously good or disruptively otherwise comes across your desk or
 					your feed.
 				</p>
 				<p className={`paragraph width-full block left-align`}>
-					Double check any links you click. If you are on a traditional computer
-					- hover your mouse above the link and look at that text space in the
-					bottom left of your browser window. If you are on a phone, long press
-					the link and select the copy option, then paste it into a notepad or
-					look at your phone&apos;s clipboard if you know how. Do not visit any
-					links that trigger your suspicion without giving them a second look.
+					Double check any links you click - even on my site. I check them
+					before I share them, and you should still double check me.
+				</p>{' '}
+				<p className={`paragraph width-full block left-align`}>
+					If you are on a traditional computer - hover your mouse above the link
+					and look at that text space in the bottom left of your browser window.
+					If you are on a phone, long press the link and select the copy option,
+					then paste it into a notepad or look at your phone&apos;s clipboard if
+					you know how. Do not visit any links that trigger your suspicion
+					without giving them a second look.
 				</p>
 				<p className={`paragraph width-full block left-align`}>Happy Sunday.</p>
 				<div className={`jumbo-container centered`}>
