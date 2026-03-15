@@ -25,8 +25,53 @@ export default function Home() {
 			<ByLine
 				author={`Patrick Yambrick`}
 				date={'Friday, Mar 13, 2026'}
-				edited={'Friday, Mar 13, 2026'}
+				edited={'Sunday, Mar 15, 2026'}
 			/>
+			<p className={`paragraph width-full block left-align`}>
+				Edit Sun, Mar 15, 2026: Edits in{' '}
+				<span className="edit-1">This Color</span>.
+			</p>
+			<p className={`paragraph edit-1 width-full block left-align`}>
+				Rather than edit this part, I am going to leave my original writing and
+				address it here. I referred to the attack on Temple Israel as &quot;The
+				West Bloomfield Miracle&quot;. I did not properly consider the
+				implications of that statement before posting. I do not believe that any
+				attack on any house of worship should be considered a
+				&quot;Miracle.&quot;
+			</p>{' '}
+			<p className={`paragraph edit-1 width-full block left-align`}>
+				For those of Jewish descent and faith, the smoke inhalation while
+				confined and fearing for one&apos;s life will have had a much more
+				traumatic impact on its survivors than I initially considered. Labeling
+				a threat to your lives as a &quot;Miracle&quot; was a profound
+				misjudgement on my part. I hope that you can forgive me and appreciate
+				my apology, and accept it if you cannot.
+			</p>
+			<p className={`paragraph edit-1 width-full block left-align`}>
+				As I will explain later, part of my intent with this set of posts is to
+				explore common tactics used by adversaries at war - many of which lie
+				within the realms of deception and manipulation. I am not a doomsday
+				prepper, nor do I believe that WWIII is a foregone conclusion - though I
+				do believe it is better to be safe than sorry. Perhaps you do, too? If
+				so, then continue on.
+			</p>{' '}
+			<p className={`paragraph edit-1 width-full block left-align`}>
+				In later posts, we will explore how emotional narratives can be used to
+				skew perceptions of events - effectively bending reality within the
+				minds of the susceptible - myself included, at times. Teaching cognitive
+				defense via inoculation is really only a side-effect of my primary
+				intent.
+			</p>{' '}
+			<p className={`paragraph edit-1 width-full block left-align`}>
+				My deepest intent is to teach and to grow, while exploring the social
+				issues which I see around me in a constructive, not destructive, way. I
+				never aim to subject my audience to traumatic experiences - especially
+				unawares. I am thankful that there have been no resultant casualties
+				beyond the assailant - that was my intent.
+			</p>
+			<p className={`paragraph edit-1 width-full block left-align`}>
+				I&apos;ll stop talking now and commence with the doing better.
+			</p>
 			<div className={`jumbo-container centered`}>
 				<Image
 					fetchPriority="high"
@@ -398,7 +443,8 @@ export default function Home() {
 				<p className={`paragraph width-full block left-align`}>
 					Being a man of clear Abrahamic (through Judaism) faith, it is natural
 					for a man like Matisyahu to hold a strong stance about Israel. For the
-					duration of his life, that has been his home. It is duty to the poets
+					duration of his life, that has been his{' '}
+					<span className="edit-1">distant</span> home. It is duty to the poets
 					of Abraham to use their right hand in the name of writing truth. As
 					long as they do, all is not lost. Unity can come.{' '}
 					<Link
@@ -776,14 +822,8 @@ export default function Home() {
 					wedge through which they would take over the server, and push the
 					entire union out.
 				</p>
-				<p className={`paragraph width-full block left-align`}>
-					Led by a scheming player called Metzler the Rich - whose unearned
-					adjacency to power Go-Rilla, always one to give a guy a second chance,
-					had tolerated during his days leading the server&apos;s coalition of
-					Wardens - the DoD took the first opportunity it could to oust
-					Go-Rilla, decimate everything he had stood for, and use that as the
-					wedge through which they would take over the server, and push the
-					entire union out.
+				<p className={`paragraph edit-1 width-full block left-align`}>
+					(Deleted duplicate paragraph.)
 				</p>
 				<p className={`paragraph width-full block left-align`}>
 					Prior to his burnout and subsequent abdication, Go-Rilla and the union

@@ -20,6 +20,8 @@
 	--color-5: rgb(160, 180, 160);
 	--color-6: rgb(130, 145, 130);
 
+	--edit-color-1: rgb(250, 175, 20);
+
 	--style-font-1: 'Amatic SC', 'Oswald', 'Patrick Hand', serif;
 	--style-font-2: 'Patrick Hand', 'Oswald', sans-serif;
 	--font-size-sm: 0.6rem;
@@ -85,7 +87,7 @@
 
 @media (prefers-color-scheme: dark) {
 	.default {
-		--color-1: rgb(0, 40, 0);
+		--color-1: rgb(100, 140, 100);
 		--color-2: rgb(220, 220, 220);
 		--color-3: #53744f;
 		--color-4: rgb(15, 40, 15);
@@ -311,6 +313,9 @@ button {
 /*text color*/
 .stark {
 	color: var(--color-6);
+}
+.edit-1 {
+	color: var(--edit-color-1);
 }
 .color-1 {
 	color: var(--color-1);
