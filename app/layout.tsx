@@ -50,7 +50,7 @@ export default function RootLayout({
 							updates={[
 								{
 									text: "Read 'Holiday Edition: Saint Patrick\'s Day' - out now.",
-									href: '/read/front_page/holiday_special_saint_patricks_day',
+									href: '/read/front_page/holiday_special_saint_patrick',
 								},
 
 								{
