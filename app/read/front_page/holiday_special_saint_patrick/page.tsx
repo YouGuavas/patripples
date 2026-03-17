@@ -206,12 +206,12 @@ export default function Home() {
 					Here&apos;s a quick quiz on Saint Patrick:
 				</p>
 				<MC_Question
-					question="Where was Saint Patrick born?"
+					question="1. Where was Saint Patrick born?"
 					answers={['A - Ireland', 'B - Australia', 'C - Britain', 'D - Italy']}
 					correct={3}
 				/>
 				<MC_Question
-					question="Why did Saint Patrick initially travel to Ireland?"
+					question="2. Why did Saint Patrick initially travel to Ireland?"
 					answers={[
 						'A - to start a mission',
 						'B - he was kidnapped',
@@ -221,12 +221,12 @@ export default function Home() {
 					correct={2}
 				/>
 				<MC_Question
-					question="How old was Saint Patrick when he returned home to his parents?"
+					question="3. How old was Saint Patrick when he returned home to his parents?"
 					answers={['A - 32', 'B - 22', 'C - 42', 'D - 28']}
 					correct={2}
 				/>
 				<MC_Question
-					question="What symbol did Saint Patrick use to explain the Holy Trinity?"
+					question="4. What symbol did Saint Patrick use to explain the Holy Trinity?"
 					answers={[
 						'A - the cross',
 						'B - the infinity symbol',
@@ -234,6 +234,16 @@ export default function Home() {
 						'D - a shamrock',
 					]}
 					correct={4}
+				/>
+				<MC_Question
+					question="5. What symbol is believed to have come about through the combining of the traditional cross with sun symbols?"
+					answers={[
+						'A - Shamrock Shake',
+						'B - Celtic Cross',
+						'C - Pagan Preamble',
+						'D - Irish Insignia',
+					]}
+					correct={2}
 				/>
 			</Collapsible>
 			<Footer title={"'Holiday Edition: Saint Patrick\'s Day'"} />
