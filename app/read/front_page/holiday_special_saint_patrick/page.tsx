@@ -83,7 +83,7 @@ export default function Home() {
 
 			<TableOfContents
 				title="Sections"
-				sections={['Inoculation Station', 'Quiz']}
+				sections={['Overcoming Skepticism', 'Quiz']}
 			/>
 			<hr />
 			<h2
