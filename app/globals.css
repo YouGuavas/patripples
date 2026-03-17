@@ -381,6 +381,14 @@ button {
 	padding-bottom: 1.5rem;
 }
 
+/*Quizzes*/
+.correct {
+	color: rgb(100, 250, 100);
+}
+.wrong {
+	color: rgb(250, 100, 100);
+}
+
 /*layout*/
 .main {
 	min-height: 100vh;

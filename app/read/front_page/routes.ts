@@ -1,5 +1,12 @@
 const routes = [
 	{
+		name: "Holiday Special: Saint Patrick's Day",
+		path: '/read/front_page/holiday_special_saint_patrick',
+		tags: ['short (1000 words)', 'x'],
+		body: 'Short Holiday post.',
+		footer: "I'm no Saint, but Patrick is.",
+	},
+	{
 		name: '2. Social Learning: Pace Yourself Sunday',
 		path: '/read/front_page/social_learning_pace_yourself_sunday',
 		tags: ['short (1000 words)', 'x'],

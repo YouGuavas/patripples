@@ -49,8 +49,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'Social Learning: Pace Yourself Sunday' - out now.",
-									href: '/read/front_page/social_learning_pace_yourself_sunday',
+									text: "Read 'Holiday Edition: Saint Patrick\'s Day' - out now.",
+									href: '/read/front_page/holiday_special_saint_patricks_day',
 								},
 
 								{
