@@ -20,7 +20,7 @@ export default function Home() {
 		<main className={`main left px-1`}>
 			<section className={`width-full center`}>
 				<div className={`icon-container centered`}>
-					<Image src={ripples.src} fill alt="Ripple logo" />
+					<Image src={ripples.src} fill loading="eager" alt="Ripple logo" />
 				</div>
 				<h1 className={`lowercase style-1`}>Welcome to patripples.</h1>
 				<div className={`image-container center centered`}>
@@ -64,7 +64,13 @@ export default function Home() {
 			<section className={`width-full center`}>
 				<h2 className={`lowercase spaced style-1 thin`}>I&apos;m Patrick!</h2>
 				<div className={`image-container centered`}>
-					<Image src={pat.src} loading="lazy" fill alt="Patrick" />
+					<Image
+						src={pat.src}
+						loading="lazy"
+						fetchPriority="low"
+						fill
+						alt="Patrick"
+					/>
 				</div>
 				<h2 className={`lowercase spaced style-1 thin`}>
 					Here&apos;s What I Do.

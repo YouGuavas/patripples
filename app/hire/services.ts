@@ -1,7 +1,7 @@
-import homestead from '@/public/site_screenshots/homestead.png';
-import rudi from '../../public/site_screenshots/rudi.png';
-import wilson from '@/public/site_screenshots/wilson.png';
-import patripples from '@/public/site_screenshots/patripples.png';
+import homestead from '@/public/site_screenshots/homestead.svg';
+import rudi from '../../public/site_screenshots/rudi.svg';
+import wilson from '@/public/site_screenshots/wilson.svg';
+import patripples from '@/public/site_screenshots/patripples.svg';
 import wilson_testimonial_1 from '@/public/testimonials/wilson_stump/testimonial_1.png';
 import wilson_testimonial_2 from '@/public/testimonials/wilson_stump/testimonial_2.png';
 
@@ -18,12 +18,12 @@ export type serviceType = {
 	title: string;
 	rate: string;
 	description: string;
-	demo: demoType;
+	demo?: demoType;
 };
 export type demoType = {
 	title: string;
 	href: string;
-	images: string[]; // Updated to an array of strings for multiple images
+	images?: string[]; // Updated to an array of strings for multiple images
 };
 
 export const services = [
@@ -54,8 +54,8 @@ export const services = [
 					href: 'https://wilson-stump-grinding.vercel.app/',
 					images: [
 						wilson.src,
-						wilson_testimonial_1.src,
-						wilson_testimonial_2.src,
+						/*wilson_testimonial_1.src,
+						wilson_testimonial_2.src,*/
 					],
 				},
 			},
@@ -88,6 +88,47 @@ export const services = [
 			},
 		],
 	},
+	{
+		title: "Patrick's Retainer Services",
+		description: [
+			'Patrick will update and maintain your sites for you, optimizing for Google and SEO.',
+		],
+		services: [
+			{
+				title: 'Basic',
+				rate: '$500',
+				description:
+					'Patrick will keep your site optimized, safe, and basically functional each month.',
+				demo: {
+					title: 'Single-page Site',
+					href: 'https://template-one-red.vercel.app/',
+				},
+			},
+			{
+				title: 'Developed',
+				rate: '$750',
+				description:
+					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
+				demo: {
+					title: 'Wilson Stump Grinding',
+					href: 'https://wilson-stump-grinding.vercel.app/',
+					images: [
+						wilson.src,
+						wilson_testimonial_1.src,
+						wilson_testimonial_2.src,
+					],
+				},
+			},
+			{
+				title: 'Engineered',
+				rate: '$900',
+				description:
+					'An engineered website. Developed tier, plus three add-ons of your choosing.',
+				demo: { title: 'This Site', href: './', images: [patripples.src] },
+			},
+		],
+	},
+
 	/*{
 		title: 'Mythmaking',
 		description: [

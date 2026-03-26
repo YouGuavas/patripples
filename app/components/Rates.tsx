@@ -32,18 +32,38 @@ export default function Rates(props: propsType) {
 							<h4 className="lowercase style-1 spaced">{service.title}</h4>
 							<p>{service.rate}</p>
 							<p className="font-medium thin">{service.description}</p>
-							<p>
-								Demo:{' '}
-								<Link className={`no-deco spaced`} href={service.demo.href}>
-									{service.demo.title}
-								</Link>
-							</p>
-							<Image
-								src={service.demo.images[0]}
-								alt={service.demo.title}
-								height={300}
-								width={300}
-							/>
+							{service.demo ? (
+								<div>
+									<p>
+										Demo:{' '}
+										<Link className={`no-deco spaced`} href={service.demo.href}>
+											{service.demo.title}
+										</Link>
+									</p>
+									{service.demo.images ? (
+										<Image
+											loading={
+												props.title === "Patrick's Websites"
+													? index === 0
+														? 'eager'
+														: 'lazy'
+													: 'lazy'
+											}
+											fetchPriority={
+												props.title === "Patrick's Websites"
+													? index === 0
+														? 'high'
+														: 'low'
+													: 'low'
+											}
+											src={service.demo.images[0]}
+											alt={service.demo.title}
+											height={300}
+											width={300}
+										/>
+									) : null}
+								</div>
+							) : null}
 
 							{/*<Carousel images={service.demo.images} />*/}
 						</li>
