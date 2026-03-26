@@ -406,6 +406,9 @@ button {
 	width: 60vw;
 	height: 45vw;
 }
+.rate-container {
+	position: relative;
+}
 
 .image-container {
 	position: relative;
@@ -447,6 +450,9 @@ button {
 }
 .width-half {
 	width: 45%;
+}
+.width-half-vw {
+	width: 45vw;
 }
 .height-full {
 	height: 100%;
