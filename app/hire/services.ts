@@ -99,32 +99,12 @@ export const services = [
 				rate: '$500',
 				description:
 					'Patrick will keep your site optimized, safe, and basically functional each month.',
-				demo: {
-					title: 'Single-page Site',
-					href: 'https://template-one-red.vercel.app/',
-				},
 			},
 			{
-				title: 'Developed',
-				rate: '$750',
+				title: 'Charting A Course',
+				rate: '$1000',
 				description:
-					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
-				demo: {
-					title: 'Wilson Stump Grinding',
-					href: 'https://wilson-stump-grinding.vercel.app/',
-					images: [
-						wilson.src,
-						wilson_testimonial_1.src,
-						wilson_testimonial_2.src,
-					],
-				},
-			},
-			{
-				title: 'Engineered',
-				rate: '$900',
-				description:
-					'An engineered website. Developed tier, plus three add-ons of your choosing.',
-				demo: { title: 'This Site', href: './', images: [patripples.src] },
+					'On top of those features found in Basic tier, Patrick will write 5 social media posts, and 1-2 website blog posts per week.',
 			},
 		],
 	},

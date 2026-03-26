@@ -59,7 +59,7 @@ export default function Rates(props: propsType) {
 											src={service.demo.images[0]}
 											alt={service.demo.title}
 											height={300}
-											width={300}
+											width={450}
 										/>
 									) : null}
 								</div>
