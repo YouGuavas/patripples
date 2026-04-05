@@ -108,6 +108,26 @@ export const services = [
 			},
 		],
 	},
+	{
+		title: "Patrick's Microservices",
+		description: [
+			'Patrick will update and maintain your sites for you, optimizing for Google and SEO.',
+		],
+		services: [
+			{
+				title: 'About Page Rewrite',
+				rate: '$100',
+				description:
+					"Many small business owners are focused on their craft and on portraying humility. This is noble. But it doesn't sell your customer. Let me write you an About Page that tells your story.",
+			},
+			{
+				title: 'Help You Get A Domain Name',
+				rate: '$50',
+				description:
+					"Many small businesses operate on wixsite or wordpress subdomains. For some, this is fine - particularly in the early going. Established businesses who care about user trust want a custom domain. I'll help you find one.",
+			},
+		],
+	},
 
 	/*{
 		title: 'Mythmaking',
