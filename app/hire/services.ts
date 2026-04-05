@@ -111,7 +111,7 @@ export const services = [
 	{
 		title: "Patrick's Microservices",
 		description: [
-			'Patrick will update and maintain your sites for you, optimizing for Google and SEO.',
+			'Patrick offers a variety of microservices for those small business owners who only need a nudge here or a tweak there.',
 		],
 		services: [
 			{
