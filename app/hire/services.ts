@@ -115,6 +115,12 @@ export const services = [
 		],
 		services: [
 			{
+				title: "Optimize Your Site's Performance",
+				rate: '$150',
+				description:
+					'Slow loading speeds can ruin a great site, with 53% of users abandoning sitest that take longer than 2 seconds to load. Let me speed you up to keep your cash flowing.',
+			},
+			{
 				title: 'About Page Rewrite',
 				rate: '$100',
 				description:
@@ -124,7 +130,7 @@ export const services = [
 				title: 'Help You Get A Domain Name',
 				rate: '$50',
 				description:
-					"Many small businesses operate on wixsite or wordpress subdomains. For some, this is fine - particularly in the early going. Established businesses who care about user trust want a custom domain. I'll help you find one.",
+					"I\'ve seen a lot of people operating on wixsite or wordpress subdomains. In the early going, this is fine. Established businesses who care about user trust want a custom domain. I'll help you find one.",
 			},
 		],
 	},
