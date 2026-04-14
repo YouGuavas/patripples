@@ -32,8 +32,8 @@
 
 	--edit-color-1: rgb(250, 175, 20);
 
-	--style-font-1: 'Amatic SC', serif;
-	--style-font-2: sans-serif;
+	--style-font-1: 'Amatic SC', 'Arial';
+	--style-font-2: 'Times New Roman';
 	--font-size-sm: 0.6rem;
 	--font-size-md: 1.2rem;
 	--font-size-lg: 1.4rem;
