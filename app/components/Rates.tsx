@@ -30,7 +30,7 @@ export default function Rates(props: propsType) {
 							className={`center centered z5 no-deco width-half flex column bordered`}
 						>
 							<h4 className="lowercase style-1 spaced">{service.title}</h4>
-							<p>{service.rate}</p>
+							<p>{`${service.rate.toString().replace('', '$')}.00`}</p>
 							<p className="font-medium thin">{service.description}</p>
 							{service.demo ? (
 								<div>
@@ -64,6 +64,14 @@ export default function Rates(props: propsType) {
 									) : null}
 								</div>
 							) : null}
+							<button
+								className={`snipcart-add-item shop-button`}
+								data-item-id={service.title}
+								data-item-name={service.title}
+								data-item-price={service.rate * 0.3}
+							>
+								{`Pay $${service.rate * 0.3}.00 Deposit`}
+							</button>
 
 							{/*<Carousel images={service.demo.images} />*/}
 						</li>

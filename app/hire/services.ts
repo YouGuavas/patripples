@@ -16,7 +16,7 @@ export type serviceTierType = {
 
 export type serviceType = {
 	title: string;
-	rate: string;
+	rate: number;
 	description: string;
 	demo?: demoType;
 };
@@ -35,7 +35,7 @@ export const services = [
 		services: [
 			{
 				title: 'Vibed',
-				rate: '$500',
+				rate: 500,
 				description:
 					'A single-page website dedicated to telling your story, selling your stuff, or sharing your information. A simple, straightforward way to keep your clients up to date.',
 				demo: {
@@ -46,7 +46,7 @@ export const services = [
 			},
 			{
 				title: 'Developed',
-				rate: '$750',
+				rate: 750,
 				description:
 					'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
 				demo: {
@@ -61,7 +61,7 @@ export const services = [
 			},
 			{
 				title: 'Engineered',
-				rate: '$1500',
+				rate: 1500,
 				description:
 					'A fully fledged website, plus initial SEO. Developed tier, plus three add-ons of your choosing.',
 				demo: { title: 'This Site', href: './', images: [patripples.src] },
@@ -77,7 +77,7 @@ export const services = [
 		services: [
 			{
 				title: 'Build a Brand',
-				rate: '$2500',
+				rate: 2500,
 				description:
 					'A customized Engineered (5 page) website, unique to your brand/identity. Includes initial SEO and Google Business optimizations. Add-ons available.',
 				demo: {
@@ -96,15 +96,21 @@ export const services = [
 		services: [
 			{
 				title: 'Basic',
-				rate: '$500',
+				rate: 500,
 				description:
-					'Patrick will keep your site optimized, safe, and basically functional each month.',
+					'Patrick will keep your site hosted, optimized, safe, and basically functional each month.',
 			},
 			{
 				title: 'Charting A Course',
-				rate: '$1000',
+				rate: 1000,
 				description:
-					'On top of those features found in Basic tier, Patrick will write 5 social media posts, and 1-2 website blog posts per week.',
+					'On top of those features found in Basic tier, Patrick will write 5 social media posts, and 1-2 website blog posts per week. Includes bug fixes and basic style and content updates.',
+			},
+			{
+				title: 'Getting Serious',
+				rate: 2000,
+				description:
+					'Building on the Charting a Course tier, Patrick will also optimize your site for conversions and sales, and perform deep, personalized style and content updates.',
 			},
 		],
 	},
@@ -116,21 +122,27 @@ export const services = [
 		services: [
 			{
 				title: "Optimize Your Site's Performance",
-				rate: '$150',
+				rate: 150,
 				description:
-					'Slow loading speeds can ruin a great site, with 53% of users abandoning sitest that take longer than 2 seconds to load. Let me speed you up to keep your cash flowing.',
+					'Slow loading speeds can ruin a great site, with 53% of users abandoning sites that take longer than 2 seconds to load. Let me speed you up to keep your cash flowing.',
 			},
 			{
 				title: 'About Page Rewrite',
-				rate: '$100',
+				rate: 100,
 				description:
 					"Many small business owners are focused on their craft and on portraying humility. This is noble. But it doesn't sell your customer. Let me write you an About Page that tells your story.",
 			},
 			{
 				title: 'Help You Get A Domain Name',
-				rate: '$50',
+				rate: 50,
 				description:
 					"I\'ve seen a lot of people operating on wixsite or wordpress subdomains. In the early going, this is fine. Established businesses who care about user trust want a custom domain. I'll help you find one.",
+			},
+			{
+				title: 'Help You Get Hosted',
+				rate: 50,
+				description:
+					"Got the code for a site? Don\'t know how to get it hosted, or which hosting platform is best for your case? I have you covered.",
 			},
 		],
 	},

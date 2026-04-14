@@ -63,6 +63,7 @@
 	--zero: 0rem;
 
 	--lander-width: 80%;
+	--bgColor-modal: var(--color-5);
 }
 .spaceship {
 	--color-1: white;
@@ -140,6 +141,17 @@ body *:focus {
 blockquote {
 	margin: 0;
 }
+
+/* snipcart */
+div.snipcart-cart__featured-payment-methods-container,
+div.snipcart-summary-fees,
+h3.snipcart-cart-header__title,
+button.snipcart-cart-header__close-button,
+button.snipcart-cart-header__count {
+	color: var(--color-2);
+}
+/* snipcart */
+
 ul {
 	padding-left: 0;
 }
@@ -164,6 +176,12 @@ p.paragraph {
 .cart-button {
 	border: none;
 	background-color: transparent;
+}
+.shop-button {
+	background-color: transparent;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+	margin-bottom: 1rem;
 }
 /* shapes */
 
