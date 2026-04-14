@@ -61,9 +61,9 @@ export const services = [
 			},
 			{
 				title: 'Engineered',
-				rate: '$900',
+				rate: '$1500',
 				description:
-					'An engineered website. Developed tier, plus three add-ons of your choosing.',
+					'A fully fledged website, plus initial SEO. Developed tier, plus three add-ons of your choosing.',
 				demo: { title: 'This Site', href: './', images: [patripples.src] },
 			},
 		],
@@ -77,9 +77,9 @@ export const services = [
 		services: [
 			{
 				title: 'Build a Brand',
-				rate: '$1200',
+				rate: '$2500',
 				description:
-					'A customized Developed (3 page) website, unique to your brand/identity. Includes contact form. Options available.',
+					'A customized Engineered (5 page) website, unique to your brand/identity. Includes initial SEO and Google Business optimizations. Add-ons available.',
 				demo: {
 					title: 'Rudi From Flint (Paused)',
 					href: 'https://rudi-from-flint.vercel.app/',
