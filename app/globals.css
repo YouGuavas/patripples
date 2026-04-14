@@ -32,8 +32,8 @@
 
 	--edit-color-1: rgb(250, 175, 20);
 
-	--style-font-1: 'Amatic SC', 'Oswald', 'Patrick Hand', serif;
-	--style-font-2: 'Patrick Hand', 'Oswald', sans-serif;
+	--style-font-1: 'Amatic SC', serif;
+	--style-font-2: sans-serif;
 	--font-size-sm: 0.6rem;
 	--font-size-md: 1.2rem;
 	--font-size-lg: 1.4rem;
@@ -72,8 +72,8 @@
 	--color-5: rgb(50, 150, 255);
 	--color-6: white;
 
-	--style-font-1: 'Orbitron', 'Exo 2', sans-serif;
-	--style-font-2: 'Exo 2', 'Orbitron', sans-serif;
+	/*--style-font-1: 'Orbitron', 'Exo 2', sans-serif;
+	--style-font-2: 'Exo 2', 'Orbitron', sans-serif;*/
 	--font-size-sm: 0.8rem;
 	--font-size-md: 1rem;
 	--font-size-lg: 1.2rem;
