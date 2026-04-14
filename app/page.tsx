@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image';
+
 import ripples from '@/public/logos/ripples.png';
 import cartographer from '@/public/characters/cartographer_calcified.svg';
 import pat from '@/public/characters/pat_solo.svg';
+
+import Wand from './components/chat/wand';
 //import EmailForm from '@/app/components/EmailForm';
 
 import type { Metadata } from 'next';
