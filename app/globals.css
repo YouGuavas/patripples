@@ -1,8 +1,6 @@
 @font-face {
 	font-family: 'Amatic SC';
-	src:
-		url('/public/fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype'),
-		url('/public/fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+	src: url('../public/fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap; /* Recommended for better performance */
@@ -142,15 +140,34 @@ blockquote {
 	margin: 0;
 }
 
-/* snipcart */
+/* snipcart override start */
 div.snipcart-cart__featured-payment-methods-container,
 div.snipcart-summary-fees,
 h3.snipcart-cart-header__title,
 button.snipcart-cart-header__close-button,
-button.snipcart-cart-header__count {
+button.snipcart-cart-header__count,
+div.snipcart-modal__header-summary-title > span,
+div.snipcart-item-line__container,
+div.snipcart__box,
+label.snipcart-form__label {
 	color: var(--color-2);
 }
-/* snipcart */
+
+div.snipcart-item-line__container,
+div.snipcart__box {
+	background-color: var(--color-4);
+}
+button.snipcart-button-primary {
+	background-color: var(--color-3);
+	width: 50%;
+	margin: 0 auto;
+	transition: 0.4s;
+}
+button.snipcart-button-primary:hover {
+	background-color: var(--color-6);
+}
+
+/* snipcart override end */
 
 ul {
 	padding-left: 0;
@@ -181,6 +198,7 @@ p.paragraph {
 	background-color: transparent;
 	padding: 0.5rem;
 	border-radius: 0.2rem;
+	border: 0.2px solid var(--color-2);
 	margin-bottom: 1rem;
 }
 /* shapes */

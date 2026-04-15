@@ -8,7 +8,6 @@ import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 //import { SpeedInsights } from '@vercel/speed-insights/next';
-import localFont from 'next/font/local';
 import './globals.css';
 import { UrlProviderWrapper } from './UrlProviderWrapper';
 import { ThemeProviderWrapper } from './ThemeProviderWrapper';
@@ -38,7 +37,7 @@ export default function RootLayout({
 					href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css"
 				/>
 			</head>
-			<body className={`${inter.className} bg-5`}>
+			<body className={`${inter.className}  bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
 						<CartButton />
