@@ -149,22 +149,77 @@ button.snipcart-cart-header__count,
 div.snipcart-modal__header-summary-title > span,
 div.snipcart-item-line__container,
 div.snipcart__box,
-label.snipcart-form__label {
+label.snipcart-form__label,
+div.snipcart__box--badge,
+div.snipcart-item-quantity__quantity {
 	color: var(--color-2);
+}
+h3.snipcart-cart-header__title,
+h2.snipcart-item-line__title,
+h1.snipcart__font--subtitle,
+span.snipcart-summary-fees__title {
+	font-family: var(--style-font-1);
+	font-size: 1.4rem;
+	letter-spacing: 0.1rem;
 }
 
 div.snipcart-item-line__container,
 div.snipcart__box {
 	background-color: var(--color-4);
 }
-button.snipcart-button-primary {
+div.snipcart-item-quantity__quantity,
+div.snipcart__box--badge,
+div.snipcart-input {
+	background-color: var(--color-3);
+	border: none;
+	border-radius: 0.2rem;
+}
+div.snipcart-item-quantity__quantity:hover,
+div.snipcart-item-quantity__quantity:focus-within {
+	background-color: var(--color-3);
+	color: var(--color-2);
+}
+
+button.snipcart-button-primary,
+button.shop-button {
 	background-color: var(--color-3);
 	width: 50%;
 	margin: 0 auto;
 	transition: 0.4s;
 }
-button.snipcart-button-primary:hover {
+button.shop-button {
+	border: none;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+	margin-bottom: 1rem;
+}
+button.snipcart-button-primary:hover,
+button.shop-button:hover {
 	background-color: var(--color-6);
+}
+svg.snipcart-cart-header__icon,
+svg.snipcart-modal__close-icon > path {
+	color: var(--color-1);
+}
+button.snipcart-button-icon {
+	background-color: var(--color-3) !important;
+}
+button.snipcart-button-icon > svg.snipcart__icon {
+	color: var(--color-2);
+}
+input.snipcart-input__input,
+div.snipcart-textbox,
+select.snipcart-form__select {
+	background-color: var(--color-1);
+	border: none;
+	border-radius: 0.2rem;
+}
+label.snipcart-form__label::before {
+	background-color: var(
+		--color-1
+	) !important; /*reminder to figure out better selection later*/
+	border: none !important;
+	border-radius: 0.2rem;
 }
 
 /* snipcart override end */
@@ -194,13 +249,7 @@ p.paragraph {
 	border: none;
 	background-color: transparent;
 }
-.shop-button {
-	background-color: transparent;
-	padding: 0.5rem;
-	border-radius: 0.2rem;
-	border: 0.2px solid var(--color-2);
-	margin-bottom: 1rem;
-}
+
 /* shapes */
 
 .rhombus {
