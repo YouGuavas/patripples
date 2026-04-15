@@ -5,7 +5,6 @@ import Tips from '@/app/components/Tips';
 import UpdateTicker from '@/app/components/widgets/UpdateTicker';
 //import { ShareButtonsGroup } from './components/SocialButtons';
 import Head from 'next/head';
-import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 //import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
@@ -20,7 +19,6 @@ declare global {
 }
 // ...existing code...
 
-const inter = Inter({ subsets: ['latin'] });
 export default function RootLayout({
 	children,
 }: Readonly<{
@@ -37,7 +35,7 @@ export default function RootLayout({
 					href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css"
 				/>
 			</head>
-			<body className={`${inter.className}  bg-5`}>
+			<body className={`bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
 						<CartButton />

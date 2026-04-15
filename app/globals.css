@@ -5,6 +5,14 @@
 	font-style: normal;
 	font-display: swap; /* Recommended for better performance */
 }
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../public/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf')
+		format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap; /* Recommended for better performance */
+}
 
 :root {
 	--footer-height: 5vh;
@@ -18,7 +26,7 @@
 }
 
 * {
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .default {
 	--color-1: rgb(240, 250, 240);
@@ -30,8 +38,8 @@
 
 	--edit-color-1: rgb(250, 175, 20);
 
-	--style-font-1: 'Amatic SC', 'Arial';
-	--style-font-2: 'Times New Roman';
+	--style-font-1: 'Amatic SC', 'Open Sans', sans-serif;
+	--style-font-2: 'Open Sans', sans-serif;
 	--font-size-sm: 0.6rem;
 	--font-size-md: 1.2rem;
 	--font-size-lg: 1.4rem;
@@ -151,7 +159,8 @@ div.snipcart-item-line__container,
 div.snipcart__box,
 label.snipcart-form__label,
 div.snipcart__box--badge,
-div.snipcart-item-quantity__quantity {
+div.snipcart-item-quantity__quantity,
+h1.snipcart-payment__header {
 	color: var(--color-2);
 }
 h3.snipcart-cart-header__title,
@@ -164,7 +173,8 @@ span.snipcart-summary-fees__title {
 }
 
 div.snipcart-item-line__container,
-div.snipcart__box {
+div.snipcart__box,
+form.snipcart-payment {
 	background-color: var(--color-4);
 }
 div.snipcart-item-quantity__quantity,
@@ -175,7 +185,8 @@ div.snipcart-input {
 	border-radius: 0.2rem;
 }
 div.snipcart-item-quantity__quantity:hover,
-div.snipcart-item-quantity__quantity:focus-within {
+div.snipcart-item-quantity__quantity:focus-within,
+form#snipcart-payment-form {
 	background-color: var(--color-3);
 	color: var(--color-2);
 }
