@@ -160,7 +160,10 @@ div.snipcart__box,
 label.snipcart-form__label,
 div.snipcart__box--badge,
 div.snipcart-item-quantity__quantity,
-h1.snipcart-payment__header {
+h1.snipcart-payment__header,
+div.snipcart-layout__content--side,
+section.snipcart-cart-summary__content,
+section.snipcart-cart-summary__content > ul > li > span {
 	color: var(--color-2);
 }
 h3.snipcart-cart-header__title,
@@ -174,7 +177,12 @@ span.snipcart-summary-fees__title {
 
 div.snipcart-item-line__container,
 div.snipcart__box,
-form.snipcart-payment {
+form.snipcart-payment,
+div.snipcart-cart__secondary-header,
+section.snipcart-cart__content > div.snipcart-cart__footer,
+div.snipcart-layout__content--side > section.snipcart-cart__content,
+div.snipcart-cart-summary,
+section.snipcart-cart-summary__content {
 	background-color: var(--color-4);
 }
 div.snipcart-item-quantity__quantity,
@@ -185,8 +193,11 @@ div.snipcart-input {
 	border-radius: 0.2rem;
 }
 div.snipcart-item-quantity__quantity:hover,
-div.snipcart-item-quantity__quantity:focus-within,
-form#snipcart-payment-form {
+div.snipcart-item-quantity__quantity:focus-within {
+	background-color: var(--color-3);
+	color: var(--color-2);
+}
+body > form#snipcart-payment-form {
 	background-color: var(--color-3);
 	color: var(--color-2);
 }
@@ -203,6 +214,15 @@ button.shop-button {
 	padding: 0.5rem;
 	border-radius: 0.2rem;
 	margin-bottom: 1rem;
+}
+button.snipcart-button-link,
+a.snipcart-featured-payment-methods__link {
+	color: var(--color-1);
+}
+
+button.snipcart-button-link:hover,
+a.snipcart-featured-payment-methods__link:hover {
+	color: var(--color-2);
 }
 button.snipcart-button-primary:hover,
 button.shop-button:hover {
