@@ -12,6 +12,7 @@ export type serviceTierType = {
 	title: string;
 	description: string;
 	services: serviceType[];
+	filters: string[];
 };
 
 export type serviceType = {
@@ -67,6 +68,7 @@ export const services = [
 				demo: { title: 'This Site', href: './', images: [patripples.src] },
 			},
 		],
+		filters: ['Digital', 'X'],
 	},
 
 	{
@@ -87,6 +89,7 @@ export const services = [
 				},
 			},
 		],
+		filters: ['Digital', 'X'],
 	},
 	{
 		title: "Patrick's Retainer Services",
@@ -145,6 +148,7 @@ export const services = [
 					"Got the code for a site? Don\'t know how to get it hosted, or which hosting platform is best for your case? I have you covered.",
 			},
 		],
+		filters: ['Digital', 'X'],
 	},
 
 	/*{

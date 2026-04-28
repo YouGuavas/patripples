@@ -1,14 +1,10 @@
+'use client';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Rates from '../components/Rates';
 
 import { services } from './services';
-
-export const metadata: Metadata = {
-	title: 'Patripples | Hire Patrick',
-	description:
-		"Services offered by Patrick Yambrick. Based in Flint, Michigan, Patrick's offerings include web development and design with react and nextjs, content writing, tutoring, and mechanical and electrical repair. Centered in Genesee county, with digital services available remotely.",
-};
+import { categories } from './filters';
 
 export default function Home() {
 	return (
