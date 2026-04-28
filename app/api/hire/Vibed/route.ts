@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import services from '../hire/services';
 export interface SnipcartProduct {
 	id: string;
 	price: number;
