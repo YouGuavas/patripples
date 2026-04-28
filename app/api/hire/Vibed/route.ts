@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import services from '../hire/services';
 export interface SnipcartProduct {
 	id: string;
 	price: number;
@@ -16,10 +17,10 @@ export async function GET(
 
 	// Replace with your actual database/CMS fetch logic
 	const product: SnipcartProduct = {
-		id: id,
+		id: 'Vibed',
 		price: 150.0,
-		url: `https://patripples.com.com/${id}`,
-		name: `${id}`,
+		url: `https://patripples.com.com/api/hire/Vibed/route.ts`,
+		name: `Vibed`,
 	};
 
 	return NextResponse.json(product);
