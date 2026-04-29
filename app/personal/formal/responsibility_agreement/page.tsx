@@ -77,7 +77,7 @@ export default function Home() {
 							<li>
 								It is fostering stray dog pack behavior (not pictured - but
 								Soulo and that female husky were nesting up in here, and I
-								recently saw your across the street neighbor's dog running
+								recently saw your across the street neighbor&apos;s dog running
 								around off leash as well - a third dog would make the pack
 								difficult to manage).
 								<Image
@@ -301,7 +301,7 @@ export default function Home() {
 					any future alterations.
 				</p>
 				<p className={`paragraph left-align`}>
-					Some of this assumes ownership. I don't want to do that - only to
+					Some of this assumes ownership. I don&apos;t want to do that - only to
 					paint a picture of what I have in mind. I am hopeful that there is
 					someone in your family with whom this vision aligns.
 				</p>
