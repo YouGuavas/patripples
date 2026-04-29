@@ -195,6 +195,23 @@ export default function Home() {
 							as this, the functional &quot;rate&quot; doubles, especially
 							considering that there have been threats levied at me.
 						</li>
+						<li>
+							Sorted and separated usable components within scrap pile, leading
+							to downstream usage value.
+						</li>
+						<li>
+							Aided in cleaning of shed, including teardown of ruined
+							insulation.
+						</li>
+						<li>
+							Processed oversized brush pile and yard debris in such a way as
+							leaves them comparably tidy, and which did not dump smoke or
+							noxious fumes onto you or your neighbors (pyrolysis).
+						</li>
+						<li>Tended to Shadow for one week.</li>
+						<li>Labor toward refrigerator diagnosis and attempted repair.</li>
+						<li>Research toward tire replacements.</li>
+						<li>Research toward furnace and plumbing warranties.</li>
 					</ol>
 				</div>
 			</section>
