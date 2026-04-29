@@ -414,6 +414,16 @@ export default function Home() {
 					Let me know if you are curious, and I will get you additional data,
 					visualizations, or a contract suited to your degree of interest.
 				</p>
+				<p className={`paragraph left-align`}>
+					If you are open to maintaining this agreement, share this with someone
+					trustworthy who won&apos;t pressure you in any direction, and think
+					about which incentives make the most sense.
+				</p>
+				<p className={`paragraph left-align`}>
+					I have a flexible schedule with my entrepreneurial work, so let me
+					know the minute you&apos;ve decided and I&apos;ll get straight to work
+					on the most pressing issues threatening your property and your peace.
+				</p>
 			</section>
 		</main>
 	);
