@@ -193,7 +193,7 @@ export default function Home() {
 							You would have had to pay a therapist with similar capacities to
 							me something like $75-100/hr for this. In such a contentious space
 							as this, the functional &quot;rate&quot; doubles, especially
-							considering that there have been threats levied at me.
+							considering that there have been threats aimed at me.
 						</li>
 						<li>
 							Sorted and separated usable components within scrap pile, leading
