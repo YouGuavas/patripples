@@ -4,6 +4,7 @@ import book from '@/public/universal/book.svg';
 import characters from '@/public/universal/characters.svg';
 import dollar from '@/public/universal/dollar.svg';
 import ask from '@/public/universal/ask.svg';
+import eye from '@/public/universal/eye.svg';
 
 const routes = [
 	{ name: 'Home', path: '/', image: ripples },
@@ -11,6 +12,7 @@ const routes = [
 	{ name: 'Characters', path: '/characters', image: characters },
 
 	{ name: 'Hire', path: '/hire', image: dollar },
+	{ name: 'Portfolio', path: '/portfolio', image: eye },
 
 	{ name: 'Ask', path: '/contact', image: ask },
 ];
