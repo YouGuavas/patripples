@@ -113,7 +113,7 @@ export default function Home() {
 						You must be who they sent to help. I knew they&apos;d send someone.
 					</p>
 					<p className={`paragraph left`}>
-						As you can see, I&apos;ve become calcified - and recently relegated.
+						As you can see, I&apos;ve become calcified - and relegated.
 					</p>
 					<p className={`paragraph left`}>
 						Oh, you&apos;re not who they sent to help? You must be here to chat
