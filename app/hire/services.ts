@@ -121,6 +121,12 @@ export const services = [
 		],
 		services: [
 			{
+				title: 'Get You More Sales',
+				rate: 150,
+				description:
+					"Sales numbers lower than you hoped? Let me look at what you\'ve got going on.",
+			},
+			{
 				title: "Optimize Your Site's Performance",
 				rate: 150,
 				description:

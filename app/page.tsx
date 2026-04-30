@@ -5,9 +5,6 @@ import ripples from '@/public/logos/ripples.png';
 import cartographer from '@/public/characters/cartographer_calcified.svg';
 import pat from '@/public/characters/pat_solo.svg';
 
-import Wand from './components/chat/wand';
-//import EmailForm from '@/app/components/EmailForm';
-
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title:
@@ -21,11 +18,86 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<main className={`main left px-1`}>
-			<section className={`width-full center`}>
+			<section className={`width-full center margin-bottom-sm`}>
 				<div className={`icon-container centered`}>
 					<Image src={ripples.src} fill loading="eager" alt="Ripple logo" />
 				</div>
-				<h1 className={`lowercase style-1`}>Welcome to patripples.</h1>
+				<h1 id="top" className={`lowercase style-1`}>
+					Welcome to patripples.
+				</h1>
+				<h2 className={`lowercase spaced style-1 thin`}>I&apos;m Patrick!</h2>
+				<div className={`image-container centered`}>
+					<Image
+						src={pat.src}
+						loading="lazy"
+						fetchPriority="low"
+						fill
+						alt="Patrick"
+					/>
+				</div>
+				<h2 className={`lowercase spaced style-1 thin`}>
+					Here&apos;s What I Do.
+				</h2>
+				<ul
+					className={`no-deco pad-none centered width-half left-align flex column gap-medium`}
+				>
+					<li>I drive sales.</li>
+
+					<li>I build websites with Nextjs.</li>
+
+					<li>I build management tools with Python.</li>
+
+					<li>I write and edit content that converts.</li>
+
+					<li>I create logo and character SVGs in Inkscape.</li>
+				</ul>
+			</section>
+
+			<section
+				className={`width-full flex gap-medium margin-top-sm margin-bottom-sm`}
+			>
+				<div className={`center width-half`}>
+					<h3 className={`lowercase spaced style-1 thin`}>What is here.</h3>{' '}
+					<ul
+						className={`no-deco pad-none centered flex column gap-small left-align width-full`}
+					>
+						<li>
+							<strong>Projects and Rates</strong> – Find out what I offer you
+							and how much it will cost.
+						</li>
+						<li>
+							<strong>Nonstandard Writing</strong> – Ever wonder what it&apos;d
+							be like if an SEO master chose to break all the rules? You can
+							find exactly that in my writings. (For your content, I will follow
+							all the rules.)
+						</li>{' '}
+						<li>
+							<strong>SVG art, logos, and characters</strong> – Want a
+							fast-loading icon, logo, or character design? I am your guy.
+						</li>
+					</ul>{' '}
+				</div>
+				<div className={`center width-half`}>
+					<h3 className={`lowercase spaced style-1 thin`}>How I Help You.</h3>{' '}
+					<ul
+						className={`no-deco pad-none centered flex column gap-small left-align width-full`}
+					>
+						<li>
+							<strong>Drive You Sales</strong> - Want more sales? With a 92%
+							in-person conversion rate, I offer you that, digitally.
+						</li>
+						<li>
+							<strong>Build On Your Small Business Systems</strong> - Clunky
+							inventory system slowing you down? Get ahold of me.
+						</li>
+						<li>
+							<strong>Talk About You</strong> - Do you do great work for others,
+							and still struggle to sell yourself? Let me help.
+						</li>
+					</ul>{' '}
+				</div>
+			</section>
+			<section className={`width-full center`}>
 				<div className={`image-container center centered`}>
 					<Image
 						fetchPriority="high"
@@ -41,7 +113,7 @@ export default function Home() {
 						You must be who they sent to help. I knew they&apos;d send someone.
 					</p>
 					<p className={`paragraph left`}>
-						As you can see, I&apos;ve become calcified.
+						As you can see, I&apos;ve become calcified - and recently relegated.
 					</p>
 					<p className={`paragraph left`}>
 						Oh, you&apos;re not who they sent to help? You must be here to chat
@@ -50,7 +122,7 @@ export default function Home() {
 					<p className={`paragraph left`}>
 						Kinda{' '}
 						<Link
-							className={`no-deco lowercase style-1 thin spaced color-2 rounded darken`}
+							className={`no-deco lowercase style-1 thin spaced color-1 rounded`}
 							href="/read/front_page/holiday_special_saint_patrick"
 						>
 							Not Wearing Green
@@ -58,92 +130,17 @@ export default function Home() {
 						energy, not gonna lie.
 					</p>
 					<p className={`paragraph left`}>
-						Anyway, carry on. He&apos;s right down there.
+						Anyway, I don&apos;t know what you&apos;re doing down here.
+						He&apos;s right{' '}
+						<Link
+							href="#top"
+							className={`no-deco lowercase style-1 thin spaced color-1 rounded`}
+						>
+							up there
+						</Link>
+						.
 					</p>
 					<p className={`paragraph left`}>I&apos;ll just... stand here.</p>
-				</div>
-			</section>
-
-			<section className={`width-full center`}>
-				<h2 className={`lowercase spaced style-1 thin`}>I&apos;m Patrick!</h2>
-				<div className={`image-container centered`}>
-					<Image
-						src={pat.src}
-						loading="lazy"
-						fetchPriority="low"
-						fill
-						alt="Patrick"
-					/>
-				</div>
-				<h2 className={`lowercase spaced style-1 thin`}>
-					Here&apos;s What I Do.
-				</h2>
-				<ul
-					className={`no-deco pad-none centered width-half left-align flex column gap-small`}
-				>
-					<li>I build websites in React and Nextjs.</li>
-					<li>I write and edit content that converts.</li>
-
-					<li>I create logo and character SVGs in Inkscape.</li>
-					<li>
-						I offer ACT, GED, and college level tutoring, specializing in
-						mathematics.
-					</li>
-					<li>I repair electronics and fix bugs.</li>
-				</ul>
-			</section>
-
-			<section className={`width-full flex margin-top-sm`}>
-				<div className={`center width-half`}>
-					<h3 className={`lowercase spaced style-1 thin`}>What is here.</h3>{' '}
-					<ul
-						className={`no-deco pad-none centered flex column gap-small left-align width-full`}
-					>
-						<li>
-							<strong>Blog Posts and Articles</strong> – Explore practical
-							knowledge for small businesses and creatives.
-						</li>
-						<li>
-							<strong>Tutoring</strong> – Work with me as a tutor specializing
-							in mathematics for non-traditional learners.
-						</li>{' '}
-						<li>
-							<strong>Web Development and Design</strong> -{' '}
-							<Link
-								className={`style-1 no-deco spaced lowercase`}
-								href={`./hire`}
-							>
-								Find
-							</Link>{' '}
-							examples of my website development and design here.
-						</li>{' '}
-						<li>
-							<strong>Repair and Problem Solving</strong> - See how I solve
-							problems, and learn the principles scaffolding patripples.
-						</li>
-					</ul>{' '}
-				</div>
-				<div className={`center width-half`}>
-					<h3 className={`lowercase spaced style-1 thin`}>How I Help You.</h3>{' '}
-					<ul
-						className={`no-deco pad-none centered flex column gap-small left-align width-full`}
-					>
-						<li>
-							<strong>Clarify Your Creative Idea</strong> - Do you have a cool
-							idea? Does it not land like it should? Been there. Let&apos;s
-							chat.
-						</li>
-						<li>
-							<strong>Build On Your Web Design</strong> - Think what you have is
-							good and only needs a visual touch up? Or do you want to hit the
-							reset button? Either way, I will help you.
-						</li>
-						<li>
-							<strong>Amplify Your Business</strong> - Do you do great work for
-							others, and still see less traffic than you reasonably should? Let
-							me take a look at your ads and website content.
-						</li>
-					</ul>{' '}
 				</div>
 			</section>
 		</main>
