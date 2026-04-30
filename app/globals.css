@@ -563,6 +563,11 @@ button {
 	height: 35px;
 	width: 35px;
 }
+.nav-icon-container {
+	position: relative;
+	height: 35px;
+	width: 100%;
+}
 .form {
 	padding-top: 2rem;
 	padding-bottom: 2rem;

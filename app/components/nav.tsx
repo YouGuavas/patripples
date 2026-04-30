@@ -23,7 +23,7 @@ function NavLink({ href, children }: NavLinkProps) {
 			href={href}
 			id={pathName.toLowerCase()}
 			className={clsx(
-				`style-1 lowercase spaced thin no-deco darken ${theme}`,
+				`style-1 lowercase spaced thin no-deco darken flex column gap-small ${theme}`,
 				isActive ? 'active' : null,
 			)}
 		>
@@ -42,9 +42,10 @@ export default function Nav() {
 				{routes.map(({ name, path, image }) => (
 					<li key={path}>
 						<NavLink href={path}>
-							<div className={`icon-container`}>
+							<div className={`nav-icon-container`}>
 								<Image height={40} width={40} src={image.src} alt={`${name}`} />
 							</div>
+							<span className="center width-full style-1 color-2">{name}</span>
 						</NavLink>
 					</li>
 				))}
