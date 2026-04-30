@@ -66,7 +66,7 @@ export default function Home() {
 					Testimonials
 				</h2>
 				<ul className=" flex gap-medium">
-					{testimonials.map((testimonial, index) => {
+					{testimonials.map((testimonial: any, index: number) => {
 						return (
 							<li
 								key={index}
@@ -95,9 +95,9 @@ export default function Home() {
 														: 'low'
 												}
 												src={testimonial.demo.images[0]}
-												alt={testimonial.demo.title}
-												height={200}
-												width={250}
+												alt={testimonial.title}
+												height={350}
+												width={300}
 											/>
 										) : null}
 									</div>

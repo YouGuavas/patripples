@@ -24,7 +24,7 @@ export const projects = [
 	{
 		title: 'Developed Site',
 		description:
-			'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
+			'A website composed for a local blue collar small business owner. Client requested a simple site with a free quote button, and without many dropdowns or extras.',
 		demo: {
 			title: 'Wilson Stump Grinding',
 			href: 'https://wilson-stump-grinding.vercel.app/',
@@ -34,7 +34,7 @@ export const projects = [
 	{
 		title: 'Engineered Site',
 		description:
-			'A fully fledged website, plus initial SEO. Developed tier, plus three add-ons of your choosing.',
+			'My personal site. I use this to host my writing, creative, professional, and technical work in a lasting way, and (when I get some free time) to demonstrate capabilities not shown in my other projects.',
 		demo: { title: 'This Site', href: './', images: [patripples.src] },
 	},
 ];

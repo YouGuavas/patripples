@@ -19,37 +19,25 @@ export const testimonials = [
 	{
 		title: 'Wilson Stump Grinding',
 		description:
-			'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
+			'A message exchange between myself and a satisfied client. Client was eager to launch his business, but got tripped up by logistics - I have retained the work I did for him as a portfolio piece, but also as a quickstart for if/when he decides to relaunch.',
 		demo: {
-			images: [
-				wilson_testimonial_1.src,
-				/*wilson_testimonial_1.src,
-						wilson_testimonial_2.src,*/
-			],
-		},
-	},
-	{
-		title: 'Google Reviews',
-		description:
-			'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
-		demo: {
-			images: [
-				google_reviews.src,
-				/*wilson_testimonial_1.src,
-						wilson_testimonial_2.src,*/
-			],
+			images: [wilson_testimonial_1.src],
 		},
 	},
 	{
 		title: 'Tally',
 		description:
-			'A mid-sized (three-to-five pages) website designed with you in mind. With even more functionality than you get in Vibed tier, Developed sites come with multi-page navigation and options available for additional features.',
+			"A tally that I took while working a niche sales job in a low traffic town on a Saturday. On that Saturday, I saw 38 customers walk in, and had 35 make purchases. Notes in the image refer to the fact that the total sale dollar amount would have been high but for inventory issues upstream of my role. That aside, this Saturday's tally represents a 92% conversion rate in face to face retail.",
 		demo: {
-			images: [
-				tally.src,
-				/*wilson_testimonial_1.src,
-						wilson_testimonial_2.src,*/
-			],
+			images: [tally.src],
+		},
+	},
+	{
+		title: 'Google Reviews',
+		description:
+			'A set of Google reviews, left by customers with no ask and no pressure, on the same Saturday from which my previous tally came. I am the Patrick they mention.',
+		demo: {
+			images: [google_reviews.src],
 		},
 	},
 ];
