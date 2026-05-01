@@ -97,7 +97,7 @@ export default function Home() {
 					</ul>{' '}
 				</div>
 			</section>
-			<section className={`width-full center`}>
+			<section className={`width-full center margin-bottom-sm`}>
 				<div className={`image-container center centered`}>
 					<Image
 						fetchPriority="high"
