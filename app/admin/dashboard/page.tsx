@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 	},
 };
 export default async function Home() {
-	const session = auth();
+	const session = await auth();
 	if (!session) {
 		redirect('/admin');
 	}
