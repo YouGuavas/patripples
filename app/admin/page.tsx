@@ -1,7 +1,7 @@
-import Link from 'next/link';
 import Image from 'next/image';
 
 import ripples from '@/public/logos/ripples.png';
+import LoginButton from '@/app/components/auth/LoginButtons';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
@@ -54,6 +54,9 @@ export default function Home() {
 						>
 							Submit
 						</button>
+					</div>
+					<div className="width-full flex row gap-small center">
+						<LoginButton provider="Google" />
 					</div>
 				</form>
 			</section>
