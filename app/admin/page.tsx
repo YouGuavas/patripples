@@ -40,9 +40,9 @@ export default function Home() {
 							Password
 						</label>
 						<input
-							name="username"
+							name="password"
 							type="text"
-							placeholder="Username"
+							placeholder="Password"
 							className="input-field"
 						/>
 					</div>

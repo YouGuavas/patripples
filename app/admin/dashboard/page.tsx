@@ -2,8 +2,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import ripples from '@/public/logos/ripples.png';
-import cartographer from '@/public/characters/cartographer_calcified.svg';
-import pat from '@/public/characters/pat_solo.svg';
+
+import { auth } from '@/auth';
+import { redirect } from 'next/navigation';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
@@ -14,7 +15,11 @@ export const metadata: Metadata = {
 		icon: '/favicon.ico',
 	},
 };
-export default function Home() {
+export default async function Home() {
+	const session = auth();
+	if (!session) {
+		redirect('/admin');
+	}
 	return (
 		<main className={`main left px-1`}>
 			<section className={`width-full center margin-bottom-sm`}>
