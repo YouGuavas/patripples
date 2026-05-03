@@ -68,8 +68,7 @@ export default function Home() {
 						<li>
 							<strong>Nonstandard Writing</strong> – Ever wonder what it&apos;d
 							be like if an SEO master chose to break all the rules? You can
-							find exactly that in my writings. (For your content, I will follow
-							all the rules.)
+							find exactly that in my writings.
 						</li>{' '}
 						<li>
 							<strong>SVG art, logos, and characters</strong> – Want a
