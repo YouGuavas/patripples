@@ -14,7 +14,7 @@ const routes = [
 	{ name: 'Hire', path: '/hire', image: dollar },
 	{ name: 'Portfolio', path: '/portfolio', image: eye },
 
-	{ name: 'Ask', path: '/contact', image: ask },
+	{ name: 'Contact', path: '/contact', image: ask },
 ];
 
 export default routes;
