@@ -6,6 +6,8 @@ import UpdateTicker from '@/app/components/widgets/UpdateTicker';
 //import { ShareButtonsGroup } from './components/SocialButtons';
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
+import routes from './routes';
+
 //import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import { UrlProviderWrapper } from './UrlProviderWrapper';
@@ -61,7 +63,7 @@ export default function RootLayout({
 							data-api-key="OGU2OWMwOGMtNjM2Mi00MWEyLTlhYmUtYjA1MTA4YzY5MzNkNjM4MTI3MDA4NDE3MzEzOTgy"
 							data-config-modal-style="side"
 						></div>
-						<Nav />
+						<Nav routes={routes} />
 						<Tips />
 						{children}
 					</UrlProviderWrapper>

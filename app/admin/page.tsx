@@ -25,38 +25,8 @@ export default function Home() {
 
 				<form className="flex column gap-medium width-full center">
 					<div className="width-full flex row gap-small center">
-						<label htmlFor="username" className="style-1 thin lowercase spaced">
-							Username
-						</label>
-						<input
-							name="username"
-							type="text"
-							placeholder="Username"
-							className="input-field"
-						/>
-					</div>
-					<div className="width-full flex row gap-small center">
-						<label htmlFor="username" className="style-1 thin lowercase spaced">
-							Password
-						</label>
-						<input
-							name="password"
-							type="text"
-							placeholder="Password"
-							className="input-field"
-						/>
-					</div>
-					<div className="width-full flex row gap-small center">
-						<button
-							name="submit"
-							type="submit"
-							className="style-1 thin lowercase spaced"
-						>
-							Submit
-						</button>
-					</div>
-					<div className="width-full flex row gap-small center">
 						<LoginButton provider="Google" />
+						<LoginButton provider="GitHub" />
 					</div>
 				</form>
 			</section>

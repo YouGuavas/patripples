@@ -13,7 +13,7 @@ export default function LoginButton(props: propsType) {
 					callbackUrl: '/admin/dashboard',
 				})
 			}
-			className="google-btn"
+			className="style-1 spaced thin lowercase"
 		>
 			Sign in with {props.provider}
 		</button>
