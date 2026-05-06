@@ -2,63 +2,87 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
+import type { card } from '../index_cards';
 
 type CarouselProps = {
-	images: string[];
+	slides: card[];
 	className?: string;
 };
 
-export default function Carousel({ images, className = '' }: CarouselProps) {
+const Card = ({ title, description, image, subtitle, classes }: card) => {
+	return (
+		<div className={`${classes} width-half centered`}>
+			<h2 className={`lowercase spaced style-1 thin`}>{title}</h2>
+			<div className="flex centered image-container">
+				<Image
+					src={image.src}
+					alt={image.alt}
+					fill={image.fill}
+					loading={image['loading'] as 'eager' | 'lazy' | undefined}
+					fetchPriority={
+						image['fetchPriority'] as 'high' | 'low' | 'auto' | undefined
+					}
+					className={`width-half`}
+				/>
+			</div>
+			<h3 className={`lowercase spaced style-1 thin ${classes}`}>{subtitle}</h3>
+			{description.map((line, i) => {
+				return (
+					<p key={i} className={`paragraph left-align ${classes}`}>
+						{line}
+					</p>
+				);
+			})}
+		</div>
+	);
+};
+
+export default function Carousel({ slides, className = '' }: CarouselProps) {
 	const [index, setIndex] = useState(0);
 
-	const prev = () => setIndex((i) => (i === 0 ? images.length - 1 : i - 1));
+	const prev = () => setIndex(index === 0 ? 0 : index - 1);
 
-	const next = () => setIndex((i) => (i === images.length - 1 ? 0 : i + 1));
+	const next = () =>
+		setIndex(index === slides.length - 1 ? slides.length - 1 : index + 1);
 
 	return (
-		<div className={`relative width-full overflow-hidden ${className}`}>
+		<div className={`flex column width-full overflow-hidden ${className}`}>
 			{/* Slides */}
-			<div
-				className="flex image-container transition-transform duration-500 ease-in-out"
-				style={{ transform: `translateX(-${index * 100}%)` }}
-			>
-				{images.map((src, i) => (
-					<Image
-						key={i}
-						src={src}
-						fill
-						alt={`Slide ${i}`}
-						className="width-full flex-shrink-0 object-cover"
-					/>
-				))}
-			</div>
+			{slides.map((slide, i) => (
+				<Card
+					title={slide.title}
+					image={{
+						src: slide.image.src,
+						alt: slide.image.alt,
+						fill: slide.image.fill,
+						loading: slide.image.loading,
+						fetchPriority: slide.image.fetchPriority,
+					}}
+					key={i}
+					classes={`${i === index ? 'hidden' : ''}`}
+					description={slide.description}
+					subtitle={slide.subtitle}
+				/>
+			))}
 
 			{/* Controls */}
-			<button
-				onClick={prev}
-				className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-1 rounded"
-			>
-				‹
-			</button>
-
-			<button
-				onClick={next}
-				className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-3 py-1 rounded"
-			>
-				›
-			</button>
-
-			{/* Dots */}
-			<div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2">
-				{images.map((_, i) => (
-					<button
-						key={i}
-						onClick={() => setIndex(i)}
-						className={`h-2 w-2 rounded-full ${
-							i === index ? 'bg-white' : 'bg-white/40'
-						}`}
-					/>
-				))}
+			<div className="flex row width-half between centered">
+				<button onClick={next} className="px-2 py-1 rounded borderless">
+					‹
+				</button>
+				{/* Dots */}
+				<div className="flex gap-small center">
+					{slides.map((_, i) => (
+						<button
+							key={i}
+							onClick={() => setIndex(i)}
+							className={`bg-2 height-half centered center rounded borderless ${i === index ? 'darkened' : ''}`}
+						/>
+					))}
+				</div>
+				<button onClick={prev} className="px-2 py-1 borderless rounded">
+					›
+				</button>
 			</div>
 		</div>
 	);

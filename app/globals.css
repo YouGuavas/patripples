@@ -417,6 +417,9 @@ button {
 .relative {
 	position: relative;
 }
+.hidden {
+	display: none;
+}
 /*text decoration*/
 /*shapes */
 .box-large {
@@ -650,9 +653,15 @@ button {
 	opacity: 60%;
 	transition: 0.4s;
 }
+.darkened {
+	opacity: 60%;
+}
 
 .bordered {
 	border: 1px solid var(--color-2);
+}
+.borderless {
+	border: none;
 }
 .active {
 	opacity: 40%;
@@ -742,6 +751,7 @@ button {
 		height: auto;
 	}
 }
+
 /*Scrollers Start*/
 .scroll-container {
 	overflow: hidden;
