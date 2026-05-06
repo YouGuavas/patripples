@@ -58,8 +58,9 @@ export default function Home() {
 						className={`no-deco pad-none centered flex column gap-small left-align width-full`}
 					>
 						<li>
-							<strong>Drive You Sales</strong> - Want more sales? With a 92%
-							in-person conversion rate, I offer you that, digitally.
+							<strong>Drive You Sales</strong> - Want more sales? I will
+							translate my high in-person conversion rate into a repeatable
+							strategy for you.
 						</li>
 						<li>
 							<strong>Build On Your Small Business Systems</strong> - Clunky
