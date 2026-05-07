@@ -1,10 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
-
-import routes from '../routes';
-import clsx from 'clsx';
 
 export default function Nav() {
 	return (
@@ -25,8 +21,8 @@ export default function Nav() {
 					Paypal
 				</Link>{' '}
 				-{' '}
-				<Link className={`spaced thin no-deco`} href={`./hire`}>
-					Hire
+				<Link className={`spaced thin no-deco`} href={`./market`}>
+					Market
 				</Link>{' '}
 			</p>
 		</header>
