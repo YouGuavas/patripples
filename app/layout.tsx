@@ -1,6 +1,10 @@
 import React from 'react';
 //import Image from 'next/image';
 import Nav from '@/app/components/nav';
+import Image from 'next/image';
+
+import google_qr from '@/public/qr_codes/google_review.svg';
+
 import Tips from '@/app/components/Tips';
 import UpdateTicker from '@/app/components/widgets/UpdateTicker';
 import {
@@ -73,6 +77,22 @@ export default function RootLayout({
 						<Nav routes={routes} />
 						<Tips />
 						{children}
+						<div className="flex column centered center">
+							<p className={`paragraph width-half block left-align`}>
+								If you haven&apos;t already, feel free to leave me the Google
+								review you think I deserve:
+							</p>
+							<div className="image-container width-full center margin-bottom-xl">
+								<Image
+									loading="lazy"
+									fetchPriority="low"
+									quality={50}
+									fill
+									src={google_qr.src}
+									alt="Google Review QR Code"
+								/>
+							</div>
+						</div>
 					</UrlProviderWrapper>
 				</ThemeProviderWrapper>
 			</body>
