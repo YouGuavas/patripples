@@ -86,9 +86,9 @@ export default function RootLayout({
 								<Image
 									loading="lazy"
 									fetchPriority="low"
-									quality={50}
-									width={300}
-									height={300}
+									quality={70}
+									width={150}
+									height={150}
 									src={google_qr.src}
 									alt="Google Review QR Code"
 								/>
