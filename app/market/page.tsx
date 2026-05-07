@@ -5,19 +5,20 @@ import Rates from '../components/Rates';
 
 import { services } from './services';
 import { categories } from './filters';
+import { Collapsible } from '../components/blog/Collapsible';
 
 export default function Home() {
 	return (
 		<main className={`main center flex column gap-medium`}>
 			{services.map((service, index) => {
 				return (
-					<section key={index} className={`width-full`}>
+					<Collapsible key={index} title={service.title} orientation="center">
 						<Rates
 							title={service.title}
 							services={service.services}
 							description={service.description}
 						/>
-					</section>
+					</Collapsible>
 				);
 			})}
 			<section className={`width-full`}>

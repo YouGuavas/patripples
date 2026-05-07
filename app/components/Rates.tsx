@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Carousel from './Carousel';
 import Link from 'next/link';
-import { serviceType } from '../hire/services';
+import { serviceType } from '../market/services';
 
 type propsType = {
 	title: string;
@@ -12,9 +12,6 @@ type propsType = {
 export default function Rates(props: propsType) {
 	return (
 		<div className="flex column gap-medium center">
-			<h3 className="uppercase style-1 spaced" id={props.title}>
-				{props.title}
-			</h3>
 			{props.description.map((paragraph, index) => {
 				return (
 					<p key={index} className={`width-half center centered`}>

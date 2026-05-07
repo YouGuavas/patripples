@@ -14,16 +14,20 @@ const Card = ({ title, description, image, subtitle, classes }: card) => {
 		<div className={`${classes} width-half centered`}>
 			<h2 className={`lowercase spaced style-1 thin`}>{title}</h2>
 			<div className="flex centered image-container">
-				<Image
-					src={image.src}
-					alt={image.alt}
-					fill={image.fill}
-					loading={image['loading'] as 'eager' | 'lazy' | undefined}
-					fetchPriority={
-						image['fetchPriority'] as 'high' | 'low' | 'auto' | undefined
-					}
-					className={`width-half`}
-				/>
+				{image ? (
+					<Image
+						src={image.src}
+						alt={image.alt}
+						fill={image.fill}
+						loading={image['loading'] as 'eager' | 'lazy' | undefined}
+						fetchPriority={
+							image['fetchPriority'] as 'high' | 'low' | 'auto' | undefined
+						}
+						className={`width-half`}
+					/>
+				) : (
+					<></>
+				)}
 			</div>
 			<h3 className={`lowercase spaced style-1 thin ${classes}`}>{subtitle}</h3>
 			{description.map((line, i) => {
@@ -49,20 +53,26 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 		<div className={`flex column width-full overflow-hidden ${className}`}>
 			{/* Slides */}
 			{slides.map((slide, i) => (
-				<Card
-					title={slide.title}
-					image={{
-						src: slide.image.src,
-						alt: slide.image.alt,
-						fill: slide.image.fill,
-						loading: slide.image.loading,
-						fetchPriority: slide.image.fetchPriority,
-					}}
-					key={i}
-					classes={`${i === index ? 'hidden' : ''}`}
-					description={slide.description}
-					subtitle={slide.subtitle}
-				/>
+				<>
+					{slide.image ? (
+						<Card
+							title={slide.title}
+							image={{
+								src: slide.image.src,
+								alt: slide.image.alt,
+								fill: slide.image.fill,
+								loading: slide.image.loading,
+								fetchPriority: slide.image.fetchPriority,
+							}}
+							key={i}
+							classes={`${i === index ? 'hidden' : ''}`}
+							description={slide.description}
+							subtitle={slide.subtitle}
+						/>
+					) : (
+						<></>
+					)}
+				</>
 			))}
 
 			{/* Controls */}

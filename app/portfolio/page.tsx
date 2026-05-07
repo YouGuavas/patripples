@@ -5,11 +5,12 @@ import Image from 'next/image';
 import { projects } from './projects';
 import { testimonials } from './testimonials';
 
+import Collapsible from '@/app/components/blog/Collapsible';
+
 export default function Home() {
 	return (
 		<main className={`main center`}>
-			<section className={`width-full flex gap-small`}>
-				<h2 className="lowercase style-1 spaced width-full center">Projects</h2>
+			<Collapsible title="Projects" orientation="center">
 				<ul className=" flex gap-medium">
 					{projects.map((project, index) => {
 						return (
@@ -60,11 +61,8 @@ export default function Home() {
 						);
 					})}
 				</ul>
-			</section>
-			<section className={`width-full flex gap-small`}>
-				<h2 className="lowercase style-1 spaced width-full center">
-					Testimonials
-				</h2>
+			</Collapsible>
+			<Collapsible title="Testimonials" orientation="center">
 				<ul className=" flex gap-medium">
 					{testimonials.map((testimonial: any, index: number) => {
 						return (
@@ -108,7 +106,7 @@ export default function Home() {
 						);
 					})}
 				</ul>
-			</section>
+			</Collapsible>
 
 			<section className={`width-full`}>
 				<h2 className="lowercase style-1 thin">Want to work with Patrick?</h2>

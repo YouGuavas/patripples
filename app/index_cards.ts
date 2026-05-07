@@ -4,8 +4,8 @@ export type card = {
 	title: string;
 	classes?: string;
 	description: string[];
-	image: card_image;
-	subtitle: string;
+	image?: card_image;
+	subtitle?: string;
 };
 type card_image = {
 	src: string;

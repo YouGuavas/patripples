@@ -13,6 +13,7 @@ export type serviceType = {
 	title: string;
 	description: string;
 	demo?: demoType;
+	subtitle?: string;
 };
 export type demoType = {
 	title: string;
@@ -30,11 +31,13 @@ export const projects = [
 			href: 'https://wilson-stump-grinding.vercel.app/',
 			images: [wilson.src],
 		},
+		subtitle: 'Wilson Stump Grinding',
 	},
 	{
 		title: 'Engineered Site',
 		description:
 			'My personal site. I use this to host my writing, creative, professional, and technical work in a lasting way, and (when I get some free time) to demonstrate capabilities not shown in my other projects.',
 		demo: { title: 'This Site', href: './', images: [patripples.src] },
+		subtitle: 'Patripples',
 	},
 ];

@@ -2,8 +2,6 @@ import homestead from '@/public/site_screenshots/homestead.svg';
 import rudi from '../../public/site_screenshots/rudi.svg';
 import wilson from '@/public/site_screenshots/wilson.svg';
 import patripples from '@/public/site_screenshots/patripples.svg';
-import wilson_testimonial_1 from '@/public/testimonials/wilson_stump/testimonial_1.png';
-import wilson_testimonial_2 from '@/public/testimonials/wilson_stump/testimonial_2.png';
 
 //import ask from '@/public/universal/ask.svg';
 export type servicesType = serviceTierType[];

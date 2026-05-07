@@ -19,7 +19,7 @@ export default function Collapsible(props: propsType) {
 	};
 
 	useEffect(() => {
-		setIsCollapsed(false);
+		setIsCollapsed(true);
 	}, []);
 	return (
 		<section
@@ -28,14 +28,20 @@ export default function Collapsible(props: propsType) {
 				props.orientation === 'center'
 					? 'center'
 					: props.orientation === 'left'
-						? 'left'
-						: 'right'
+						? 'left-align'
+						: 'right-align'
 			} ${props.bg ? props.bg : null} py-2 px-1`}
 		>
 			{/* The collapsible title */}
 
 			<h2
-				className={`pointer lowercase style-1 thin spaced left width-full block left-align`}
+				className={`${
+					props.orientation === 'center'
+						? 'center'
+						: props.orientation === 'left'
+							? 'left-align'
+							: 'right-align'
+				} pointer lowercase style-1 thin spaced left width-full block left-align`}
 				onClick={toggleCollapse}
 			>
 				{props.title}
@@ -53,6 +59,13 @@ export default function Collapsible(props: propsType) {
 				}}
 			>
 				{props.children}
+			</div>
+			<div
+				style={{
+					display: isCollapsed === true ? 'initial' : `none`,
+				}}
+			>
+				Click or tap the header to expand.
 			</div>
 		</section>
 	);
