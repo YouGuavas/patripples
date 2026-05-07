@@ -44,7 +44,7 @@ const cards = [
 			fetchPriority: 'high',
 		},
 		description: [
-			"Hi! I'm The Cartographer.",
+			'I am The Cartographer, as you surely already know.',
 
 			"You must be who they sent to help. I knew they'd send someone.",
 
