@@ -210,15 +210,37 @@ div.snipcart-item-quantity__quantity:focus-within {
 	background-color: var(--color-3);
 	color: var(--color-2);
 }
+li.snipcart-featured-payment-methods__list-item > svg {
+	width: 50px;
+}
+a.snipcart-featured-payment-methods__link > svg {
+	width: 30px;
+}
+ul.snipcart-featured-payment-methods__list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	width: 50%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+div.snipcart-cart__featured-payment-methods-container {
+}
 body > form#snipcart-payment-form {
 	background-color: var(--color-3);
 	color: var(--color-2);
 }
 
-button.snipcart-button-primary,
 button.shop-button {
 	background-color: var(--color-3);
 	width: 50%;
+	margin: 0 auto;
+	transition: 0.4s;
+}
+button.snipcart-button-primary {
+	background-color: var(--color-3);
+	max-width: 50%;
 	margin: 0 auto;
 	transition: 0.4s;
 }

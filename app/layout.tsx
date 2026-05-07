@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<Head>
+			{/*<Head>
 				<link rel="preconnect" href="https://app.snipcart.com" />
 				<link rel="preconnect" href="https://cdn.snipcart.com" />
 
@@ -44,11 +44,11 @@ export default function RootLayout({
 					rel="stylesheet"
 					href="https://cdn.snipcart.com/themes/v3.2.2/default/snipcart.css"
 				/>
-			</Head>
+			</Head>*/}
 			<body className={`bg-5`}>
 				<ThemeProviderWrapper>
 					<UrlProviderWrapper>
-						<CartButton />
+						{/*<CartButton />*/}
 						<UpdateTicker
 							updates={[
 								{
@@ -96,13 +96,12 @@ export default function RootLayout({
 					</UrlProviderWrapper>
 				</ThemeProviderWrapper>
 			</body>
-
-			<Analytics />
-			<script
+			{/*<script
 				async
 				src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
 				defer
-			></script>
+			></script>*/}
+			<Analytics />
 		</html>
 	);
 }
