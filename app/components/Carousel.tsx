@@ -88,7 +88,7 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 				<div className="flex gap-small center">
 					{slides.map((_, i) => (
 						<button
-							name="carousel-dot"
+							title="carousel-dot"
 							key={i}
 							onClick={() => setIndex(i)}
 							className={`bg-2 height-half centered center rounded borderless ${i === index ? 'darkened' : ''}`}
