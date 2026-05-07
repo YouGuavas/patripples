@@ -77,20 +77,31 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 
 			{/* Controls */}
 			<div className="flex row width-half between centered">
-				<button onClick={next} className="px-2 py-1 rounded borderless">
+				<button
+					name="carousel-next"
+					onClick={next}
+					className="px-2 py-1 rounded borderless"
+				>
 					‹
 				</button>
 				{/* Dots */}
 				<div className="flex gap-small center">
 					{slides.map((_, i) => (
 						<button
+							name="carousel-dot"
 							key={i}
 							onClick={() => setIndex(i)}
 							className={`bg-2 height-half centered center rounded borderless ${i === index ? 'darkened' : ''}`}
-						/>
+						>
+							{''}
+						</button>
 					))}
 				</div>
-				<button onClick={prev} className="px-2 py-1 borderless rounded">
+				<button
+					name="carousel-prev"
+					onClick={prev}
+					className="px-2 py-1 borderless rounded"
+				>
 					›
 				</button>
 			</div>
