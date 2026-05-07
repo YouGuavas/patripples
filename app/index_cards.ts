@@ -22,8 +22,8 @@ const cards = [
 			src: pat.src,
 			alt: 'Patrick',
 			fill: true,
-			loading: 'eager',
-			fetchPriority: 'high',
+			loading: 'lazy',
+			fetchPriority: 'low',
 		},
 		description: [
 			'I drive sales.',
@@ -34,14 +34,14 @@ const cards = [
 		],
 	},
 	{
-		title: 'Amazing',
+		title: 'Hi, I Am Amazing',
 		subtitle: 'Yes, I know.',
 		image: {
 			src: cartographer.src,
 			alt: 'Cartographer',
 			fill: true,
-			loading: 'lazy',
-			fetchPriority: 'low',
+			loading: 'eager',
+			fetchPriority: 'high',
 		},
 		description: [
 			"Hi! I'm The Cartographer.",

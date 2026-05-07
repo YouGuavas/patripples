@@ -3,7 +3,11 @@ import React from 'react';
 import Nav from '@/app/components/nav';
 import Tips from '@/app/components/Tips';
 import UpdateTicker from '@/app/components/widgets/UpdateTicker';
-//import { ShareButtonsGroup } from './components/SocialButtons';
+import {
+	ShareButtonsGroup,
+	ReviewButtonsGroup,
+	FollowButtonsGroup,
+} from './components/widgets/SocialButtons';
 import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import routes from './routes';
@@ -54,15 +58,18 @@ export default function RootLayout({
 								},
 							]}
 						/>
-						{
-							//<ShareButtonsGroup />
-						}{' '}
+						<div className="fixed flex column left-align py-2">
+							<ShareButtonsGroup /> <ReviewButtonsGroup />
+						</div>
 						<div
 							hidden
 							id="snipcart"
 							data-api-key="OGU2OWMwOGMtNjM2Mi00MWEyLTlhYmUtYjA1MTA4YzY5MzNkNjM4MTI3MDA4NDE3MzEzOTgy"
 							data-config-modal-style="side"
 						></div>
+						<div className="fixed flex column right py-2">
+							<FollowButtonsGroup />
+						</div>
 						<Nav routes={routes} />
 						<Tips />
 						{children}
