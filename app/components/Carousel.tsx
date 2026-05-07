@@ -85,7 +85,7 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 					‹
 				</button>
 				{/* Dots */}
-				<div className="flex gap-small center">
+				<div className="flex gap-large center">
 					{slides.map((_, i) => (
 						<button
 							title="carousel-dot"
