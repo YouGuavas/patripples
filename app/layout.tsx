@@ -3,7 +3,7 @@ import React from 'react';
 import Nav from '@/app/components/nav';
 import Image from 'next/image';
 
-import google_qr from '@/public/qr_codes/google_review.svg';
+import google_qr from '@/public/qr_codes/google_review.png';
 
 import Tips from '@/app/components/Tips';
 import UpdateTicker from '@/app/components/widgets/UpdateTicker';
@@ -87,7 +87,8 @@ export default function RootLayout({
 									loading="lazy"
 									fetchPriority="low"
 									quality={50}
-									fill
+									width={300}
+									height={300}
 									src={google_qr.src}
 									alt="Google Review QR Code"
 								/>
