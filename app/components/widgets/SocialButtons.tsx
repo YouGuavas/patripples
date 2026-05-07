@@ -24,7 +24,8 @@ const FbButton = (props: propsType) => {
 					fetchPriority="low"
 					fill
 					src={FacebookIcon.src}
-					alt="Facebook Icon"
+					alt="Facebook"
+					quality={50}
 				/>
 			</div>
 		</FacebookShareButton>
@@ -41,7 +42,8 @@ const TweetButton = (props: propsType) => {
 					fetchPriority="low"
 					fill
 					src={TwitterIcon.src}
-					alt="Facebook Icon"
+					alt="Twitter - X"
+					quality={50}
 				/>
 			</div>{' '}
 		</TwitterShareButton>
@@ -78,6 +80,7 @@ const ReviewButtonsGroup = () => {
 					alt="Google Icon"
 					className={`icon-container`}
 					style={{ maxHeight: '50px' }}
+					quality={50}
 				/>
 			</Link>
 		</div>
@@ -99,7 +102,8 @@ const FollowButtonsGroup = () => {
 						fetchPriority="low"
 						fill
 						src={GithubIcon.src}
-						alt="Github Icon"
+						alt="Github"
+						quality={50}
 					/>
 				</div>{' '}
 			</Link>
@@ -114,6 +118,7 @@ const FollowButtonsGroup = () => {
 						fill
 						src={FacebookIcon.src}
 						alt="Facebook"
+						quality={50}
 					/>
 				</div>{' '}
 			</Link>
@@ -128,6 +133,7 @@ const FollowButtonsGroup = () => {
 						fill
 						src={LinkedInIcon.src}
 						alt="LinkedIn"
+						quality={50}
 					/>
 				</div>{' '}
 			</Link>

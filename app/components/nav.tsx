@@ -44,7 +44,15 @@ export default function Nav(props: {
 					<li key={path}>
 						<NavLink href={path}>
 							<div className={`nav-icon-container`}>
-								<Image height={40} width={40} src={image.src} alt={`${name}`} />
+								<Image
+									loading="lazy"
+									fetchPriority="low"
+									quality={50}
+									height={40}
+									width={40}
+									src={image.src}
+									alt={`${name}`}
+								/>
 							</div>
 							<span className="center width-full style-1 color-2">{name}</span>
 						</NavLink>
