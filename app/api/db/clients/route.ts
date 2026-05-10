@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { prisma } from '../../lib/prisma';
 export async function GET(req: Request) {
 	console.log(prisma);
-	//const clients = prisma.clients.find('');
+	const clients = await prisma.customer.findMany();
 
-	return NextResponse.json({ prisma });
+	return NextResponse.json({ clients });
 }
