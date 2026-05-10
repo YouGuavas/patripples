@@ -1,12 +1,5 @@
 const routes = [
 	{
-		name: 'Case Study: Consultative Selling At The Rock Shop',
-		path: '/read/front_page/case_studies/consultative_sales_rock_shop',
-		tags: ['short (1000 words)', 'x'],
-		body: 'An examination of a recent community building experiment.',
-		footer: 'Explore the psychology of sales at the niche shop scale.',
-	},
-	{
 		name: "Holiday Special: Saint Patrick's Day",
 		path: '/read/front_page/holiday_special_saint_patrick',
 		tags: ['short (1000 words)', 'x'],
