@@ -65,7 +65,7 @@ export default function Rates(props: propsType) {
 								data-item-id={service.title.toUpperCase()}
 								data-item-name={service.title}
 								data-item-price={service.rate * 0.3}
-								data-item-url={`https://patripples.com/api/hire/${props.title}/route.ts`}
+								data-item-url={`https://patripples.com/api/market/${props.title}/route.ts`}
 							>
 								{`Pay $${service.rate * 0.3}.00 Deposit`}
 							</button>
