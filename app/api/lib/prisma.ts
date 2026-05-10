@@ -6,4 +6,4 @@ const adapter = new PrismaPg({
 });
 
 // Initialize
-const prisma = new PrismaClient({ adapter });
+export const prisma = new PrismaClient({ adapter });

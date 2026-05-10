@@ -27,7 +27,7 @@ export const testimonials = [
 	{
 		title: 'Tally',
 		description:
-			"A tally that I took while working a niche sales job in a low traffic town on a Saturday. On that Saturday, I saw 38 customers walk in, and had 35 make purchases. Notes in the image refer to the fact that the total sale dollar amount would have been high but for inventory issues upstream of my role. That aside, this Saturday's tally represents a 92% conversion rate in face to face retail.",
+			"A tally that I took while working a niche sales job in a low traffic town on a Saturday. On that Saturday, I saw 38 customers walk in, and had 35 make purchases. Notes in the image refer to the fact that the total sale dollar amount would have been high but for inventory issues upstream of my role. That aside, this Saturday's tally represents a 92% conversion rate in face to face retail. Note that the final tally here does not represent final count. I lost my tally tracking rhythm partway through the day.",
 		demo: {
 			images: [tally.src],
 		},
