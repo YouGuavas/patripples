@@ -1,7 +1,7 @@
 const routes = [
 	{
-		name: 'Small Business Case Study: Consultative Selling At The Rock Shop',
-		path: '/read/front_page/case_studies/consultative_selling_rock_shop',
+		name: 'Case Study: Consultative Selling At The Rock Shop',
+		path: '/read/front_page/case_studies/consultative_sales_rock_shop',
 		tags: ['short (1000 words)', 'x'],
 		body: 'An examination of a recent community building experiment.',
 		footer: 'Explore the psychology of sales at the niche shop scale.',

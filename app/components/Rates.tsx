@@ -60,7 +60,7 @@ export default function Rates(props: propsType) {
 									) : null}
 								</div>
 							) : null}
-							{/*<button
+							<button
 								className={`snipcart-add-item shop-button`}
 								data-item-id={service.title.toUpperCase()}
 								data-item-name={service.title}
@@ -68,11 +68,8 @@ export default function Rates(props: propsType) {
 								data-item-url={`/api/hire/${props.title}/route.ts`}
 							>
 								{`Pay $${service.rate * 0.3}.00 Deposit`}
-							</button>*/}
-
-							<button className={`snipcart-add-item shop-button`}>
-								{`Payment Link Coming Soon!`}
 							</button>
+
 							{/*<Carousel images={service.demo.images} />*/}
 						</li>
 					);
