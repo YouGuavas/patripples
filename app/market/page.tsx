@@ -8,8 +8,36 @@ import { categories } from './filters';
 import { Collapsible } from '../components/blog/Collapsible';
 
 export default function Home() {
+	fetch('./api/db/products')
+		.then((response) => response.json())
+		.then((data) => console.log(data));
+	async function postProduct(url = '', data = {}) {
+		const response = await fetch(url, {
+			method: 'POST', // Specify the method
+			headers: {
+				'Content-Type': 'application/json', // Tell the server you're sending JSON
+			},
+			body: JSON.stringify(data), // Convert data to string
+		});
+		if (!response.ok) {
+			throw new Error(`HTTP error! status: ${response.status}`);
+		}
+		return response.json(); // Parse the response body as JSON
+	}
+
 	return (
 		<main className={`main center flex column gap-medium`}>
+			<button
+				onClick={() =>
+					postProduct('./api/db/products', {
+						title: 'test',
+						price: 10,
+						type: 'test',
+					})
+				}
+			>
+				Post
+			</button>
 			{services.map((service, index) => {
 				return (
 					<Collapsible key={index} title={service.title} orientation="center">
