@@ -1,11 +1,12 @@
 import cartographer from '@/public/characters/cartographer_calcified.svg';
-import pat from '@/public/characters/pat_solo.svg';
+import patrick_in_pond from '@/public/scenes/patrick_in_pond.svg';
 export type card = {
 	title: string;
 	classes?: string;
 	description: string[];
 	image?: card_image;
 	subtitle?: string;
+	style: 'image' | 'jumbo';
 };
 type card_image = {
 	src: string;
@@ -16,14 +17,15 @@ type card_image = {
 };
 const cards = [
 	{
-		title: "Hi, I'm Patrick",
-		subtitle: "Here's What I Do.",
+		title: 'Hi, I Am Patrick',
+		subtitle: 'Here Is What I Do.',
+		style: 'jumbo',
 		image: {
-			src: pat.src,
+			src: patrick_in_pond.src,
 			alt: 'Patrick',
 			fill: true,
-			loading: 'lazy',
-			fetchPriority: 'low',
+			loading: 'eager',
+			fetchPriority: 'high',
 		},
 		description: [
 			'I drive sales.',
@@ -31,17 +33,20 @@ const cards = [
 			'I build management tools with Python.',
 			'I write and edit content that converts.',
 			'I create logo and character SVGs in Inkscape.',
+			'In my spare time, I like to explore ponds and wetlands.',
 		],
 	},
 	{
 		title: 'Hi, I Am Amazing',
 		subtitle: 'Yes, I know.',
+		style: 'image',
+
 		image: {
 			src: cartographer.src,
 			alt: 'Cartographer',
 			fill: true,
-			loading: 'eager',
-			fetchPriority: 'high',
+			loading: 'lazy',
+			fetchPriority: 'low',
 		},
 		description: [
 			'I am The Cartographer, as you surely already know.',
@@ -52,7 +57,7 @@ const cards = [
 
 			"Oh, you're not who they sent to help? You must be here to chat with the other guy.",
 
-			"Anyway, I don't know what you're standing around here. He's right over there.",
+			"I don't know what you're standing around for. He's right over there.",
 
 			"I'll just... wait here.",
 		],

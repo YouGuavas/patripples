@@ -4,7 +4,7 @@ import Image from 'next/image';
 import ripples from '@/public/logos/ripples.png';
 import { cards } from './index_cards';
 
-import Carousel from '@/app/components/Carousel';
+import Carousel, { Card } from '@/app/components/Carousel';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
@@ -26,7 +26,7 @@ export default function Home() {
 				<h1 id="top" className={`lowercase style-1`}>
 					Welcome to patripples.
 				</h1>
-				<Carousel slides={cards as any} />
+				<Carousel slides={[cards[1], cards[0]] as any} className="jumbo" />
 			</section>
 
 			<section

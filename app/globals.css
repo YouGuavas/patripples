@@ -681,6 +681,9 @@ button {
 .darkened {
 	opacity: 60%;
 }
+.darkened-heavy {
+	opacity: 40%;
+}
 
 .bordered {
 	border: 1px solid var(--color-2);

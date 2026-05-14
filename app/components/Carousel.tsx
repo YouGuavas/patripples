@@ -7,13 +7,23 @@ import type { card } from '../index_cards';
 type CarouselProps = {
 	slides: card[];
 	className?: string;
+	style?: 'image' | 'jumbo';
 };
 
-const Card = ({ title, description, image, subtitle, classes }: card) => {
+export const Card = ({
+	title,
+	description,
+	image,
+	subtitle,
+	classes,
+	style,
+}: card) => {
 	return (
-		<div className={`${classes} width-half centered`}>
+		<div className={`${classes} width-full centered`}>
 			<h2 className={`lowercase spaced style-1 thin`}>{title}</h2>
-			<div className="flex centered image-container">
+			<div
+				className={`flex centered ${style === 'jumbo' ? 'jumbo-container' : 'image-container'}`}
+			>
 				{image ? (
 					<Image
 						src={image.src}
@@ -23,20 +33,24 @@ const Card = ({ title, description, image, subtitle, classes }: card) => {
 						fetchPriority={
 							image['fetchPriority'] as 'high' | 'low' | 'auto' | undefined
 						}
-						className={`width-half`}
+						className={`width-full`}
 					/>
 				) : (
 					<></>
 				)}
 			</div>
-			<h3 className={`lowercase spaced style-1 thin ${classes}`}>{subtitle}</h3>
-			{description.map((line, i) => {
-				return (
-					<p key={i} className={`paragraph left-align ${classes}`}>
-						{line}
-					</p>
-				);
-			})}
+			<div className={`width-half centered`}>
+				<h3 className={`lowercase spaced style-1 thin ${classes}`}>
+					{subtitle}
+				</h3>
+				{description.map((line, i) => {
+					return (
+						<p key={i} className={`paragraph left-align ${classes}`}>
+							{line}
+						</p>
+					);
+				})}
+			</div>
 		</div>
 	);
 };
@@ -68,6 +82,7 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 							classes={`${i === index ? 'hidden' : ''}`}
 							description={slide.description}
 							subtitle={slide.subtitle}
+							style={slide.style}
 						/>
 					) : (
 						<></>
@@ -80,7 +95,7 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 				<button
 					name="carousel-next"
 					onClick={next}
-					className="px-2 py-1 rounded borderless"
+					className={`px-2 py-1 rounded borderless ${index === 1 ? 'darkened-heavy bordered' : ''}`}
 				>
 					‹
 				</button>
@@ -91,7 +106,7 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 							title="carousel-dot"
 							key={i}
 							onClick={() => setIndex(i)}
-							className={`bg-2 height-half centered center rounded borderless ${i === index ? 'darkened' : ''}`}
+							className={`bg-2 height-half centered center rounded borderless ${i !== index ? 'darkened' : ''}`}
 						>
 							{''}
 						</button>
@@ -100,7 +115,7 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 				<button
 					name="carousel-prev"
 					onClick={prev}
-					className="px-2 py-1 borderless rounded"
+					className={`px-2 py-1 borderless rounded ${index === 0 ? 'darkened-heavy bordered' : ''}`}
 				>
 					›
 				</button>

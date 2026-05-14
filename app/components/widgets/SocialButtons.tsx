@@ -107,21 +107,7 @@ const FollowButtonsGroup = () => {
 					/>
 				</div>{' '}
 			</Link>
-			<Link
-				href="https://www.facebook.com/patrick.yambrick/"
-				className={`darken no-deco thin spaced style-1`}
-			>
-				<div className={`icon-container`}>
-					<Image
-						loading="lazy"
-						fetchPriority="low"
-						fill
-						src={FacebookIcon.src}
-						alt="Facebook"
-						quality={50}
-					/>
-				</div>{' '}
-			</Link>
+
 			<Link
 				href="https://www.linkedin.com/in/patrick-yambrick-633099122/"
 				className={`darken no-deco thin spaced style-1`}
