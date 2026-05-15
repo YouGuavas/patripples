@@ -16,7 +16,7 @@ export default function Home() {
 						return (
 							<li
 								key={index}
-								className={`center centered z5 no-deco width-half flex column bordered`}
+								className={`center centered z5 no-deco width-half flex column bordered px-2`}
 							>
 								<h4 className="lowercase style-1 spaced">{project.title}</h4>
 								<p className="font-medium thin">{project.description}</p>
@@ -68,7 +68,7 @@ export default function Home() {
 						return (
 							<li
 								key={index}
-								className={`center centered z5 no-deco width-half flex column bordered`}
+								className={`center centered z5 no-deco width-half flex column bordered px-2`}
 							>
 								<h4 className="lowercase style-1 spaced">
 									{testimonial.title}

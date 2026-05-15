@@ -1,24 +1,10 @@
-'use client';
 import Link from 'next/link';
-import Rates from '../components/Rates';
-
-import { services } from './services';
-import { Collapsible } from '../components/blog/Collapsible';
+import PostItemForm from '../../components/server/forms/PostItemForm';
 
 export default function Home() {
 	return (
 		<main className={`main center flex column gap-medium`}>
-			{services.map((service, index) => {
-				return (
-					<Collapsible key={index} title={service.title} orientation="center">
-						<Rates
-							title={service.title}
-							services={service.services}
-							description={service.description}
-						/>
-					</Collapsible>
-				);
-			})}
+			<PostItemForm />
 			<section className={`width-full`}>
 				<h2 className="lowercase style-1 thin">Want to work with Patrick?</h2>
 				<p className={`style-1`}>
