@@ -29,12 +29,13 @@ const cards = [
 			fetchPriority: 'high',
 		},
 		description: [
+			'I tell tales.',
 			'I drive sales.',
 			'I build websites with Nextjs.',
-			'I build management tools with Python.',
 			'I write and edit content that converts.',
 			'I create logo and character SVGs in Inkscape.',
-			'In my spare time, I like to explore ponds and wetlands.',
+			'I build inventory management tools with Python.',
+			'I make people say "he makes me feel like Goku."',
 		],
 	},
 	{
