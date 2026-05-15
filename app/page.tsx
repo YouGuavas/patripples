@@ -27,9 +27,9 @@ export default function Home() {
 					Welcome to patripples.
 				</h1>
 				<Card
-					title={cards[1].title}
+					title={cards[0].title}
 					style="image"
-					description={cards[1].description}
+					description={cards[0].description}
 				/>
 			</section>
 
