@@ -94,8 +94,8 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 			<div className="flex row width-half between centered">
 				<button
 					name="carousel-next"
-					onClick={next}
-					className={`px-2 py-1 rounded borderless ${index === 1 ? 'darkened-heavy bordered' : ''}`}
+					onClick={prev}
+					className={`px-2 py-1 rounded borderless ${index === 0 ? 'darkened-heavy' : ''}`}
 				>
 					‹
 				</button>
@@ -114,8 +114,8 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 				</div>
 				<button
 					name="carousel-prev"
-					onClick={prev}
-					className={`px-2 py-1 borderless rounded ${index === 0 ? 'darkened-heavy bordered' : ''}`}
+					onClick={next}
+					className={`px-2 py-1 borderless rounded ${index === 1 ? 'darkened-heavy' : ''}`}
 				>
 					›
 				</button>

@@ -1,5 +1,7 @@
-export async function GET(request: Request) {
-	return new Response(JSON.stringify({ message: 'Hello World' }), {
-		status: 200,
-	});
+import { NextResponse } from 'next/server';
+import { prisma } from '../../lib/prisma';
+export async function GET() {
+	const products = await prisma.product.findMany();
+
+	return NextResponse.json({ products: products });
 }

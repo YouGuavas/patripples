@@ -1,5 +1,6 @@
 import cartographer from '@/public/characters/cartographer_calcified.svg';
-import patrick_in_pond from '@/public/scenes/patrick_in_pond.svg';
+import patrick_solo from '@/public/characters/pat_solo.svg';
+
 export type card = {
 	title: string;
 	classes?: string;
@@ -19,9 +20,9 @@ const cards = [
 	{
 		title: 'Hi, I Am Patrick',
 		subtitle: 'Here Is What I Do.',
-		style: 'jumbo',
+		style: 'image',
 		image: {
-			src: patrick_in_pond.src,
+			src: patrick_solo.src,
 			alt: 'Patrick',
 			fill: true,
 			loading: 'eager',
