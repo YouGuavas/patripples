@@ -30,6 +30,13 @@ export default function Home() {
 					title={cards[0].title}
 					style="image"
 					description={cards[0].description}
+					image={{
+						src: cards[0].image.src,
+						alt: cards[0].image.alt,
+						fill: cards[0].image.fill,
+						loading: 'eager',
+						fetchPriority: 'high',
+					}}
 				/>
 			</section>
 
