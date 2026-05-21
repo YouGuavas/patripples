@@ -1,4 +1,5 @@
 import ConversionButton from '@/app/components/buttons/ConversionButtons';
+import D3Pie from '@/app/components/data_vis/D3Pie';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title:
@@ -29,6 +30,13 @@ export default function Home() {
 					<ConversionButton name="Passerby" />
 					<ConversionButton name="Hook" />
 				</div>
+				<D3Pie
+					title="Example Hook Data"
+					data={[
+						{ name: 'Passerby', value: 80 },
+						{ name: 'Hook', value: 20 },
+					]}
+				/>
 			</section>
 			<section className={`width-full center margin-bottom-sm`}>
 				<h2 className={`lowercase style-1`}>Conversions.</h2>
@@ -36,6 +44,13 @@ export default function Home() {
 					<ConversionButton name="Conversion" />
 					<ConversionButton name="Lost" />
 				</div>
+				<D3Pie
+					title="Example Hook Data"
+					data={[
+						{ name: 'Conversion', value: 92 },
+						{ name: 'Lost', value: 8 },
+					]}
+				/>
 			</section>
 		</main>
 	);
