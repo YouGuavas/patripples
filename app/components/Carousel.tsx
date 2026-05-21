@@ -33,6 +33,7 @@ export const Card = ({
 						fetchPriority={
 							image['fetchPriority'] as 'high' | 'low' | 'auto' | undefined
 						}
+						priority={image['priority'] as boolean}
 						className={`width-full`}
 					/>
 				) : (

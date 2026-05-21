@@ -15,6 +15,7 @@ type card_image = {
 	fill: boolean | undefined;
 	loading: 'eager' | 'lazy' | undefined;
 	fetchPriority: 'high' | 'low' | 'auto' | undefined;
+	priority: boolean | undefined;
 };
 const cards = [
 	{

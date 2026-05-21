@@ -5,6 +5,7 @@ import ripples from '@/public/logos/ripples.png';
 import { cards } from './index_cards';
 
 import { Card } from '@/app/components/Carousel';
+import Collapsible from './components/blog/Collapsible';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function Home() {
 						fill: cards[0].image.fill,
 						loading: 'eager',
 						fetchPriority: 'high',
+						priority: true,
 					}}
 				/>
 			</section>
@@ -84,6 +86,7 @@ export default function Home() {
 					</ul>{' '}
 				</div>
 			</section>
+			{/*<Collapsible title="Ten Days At The Rock Shop"></Collapsible>*/}
 		</main>
 	);
 }
