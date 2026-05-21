@@ -754,6 +754,27 @@ button {
 .open {
 	animation: open 0.5s ease forwards;
 }
+
+/*Conversions*/
+.hook-button,
+.conversion-button,
+.passerby-button,
+.lost-button {
+	width: 6rem;
+	height: 4rem;
+}
+.passerby-button {
+	background-color: rgb(150, 20, 150);
+}
+.hook-button {
+	background-color: rgb(150, 150, 20);
+}
+.conversion-button {
+	background-color: var(--color-3);
+}
+.lost-button {
+	background-color: rgb(150, 20, 20);
+}
 @keyframes collapse {
 	from {
 		opacity: 1;
@@ -861,7 +882,7 @@ button {
 		top: unset;
 	}
 	.width-half {
-		width: 100%;
+		width: 70%;
 	}
 	.image-container {
 		height: 200px;
