@@ -1,3 +1,6 @@
+'use server';
+import { prisma } from '@/app/api/lib/prisma';
+
 type propsType = {
 	name: string;
 };

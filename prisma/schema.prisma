@@ -10,6 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+v
 }
 
 model Customer {
@@ -26,4 +27,12 @@ model Product {
   price      Int
   type       String
   user       Customer @relation(fields: [id], references: [id])
+}
+
+ model Sales_Data {
+  id          Int     @id @default(autoincrement())
+  passersby   Int
+  hooks       Int
+  conversions Int
+  losses      Int
 }

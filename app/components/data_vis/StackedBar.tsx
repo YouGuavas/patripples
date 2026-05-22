@@ -92,7 +92,7 @@ export default function D3StackedBarPCT<T extends Record<string, unknown>>({
 			.style('font-size', '24px') // Apply styling
 			.style('fill', 'white')
 			.text(title); // Set the title text
-	}, [data, keys, categoryKey, width, height]);
+	}, [title, data, keys, categoryKey, width, height]);
 
 	return <svg ref={svgRef} />;
 }

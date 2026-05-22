@@ -8,8 +8,8 @@ interface DataItem {
 interface PieChartProps {
 	title: string;
 	data: DataItem[];
-	width?: number;
-	height?: number;
+	width: number;
+	height: number;
 	innerRadius?: number; // Optional inner radius for a donut chart
 	outerRadius?: number;
 }
@@ -17,14 +17,14 @@ interface PieChartProps {
 const D3Pie: React.FC<PieChartProps> = ({
 	title,
 	data,
-	width = 450,
-	height = 450,
+	width,
+	height,
 	innerRadius = 0,
 	outerRadius,
 }) => {
 	const svgRef = useRef<SVGSVGElement>(null);
 	const radius = outerRadius || Math.min(width, height) / 2;
-	const margin = { top: 20, right: 20, bottom: 20, left: 20 };
+	const margin = { top: 60, right: 20, bottom: 20, left: 20 };
 
 	useEffect(() => {
 		// Clear any previous chart elements on update
@@ -34,6 +34,8 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.select(svgRef.current)
 			.attr('width', width)
 			.attr('height', height)
+			.attr('viewBox', `0 0 ${width} ${height}`)
+			.attr('preserveAspectRatio', 'xMidYMid meet')
 			.append('g')
 			// Move the center of the pie chart to the middle of the SVG container
 			.attr('transform', `translate(${width / 2}, ${height / 2})`);
@@ -88,7 +90,16 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.style('font-size', '24px') // Apply styling
 			.style('fill', 'white')
 			.text(title); // Set the title text
-	}, [data, width, height, innerRadius, outerRadius, radius]); // Redraw chart if data or dimensions change
+	}, [
+		title,
+		margin.top,
+		data,
+		width,
+		height,
+		innerRadius,
+		outerRadius,
+		radius,
+	]); // Redraw chart if data or dimensions change
 
 	return <svg ref={svgRef} />;
 };

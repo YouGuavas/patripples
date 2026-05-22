@@ -36,7 +36,6 @@ const cards = [
 			'I write and edit content that converts.',
 			'I create logo and character SVGs in Inkscape.',
 			'I build inventory management tools with Python.',
-			'I make people say "he makes me feel like Goku."',
 		],
 	},
 	{

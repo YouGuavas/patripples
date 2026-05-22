@@ -36,6 +36,8 @@ export default function Home() {
 						{ name: 'Passerby', value: 80 },
 						{ name: 'Hook', value: 20 },
 					]}
+					width={250}
+					height={250}
 				/>
 			</section>
 			<section className={`width-full center margin-bottom-sm`}>
@@ -50,6 +52,8 @@ export default function Home() {
 						{ name: 'Conversion', value: 92 },
 						{ name: 'Lost', value: 8 },
 					]}
+					width={250}
+					height={250}
 				/>
 			</section>
 		</main>

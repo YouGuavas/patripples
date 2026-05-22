@@ -74,6 +74,7 @@ export default function Carousel({ slides, className = '' }: CarouselProps) {
 							title={slide.title}
 							image={{
 								src: slide.image.src,
+								priority: slide.image.priority,
 								alt: slide.image.alt,
 								fill: slide.image.fill,
 								loading: slide.image.loading,
