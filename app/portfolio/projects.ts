@@ -1,6 +1,6 @@
 import wilson from '@/public/site_screenshots/wilson.svg';
 import patripples from '@/public/site_screenshots/patripples.svg';
-
+import sales_tracker from '@/public/site_screenshots/tools/sales_tracker.png';
 export type servicesType = serviceTierType[];
 
 export type serviceTierType = {
@@ -22,6 +22,18 @@ export type demoType = {
 };
 
 export const projects = [
+	{
+		title: 'Sales Conversion Tracker',
+		description:
+			'A sales conversion tracker for monitoring and analyzing sales performance, built with my 92% conversion rate methodology baked in. Free version available. Early stages.',
+		demo: {
+			title: 'Sales Conversion Tracker',
+			href: './tools/conversions',
+			images: [sales_tracker.src],
+		},
+		subtitle:
+			'A Sales Conversion Tracker Tool. Free version available for non-registered users. Demo stages.',
+	},
 	{
 		title: 'Developed Site',
 		description:
