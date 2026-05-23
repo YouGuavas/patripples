@@ -94,7 +94,7 @@ export default function Home() {
 												}
 												src={testimonial.demo.images[0]}
 												alt={testimonial.title}
-												height={250}
+												height={350}
 												width={250}
 											/>
 										) : null}
