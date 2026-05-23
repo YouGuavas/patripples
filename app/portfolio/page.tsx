@@ -94,8 +94,8 @@ export default function Home() {
 												}
 												src={testimonial.demo.images[0]}
 												alt={testimonial.title}
-												height={350}
-												width={300}
+												height={250}
+												width={250}
 											/>
 										) : null}
 									</div>
