@@ -763,6 +763,10 @@ button {
 	width: 6rem;
 	height: 4rem;
 }
+.download-button {
+	width: 12rem;
+	height: 4rem;
+}
 .passerby-button {
 	background-color: rgb(150, 20, 150);
 }
