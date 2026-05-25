@@ -1,8 +1,8 @@
 import { SalesProviderWrapper } from './SalesProviderWrapper';
 import ConversionButton from '@/app/components/buttons/ConversionButtons';
 import DownloadButton from '@/app/components/buttons/DownloadButton';
-import { ConversionsPieChart } from '@/app/components/data_vis/sales_charts/HooksPieChart';
-import { HooksPieChart } from '@/app/components/data_vis/sales_charts/ConversionsPieChart';
+import { ConversionsPieChart } from '@/app/components/data_vis/sales_charts/ConversionsPieChart';
+import { HooksPieChart } from '@/app/components/data_vis/sales_charts/HooksPieChart';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title:
@@ -41,7 +41,7 @@ export default function Home() {
 				<section className={`width-full center margin-bottom-sm`}>
 					<h2 className={`lowercase style-1`}>Conversions.</h2>
 					<div className="flex row gap-small width-half centered">
-						<ConversionButton name="Lost" type="Lost" />
+						<ConversionButton name="Loss" type="Lost" />
 						<ConversionButton name="Impulse Purchase" type="Conversion" />
 						<ConversionButton name="Core Purchase" type="Conversion" />
 						<ConversionButton name="Premium Purchase" type="Conversion" />

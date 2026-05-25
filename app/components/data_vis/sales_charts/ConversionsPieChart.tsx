@@ -1,23 +1,41 @@
 'use client';
+
 import { useEffect } from 'react';
 import { useSales } from '@/app/context/SalesContext';
-import D3Pie from '@/app/components/data_vis/D3Pie'; // assuming D3Pie is your base chart component
+import D3Pie from '@/app/components/data_vis/D3Pie';
 
-export function HooksPieChart({
+export function ConversionsPieChart({
 	width,
 	height,
 }: {
 	width: number;
 	height: number;
 }) {
-	const { passerby, hook } = useSales();
+	const { loss, impulse, core, premium } = useSales();
 
-	const chartData = [
-		{ name: 'Passerby', value: passerby },
-		{ name: 'Hook', value: hook },
+	let chartData = [
+		{ name: 'Loss', value: loss },
+		{ name: 'Impulse', value: impulse },
+		{ name: 'Core', value: core },
+		{ name: 'Premium', value: premium },
 	];
+	useEffect(() => {
+		// This effect runs whenever passerby or hook changes, ensuring the chart updates
+		chartData = [
+			{ name: 'Loss', value: loss },
+			{ name: 'Impulse', value: impulse },
+			{ name: 'Core', value: core },
+			{ name: 'Premium', value: premium },
+		];
+		console.log(chartData);
+	}, [loss, impulse, core, premium]);
 
 	return (
-		<D3Pie title="Hook Data" data={chartData} width={width} height={height} />
+		<D3Pie
+			title="Conversion Data"
+			data={chartData}
+			width={width}
+			height={height}
+		/>
 	);
 }
