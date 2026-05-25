@@ -13,8 +13,8 @@ export function HooksPieChart({
 	const { passerby, hook } = useSales();
 
 	let chartData = [
-		{ name: 'Passerby', value: 1 },
-		{ name: 'Hook', value: 1 },
+		{ name: 'Passerby', value: passerby },
+		{ name: 'Hook', value: hook },
 	];
 	useEffect(() => {
 		// This effect runs whenever passerby or hook changes, ensuring the chart updates
