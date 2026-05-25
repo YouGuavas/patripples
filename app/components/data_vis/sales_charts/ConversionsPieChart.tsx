@@ -14,10 +14,10 @@ export function ConversionsPieChart({
 	const { loss, impulse, core, premium } = useSales();
 
 	let chartData = [
-		{ name: 'Loss', value: 1 },
-		{ name: 'Impulse', value: 1 },
-		{ name: 'Core', value: 1 },
-		{ name: 'Premium', value: 1 },
+		{ name: 'Loss', value: loss },
+		{ name: 'Impulse', value: impulse },
+		{ name: 'Core', value: core },
+		{ name: 'Premium', value: premium },
 	];
 	useEffect(() => {
 		// This effect runs whenever passerby or hook changes, ensuring the chart updates
