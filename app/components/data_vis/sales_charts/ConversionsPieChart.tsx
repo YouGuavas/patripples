@@ -1,5 +1,5 @@
 'use client';
-
+import { useEffect } from 'react';
 import { useSales } from '@/app/context/SalesContext';
 import D3Pie from '@/app/components/data_vis/D3Pie'; // assuming D3Pie is your base chart component
 
