@@ -1,4 +1,5 @@
 import { SalesProviderWrapper } from './SalesProviderWrapper';
+import SalesForm from '@/app/components/forms/SalesForm';
 import ConversionButton from '@/app/components/buttons/ConversionButtons';
 import DownloadButton from '@/app/components/buttons/DownloadButton';
 import { ConversionsPieChart } from '@/app/components/data_vis/sales_charts/ConversionsPieChart';
@@ -19,7 +20,7 @@ export default function Home() {
 			<main className={`main left px-1`}>
 				<section className={`width-full center margin-bottom-sm`}>
 					<h1 id="top" className={`lowercase style-1`}>
-						Patripples Conversion Tracker.
+						Sales Tracker.
 					</h1>
 					<p className={`paragraph width-half block centered left-align`}>
 						Thank you for using my conversion tracker tool. My intent with this
@@ -27,6 +28,9 @@ export default function Home() {
 						way to track, analyze, and view sales data, including hooks and
 						conversions.
 					</p>
+				</section>
+				<section className={`width-full center margin-bottom-sm`}>
+					<SalesForm />
 				</section>
 				<section className={`width-full center margin-bottom-sm`}>
 					<DownloadButton />
