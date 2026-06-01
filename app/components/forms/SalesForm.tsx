@@ -8,6 +8,7 @@ export default function SalesForm() {
 	const [email, setEmail] = useState('');
 	const [firstName, setFirstName] = useState('');
 	const [lastName, setLastName] = useState('');
+	const [socialHandle, setSocialHandle] = useState('');
 
 	const [status, setStatus] = useState<
 		'idle' | 'loading' | 'success' | 'error'
@@ -92,8 +93,8 @@ export default function SalesForm() {
 						</label>
 						<input
 							type="text"
-							value={email}
-							onChange={(e) => setEmail(e.target.value)}
+							value={socialHandle}
+							onChange={(e) => setSocialHandle(e.target.value)}
 							placeholder="@yourhandle (optional Twitter or Instagram)"
 							className="py-1 width-full"
 						/>
@@ -106,7 +107,7 @@ export default function SalesForm() {
 						disabled={status === 'loading'}
 						className="py-1 style-1 lowercase thin spaced width-half"
 					>
-						{status === 'loading' ? 'subscribing...' : 'subscribe'}
+						{status === 'loading' ? 'submitting...' : 'submit'}
 					</button>
 				</div>
 			</div>
