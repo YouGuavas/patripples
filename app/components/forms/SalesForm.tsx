@@ -94,7 +94,7 @@ export default function SalesForm() {
 							type="text"
 							value={email}
 							onChange={(e) => setEmail(e.target.value)}
-							placeholder="your@email.com"
+							placeholder="@yourhandle (optional Twitter or Instagram)"
 							className="py-1 width-full"
 						/>
 					</div>
