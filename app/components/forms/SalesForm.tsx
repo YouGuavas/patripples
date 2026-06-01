@@ -68,7 +68,6 @@ export default function SalesForm() {
 							onChange={(e) => setLastName(e.target.value)}
 							placeholder="Your Last Name"
 							className="py-1 width-full"
-							required
 						/>
 					</div>
 				</div>
@@ -105,7 +104,7 @@ export default function SalesForm() {
 					<button
 						type="submit"
 						disabled={status === 'loading'}
-						className="py-1 style-1 lowercase thin spaced width-half"
+						className="py-1 style-1 lowercase thin spaced width-half bg-1 borderless darken"
 					>
 						{status === 'loading' ? 'submitting...' : 'submit'}
 					</button>
