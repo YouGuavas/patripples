@@ -22,6 +22,8 @@ export default function Home() {
 					<h1 id="top" className={`lowercase style-1`}>
 						Sales Tracker.
 					</h1>
+					<DownloadButton />
+
 					<p className={`paragraph width-half block centered left-align`}>
 						Thank you for using my conversion tracker tool. My intent with this
 						tool is to provide you with an easy to use and easier to understand
@@ -30,27 +32,26 @@ export default function Home() {
 					</p>
 				</section>
 				<section className={`width-full center margin-bottom-sm`}>
-					<SalesForm />
-				</section>
-				<section className={`width-full center margin-bottom-sm`}>
-					<DownloadButton />
-
-					<h2 className={`lowercase style-1`}>Hooks.</h2>
 					<div className="flex row gap-small width-half centered">
 						<ConversionButton name="Passerby" type="Passerby" />
-						<ConversionButton name="Hook" type="Hook" />
+						<ConversionButton name="Loss" type="Loss" />
 					</div>
-					<HooksPieChart width={250} height={250} />
+					<SalesForm />
 				</section>
-				<section className={`width-full center margin-bottom-sm`}>
-					<h2 className={`lowercase style-1`}>Conversions.</h2>
-					<div className="flex row gap-small width-half centered">
-						<ConversionButton name="Loss" type="Lost" />
-						<ConversionButton name="Impulse Purchase" type="Conversion" />
-						<ConversionButton name="Core Purchase" type="Conversion" />
-						<ConversionButton name="Premium Purchase" type="Conversion" />
+				<section
+					className={`width-full center margin-bottom-sm flex row gap-large`}
+				>
+					<div>
+						<h2 className={`lowercase style-1`}>Hooks.</h2>
+
+						<HooksPieChart width={250} height={250} />
 					</div>
-					<ConversionsPieChart width={250} height={250} />
+
+					<div>
+						<h2 className={`lowercase style-1`}>Conversions.</h2>
+
+						<ConversionsPieChart width={250} height={250} />
+					</div>
 				</section>
 			</main>
 		</SalesProviderWrapper>

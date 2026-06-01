@@ -759,7 +759,7 @@ button {
 .hook-button,
 .conversion-button,
 .passerby-button,
-.lost-button {
+.loss-button {
 	width: 6rem;
 	height: 4rem;
 }
@@ -776,7 +776,7 @@ button {
 .conversion-button {
 	background-color: var(--color-3);
 }
-.lost-button {
+.loss-button {
 	background-color: rgb(150, 20, 20);
 }
 @keyframes collapse {
