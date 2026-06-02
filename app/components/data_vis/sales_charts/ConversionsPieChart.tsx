@@ -8,9 +8,20 @@ import D3Pie from '@/app/components/data_vis/D3Pie';
 export function ConversionsPieChart({
 	width,
 	height,
+	colors = [
+		'red',
+		'blue',
+		'green',
+		'orange',
+		'purple',
+		'cyan',
+		'magenta',
+		'yellow',
+	],
 }: {
 	width: number;
 	height: number;
+	colors?: string[];
 }) {
 	const { loss, impulse, core, premium } = useSales();
 

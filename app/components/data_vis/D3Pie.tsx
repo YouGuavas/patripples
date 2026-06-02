@@ -12,6 +12,7 @@ interface PieChartProps {
 	height: number;
 	innerRadius?: number; // Optional inner radius for a donut chart
 	outerRadius?: number;
+	colors?: string[]; // Optional array of colors for the slices
 }
 
 const D3Pie: React.FC<PieChartProps> = ({
@@ -21,12 +22,21 @@ const D3Pie: React.FC<PieChartProps> = ({
 	height,
 	innerRadius = 0,
 	outerRadius,
+	colors = d3.schemeCategory10,
 }) => {
+	const [hasMounted, setHasMounted] = React.useState(false);
 	const svgRef = useRef<SVGSVGElement>(null);
-	const radius = outerRadius || Math.min(width, height) / 2;
+	const radius = outerRadius || Math.min(width, height) / 2 - 10;
 	const margin = { top: 60, right: 20, bottom: 20, left: 20 };
 
 	useEffect(() => {
+		// Flag that we are now running in the browser
+		setHasMounted(true);
+	}, []);
+
+	useEffect(() => {
+		if (!hasMounted || !svgRef.current) return;
+
 		// Clear any previous chart elements on update
 		d3.select(svgRef.current).selectAll('*').remove();
 
@@ -56,7 +66,8 @@ const D3Pie: React.FC<PieChartProps> = ({
 		const arcs = pieGenerator(data);
 
 		// Color scale
-		const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+		const color = d3.scaleOrdinal(colors);
 
 		// Draw the slices
 		svg
@@ -90,17 +101,10 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.style('font-size', '24px') // Apply styling
 			.style('fill', 'white')
 			.text(title); // Set the title text
-	}, [
-		title,
-		margin.top,
-		data,
-		width,
-		height,
-		innerRadius,
-		outerRadius,
-		radius,
-	]); // Redraw chart if data or dimensions change
-
+	}, [hasMounted, data]); // Redraw chart if data or dimensions change
+	if (!hasMounted) {
+		return <p>Loading chart...</p>;
+	}
 	return <svg ref={svgRef} />;
 };
 
