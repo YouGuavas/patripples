@@ -48,6 +48,7 @@ export function ConversionsPieChart({
 			data={chartData}
 			width={width}
 			height={height}
+			colors={colors}
 		/>
 	);
 }

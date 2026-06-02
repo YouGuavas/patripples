@@ -31,26 +31,34 @@ export default function Home() {
 						conversions.
 					</p>
 				</section>
+
 				<section className={`width-full center margin-bottom-sm`}>
+					<h2></h2>
+					<SalesForm />
 					<div className="flex row gap-small width-half centered">
 						<ConversionButton name="Passerby" type="Passerby" />
 						<ConversionButton name="Loss" type="Loss" />
 					</div>
-					<SalesForm />
 				</section>
+
 				<section
-					className={`width-full center margin-bottom-sm flex row gap-large`}
+					className={`width-full center margin-bottom-sm flex column gap-large`}
 				>
-					<div>
-						<h2 className={`lowercase style-1`}>Hooks.</h2>
+					<h2 className={`lowercase style-1`}>Visualization</h2>
+					<div
+						className={`width-full center margin-bottom-sm flex row gap-large`}
+					>
+						<div>
+							<h3 className={`lowercase style-1`}>Hooks.</h3>
 
-						<HooksPieChart width={250} height={250} />
-					</div>
+							<HooksPieChart width={250} height={250} />
+						</div>
 
-					<div>
-						<h2 className={`lowercase style-1`}>Conversions.</h2>
+						<div>
+							<h3 className={`lowercase style-1`}>Conversions.</h3>
 
-						<ConversionsPieChart width={250} height={250} />
+							<ConversionsPieChart width={250} height={250} />
+						</div>
 					</div>
 				</section>
 			</main>
