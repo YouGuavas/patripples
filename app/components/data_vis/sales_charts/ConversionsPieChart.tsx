@@ -39,7 +39,6 @@ export function ConversionsPieChart({
 			{ name: 'Core', value: core },
 			{ name: 'Premium', value: premium },
 		];
-		console.log(chartData);
 	}, [loss, impulse, core, premium]);
 
 	return (

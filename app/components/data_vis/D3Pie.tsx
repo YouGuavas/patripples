@@ -1,18 +1,21 @@
 'use client';
+
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
+
 interface DataItem {
 	name: string;
 	value: number;
 }
+
 interface PieChartProps {
 	title: string;
 	data: DataItem[];
 	width: number;
 	height: number;
-	innerRadius?: number; // Optional inner radius for a donut chart
+	innerRadius?: number;
 	outerRadius?: number;
-	colors?: string[]; // Optional array of colors for the slices
+	colors?: string[];
 }
 
 const D3Pie: React.FC<PieChartProps> = ({
@@ -26,49 +29,58 @@ const D3Pie: React.FC<PieChartProps> = ({
 }) => {
 	const [hasMounted, setHasMounted] = useState(false);
 	const svgRef = useRef<SVGSVGElement>(null);
-	const radius = outerRadius || Math.min(width, height) / 2 - 10;
-	//const margin = { top: 60, right: 20, bottom: 20, left: 20 };
+
+	const radius = outerRadius || Math.min(width, height) / 2 - 40; // Increased spacing for titles
 
 	useEffect(() => {
-		// Flag that we are now running in the browser
 		setHasMounted(true);
 	}, []);
 
 	useEffect(() => {
 		if (!hasMounted || !svgRef.current) return;
 
-		// Clear any previous chart elements on update
-		const svg = d3.select(svgRef.current);
-		svg.selectAll('*').remove();
+		// 1. CLEAR EVERYTHING inside the SVG to start fresh safely
+		const svgElement = d3.select(svgRef.current);
+		svgElement.selectAll('*').remove();
 
-		svg
+		// 2. Set base SVG attributes
+		svgElement
 			.attr('width', width)
 			.attr('height', height)
 			.attr('viewBox', `0 0 ${width} ${height}`)
 			.attr('preserveAspectRatio', 'xMidYMid meet');
-		// Move the center of the pie chart to the middle of the SVG container
 
-		const chartGroup = svg
+		// 3. Separate Title Group (keeps it at the top, independent of pie center)
+		const titleGroup = svgElement.append('g');
+
+		titleGroup
+			.append('text')
+			.attr('x', width / 2)
+			.attr('y', 40) // Standard spacing from the top boundary
+			.attr('text-anchor', 'middle')
+			.style('font-size', '24px')
+			.style('fill', 'white')
+			.style('font-weight', 'bold')
+			.text(title);
+
+		// 4. Main Chart Group (Centered perfectly)
+		const chartGroup = svgElement
 			.append('g')
-			.attr('transform', `translate(${width / 2}, ${height / 2})`);
-		const titleGroup = svg.append('g');
-		// D3 pie generator: computes angles for each data item
+			.attr('transform', `translate(${width / 2}, ${height / 2 + 20})`); // Added offset for title clearance
+
+		// D3 pie generator
 		const pieGenerator = d3
 			.pie<DataItem>()
 			.value((d) => d.value)
-			.sort(null); // Prevents D3 from sorting the slices
+			.sort(null);
 
-		// D3 arc generator: generates the "d" attribute for SVG paths
+		// D3 arc generator
 		const arcGenerator = d3
 			.arc<d3.PieArcDatum<DataItem>>()
-			.innerRadius(innerRadius as number)
+			.innerRadius(innerRadius)
 			.outerRadius(radius);
 
-		// Generate the arc data using the pie generator
 		const arcs = pieGenerator(data);
-
-		// Color scale
-
 		const color = d3.scaleOrdinal(colors);
 
 		// Draw the slices
@@ -82,23 +94,34 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.attr('stroke', 'white')
 			.style('stroke-width', '2px');
 
-		// Add labels (optional)
-		titleGroup
-			.selectAll('text')
+		// Add labels (Guaranteed not to stack)
+		chartGroup
+			.selectAll('.slice-label')
 			.data(arcs)
 			.enter()
 			.append('text')
+			.attr('class', 'slice-label')
 			.text((d) => d.data.name)
-			// Position labels at the centroid of the arc
 			.attr('transform', (d) => `translate(${arcGenerator.centroid(d)})`)
 			.style('text-anchor', 'middle')
-			.style('font-size', 12)
+			.style('font-size', '12px')
 			.style('fill', 'white');
-		// Add the chart title
-	}, [hasMounted, data, width, height, innerRadius, radius, title, colors]); // Redraw chart if data or dimensions change
+
+		// Added width, height, innerRadius, and radius to dependencies so it handles resize events perfectly
+	}, [hasMounted, data, width, height, innerRadius, radius, title, colors]);
+
 	if (!hasMounted) {
-		return <p>Loading chart...</p>;
+		// Return a matching visual placeholder container to prevent layout shifting
+		return (
+			<div
+				style={{ width: `${width}px`, height: `${height}px` }}
+				className="text-white"
+			>
+				Loading chart...
+			</div>
+		);
 	}
+
 	return <svg ref={svgRef} />;
 };
 
