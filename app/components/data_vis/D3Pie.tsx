@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 interface DataItem {
 	name: string;
@@ -24,10 +24,10 @@ const D3Pie: React.FC<PieChartProps> = ({
 	outerRadius,
 	colors = d3.schemeCategory10,
 }) => {
-	const [hasMounted, setHasMounted] = React.useState(false);
+	const [hasMounted, setHasMounted] = useState(false);
 	const svgRef = useRef<SVGSVGElement>(null);
 	const radius = outerRadius || Math.min(width, height) / 2 - 10;
-	const margin = { top: 60, right: 20, bottom: 20, left: 20 };
+	//const margin = { top: 60, right: 20, bottom: 20, left: 20 };
 
 	useEffect(() => {
 		// Flag that we are now running in the browser
@@ -38,18 +38,20 @@ const D3Pie: React.FC<PieChartProps> = ({
 		if (!hasMounted || !svgRef.current) return;
 
 		// Clear any previous chart elements on update
-		d3.select(svgRef.current).selectAll('*').remove();
+		const svg = d3.select(svgRef.current);
+		svg.selectAll('*').remove();
 
-		const svg = d3
-			.select(svgRef.current)
+		svg
 			.attr('width', width)
 			.attr('height', height)
 			.attr('viewBox', `0 0 ${width} ${height}`)
-			.attr('preserveAspectRatio', 'xMidYMid meet')
-			.append('g')
-			// Move the center of the pie chart to the middle of the SVG container
-			.attr('transform', `translate(${width / 2}, ${height / 2})`);
+			.attr('preserveAspectRatio', 'xMidYMid meet');
+		// Move the center of the pie chart to the middle of the SVG container
 
+		const chartGroup = svg
+			.append('g')
+			.attr('transform', `translate(${width / 2}, ${height / 2})`);
+		const titleGroup = svg.append('g');
 		// D3 pie generator: computes angles for each data item
 		const pieGenerator = d3
 			.pie<DataItem>()
@@ -70,7 +72,7 @@ const D3Pie: React.FC<PieChartProps> = ({
 		const color = d3.scaleOrdinal(colors);
 
 		// Draw the slices
-		svg
+		chartGroup
 			.selectAll('path')
 			.data(arcs)
 			.enter()
@@ -81,7 +83,7 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.style('stroke-width', '2px');
 
 		// Add labels (optional)
-		svg
+		titleGroup
 			.selectAll('text')
 			.data(arcs)
 			.enter()
@@ -93,15 +95,7 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.style('font-size', 12)
 			.style('fill', 'white');
 		// Add the chart title
-		svg
-			.append('text')
-			.attr('x', 0) // Position at the horizontal center
-			.attr('y', -margin.top - 170) // Position above the chart area, within the top margin
-			.attr('text-anchor', 'middle') // Center the text around the x coordinate
-			.style('font-size', '24px') // Apply styling
-			.style('fill', 'white')
-			.text(title); // Set the title text
-	}, [hasMounted, data]); // Redraw chart if data or dimensions change
+	}, [hasMounted, data, width, height, innerRadius, radius, title, colors]); // Redraw chart if data or dimensions change
 	if (!hasMounted) {
 		return <p>Loading chart...</p>;
 	}
