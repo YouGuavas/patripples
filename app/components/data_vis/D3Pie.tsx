@@ -67,11 +67,13 @@ const D3Pie: React.FC<PieChartProps> = ({
 		const chartGroup = svgElement
 			.append('g')
 			.attr('transform', `translate(${width / 2}, ${height / 2 + 20})`); // Added offset for title clearance
+		const isEmpty = data.every((d) => d.value === 0);
+		const filteredData = data.filter((d) => d.value > 0);
 
 		// D3 pie generator
 		const pieGenerator = d3
 			.pie<DataItem>()
-			.value((d) => d.value)
+			.value((d) => d.value) // Treat zero values as 1 for visualization
 			.sort(null);
 
 		// D3 arc generator
@@ -79,9 +81,8 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.arc<d3.PieArcDatum<DataItem>>()
 			.innerRadius(innerRadius)
 			.outerRadius(radius);
-		const isEmpty = data.every((d) => d.value === 0);
 
-		const arcs = pieGenerator(isEmpty ? chartData : data);
+		const arcs = pieGenerator(isEmpty ? chartData : filteredData);
 		const color = d3.scaleOrdinal(colors);
 
 		// Draw the slices
@@ -91,7 +92,9 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.enter()
 			.append('path')
 			.attr('d', (d) => arcGenerator(d) as string)
-			.attr('fill', (d) => color(d.data.name) as string)
+			.attr('fill', (d) => {
+				return d.value === 0 ? null : (color(d.data.name) as string);
+			})
 			.attr('stroke', 'white')
 			.style('stroke-width', '2px');
 
