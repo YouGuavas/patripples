@@ -32,9 +32,10 @@ export default function Home() {
 					</p>
 				</section>
 
-				<section className={`width-full center margin-bottom-sm`}>
-					<h2 className={`lowercase style-1`}>Sales Form</h2>
-					<SalesForm />
+				<section
+					className={`width-full center margin-bottom-sm flex column gap-large`}
+				>
+					<h2 className={`lowercase style-1`}>Visualization</h2>
 					<div
 						className={`width-full center margin-bottom-sm flex column gap-large`}
 					>
@@ -51,12 +52,6 @@ export default function Home() {
 							understand your sales funnel better.
 						</p>
 					</div>
-				</section>
-
-				<section
-					className={`width-full center margin-bottom-sm flex column gap-large`}
-				>
-					<h2 className={`lowercase style-1`}>Visualization</h2>
 					<div
 						className={`width-full center margin-bottom-sm flex row gap-large`}
 					>
