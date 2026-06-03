@@ -2,61 +2,46 @@
 'use client';
 
 import { useState } from 'react';
-import { supabase } from '../../api/lib/supabase';
+import { useLiveQuery } from 'dexie-react-hooks';
+import { db } from '@/app/lib/db';
 
 type item = {
 	name: string;
-	value: number;
-	tier: 'impulse' | 'core' | 'premium';
+	price: number;
+	tier: string;
+	time?: string;
 };
 
 type propsType = {
-	itemOptions?: item[];
+	itemData: item[];
 };
 
-export default function SalesForm(
+export default function SalesList(
 	props: propsType = {
-		itemOptions: [
-			{ name: 'Impulse', value: 0, tier: 'impulse' },
-			{ name: 'Core', value: 0, tier: 'core' },
-			{ name: 'Premium', value: 0, tier: 'premium' },
+		itemData: [
+			{ name: 'Impulse', price: 0, tier: 'impulse' },
+			{ name: 'Core', price: 0, tier: 'core' },
+			{ name: 'Premium', price: 0, tier: 'premium' },
 		],
 	},
 ) {
-	const [email, setEmail] = useState('');
-	const [firstName, setFirstName] = useState('');
-	const [lastName, setLastName] = useState('');
-	const [socialHandle, setSocialHandle] = useState('');
+	const [name, setName] = useState('');
+	const [tier, setTier] = useState('');
+	const [time, setTime] = useState('');
+	const [price, setPrice] = useState(0);
 
 	const [status, setStatus] = useState<
 		'idle' | 'loading' | 'success' | 'error'
 	>('idle');
 	const [error, setError] = useState<string | null>(null);
 
-	const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+	const sales = useLiveQuery(() => db.sales.toArray());
 
 	async function handleSubmit(e: React.FormEvent) {
 		e.preventDefault();
 
-		if (!emailRegex.test(email)) {
-			setError('Please enter a valid email.');
-			return;
-		}
-
 		setStatus('loading');
 		setError(null);
-
-		const { error } = await supabase
-			.from('emails')
-			.insert([{ email, source: 'ripple-form' }]);
-
-		if (error) {
-			setStatus('error');
-			setError(error.message);
-		} else {
-			setStatus('success');
-			setEmail('');
-		}
 	}
 
 	return (
@@ -64,57 +49,25 @@ export default function SalesForm(
 			<div className={`width-full flex column gap-large center`}>
 				<div className={`flex width-full row center`}>
 					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
-							First Name
-						</label>
-						<input
-							type="text"
-							value={firstName}
-							onChange={(e) => setFirstName(e.target.value)}
-							placeholder="Your First Name"
-							className="py-1 width-full"
-							required
-						/>
-					</div>
-					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
-							Last Name
-						</label>
-						<input
-							type="text"
-							value={lastName}
-							onChange={(e) => setLastName(e.target.value)}
-							placeholder="Your Last Name"
-							className="py-1 width-full"
-						/>
-					</div>
-				</div>
-
-				<div className={`flex width-full row center`}>
-					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
-							Email
-						</label>
-						<input
-							type="email"
-							value={email}
-							onChange={(e) => setEmail(e.target.value)}
-							placeholder="your@email.com"
-							className="py-1 width-full"
-							required
-						/>
-					</div>
-					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
-							Social Handle (optional)
-						</label>
-						<input
-							type="text"
-							value={socialHandle}
-							onChange={(e) => setSocialHandle(e.target.value)}
-							placeholder="@yourhandle (optional Twitter or Instagram)"
-							className="py-1 width-full"
-						/>
+						{props.itemData.map((item) => {
+							return (
+								<div className={`flex row gap-small center`} key={item.name}>
+									<label
+										htmlFor={item.name}
+										className="width-half left-align centered"
+									>
+										{item.name}
+									</label>
+									<input
+										type="checkbox"
+										value={item.name}
+										name={item.name}
+										onChange={(e) => setName(e.target.value)}
+										className="width-half"
+									/>
+								</div>
+							);
+						})}
 					</div>
 				</div>
 

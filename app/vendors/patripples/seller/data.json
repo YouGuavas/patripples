@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Impulsive",
+		"tier": "Impulse",
+		"time": "2023-10-01T12:00:00Z",
+		"price": 19.99
+	},
+	{
+		"name": "Core",
+		"tier": "Core",
+		"time": "2023-10-02T15:30:00Z",
+		"price": 49.99
+	},
+	{
+		"name": "Premium",
+		"tier": "Premium",
+		"time": "2023-10-03T18:45:00Z",
+		"price": 99.99
+	}
+]

@@ -1,9 +1,10 @@
 import { SalesProviderWrapper } from '../../SalesProviderWrapper';
-import SalesForm from '@/app/components/forms/SalesForm';
+import SalesList from '@/app/components/lists/SalesList';
 import ConversionButton from '@/app/components/buttons/ConversionButtons';
 import DownloadButton from '@/app/components/buttons/DownloadButton';
 import { ConversionsPieChart } from '@/app/components/data_vis/sales_charts/ConversionsPieChart';
 import { HooksPieChart } from '@/app/components/data_vis/sales_charts/HooksPieChart';
+import data from './data.json';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title:
@@ -43,9 +44,10 @@ export default function Home() {
 							Tap one of these buttons if someone walks away instead of buying.
 						</p>
 						<div className="flex row gap-small width-half centered">
-							<ConversionButton name="Passerby" type="Passerby" />
 							<ConversionButton name="Loss" type="Loss" />
 						</div>
+						<SalesList itemData={data} />
+
 						<p className={`paragraph width-half block centered center`}>
 							Passerby is for when they don't stop, Loss is for when they
 							stopped but didn&apos;t buy anything. This will help you track and
