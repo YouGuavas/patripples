@@ -31,7 +31,7 @@ const D3Pie: React.FC<PieChartProps> = ({
 	const svgRef = useRef<SVGSVGElement>(null);
 
 	const radius = outerRadius || Math.min(width, height) / 2 - 40; // Increased spacing for titles
-
+	const chartData = [{ name: 'No Data', value: 1 }];
 	useEffect(() => {
 		setHasMounted(true);
 	}, []);
@@ -79,8 +79,9 @@ const D3Pie: React.FC<PieChartProps> = ({
 			.arc<d3.PieArcDatum<DataItem>>()
 			.innerRadius(innerRadius)
 			.outerRadius(radius);
+		const isEmpty = data.every((d) => d.value === 0);
 
-		const arcs = pieGenerator(data);
+		const arcs = pieGenerator(isEmpty ? chartData : data);
 		const color = d3.scaleOrdinal(colors);
 
 		// Draw the slices
