@@ -1,4 +1,4 @@
-import { SalesProviderWrapper } from './SalesProviderWrapper';
+import { SalesProviderWrapper } from '../../SalesProviderWrapper';
 import SalesForm from '@/app/components/forms/SalesForm';
 import ConversionButton from '@/app/components/buttons/ConversionButtons';
 import DownloadButton from '@/app/components/buttons/DownloadButton';
@@ -33,11 +33,23 @@ export default function Home() {
 				</section>
 
 				<section className={`width-full center margin-bottom-sm`}>
-					<h2></h2>
+					<h2 className={`lowercase style-1`}>Sales Form</h2>
 					<SalesForm />
-					<div className="flex row gap-small width-half centered">
-						<ConversionButton name="Passerby" type="Passerby" />
-						<ConversionButton name="Loss" type="Loss" />
+					<div
+						className={`width-full center margin-bottom-sm flex column gap-large`}
+					>
+						<p className={`paragraph width-half block centered center`}>
+							Tap one of these buttons if someone walks away instead of buying.
+						</p>
+						<div className="flex row gap-small width-half centered">
+							<ConversionButton name="Passerby" type="Passerby" />
+							<ConversionButton name="Loss" type="Loss" />
+						</div>
+						<p className={`paragraph width-half block centered center`}>
+							Passerby is for when they don't stop, Loss is for when they
+							stopped but didn&apos;t buy anything. This will help you track and
+							understand your sales funnel better.
+						</p>
 					</div>
 				</section>
 

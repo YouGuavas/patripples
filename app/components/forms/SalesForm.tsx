@@ -64,7 +64,7 @@ export default function SalesForm(
 			<div className={`width-full flex column gap-large center`}>
 				<div className={`flex width-full row center`}>
 					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
+						<label htmlFor="email" className="width-full left-align">
 							First Name
 						</label>
 						<input
@@ -77,7 +77,7 @@ export default function SalesForm(
 						/>
 					</div>
 					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
+						<label htmlFor="email" className="width-full left-align">
 							Last Name
 						</label>
 						<input
@@ -92,7 +92,7 @@ export default function SalesForm(
 
 				<div className={`flex width-full row center`}>
 					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
+						<label htmlFor="email" className="width-full left-align">
 							Email
 						</label>
 						<input
@@ -105,7 +105,7 @@ export default function SalesForm(
 						/>
 					</div>
 					<div className={`flex column width-half`}>
-						<label htmlFor="email" className="width-half left-align">
+						<label htmlFor="email" className="width-full left-align">
 							Social Handle (optional)
 						</label>
 						<input
