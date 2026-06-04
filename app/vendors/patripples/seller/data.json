@@ -1,20 +1,38 @@
 [
 	{
-		"name": "Impulsive",
-		"tier": "Impulse",
-		"time": "2023-10-01T12:00:00Z",
-		"price": 19.99
+		"id": "hat_01",
+		"category": "Hats",
+		"name": "Wide-Brim Fedora",
+		"price": 85.0
 	},
 	{
-		"name": "Core",
-		"tier": "Core",
-		"time": "2023-10-02T15:30:00Z",
-		"price": 49.99
+		"id": "hat_02",
+		"category": "Hats",
+		"name": "Leather Snapback",
+		"price": 45.0
 	},
 	{
-		"name": "Premium",
-		"tier": "Premium",
-		"time": "2023-10-03T18:45:00Z",
-		"price": 99.99
+		"id": "hat_03",
+		"category": "Hats",
+		"name": "Distressed Bucket",
+		"price": 35.0
+	},
+	{
+		"id": "acc_01",
+		"category": "Gear",
+		"name": "Utility Belt Pack",
+		"price": 50.0
+	},
+	{
+		"id": "acc_02",
+		"category": "Gear",
+		"name": "Enamel Logo Pin",
+		"price": 15.0
+	},
+	{
+		"id": "acc_03",
+		"category": "Gear",
+		"name": "Braided Key Strap",
+		"price": 20.0
 	}
 ]

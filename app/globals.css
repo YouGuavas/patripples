@@ -721,6 +721,9 @@ button {
 .between {
 	justify-content: space-between;
 }
+.around {
+	justify-content: space-around;
+}
 .even {
 	justify-content: space-evenly;
 }
