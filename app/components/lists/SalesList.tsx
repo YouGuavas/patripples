@@ -13,6 +13,7 @@ type item = {
 
 type propsType = {
 	itemData: item[];
+	tax_rate?: number; // Optional tax rate prop for flexibility
 };
 
 export default function SalesList(
@@ -40,7 +41,8 @@ export default function SalesList(
 		const newTotal = Object.entries(cart).reduce((sum, [itemIdStr, qty]) => {
 			const itemId = Number(itemIdStr);
 			const item = props.itemData.find((i) => i.id === itemId);
-			return sum + (item ? item.price * qty : 0) * (flatTax ? 1.07 : 1); // Apply flat tax if enabled
+			const taxMultiplier = flatTax ? 1 + (props.tax_rate ?? 0) : 1; // Apply tax if flatTax is enabled
+			return sum + (item ? item.price * qty : 0) * taxMultiplier; // Apply flat tax if enabled
 		}, 0);
 		setTotal(newTotal);
 		console.log('Cart updated:', cart, 'Calculated Total:', newTotal); // Debug log to verify total calculation

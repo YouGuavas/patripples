@@ -4,7 +4,8 @@ import ConversionButton from '@/app/components/buttons/ConversionButtons';
 import DownloadButton from '@/app/components/buttons/DownloadButton';
 import { ConversionsPieChart } from '@/app/components/data_vis/sales_charts/ConversionsPieChart';
 import { HooksPieChart } from '@/app/components/data_vis/sales_charts/HooksPieChart';
-import data from './data.json';
+import itemData from './itemData.json';
+import sellerData from './sellerData.json';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title:
@@ -46,7 +47,7 @@ export default function Home() {
 						<div className="flex row gap-small width-half centered">
 							<ConversionButton name="Loss" type="Loss" />
 						</div>
-						<SalesList itemData={data} />
+						<SalesList itemData={itemData} tax_rate={sellerData.tax} />
 
 						<p className={`paragraph width-half block centered center`}>
 							Passerby is for when they don&apos;t stop, Loss is for when they
