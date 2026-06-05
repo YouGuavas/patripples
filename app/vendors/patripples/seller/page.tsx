@@ -49,7 +49,7 @@ export default function Home() {
 						<SalesList itemData={data} />
 
 						<p className={`paragraph width-half block centered center`}>
-							Passerby is for when they don't stop, Loss is for when they
+							Passerby is for when they don&apos;t stop, Loss is for when they
 							stopped but didn&apos;t buy anything. This will help you track and
 							understand your sales funnel better.
 						</p>

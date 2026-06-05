@@ -6,7 +6,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/app/lib/db';
 
 type item = {
-	id: string;
+	id: number;
 	name: string;
 	price: number;
 };
@@ -18,9 +18,9 @@ type propsType = {
 export default function SalesList(
 	props: propsType = {
 		itemData: [
-			{ id: 'impulse_01', name: 'Impulse', price: 15 }, // Added example base prices for logic verification
-			{ id: 'core_01', name: 'Core', price: 45 },
-			{ id: 'premium_01', name: 'Premium', price: 85 },
+			{ id: 1, name: 'Impulse', price: 15 }, // Added example base prices for logic verification
+			{ id: 2, name: 'Core', price: 45 },
+			{ id: 3, name: 'Premium', price: 85 },
 		],
 	},
 ) {
@@ -38,7 +38,7 @@ export default function SalesList(
 
 	useEffect(() => {
 		const newTotal = Object.entries(cart).reduce((sum, [itemIdStr, qty]) => {
-			const itemId = itemIdStr;
+			const itemId = Number(itemIdStr);
 			const item = props.itemData.find((i) => i.id === itemId);
 			return sum + (item ? item.price * qty : 0);
 		}, 0);

@@ -1,36 +1,36 @@
 [
 	{
-		"id": "hat_01",
+		"id": 1,
 		"category": "Hats",
 		"name": "Wide-Brim Fedora",
 		"price": 85
 	},
 	{
-		"id": "hat_02",
+		"id": 2,
 		"category": "Hats",
 		"name": "Leather Snapback",
 		"price": 45
 	},
 	{
-		"id": "hat_03",
+		"id": 3,
 		"category": "Hats",
 		"name": "Distressed Bucket",
 		"price": 35
 	},
 	{
-		"id": "acc_01",
+		"id": 4,
 		"category": "Gear",
 		"name": "Utility Belt Pack",
 		"price": 50
 	},
 	{
-		"id": "acc_02",
+		"id": 5,
 		"category": "Gear",
 		"name": "Enamel Logo Pin",
 		"price": 15
 	},
 	{
-		"id": "acc_03",
+		"id": 6,
 		"category": "Gear",
 		"name": "Braided Key Strap",
 		"price": 20
