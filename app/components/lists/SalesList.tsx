@@ -6,12 +6,9 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db } from '@/app/lib/db';
 
 type item = {
-	id: number;
+	id: string;
 	name: string;
 	price: number;
-	tier: string;
-	time?: string;
-	count?: number;
 };
 
 type propsType = {
@@ -21,9 +18,9 @@ type propsType = {
 export default function SalesList(
 	props: propsType = {
 		itemData: [
-			{ id: 1, name: 'Impulse', price: 15, tier: 'impulse' }, // Added example base prices for logic verification
-			{ id: 2, name: 'Core', price: 45, tier: 'core' },
-			{ id: 3, name: 'Premium', price: 85, tier: 'premium' },
+			{ id: 'impulse_01', name: 'Impulse', price: 15 }, // Added example base prices for logic verification
+			{ id: 'core_01', name: 'Core', price: 45 },
+			{ id: 'premium_01', name: 'Premium', price: 85 },
 		],
 	},
 ) {
@@ -41,11 +38,12 @@ export default function SalesList(
 
 	useEffect(() => {
 		const newTotal = Object.entries(cart).reduce((sum, [itemIdStr, qty]) => {
-			const itemId = Number(itemIdStr);
+			const itemId = itemIdStr;
 			const item = props.itemData.find((i) => i.id === itemId);
 			return sum + (item ? item.price * qty : 0);
 		}, 0);
 		setTotal(newTotal);
+		console.log('Cart updated:', cart, 'Calculated Total:', newTotal); // Debug log to verify total calculation
 	}, [cart, props.itemData]);
 
 	const handleTap = (id: number) => {
@@ -89,7 +87,7 @@ export default function SalesList(
 			{/* Main Grid Section */}
 			<div className="width-full flex column gap-large center">
 				<div className="flex width-full row center">
-					<div className="flex row gap-small width-half">
+					<div className="flex row gap-small width-half center">
 						{props.itemData.map((item) => {
 							const qty = cart[item.id] ?? 0;
 							const hasItems = qty > 0;
