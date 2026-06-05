@@ -40,11 +40,11 @@ export default function SalesList(
 		const newTotal = Object.entries(cart).reduce((sum, [itemIdStr, qty]) => {
 			const itemId = Number(itemIdStr);
 			const item = props.itemData.find((i) => i.id === itemId);
-			return sum + (item ? item.price * qty : 0);
+			return sum + (item ? item.price * qty : 0) * (flatTax ? 1.07 : 1); // Apply flat tax if enabled
 		}, 0);
 		setTotal(newTotal);
 		console.log('Cart updated:', cart, 'Calculated Total:', newTotal); // Debug log to verify total calculation
-	}, [cart, props.itemData]);
+	}, [cart, props.itemData, flatTax]); // Re-run effect whenever cart, itemData, or flatTax changes
 
 	const handleTap = (id: number) => {
 		setCart((prev) => ({
