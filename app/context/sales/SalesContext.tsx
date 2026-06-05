@@ -15,6 +15,10 @@ type SalesContextType = {
 	setCore: React.Dispatch<React.SetStateAction<number>>;
 	premium: number;
 	setPremium: React.Dispatch<React.SetStateAction<number>>;
+	purchase: number;
+	setPurchase: React.Dispatch<React.SetStateAction<number>>;
+	total: number;
+	setTotal: React.Dispatch<React.SetStateAction<number>>;
 };
 
 export const SalesContext = createContext<SalesContextType>({
@@ -30,6 +34,10 @@ export const SalesContext = createContext<SalesContextType>({
 	setCore: () => {},
 	premium: 0,
 	setPremium: () => {},
+	purchase: 0,
+	setPurchase: () => {},
+	total: 0,
+	setTotal: () => {},
 });
 
 export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
@@ -39,6 +47,8 @@ export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
 	const [impulse, setImpulse] = useState(0);
 	const [core, setCore] = useState(0);
 	const [premium, setPremium] = useState(0);
+	const [purchase, setPurchase] = useState(0);
+	const [total, setTotal] = useState(0);
 
 	return (
 		<SalesContext.Provider
@@ -55,6 +65,10 @@ export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
 				setCore,
 				premium,
 				setPremium,
+				purchase,
+				setPurchase,
+				total,
+				setTotal,
 			}}
 		>
 			{children}
