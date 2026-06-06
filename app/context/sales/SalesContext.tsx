@@ -2,7 +2,14 @@
 
 import { createContext, useState, useEffect, useContext } from 'react';
 
-type SalesContextType = {
+import {
+	queueOfflineTransaction,
+	type CheckoutItem,
+	type TransactionRecord,
+} from '@/app/lib/db';
+import { useSyncQueue } from '@/app/hooks/useSyncQueue'; // Import the hook here
+
+type TrafficType = {
 	passerby: number;
 	setPasserby: React.Dispatch<React.SetStateAction<number>>;
 	hook: number;
@@ -21,23 +28,42 @@ type SalesContextType = {
 	setTotal: React.Dispatch<React.SetStateAction<number>>;
 };
 
+type UnsyncedTransactionType = {
+	unsyncedTransactions: TransactionRecord[];
+	unsyncedCount: number;
+	isDbReady: boolean;
+	executeCheckout: (
+		items: CheckoutItem[],
+		total: number,
+		density: number,
+	) => Promise<void>;
+};
+
+type SalesContextType = {
+	unsyncedTransactions: UnsyncedTransactionType[];
+	traffic: TrafficType;
+};
+
 export const SalesContext = createContext<SalesContextType>({
-	passerby: 0,
-	setPasserby: () => {},
-	hook: 0,
-	setHook: () => {},
-	loss: 0,
-	setLoss: () => {},
-	impulse: 0,
-	setImpulse: () => {},
-	core: 0,
-	setCore: () => {},
-	premium: 0,
-	setPremium: () => {},
-	purchase: 0,
-	setPurchase: () => {},
-	total: 0,
-	setTotal: () => {},
+	unsyncedTransactions: [],
+	traffic: {
+		passerby: 0,
+		setPasserby: () => {},
+		hook: 0,
+		setHook: () => {},
+		loss: 0,
+		setLoss: () => {},
+		impulse: 0,
+		setImpulse: () => {},
+		core: 0,
+		setCore: () => {},
+		premium: 0,
+		setPremium: () => {},
+		purchase: 0,
+		setPurchase: () => {},
+		total: 0,
+		setTotal: () => {},
+	},
 });
 
 export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
@@ -53,22 +79,25 @@ export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<SalesContext.Provider
 			value={{
-				passerby,
-				setPasserby,
-				hook,
-				setHook,
-				loss,
-				setLoss,
-				impulse,
-				setImpulse,
-				core,
-				setCore,
-				premium,
-				setPremium,
-				purchase,
-				setPurchase,
-				total,
-				setTotal,
+				unsyncedTransactions: useSyncQueue(), // Use the hook directly in the context provider
+				traffic: {
+					passerby,
+					setPasserby,
+					hook,
+					setHook,
+					loss,
+					setLoss,
+					impulse,
+					setImpulse,
+					core,
+					setCore,
+					premium,
+					setPremium,
+					purchase,
+					setPurchase,
+					total,
+					setTotal,
+				},
 			}}
 		>
 			{children}
