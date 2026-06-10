@@ -9,6 +9,8 @@ import {
 } from '@/app/lib/db';
 import { useSyncQueue } from '@/app/hooks/useSyncQueue'; // Import the hook here
 
+type trafficRateType = number; // 0-10 scale from the UI slider
+
 type TrafficType = {
 	passerby: number;
 	setPasserby: React.Dispatch<React.SetStateAction<number>>;
@@ -41,11 +43,13 @@ type UnsyncedTransactionType = {
 
 type SalesContextType = {
 	unsyncedTransactions: UnsyncedTransactionType[];
+	trafficRate: trafficRateType;
 	traffic: TrafficType;
 };
 
 export const SalesContext = createContext<SalesContextType>({
 	unsyncedTransactions: [],
+	trafficRate: 0,
 	traffic: {
 		passerby: 0,
 		setPasserby: () => {},
@@ -67,6 +71,7 @@ export const SalesContext = createContext<SalesContextType>({
 });
 
 export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
+	const [trafficRate, setTrafficRate] = useState<trafficRateType>(0);
 	const [passerby, setPasserby] = useState(0);
 	const [hook, setHook] = useState(0);
 	const [loss, setLoss] = useState(0);
@@ -79,6 +84,7 @@ export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<SalesContext.Provider
 			value={{
+				trafficRate,
 				unsyncedTransactions: useSyncQueue(), // Use the hook directly in the context provider
 				traffic: {
 					passerby,

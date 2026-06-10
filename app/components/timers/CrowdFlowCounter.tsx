@@ -1,8 +1,11 @@
 'use client';
 
+import { useSales } from '@/app/context/sales/SalesContext';
 import { useState, useEffect, useRef } from 'react';
+import trafficData from './trafficData.json'; // Import traffic data from JSON file
 
 export default function CrowdFlowCounter() {
+	const [trafficRate, setTrafficRate] = useState<number>(0); // 0-10 scale from the UI slide.
 	const [time, setTime] = useState<number>(0);
 	const [isRunning, setIsRunning] = useState<boolean>(false);
 
@@ -42,6 +45,10 @@ export default function CrowdFlowCounter() {
 		accumulatedTimeRef.current = 0;
 	};
 
+	const handleTrafficRate = (key: string) => {
+		setTrafficRate(trafficData[key as keyof typeof trafficData]);
+	};
+
 	// Helper functions to format milliseconds into readable chunks
 	const formatTime = () => {
 		const hours = Math.floor(time / 3600000);
@@ -70,6 +77,12 @@ export default function CrowdFlowCounter() {
 				>
 					Reset
 				</button>
+			</div>
+			<div className="flex row gap-small">
+				Traffic Rate:
+				{Object.keys(trafficData).map((key) => {
+					return <button onClick={() => handleTrafficRate(key)}>{key}</button>;
+				})}
 			</div>
 		</div>
 	);
