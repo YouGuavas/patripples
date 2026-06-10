@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { sleep } from '@/app/utils/time/timers';
+import time from '@/app/utils/time/time';
 import { db, queueOfflineTransaction } from '@/app/lib/db';
 
 type item = {
@@ -64,7 +64,7 @@ export default function SalesList(
 		try {
 			// Future IndexedDB write logic goes here
 			setStatus('success');
-			sleep(10000).then(() => {
+			time.sleep(10000).then(() => {
 				setStatus('idle');
 				setCart({}); // Clear cart after successful submission and status reset
 			}); // Reset status after showing success message
