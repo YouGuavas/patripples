@@ -23,7 +23,7 @@ export function ConversionsPieChart({
 	height: number;
 	colors?: string[];
 }) {
-	const { loss, impulse, core, premium } = useSales();
+	const { loss, impulse, core, premium } = useSales().traffic;
 
 	let chartData = [
 		{ name: 'Loss', value: loss },

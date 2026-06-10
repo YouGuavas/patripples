@@ -22,7 +22,7 @@ export function HooksPieChart({
 	height: number;
 	colors?: string[];
 }) {
-	const { passerby, hook } = useSales();
+	const { passerby, hook } = useSales().traffic;
 
 	let chartData = [
 		{ name: 'Passerby', value: passerby },
