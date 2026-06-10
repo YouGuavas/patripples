@@ -3,7 +3,8 @@
 
 import { useState, useEffect } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import { db } from '@/app/lib/db';
+import { sleep } from '@/app/utils/time/timers';
+import { db, queueOfflineTransaction } from '@/app/lib/db';
 
 type item = {
 	id: number;
@@ -32,7 +33,7 @@ export default function SalesList(
 	>('idle');
 	const [error, setError] = useState<string | null>(null);
 
-	const sales = useLiveQuery(() => db.sales.toArray());
+	const transactions = useLiveQuery(() => db.transactions.toArray());
 
 	// FIXED: Derive total instantly on every render from the current cart state
 	const [total, setTotal] = useState(0);
@@ -63,10 +64,19 @@ export default function SalesList(
 		try {
 			// Future IndexedDB write logic goes here
 			setStatus('success');
+			sleep(10000).then(() => {
+				setStatus('idle');
+				setCart({}); // Clear cart after successful submission and status reset
+			}); // Reset status after showing success message
 		} catch (err) {
 			setError('Sync failed');
 			setStatus('error');
 		}
+	}
+	async function handleClear() {
+		setCart({});
+		setStatus('idle');
+		setError(null);
 	}
 
 	return (
@@ -79,7 +89,7 @@ export default function SalesList(
 					<h1 className="width-full">${total.toFixed(2)}</h1>
 				</div>
 				<button
-					onClick={() => setCart({})}
+					onClick={() => handleClear()}
 					className="left-align style-1 lowercase rounded bordered px-2 py-2 flex column centered center darken"
 				>
 					Clear Cart
