@@ -6,13 +6,13 @@ type propsType = {
 	type: string;
 };
 export default function ConversionButton(props: propsType) {
-	const { hook, setHook } = useSales();
-	const { loss, setLoss } = useSales();
-	const { passerby, setPasserby } = useSales();
-	const { impulse, setImpulse } = useSales();
-	const { core, setCore } = useSales();
-	const { premium, setPremium } = useSales();
-	const { purchase, setPurchase } = useSales();
+	const { hook, setHook } = useSales().traffic;
+	const { loss, setLoss } = useSales().traffic;
+	const { passerby, setPasserby } = useSales().traffic;
+	const { impulse, setImpulse } = useSales().traffic;
+	const { core, setCore } = useSales().traffic;
+	const { premium, setPremium } = useSales().traffic;
+	const { purchase, setPurchase } = useSales().traffic;
 
 	const handleClick = (name: string) => {
 		switch (name.toLowerCase()) {
@@ -35,7 +35,7 @@ export default function ConversionButton(props: propsType) {
 				setPremium(premium + 1);
 				break;
 			case 'purchase':
-				setPremium(purchase + 1);
+				setPurchase(purchase + 1);
 				break;
 			default:
 				break;
