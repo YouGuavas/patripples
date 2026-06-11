@@ -1,15 +1,17 @@
 import Dexie, { type Table } from 'dexie';
 
+//helper functions - call these from other files to access indexeddb
+
 // Define strict types for the transactional layer
 export interface CheckoutItem {
-	id: string;
+	id: number;
 	name: string;
 	quantity: number;
 	price: number;
 }
 
 export interface SessionMetrics {
-	boothDensity: number; // Values 1-10 from the event-driven UI slider
+	time: string; // the time of purchase
 }
 
 export interface TransactionRecord {
@@ -46,7 +48,7 @@ if (process.env.NODE_ENV !== 'production') globalForDb.db = db;
 export async function queueOfflineTransaction(
 	items: CheckoutItem[],
 	totalAmount: number,
-	densitySliderValue: number,
+	time: string,
 ): Promise<TransactionRecord> {
 	const transactionPayload: TransactionRecord = {
 		uuid: crypto.randomUUID(),
@@ -55,11 +57,12 @@ export async function queueOfflineTransaction(
 		items,
 		total: Number(totalAmount),
 		metrics: {
-			boothDensity: Math.floor(densitySliderValue),
+			time,
 		},
 	};
 
 	await db.transactions.add(transactionPayload);
+	console.log(db.transactions.toArray()); // Debug log to verify transaction is added
 	return transactionPayload;
 }
 
@@ -75,4 +78,9 @@ export async function getUnsyncedTransactions(): Promise<TransactionRecord[]> {
  */
 export async function markAsSynced(uuid: string): Promise<number> {
 	return await db.transactions.update(uuid, { syncStatus: 1 });
+}
+
+//Clear unsynced - testing only
+export async function clearUnsynced(): Promise<TransactionRecord[]> {
+	return await db.transactions.where('syncStatus').equals(0).delete();
 }

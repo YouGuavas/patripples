@@ -4,7 +4,12 @@
 import { useState, useEffect } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import time from '@/app/utils/time/time';
-import { db, queueOfflineTransaction } from '@/app/lib/db';
+import {
+	db,
+	queueOfflineTransaction,
+	getUnsyncedTransactions,
+	clearUnsynced,
+} from '@/app/lib/db';
 
 type item = {
 	id: number;
@@ -46,7 +51,6 @@ export default function SalesList(
 			return sum + (item ? item.price * qty : 0) * taxMultiplier; // Apply flat tax if enabled
 		}, 0);
 		setTotal(newTotal);
-		console.log('Cart updated:', cart, 'Calculated Total:', newTotal); // Debug log to verify total calculation
 	}, [cart, props.itemData, flatTax]); // Re-run effect whenever cart, itemData, or flatTax changes
 
 	const handleTap = (id: number) => {
@@ -60,14 +64,24 @@ export default function SalesList(
 		e.preventDefault();
 		setStatus('loading');
 		setError(null);
+		// Convert cart Record<number, number> to CheckoutItem[] shape
+		const checkoutItems = Object.entries(cart).map(([id, qty]) => ({
+			id: Number(id),
+			quantity: qty,
+			name: props.itemData.find((i) => i.id === Number(id))?.name || '',
+			price: props.itemData.find((i) => i.id === Number(id))?.price || 0,
+		}));
 
 		try {
-			// Future IndexedDB write logic goes here
+			await queueOfflineTransaction(
+				checkoutItems,
+				total,
+				new Date().toISOString(),
+			);
 			setStatus('success');
-			time.sleep(10000).then(() => {
-				setStatus('idle');
-				setCart({}); // Clear cart after successful submission and status reset
-			}); // Reset status after showing success message
+			await time.sleep(10000);
+			setStatus('idle');
+			setCart({}); // Clear cart after successful submission and status reset
 		} catch (err) {
 			setError('Sync failed');
 			setStatus('error');
@@ -113,7 +127,8 @@ export default function SalesList(
 									onClick={() => handleTap(item.id)}
 									className={`py-2 px-2 rounded borderless ${hasItems ? 'active-item-style' : ''}`} // Toggle your custom active styles here
 								>
-									{item.name} {hasItems && `(${qty})`}
+									{`$${item.price.toFixed(2)} - ${item.name}`}{' '}
+									{hasItems && `(${qty})`}
 								</button>
 							);
 						})}
