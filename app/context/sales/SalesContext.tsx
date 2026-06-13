@@ -85,7 +85,7 @@ export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
 		<SalesContext.Provider
 			value={{
 				trafficRate,
-				unsyncedTransactions: useSyncQueue(), // Use the hook directly in the context provider
+				unsyncedTransactions: useSyncQueue().unsyncedTransactions, // Use the hook directly in the context provider
 				traffic: {
 					passerby,
 					setPasserby,
