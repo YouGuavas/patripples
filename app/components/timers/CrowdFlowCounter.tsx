@@ -35,7 +35,7 @@ export default function CrowdFlowCounter() {
 		return () => {
 			if (intervalRef.current) clearInterval(intervalRef.current);
 		};
-	}, [isRunning]);
+	}, [isRunning, time]);
 
 	const handleStartPause = () => setIsRunning(!isRunning);
 
@@ -81,7 +81,11 @@ export default function CrowdFlowCounter() {
 			<div className="flex row gap-small">
 				Traffic Rate:
 				{Object.keys(trafficData).map((key) => {
-					return <button onClick={() => handleTrafficRate(key)}>{key}</button>;
+					return (
+						<button key={key} onClick={() => handleTrafficRate(key)}>
+							{key}
+						</button>
+					);
 				})}
 			</div>
 		</div>
