@@ -168,9 +168,6 @@ export default function SalesList(
 				>
 					Flat Tax: {flatTax ? 'ON' : 'OFF'}
 				</button>
-				<button className="py-2 bg-1 rounded darken borderless">
-					Generate QR Code
-				</button>
 			</div>
 		</div>
 	);

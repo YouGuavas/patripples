@@ -30,25 +30,26 @@ type TrafficType = {
 	setTotal: React.Dispatch<React.SetStateAction<number>>;
 };
 
-type UnsyncedTransactionType = {
+type SyncQueueType = {
 	unsyncedTransactions: TransactionRecord[];
+	allTransactions: TransactionRecord[];
 	unsyncedCount: number;
 	isDbReady: boolean;
-	executeCheckout: (
-		items: CheckoutItem[],
-		total: number,
-		density: number,
-	) => Promise<void>;
 };
 
 type SalesContextType = {
-	unsyncedTransactions: UnsyncedTransactionType[];
+	syncQueue: SyncQueueType;
 	trafficRate: trafficRateType;
 	traffic: TrafficType;
 };
 
 export const SalesContext = createContext<SalesContextType>({
-	unsyncedTransactions: [],
+	syncQueue: {
+		unsyncedTransactions: [],
+		allTransactions: [],
+		unsyncedCount: 0,
+		isDbReady: false,
+	},
 	trafficRate: 0,
 	traffic: {
 		passerby: 0,
@@ -81,11 +82,18 @@ export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
 	const [purchase, setPurchase] = useState(0);
 	const [total, setTotal] = useState(0);
 
+	const { unsyncedTransactions, allTransactions, isHydrated, count } = useSyncQueue();
+
 	return (
 		<SalesContext.Provider
 			value={{
 				trafficRate,
-				unsyncedTransactions: useSyncQueue().unsyncedTransactions, // Use the hook directly in the context provider
+				syncQueue: {
+					unsyncedTransactions,
+					allTransactions,
+					unsyncedCount: count,
+					isDbReady: isHydrated,
+				},
 				traffic: {
 					passerby,
 					setPasserby,

@@ -64,6 +64,7 @@ export default function CrowdFlowCounter() {
 		<div className="flex column center  py-2 px-2 rounded gap-large">
 			<h2 className="">Crowd Flow Counter</h2>
 			<div className="">{formatTime()}</div>
+
 			<div className="flex row gap-small">
 				<button
 					onClick={handleStartPause}

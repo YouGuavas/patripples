@@ -5,6 +5,7 @@ import { db, type TransactionRecord } from '@/app/lib/db';
 
 interface SyncQueueHookResult {
 	unsyncedTransactions: TransactionRecord[];
+	allTransactions: TransactionRecord[];
 	isHydrated: boolean;
 	count: number;
 }
@@ -15,11 +16,13 @@ export function useSyncQueue(): SyncQueueHookResult {
 		() => db.transactions.where('syncStatus').equals(0).toArray(),
 		[],
 	);
+	const allTransactions = useLiveQuery(() => db.transactions.toArray(), []);
 
-	// If the query returns undefined, it indicates database loading/hydration status
-	if (!unsyncedTransactions) {
+	// If either query returns undefined, the database is still hydrating
+	if (!unsyncedTransactions || !allTransactions) {
 		return {
 			unsyncedTransactions: [],
+			allTransactions: [],
 			isHydrated: false,
 			count: 0,
 		};
@@ -27,6 +30,7 @@ export function useSyncQueue(): SyncQueueHookResult {
 
 	return {
 		unsyncedTransactions,
+		allTransactions,
 		isHydrated: true,
 		count: unsyncedTransactions.length,
 	};
