@@ -81,6 +81,7 @@ export async function markAsSynced(uuid: string): Promise<number> {
 }
 
 //Clear unsynced - testing only
-export async function clearUnsynced(): Promise<TransactionRecord[]> {
+export async function clearUnsynced(): Promise<number> {
 	return await db.transactions.where('syncStatus').equals(0).delete();
+	//return await db.transactions.where('syncStatus').equals(0).delete();
 }
