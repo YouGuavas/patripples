@@ -67,6 +67,7 @@ export default function RootLayout({
 						</div>
 						<div
 							hidden
+							suppressHydrationWarning
 							id="snipcart"
 							data-api-key="OGU2OWMwOGMtNjM2Mi00MWEyLTlhYmUtYjA1MTA4YzY5MzNkNjM4MTI3MDA4NDE3MzEzOTgy"
 							data-config-modal-style="side"

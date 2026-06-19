@@ -13,6 +13,7 @@ export default function Home() {
 					<Collapsible key={index} title={service.title} orientation="center">
 						<Rates
 							title={service.title}
+							category={service.category}
 							services={service.services}
 							description={service.description}
 						/>
