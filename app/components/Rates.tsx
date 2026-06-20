@@ -65,10 +65,10 @@ export default function Rates(props: propsType) {
 								className={`snipcart-add-item shop-button`}
 								data-item-id={service.title.toUpperCase()}
 								data-item-name={service.title}
-								data-item-price={service.rate * 0.3}
+								data-item-price={(service.rate * 0.3).toFixed(2)}
 								data-item-url={`https://patripples.com/market/${props.category}/${service.id}`}
 							>
-								{`Pay $${service.rate * 0.3}.00 Deposit`}
+								{`Pay $${(service.rate * 0.3).toFixed(2)} Deposit`}
 							</button>
 
 							{/*<Carousel images={service.demo.images} />*/}

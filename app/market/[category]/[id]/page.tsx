@@ -42,6 +42,15 @@ export default async function ProductPage({
 				<h1 className="lowercase style-1 thin">{pageData.title}</h1>
 				<p className={`style-1`}>Price: {`$${pageData.rate.toFixed(2)}`}</p>
 				<p className={`style-1`}>{`${pageData.description}`}</p>
+				<button
+					className={`snipcart-add-item shop-button`}
+					data-item-id={pageData.title.toUpperCase()}
+					data-item-name={pageData.title}
+					data-item-price={(pageData.rate * 0.3).toFixed(2)}
+					data-item-url={`https://patripples.com/market/${params.category}/${pageData.id}`}
+				>
+					{`Pay $${(pageData.rate * 0.3).toFixed(2)} Deposit`}
+				</button>
 			</section>
 		</main>
 	);
