@@ -8,7 +8,7 @@ export default function Game() {
 	let entityPos = {};
 
 	const [board, setBoard] = useState({
-		dimensions: { x: 200, y: 150 },
+		dimensions: { x: 200, y: 450 },
 	});
 
 	const [position, setPosition] = useState({
@@ -31,8 +31,7 @@ export default function Game() {
 	return (
 		<section className="flex column width-full">
 			<StatBar title={'stat bar'} stats={stats} />
-
-			<GameBoard />
+			<GameBoard dimensions={board.dimensions} />
 		</section>
 	);
 }
