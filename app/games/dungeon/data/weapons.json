@@ -1,0 +1,38 @@
+[
+	{
+		"id": "forsaken_manual",
+		"name": "Forsaken Manual",
+		"type": "spellbook",
+		"attack": 4
+	},
+	{
+		"id": "lifebender_codex",
+		"name": "Lifebender Codex",
+		"type": "spellbook",
+		"attack": 10
+	},
+	{
+		"id": "tome_of_chaos",
+		"name": "Tome of Chaos",
+		"type": "spellbook",
+		"attack": 14
+	},
+	{
+		"id": "shadowbinder",
+		"name": "Shadowbinder, Grimoire of Nightmares",
+		"type": "spellbook",
+		"attack": 20
+	},
+	{
+		"id": "deathsong",
+		"name": "Deathsong, Prophecy of Darkness",
+		"type": "spellbook",
+		"attack": 24
+	},
+	{
+		"id": "fuzzywuzzy",
+		"name": "FuzzyWuzzy, Wicked Manuscript of Fluff",
+		"type": "spellbook",
+		"attack": 29
+	}
+]
