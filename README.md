@@ -1,9 +1,7 @@
 ##To Do##
-1- Submit button should clear cart, update graphs and total
+1- Add PostGreS persistence
 
-2- Set a timer to clear submit success result and re-initialize state
-
-3- Add IndexedDB and PostGreSQL persistence
+2- Style snipcart checkout completion page
 
 ###Crowd Flow Counter###
-Centralize this so that only one crowd flow goes through, where this is relevant
+Adjust this to count actual crowd flow - it currently just does a full timer multiplier, which is incorrect.
