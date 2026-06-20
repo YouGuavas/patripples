@@ -1,14 +1,14 @@
 'use client';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import GameBoard from '../components/game/GameBoard';
 import StatBar from '../components/stats/StatBar';
 
 export default function Game() {
-	let occupied = {};
-	let entityPos = {};
+	let occupied = useRef({});
+	let entityPos = useRef({});
 
 	const [board, setBoard] = useState({
-		dimensions: { x: 200, y: 450 },
+		dimensions: { x: 200, y: 150 },
 	});
 
 	const [position, setPosition] = useState({
@@ -30,7 +30,7 @@ export default function Game() {
 	});
 	return (
 		<section className="flex column width-full">
-			<StatBar title={'stat bar'} stats={stats} />
+			<StatBar stats={stats} />
 			<GameBoard dimensions={board.dimensions} />
 		</section>
 	);
