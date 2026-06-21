@@ -1,4 +1,7 @@
+import React from 'react';
+
 type propsType = {
+	ref: React.Ref<HTMLCanvasElement>;
 	dimensions: {
 		x: number;
 		y: number;
@@ -8,6 +11,11 @@ type propsType = {
 export default function GameBoard(props: propsType) {
 	const { x, y } = props.dimensions;
 	return (
-		<canvas height={y} className={`bordered rounded width-full centered`} />
+		<canvas
+			ref={props.ref}
+			id="GameBoard"
+			height={y}
+			className={`bordered rounded width-full centered`}
+		/>
 	);
 }

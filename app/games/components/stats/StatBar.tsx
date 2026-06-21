@@ -8,6 +8,7 @@ type statsType = {
 	health: number;
 	baseHealth: number;
 	xp: number;
+  
 	weapon: string;
 };
 export default function StatBar(props: propsType) {
@@ -22,6 +23,7 @@ export default function StatBar(props: propsType) {
 			<li>Level: {stats.level}</li>
 			<li>Xp: {stats.xp}</li>
 			<li>Health: {`${stats.health}/${stats.baseHealth}`}</li>
+      <li>Attack: {}</li>
 			<li>Weapon: {weapon ? weapon.name : 'fists'}</li>
 		</ul>
 	);
