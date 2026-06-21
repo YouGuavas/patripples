@@ -1,10 +1,13 @@
 'use client';
 import { useState, useRef, useEffect } from 'react';
-import Image from 'next/image';
-import wetland from '@/public/universal/healthy_wetland.svg';
+
+import { renderToStaticMarkup } from 'react-dom/server';
+import Wetland from '@/app/components/cartoons/backgrounds/Wetlands';
 import GameBoard from '../components/game/GameBoard';
 import StatBar from '../components/stats/StatBar';
-
+import Cartographer from '@/app/components/cartoons/heroes/Cartographer';
+import Resurrectionist from '@/app/components/cartoons/heroes/Resurrectionist';
+import TheGang from '@/app/components/cartoons/villains/groups/TheGang';
 export default function Game() {
 	let occupied = useRef({});
 	let entityPos = useRef({});
@@ -38,11 +41,15 @@ export default function Game() {
 
 		const ctx = canvas.getContext('2d');
 		if (!ctx) return;
+		const background = renderToStaticMarkup(<Wetland />);
+		const blob = new Blob([background], {
+			type: 'image/svg+xml;charset=utf-8',
+		});
+		const url = URL.createObjectURL(blob);
 
 		// Create a new HTMLImageElement
 		const img = document.createElement('img');
-		img.src = wetland.src; // Path relative to the public folder
-
+		img.src = url;
 		img.onload = () => {
 			// Clear canvas before drawing
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -53,7 +60,16 @@ export default function Game() {
 	}, []);
 
 	return (
-		<section className="flex column width-full">
+		<section className="flex column width-full center">
+			<div className="flex row width-full between">
+				<div className="flex row">
+					<Resurrectionist />
+					<Cartographer />
+				</div>
+				<div>
+					<TheGang />
+				</div>
+			</div>
 			<StatBar stats={stats} />
 			<canvas
 				ref={canvasRef}

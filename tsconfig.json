@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"baseUrl": ".", // "." means the root directory
-
+		"ignoreDeprecations": "6.0",
 		"allowJs": true,
 		"skipLibCheck": true,
 		"strict": true,
@@ -23,6 +23,12 @@
 			"@/*": ["./*"] // This alias maps @/app/ to the root
 		}
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		".next/types/**/*.ts",
+		"app/components/cartoons/villains/groups/TheGang.js"
+	],
 	"exclude": ["node_modules"]
 }
