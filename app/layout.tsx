@@ -52,8 +52,8 @@ export default function RootLayout({
 						<UpdateTicker
 							updates={[
 								{
-									text: "Read 'Holiday Edition: Saint Patrick\'s Day' - out now.",
-									href: '/read/front_page/holiday_special_saint_patrick',
+									text: "Check out the early art for my new game, 'Dungeon' - a Roguelike. Coming soon",
+									href: '/games/dungeon',
 								},
 
 								{
