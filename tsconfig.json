@@ -2,7 +2,7 @@
 	"compilerOptions": {
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"baseUrl": ".", // "." means the root directory
-		"ignoreDeprecations": "6.0",
+		"ignoreDeprecations": "5.0",
 		"allowJs": true,
 		"skipLibCheck": true,
 		"strict": true,
