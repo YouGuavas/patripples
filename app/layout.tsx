@@ -57,8 +57,8 @@ export default function RootLayout({
 								},
 
 								{
-									text: 'Shop coming soon. Demo out now (not live).',
-									href: '/shop',
+									text: 'Shop coming soon. Demo out now.',
+									href: '/market',
 								},
 							]}
 						/>
