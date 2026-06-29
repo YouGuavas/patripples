@@ -1,14 +1,17 @@
-#Patripples#
+# Patripples
 
-##To Do##
+## To Do
+
 1- Add PostGreS persistence
 
 2- Style snipcart checkout completion page
 
-###Crowd Flow Counter###
+### Crowd Flow Counter
+
 Adjust this to count actual crowd flow - it currently just does a full timer multiplier, which is incorrect.
 
-##/portfolio##
+## /portfolio
+
 This is where you will find my most interesting projects.
 
 For fun, check out /portfolio/games.
