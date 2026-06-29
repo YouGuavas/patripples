@@ -2,12 +2,15 @@
 import { useState, useRef, useEffect } from 'react';
 
 import { renderToStaticMarkup } from 'react-dom/server';
+
+import Image from 'next/image';
+
 import Wetland from '@/app/portfolio/games/cartoons/backgrounds/Wetlands';
 import GameBoard from '../components/game/GameBoard';
 import StatBar from '../components/stats/StatBar';
-import Cartographer from '@/app/portfolio/games/cartoons/heroes/Cartographer';
-import Resurrectionist from '@/app/portfolio/games/cartoons/heroes/Resurrectionist';
-import TheGang from '@/app/portfolio/games/cartoons/villains/groups/TheGang';
+import Cartographer from '@/public/characters/cartographer.svg';
+import Resurrectionist from '@/public/characters/Morgan_mythic_basic.svg';
+import TheGang from '@/app/portfolio/games/cartoons/villains/groups/the_gang.svg';
 export default function Game() {
 	let occupied = useRef({});
 	let entityPos = useRef({});
@@ -63,13 +66,23 @@ export default function Game() {
 		<section className="flex column width-full center">
 			<div className="flex row width-full between">
 				<div className="flex row">
-					<Resurrectionist />
+					<Image
+						src={Resurrectionist.src}
+						height={250}
+						width={150}
+						alt="The Resurrectionist"
+					/>
 
-					<Cartographer />
+					<Image
+						src={Cartographer.src}
+						height={250}
+						width={150}
+						alt="The Cartographer"
+					/>
 				</div>
 				<h1 className="lowercase style-1">Dungeon</h1>
 				<div>
-					<TheGang />
+					<Image src={TheGang.src} height={250} width={350} alt="The Gang" />
 				</div>
 			</div>
 			<StatBar stats={stats} />
