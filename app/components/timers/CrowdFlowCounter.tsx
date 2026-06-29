@@ -1,6 +1,6 @@
 'use client';
 
-import { useSales } from '@/app/context/sales/SalesContext';
+import { useSales } from '@/app/data/context/sales/SalesContext';
 import { useState, useEffect, useRef } from 'react';
 import trafficData from './trafficData.json'; // Import traffic data from JSON file
 

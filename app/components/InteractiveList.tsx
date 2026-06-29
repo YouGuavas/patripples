@@ -4,7 +4,7 @@
 import { useState } from 'react';
 import Card from './Card';
 
-import { supabase } from '../api/lib/supabase';
+import { supabase } from '../data/lib/supabase';
 import Link from 'next/link';
 
 interface propsType {

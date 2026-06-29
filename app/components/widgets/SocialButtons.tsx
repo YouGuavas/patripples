@@ -9,7 +9,7 @@ import GithubIcon from '@/public/icons/social/github_icon.svg';
 import LinkedInIcon from '@/public/icons/social/linkedin_icon.svg';
 import { useContext } from 'react';
 
-import { UrlContext } from '@/app/context/UrlContext';
+import { UrlContext } from '@/app/data/context/UrlContext';
 type propsType = {
 	url: string;
 };

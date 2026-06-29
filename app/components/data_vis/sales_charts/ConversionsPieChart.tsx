@@ -1,8 +1,8 @@
 'use client';
 
 import { useEffect } from 'react';
-import { useSales } from '@/app/context/sales/SalesContext';
-import { useAdvice } from '@/app/context/sales/AdviceContext';
+import { useSales } from '@/app/data/context/sales/SalesContext';
+import { useAdvice } from '@/app/data/context/sales/AdviceContext';
 import D3Pie from '@/app/components/data_vis/D3Pie';
 
 export function ConversionsPieChart({

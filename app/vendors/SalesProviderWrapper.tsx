@@ -1,6 +1,6 @@
 'use client';
 
-import { SalesProvider } from '@/app/context/sales/SalesContext';
+import { SalesProvider } from '@/app/data/context/sales/SalesContext';
 
 export function SalesProviderWrapper({
 	children,

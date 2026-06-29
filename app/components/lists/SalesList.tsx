@@ -9,7 +9,7 @@ import {
 	queueOfflineTransaction,
 	getUnsyncedTransactions,
 	clearUnsynced,
-} from '@/app/lib/db';
+} from '@/app/utils/lib/db';
 
 type item = {
 	id: number;

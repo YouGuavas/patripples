@@ -1,9 +1,9 @@
 'use client';
 import Link from 'next/link';
-import Rates from '../components/Rates';
+import Rates from '../../components/Rates';
 
 import { services } from './services';
-import { Collapsible } from '../components/blog/Collapsible';
+import { Collapsible } from '../../components/blog/Collapsible';
 
 export default function Home() {
 	return (

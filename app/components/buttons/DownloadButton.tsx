@@ -1,5 +1,5 @@
 'use server';
-import { prisma } from '@/app/api/lib/prisma';
+import { prisma } from '@/app/data/lib/prisma';
 
 export default async function DownloadButton() {
 	return (

@@ -1,6 +1,6 @@
 'use client';
 
-import { UrlProvider } from './context/UrlContext';
+import { UrlProvider } from './data/context/UrlContext';
 export function UrlProviderWrapper({
 	children,
 }: {

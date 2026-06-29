@@ -2,12 +2,12 @@
 import { useState, useRef, useEffect } from 'react';
 
 import { renderToStaticMarkup } from 'react-dom/server';
-import Wetland from '@/app/games/cartoons/backgrounds/Wetlands';
+import Wetland from '@/app/portfolio/games/cartoons/backgrounds/Wetlands';
 import GameBoard from '../components/game/GameBoard';
 import StatBar from '../components/stats/StatBar';
-import Cartographer from '@/app/games/cartoons/heroes/Cartographer';
-import Resurrectionist from '@/app/games/cartoons/heroes/Resurrectionist';
-import TheGang from '@/app/games/cartoons/villains/groups/TheGang';
+import Cartographer from '@/app/portfolio/games/cartoons/heroes/Cartographer';
+import Resurrectionist from '@/app/portfolio/games/cartoons/heroes/Resurrectionist';
+import TheGang from '@/app/portfolio/games/cartoons/villains/groups/TheGang';
 export default function Game() {
 	let occupied = useRef({});
 	let entityPos = useRef({});

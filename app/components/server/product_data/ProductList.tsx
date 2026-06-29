@@ -1,6 +1,6 @@
 'use server';
 // ...existing code...
-import { prisma } from '../../../api/lib/prisma';
+import { prisma } from '../../../data/lib/prisma';
 import Link from 'next/link';
 import { Card } from '../../Carousel';
 

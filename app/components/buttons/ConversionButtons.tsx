@@ -1,6 +1,6 @@
 'use client';
 
-import { useSales } from '@/app/context/sales/SalesContext';
+import { useSales } from '@/app/data/context/sales/SalesContext';
 type propsType = {
 	name: string;
 	type: string;

@@ -1,5 +1,5 @@
 // api/addEmail.ts
-import { supabase } from './lib/supabase';
+import { supabase } from '../data/lib/supabase';
 
 export async function addEmail(email: string, source = 'main-site') {
 	const { data, error } = await supabase

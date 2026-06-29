@@ -2,7 +2,7 @@
 'use client';
 
 import { useState } from 'react';
-import { supabase } from '../../api/lib/supabase';
+import { supabase } from '../../data/lib/supabase';
 
 type item = {
 	name: string;

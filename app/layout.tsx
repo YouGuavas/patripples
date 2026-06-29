@@ -53,12 +53,12 @@ export default function RootLayout({
 							updates={[
 								{
 									text: "Check out the early art for my new game, 'Dungeon' - a Roguelike. Coming soon",
-									href: '/games/dungeon',
+									href: '/portfolio/games/dungeon',
 								},
 
 								{
 									text: 'Shop coming soon. Demo out now.',
-									href: '/market',
+									href: '/marketing/market',
 								},
 							]}
 						/>

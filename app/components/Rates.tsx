@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { serviceType } from '../market/services';
+import { serviceType } from '../marketing/market/services';
 
 type propsType = {
 	title: string;

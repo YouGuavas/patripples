@@ -9,10 +9,10 @@ const routes = [
 	{ name: 'Home', path: '/', image: ripples },
 	//{ name: 'Read', path: '/read', image: book },
 
-	{ name: 'Market', path: '/market', image: dollar },
+	{ name: 'Market', path: '/marketing/market', image: dollar },
 	{ name: 'Portfolio', path: '/portfolio', image: eye },
 
-	{ name: 'Contact', path: '/contact', image: ask },
+	{ name: 'Contact', path: '/marketing/contact', image: ask },
 ];
 
 export default routes;

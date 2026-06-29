@@ -28,7 +28,7 @@
 		"**/*.ts",
 		"**/*.tsx",
 		".next/types/**/*.ts",
-		"app/games/cartoons/villains/groups/TheGang.js"
+		"app/portfolio/games/cartoons/villains/groups/TheGang.js"
 	],
 	"exclude": ["node_modules"]
 }

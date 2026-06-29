@@ -6,8 +6,8 @@ import {
 	queueOfflineTransaction,
 	type CheckoutItem,
 	type TransactionRecord,
-} from '@/app/lib/db';
-import { useSyncQueue } from '@/app/hooks/useSyncQueue'; // Import the hook here
+} from '@/app/utils/lib/db';
+import { useSyncQueue } from '@/app/utils/hooks/useSyncQueue'; // Import the hook here
 
 type trafficRateType = number; // 0-10 scale from the UI slider
 
@@ -82,7 +82,8 @@ export const SalesProvider = ({ children }: { children: React.ReactNode }) => {
 	const [purchase, setPurchase] = useState(0);
 	const [total, setTotal] = useState(0);
 
-	const { unsyncedTransactions, allTransactions, isHydrated, count } = useSyncQueue();
+	const { unsyncedTransactions, allTransactions, isHydrated, count } =
+		useSyncQueue();
 
 	return (
 		<SalesContext.Provider
