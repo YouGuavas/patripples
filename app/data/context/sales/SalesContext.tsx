@@ -6,8 +6,8 @@ import {
 	queueOfflineTransaction,
 	type CheckoutItem,
 	type TransactionRecord,
-} from '@/app/utils/lib/db';
-import { useSyncQueue } from '@/app/utils/hooks/useSyncQueue'; // Import the hook here
+} from '@/app/data/lib/db';
+import { useSyncQueue } from '@/app/data/hooks/useSyncQueue'; // Import the hook here
 
 type trafficRateType = number; // 0-10 scale from the UI slider
 

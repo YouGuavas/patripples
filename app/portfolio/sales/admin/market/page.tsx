@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import PostItemForm from '../../components/server/forms/PostItemForm';
+import PostItemForm from '@/app/components/server/forms/PostItemForm';
 
 export default function Home() {
 	return (

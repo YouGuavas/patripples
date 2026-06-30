@@ -1,7 +1,7 @@
 'use client';
 
 import { useLiveQuery } from 'dexie-react-hooks';
-import { db, type TransactionRecord } from '@/app/utils/lib/db';
+import { db, type TransactionRecord } from '@/app/data/lib/db';
 
 interface SyncQueueHookResult {
 	unsyncedTransactions: TransactionRecord[];

@@ -3,13 +3,13 @@
 
 import { useState, useEffect } from 'react';
 import { useLiveQuery } from 'dexie-react-hooks';
-import time from '@/app/utils/time/time';
+import time from '@/app/api/utils/time/time';
 import {
 	db,
 	queueOfflineTransaction,
 	getUnsyncedTransactions,
 	clearUnsynced,
-} from '@/app/utils/lib/db';
+} from '@/app/data/lib/db';
 
 type item = {
 	id: number;

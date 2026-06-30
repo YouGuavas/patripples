@@ -1,5 +1,5 @@
 import homestead from '@/public/site_screenshots/homestead.svg';
-import rudi from '../../public/site_screenshots/rudi.svg';
+import rudi from '@/public/site_screenshots/rudi.svg';
 import wilson from '@/public/site_screenshots/wilson.svg';
 import patripples from '@/public/site_screenshots/patripples.svg';
 
