@@ -5,12 +5,12 @@ import { renderToStaticMarkup } from 'react-dom/server';
 
 import Image from 'next/image';
 
-import Wetland from '@/app/portfolio/games/cartoons/backgrounds/Wetlands';
+import Wetland from '@/app/games/cartoons/backgrounds/Wetlands';
 import GameBoard from '../components/game/GameBoard';
 import StatBar from '../components/stats/StatBar';
 import Cartographer from '@/public/characters/cartographer.svg';
 import Resurrectionist from '@/public/characters/Morgan_mythic_basic.svg';
-import TheGang from '@/app/portfolio/games/cartoons/villains/groups/the_gang.svg';
+import TheGang from '@/app/games/cartoons/villains/groups/the_gang.svg';
 export default function Game() {
 	let occupied = useRef({});
 	let entityPos = useRef({});

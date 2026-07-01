@@ -55,13 +55,17 @@ export default function Home() {
 							and how much it will cost.
 						</li>
 						<li>
-							<strong>Nonstandard Writing</strong> – Ever wonder what it&apos;d
-							be like if an SEO master chose to break all the rules? You can
-							find exactly that in my writings.
+							<strong>Digital Business Tools</strong> – Ever wonder what
+							it&apos;d be like if an SEO master chose to break all the rules?
+							You can find exactly that in my writings.
 						</li>{' '}
 						<li>
-							<strong>SVG art, logos, and characters</strong> – Want a
-							fast-loading icon, logo, or character design? I am your guy.
+							<strong>SVG Art and Browser Games</strong> – Want to explore a
+							narrative while creeping through a dungeon? Go check out{' '}
+							<Link className={`style-1 no-deco`} href="/games/dungeon">
+								Dungeon
+							</Link>
+							.
 						</li>
 					</ul>{' '}
 				</div>
