@@ -4,14 +4,14 @@ import Link from 'next/link';
 import routes from './routes';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Learn with Patrick',
+	title: 'Patripples | Learn with Patrick Yambrick',
 	description:
-		'Start your learning journey with Patrick. Notes, essays, illustrations, and walkthroughs by Patrick Yambrick.',
+		'Start your learning journey with Patrick Yambrick. Notes, essays, illustrations, and walkthroughs by Patrick.',
 };
 export default function Home() {
 	return (
 		<main className={`main center height-full`}>
-			<h1 className={`style-1 thin lowercase`}>Learn with Patrick.</h1>
+			<h1 className={`style-1 thin lowercase`}>Learn with Patrick Yambrick.</h1>
 			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
 				{routes.map(({ name, path }, index) => {
 					return (

@@ -10,9 +10,9 @@ import Collapsible from './components/blog/Collapsible';
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
 	title:
-		'Patripples | Web Development, Design, and Writing in Michigan by Patrick Yambrick',
+		'Patripples | Web Development and Design in Michigan by Patrick Yambrick',
 	description:
-		'Patripples: a learning and web development hub by Patrick Yambrick. Based in Flint, Michigan, Patrick offers personalized websites and writing, together with relevant educational resources.',
+		'Patripples: a web development and tech hub by Patrick Yambrick. Based in Michigan, Patrick offers personalized websites and business solutions.',
 	icons: {
 		icon: '/favicon.ico',
 	},

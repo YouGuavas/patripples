@@ -5,7 +5,7 @@ import categories from './categories';
 import { InteractiveList } from '@/app/components/InteractiveList';
 
 export const metadata: Metadata = {
-	title: 'Patripples | Notecards',
+	title: 'Patripples | Notecards by Patrick Yambrick',
 	description:
 		"Study Patrick's math notes with Patripples notecards. Notes written by Patrick Yambrick.",
 };

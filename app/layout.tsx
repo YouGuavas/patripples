@@ -12,7 +12,6 @@ import {
 	ReviewButtonsGroup,
 	FollowButtonsGroup,
 } from './components/widgets/SocialButtons';
-import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import routes from './routes';
 
