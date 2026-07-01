@@ -1,12 +1,10 @@
-import { InteractiveList } from '@/app/components/InteractiveList';
-import categories from '../categories';
-import routes from './routes';
 import type { Metadata } from 'next';
+import Collapsible from '@/app/components/blog/Collapsible';
+import ByLine from '@/app/components/blog/ByLine';
 export const metadata: Metadata = {
-	title:
-		'Patripples | Web Development and Design in Michigan by Patrick Yambrick',
+	title: 'Patripples Blog | Intro Post by Patrick Yambrick',
 	description:
-		'Patripples: a web development and tech hub by Patrick Yambrick. Based in Michigan, Patrick offers personalized websites and business solutions.',
+		'Patripples blog is divided into categories and posts. This is the intro post written by Patrick Yambrick.',
 	icons: {
 		icon: '/favicon.ico',
 	},
@@ -18,7 +16,6 @@ export default function Home() {
 				<h1 id="top" className={`lowercase style-1`}>
 					Blog by Patrick Yambrick.
 				</h1>
-				<InteractiveList categories={categories} routes={routes} />
 			</section>
 
 			{/*<Collapsible title="Ten Days At The Rock Shop"></Collapsible>*/}
