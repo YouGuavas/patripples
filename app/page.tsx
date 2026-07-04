@@ -92,7 +92,7 @@ export default function Home() {
 			</section>
 
 			<section
-				className={`width-full flex gap-medium margin-top-sm margin-bottom-sm`}
+				className={`width-full flex gap-medium margin-top-sm margin-bottom-sm flex column center`}
 			>
 				<h2 className={`lowercase spaced style-1 thin`}>
 					Check Out My Latest Youtube Videos.
