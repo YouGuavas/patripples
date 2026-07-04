@@ -23,12 +23,24 @@ export type demoType = {
 
 export const projects = [
 	{
+		title: 'Dungeon',
+		description:
+			'A sales conversion tracker for monitoring and analyzing sales performance, built with my 92% conversion rate methodology baked in. Free version available. Early stages.',
+		demo: {
+			title: 'Sales Conversion Tracker',
+			href: './games/dungeon',
+			images: [sales_tracker.src],
+		},
+		subtitle:
+			'A Sales Conversion Tracker Tool. Free version available for non-registered users. Demo stages.',
+	},
+	{
 		title: 'Offline First Ledger and Sales Tracker',
 		description:
 			'A sales conversion tracker for monitoring and analyzing sales performance, built with my 92% conversion rate methodology baked in. Free version available. Early stages.',
 		demo: {
 			title: 'Sales Conversion Tracker',
-			href: './vendors/patripples/seller',
+			href: './portfolio/sales/vendors/patripples/seller',
 			images: [sales_tracker.src],
 		},
 		subtitle:

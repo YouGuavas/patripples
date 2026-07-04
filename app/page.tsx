@@ -90,6 +90,23 @@ export default function Home() {
 					</ul>{' '}
 				</div>
 			</section>
+
+			<section
+				className={`width-full flex gap-medium margin-top-sm margin-bottom-sm`}
+			>
+				<h2 className={`lowercase spaced style-1 thin`}>
+					Check Out My Latest Youtube Videos.
+				</h2>{' '}
+				<iframe
+					width="450"
+					height="315"
+					src="https://www.youtube.com/embed/I2sZ4MJ13Vo?si=zg9ZanvZl9hgrtvB"
+					title="Engineering Independence"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerPolicy="strict-origin-when-cross-origin"
+					allowFullScreen
+				></iframe>
+			</section>
 			{/*<Collapsible title="Ten Days At The Rock Shop"></Collapsible>*/}
 		</main>
 	);
