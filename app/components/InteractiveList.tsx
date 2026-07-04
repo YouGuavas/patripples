@@ -19,60 +19,6 @@ interface routeType {
 	footer?: string;
 }
 
-export function InteractiveLinkList(props: propsType) {
-	const [filter, setFilter] = useState('x');
-	const [links, setLinks] = useState(props.routes);
-	async function handleFilter(e: React.FormEvent, category: string) {
-		setFilter(category.toLowerCase());
-		return filter;
-	}
-
-	return (
-		<>
-			<h3 className={`style-1 thin lowercase spaced`}>Filters: </h3>
-			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
-				{props.categories.map((category) => (
-					<li
-						key={`${category}`}
-						className={`${
-							filter.toLowerCase() === category.toLowerCase() ? 'active' : ''
-						} no-deco lowercase style-1 spaced color-2 rounded darken px-1 py-1 pointer`}
-						onClick={(e) => handleFilter(e, category)}
-					>
-						{category}
-					</li>
-				))}
-			</ul>
-			<h3 className={`style-1 thin lowercase spaced`}>Thoughts: </h3>
-			<p className={`paragraph width-full block`}>
-				(Click or tap on one for more)
-			</p>
-
-			<ul className={`flex gap-medium no-deco pad-none width-full center`}>
-				{links.map(({ name, path, tags, body, footer }) =>
-					tags.indexOf(filter) !== -1 ? (
-						<Link
-							key={`${name}`}
-							className={`no-deco width-full lowercase style-1 thin spaced color-2  darken `}
-							scroll={false}
-							href={`${path}`}
-							id={name.toLowerCase()}
-						>
-							<Card
-								title={name}
-								subject={tags[0]}
-								body={body}
-								footer={footer}
-							/>
-						</Link>
-					) : (
-						<></>
-					),
-				)}
-			</ul>
-		</>
-	);
-}
 export function InteractiveList(props: propsType) {
 	const [filter, setFilter] = useState('x');
 	const [links, setLinks] = useState(props.routes);
@@ -104,6 +50,7 @@ export function InteractiveList(props: propsType) {
 					tags.indexOf(filter) !== -1 ? (
 						<Card
 							key={`${name}`}
+							{...(path ? { href: path } : {})}
 							title={name}
 							subject={tags[0]}
 							body={body}
