@@ -17,16 +17,16 @@ export default function SocialsList(props: propsType) {
 	return (
 		<>
 			<ul
-				className={`flex column gap-medium no-deco pad-none width-half centered left-align`}
+				className={`grid grid-2-cols gap-medium no-deco pad-none width-full centered center`}
 			>
 				{props.entries.map((entry) => (
 					<li
 						key={`${entry.name}`}
-						className={`no-deco lowercase style-1 spaced color-2 rounded px-1 py-1 flex column`}
+						className={`no-deco lowercase style-1 spaced color-2 rounded px-1 py-1 flex column center`}
 					>
 						{entry.name}
 						<ul
-							className={`no-deco lowercase style-1 spaced color-2 rounded px-1 py-1 flex gap-large left-align`}
+							className={`no-deco lowercase style-1 spaced color-2 rounded px-1 py-1 flex gap-large`}
 						>
 							{possibleLinks.map((social) => {
 								if (!entry[social]) {

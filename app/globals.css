@@ -729,6 +729,23 @@ button {
 }
 /* /flex */
 
+/* grid */
+.grid {
+	display: grid;
+}
+.grid-2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-span-1 {
+	grid-column: span 1 / span 1;
+}
+
+/* /flex */
+
 /*rotate*/
 .my-rotate {
 	transform: rotate(var(--rotate-1));
