@@ -9,6 +9,10 @@ const categories = [
 	'Handmade Frames',
 	'Body Art',
 	'Glass',
+	'Mixed',
+	'Herbalcare',
+	'Leather',
+	'Woodwork',
 
 	'X',
 ];
