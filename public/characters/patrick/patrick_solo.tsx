@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { characterProps } from './types';
+import characterProps from '../types';
 const Patrick = (props: characterProps) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
