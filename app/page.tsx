@@ -2,10 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import ripples from '@/public/logos/ripples.png';
-import { cards } from './index_cards';
-
-import { Card } from '@/app/components/Carousel';
-import Collapsible from './components/blog/Collapsible';
+import Patrick from '@/public/characters/patrick/patrick_solo';
 
 import type { Metadata } from 'next';
 export const metadata: Metadata = {
@@ -27,19 +24,13 @@ export default function Home() {
 				<h1 id="top" className={`lowercase style-1`}>
 					Welcome to patripples.
 				</h1>
-				<Card
-					title={cards[0].title}
-					style="image"
-					description={cards[0].description}
-					image={{
-						src: cards[0].image.src,
-						alt: cards[0].image.alt,
-						fill: cards[0].image.fill,
-						loading: 'eager',
-						fetchPriority: 'high',
-						priority: true,
-					}}
-				/>
+				<Patrick />
+				<p className={`paragraph left-align`}>I tell tales.</p>
+				<p className={`paragraph left-align`}>I drive sales.</p>
+				<p className={`paragraph left-align`}>I build software that scales.</p>
+				<p className={`paragraph left-align`}>
+					I write and edit content that converts.
+				</p>
 			</section>
 
 			<section
