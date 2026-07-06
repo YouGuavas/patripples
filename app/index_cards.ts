@@ -15,7 +15,7 @@ type card_image = {
 	fill: boolean | undefined;
 	loading: 'eager' | 'lazy' | undefined;
 	fetchPriority: 'high' | 'low' | 'auto' | undefined;
-	priority: boolean | undefined;
+	priority?: boolean;
 };
 const cards = [
 	{
@@ -28,14 +28,13 @@ const cards = [
 			fill: true,
 			loading: 'eager',
 			fetchPriority: 'high',
+			priority: true,
 		},
 		description: [
 			'I tell tales.',
 			'I drive sales.',
-			'I build websites with Nextjs.',
+			'I build software that scales.',
 			'I write and edit content that converts.',
-			'I create logo and character SVGs in Inkscape.',
-			'I build inventory management tools with Python.',
 		],
 	},
 	{
@@ -49,6 +48,7 @@ const cards = [
 			fill: true,
 			loading: 'lazy',
 			fetchPriority: 'low',
+			priority: false,
 		},
 		description: [
 			'I am The Cartographer, as you surely already know.',
