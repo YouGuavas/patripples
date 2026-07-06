@@ -21,7 +21,14 @@ export default function Home() {
 		<main className={`main left px-1`}>
 			<section className={`width-full center margin-bottom-sm`}>
 				<div className={`icon-container centered`}>
-					<Image src={ripples.src} fill loading="eager" alt="Ripple logo" />
+					<Image
+						src={ripples.src}
+						fill
+						loading="eager"
+						fetchPriority="low"
+						priority={false}
+						alt="Ripple logo"
+					/>
 				</div>
 				<h1 id="top" className={`lowercase style-1`}>
 					Welcome to patripples.

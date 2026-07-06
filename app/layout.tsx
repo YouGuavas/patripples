@@ -14,7 +14,7 @@ import {
 } from './components/widgets/SocialButtons';
 import { Analytics } from '@vercel/analytics/react';
 import routes from './routes';
-
+import Script from 'next/script';
 //import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 import { UrlProviderWrapper } from './UrlProviderWrapper';
@@ -97,11 +97,12 @@ export default function RootLayout({
 					</UrlProviderWrapper>
 				</ThemeProviderWrapper>
 			</body>
-			<script
+			<Script
 				async
 				src="https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js"
-				defer
-			></script>
+				id="snipcart"
+				strategy="lazyOnload"
+			/>
 			<Analytics />
 		</html>
 	);
