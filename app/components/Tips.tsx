@@ -10,7 +10,7 @@ export default function Nav() {
 		>
 			<p>
 				Like something you see here?{' '}
-				<Link className={`spaced thin no-deco`} href={`./contact`}>
+				<Link className={`spaced thin no-deco`} href={`./marketing/contact`}>
 					Contact
 				</Link>{' '}
 				-{' '}
@@ -21,7 +21,7 @@ export default function Nav() {
 					Paypal
 				</Link>{' '}
 				-{' '}
-				<Link className={`spaced thin no-deco`} href={`./market`}>
+				<Link className={`spaced thin no-deco`} href={`./marketing/market`}>
 					Market
 				</Link>{' '}
 			</p>
