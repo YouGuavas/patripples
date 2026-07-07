@@ -6,6 +6,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import Image from 'next/image';
 
 import Wetland from '@/app/games/cartoons/backgrounds/Wetlands';
+import Bee_Map from '@/app/games/cartoons/backgrounds/bee_map.svg';
 import GameBoard from '../components/game/GameBoard';
 import StatBar from '../components/stats/StatBar';
 import Cartographer from '@/public/characters/cartographer.svg';
@@ -92,6 +93,7 @@ export default function Game() {
 				height={board.dimensions.y}
 				className={`bordered rounded width-full centered`}
 			/>{' '}
+			<Image src={Bee_Map.src} height={450} width={650} alt="Bee Map" />
 		</section>
 	);
 }
