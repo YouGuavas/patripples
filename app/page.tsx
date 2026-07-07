@@ -66,12 +66,8 @@ export default function Home() {
 							You can find exactly that in my writings.
 						</li>{' '}
 						<li>
-							<strong>SVG Art and Browser Games</strong> – Want to explore a
-							narrative while creeping through a dungeon? Go check out{' '}
-							<Link className={`style-1 no-deco`} href="/games/dungeon">
-								Dungeon
-							</Link>
-							.
+							<strong>Python Automation</strong> – Looking to automate a
+							workflow with Python? Look no further.
 						</li>
 					</ul>{' '}
 				</div>
