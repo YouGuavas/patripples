@@ -17,6 +17,7 @@
 # production
 /build
 /app/read/article_staging/
+/app/blog/hidden
 
 # misc
 .DS_Store
