@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import Collapsible from '@/app/components/blog/Collapsible';
 import ByLine from '@/app/components/blog/ByLine';
 export const metadata: Metadata = {
@@ -19,8 +20,11 @@ export default function Home() {
 					<ByLine author="Patrick Other" date="07/10/2026" />
 				</h1>
 			</section>
-			<Collapsible title="Intro">
-				<p className={`paragraph centered width-half block left-align`}></p>
+			<Collapsible title="Intro" orientation="center">
+				<p className={`paragraph centered width-half block left-align`}>
+					Speaking of Intros, have you checked out{' '}
+					<Link href="/blog/posts/intro">My Intro Post</Link>?
+				</p>
 			</Collapsible>
 
 			{/*<Collapsible title="Ten Days At The Rock Shop"></Collapsible>*/}

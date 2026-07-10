@@ -26,7 +26,7 @@ export default function Collapsible(props: propsType) {
 			id={`${props.id ? props.id : null}`}
 			className={` ${
 				props.orientation === 'center'
-					? 'center'
+					? 'center centered'
 					: props.orientation === 'left'
 						? 'left-align'
 						: 'right-align'
@@ -55,7 +55,7 @@ export default function Collapsible(props: propsType) {
 						? '0px'
 						: `${contentRef.current?.scrollHeight}px`,
 					overflow: 'hidden',
-					transition: 'max-height 0.4s ease',
+					transition: 'max-height 0.4s ease ',
 				}}
 			>
 				{props.children}
