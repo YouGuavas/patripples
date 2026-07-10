@@ -1,5 +1,5 @@
-import cartographer from '@/public/characters/cartographer_calcified.svg';
-import patrick_solo from '@/public/characters/pat_solo.svg';
+import cartographer from '@/public/characters/heroes/cartographer_calcified.svg';
+import patrick_solo from '@/public/characters/patrick/pat_solo.svg';
 
 export type card = {
 	title: string;

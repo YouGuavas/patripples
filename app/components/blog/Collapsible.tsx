@@ -19,7 +19,7 @@ export default function Collapsible(props: propsType) {
 	};
 
 	useEffect(() => {
-		setIsCollapsed(true);
+		setIsCollapsed(false);
 	}, []);
 	return (
 		<section
