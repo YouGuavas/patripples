@@ -15,7 +15,7 @@ export default function Home() {
 		<main className={`main left px-1`}>
 			<section className={`width-full center margin-bottom-sm`}>
 				<h1 id="top" className={`lowercase style-1`}>
-					Blog by Patrick Yambrick.
+					Intro Post
 				</h1>
 			</section>
 			<Collapsible title="Intro" orientation="center">

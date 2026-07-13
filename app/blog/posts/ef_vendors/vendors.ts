@@ -16,6 +16,12 @@ const vendors = [
 		website: 'https://www.umbalove.com',
 	},
 	{
+		name: 'Mindcradle',
+		ig: 'https://www.instagram.com/mindcradle33/',
+		facebook: 'https://facebook.com/umbalovepage',
+		website: 'https://www.umbalove.com',
+	},
+	{
 		name: 'Sacred Imagination',
 		ig: 'https://instagram.com/sacredimagination',
 		facebook: 'https://facebook.com/sacredimaginationllc',

@@ -3,9 +3,9 @@
 //import the_resurrectionist from '../../public/characters/the_resurrectionist.svg';
 //import morgan_mythic from '../../public/characters/Morgan_mythic.svg';
 
-import pat_full from '../../public/characters/pat_full.svg';
+import pat_full from '@/public/characters/patrick/pat_full.svg';
 //import pat_photo from '../../public/Pat_photo.svg';
-import the_cartographer from '../../public/characters/the_cartographer.svg';
+import the_cartographer from '@/public/characters/heroes/the_cartographer.svg';
 //import pat_wizard from '../../public/characters/pat_wizard.svg';
 
 //import jess_and_stephen from '../../public/characters/Jessica and Stephen.svg';

@@ -9,5 +9,10 @@ const routes = [
 		path: '/blog/posts/ef_vendors',
 		tags: ['x'],
 	},
+	{
+		name: 'Intro Post',
+		path: '/blog/posts/intro',
+		tags: ['x'],
+	},
 ];
 export default routes;
